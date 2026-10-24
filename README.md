@@ -44,9 +44,11 @@ Most sources are plain file downloads from nj.gov and work with `curl` (see `scr
 
 - **Droplet (datacenter IP):** the default for rendered pages. Endpoints: `/fetch-html` (headless Chromium, with optional wait-for-selector), `/fetch-paginated`, `/fetch-raw` (files and PDFs), and `/health/deep`. Requests authenticate with an API key header, which is stored in 1Password and never committed.
 - **Residential scraper (Raspberry Pi on a home connection):** the same service, used **only** as a last resort for sites that block datacenter IPs. Keep requests rare and spaced out, because a burst of about 10 hits has gotten the home IP blocked before.
+- **Local instance:** when the scraper is running on your machine, use `scripts/fetch_rendered.sh <url>` with `SCRAPER_API_KEY` set. It defaults to `http://localhost:8765` and fetches from your own IP.
 
 NJDOE gotchas:
-- Some NJDOE pages sit behind an Incapsula bot wall, including the School Directory CSV and probably School Performance Reports (rc.doe.state.nj.us, which timed out from a script). Plan to download these by hand into `data/raw/manual/`, or test the residential route very gently.
+- Some NJDOE pages sit behind an Incapsula bot wall, including the School Directory CSV. Plan to download these by hand into `data/raw/manual/`, or test the scraper very gently.
+- The School Performance Reports download page only shows its links in a browser, but the data files themselves download fine with curl. The old `rc.doe.state.nj.us` site is retired.
 - Join on **NJ county + district codes**, never district names, because names repeat across counties.
 
 ## Key questions

@@ -71,7 +71,7 @@ The School Funding Reform Act of 2008 (P.L.2007, c.260, N.J.S.A. 18A:7F-43 et se
 | TGES archive (2011–2023 zips) 📊 | | https://www.nj.gov/education/guide/ |
 | District audits / ACFRs 🔗 | Audited financial statements for each district | https://www.nj.gov/education/fpp/audit/index.shtml · https://www.nj.gov/education/fpp/acfr/ |
 | Audit summary data 📊 | Statewide audit summary data | https://www.nj.gov/education/fpp/audit/audsum/index.shtml |
-| NJ School Performance Reports 🔗 | Outcomes, enrollment, and per-pupil figures for each school and district. Probably behind a bot wall, so download by hand. | https://rc.doe.state.nj.us/ |
+| NJ School Performance Reports 📊 | Outcomes, enrollment, and per-pupil data for every school and district. Database files are listed at the link; the 2024-25 files are `Database_DistrictStateDetail.xlsx` and `Database_SchoolDetail.xlsx`. The download page builds its links with JavaScript, but the files download with plain curl. The old `rc.doe.state.nj.us` site is retired and has a broken TLS certificate. | https://www.nj.gov/education/spr/download/ |
 
 ---
 

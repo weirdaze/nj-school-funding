@@ -46,6 +46,13 @@ fetch ufb "$NJ/education/budget/ufb/2627/download/userfr_layout.xlsx"
 # Stage 5: actual spending (Taxpayers' Guide to Education Spending)
 fetch tges/2025 "$NJ/education/guide/docs/2025/TGES2025_Zipped.zip"
 
+# Outcomes: School Performance Reports (district/state detail ~120MB; school detail is larger)
+SPR="$NJ/education/sprreports/download/DataFiles/2024-2025"
+for f in Database_DistrictLayout.xlsx Database_DistrictStateDetail.xlsx Database_SchoolLayout.xlsx; do
+  fetch spr/2024-2025 "$SPR/$f"
+done
+# fetch spr/2024-2025 "$SPR/Database_SchoolDetail.xlsx"   # uncomment if needed
+
 # Stage 1: local property tax (DLGS abstract of ratables, Taxation rate tables)
 for yy in 22 23 24 25; do
   fetch "dlgs/20$yy" "$NJ/dca/dlgs/resources/Property_Tax/${yy}_data/${yy}abstract.xls"
