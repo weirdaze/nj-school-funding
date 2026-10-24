@@ -138,7 +138,39 @@ def main():
     block("Levy and reserves (comparable districts; UFB)", [
         ("Median general-fund levy change", f"{statistics.median(lv):+.1f}% (n={len(lv)})"),
         ("Districts above 2%", f"{sum(1 for x in lv if x > 2.05)} of {len(lv)} (cause not identifiable from state files)"),
-        ("Budgeted fund balance used", f"${fb26/1e6:,.0f}M (2025-26) → ${fb27/1e6:,.0f}M (2026-27)"),
+        ("Budgeted fund balance (UFB line 580, the planned drawdown, not remaining reserves)", f"${fb26/1e6:,.0f}M (2025-26) → ${fb27/1e6:,.0f}M (2026-27)"),
+        ("Same, all districts in panel", f"${ben(rows, 'fund_balance_used_2526')/1e6:,.0f}M → ${ben(rows, 'fund_balance_used_2627')/1e6:,.0f}M"),
+    ])
+
+    st = [(f(r["students_per_teacher_2021_22"]), f(r["students_per_teacher_2024_25"])) for r in rows]
+    st = [(a, b) for a, b in st if a and b]
+    block("Students per teacher (TGES Indicator 16 ratio; all districts with both years)", [
+        ("Districts", len(st)),
+        ("Up by more than 0.2 / down by more than 0.2 / strictly higher", f"{sum(b > a + 0.2 for a, b in st)} / {sum(b < a - 0.2 for a, b in st)} / {sum(b > a for a, b in st)}"),
+        ("Median change", f"{statistics.median(b - a for a, b in st):+.2f}"),
+        ("Caveat", "students per teaching staff member, about half of typical class size, so not a class-size measure; 2021-22 is actual, 2024-25 is the edition's budget-year column"),
+    ])
+
+    # South Jersey (Burlington 05, Camden 07, Gloucester 15)
+    sj_all = [r for r in rows if r["county_id"] in ("05", "07", "15")]
+    sj = [r for r in comp if r["county_id"] in ("05", "07", "15")]
+    s26, s27 = ben(sj, "benefits_budget_2526"), ben(sj, "benefits_budget_2627")
+    sa = ben(sj, "state_aid_change_dollars")
+    cc = sum(f(r["state_aid_change_dollars"]) or 0 for r in sj if r["district_name"].upper().startswith("CAMDEN CITY"))
+    nocc = [r for r in sj if not r["district_name"].upper().startswith("CAMDEN CITY")]
+    slv = [f(r["levy_change_pct"]) for r in sj if f(r["levy_change_pct"]) is not None]
+    sch = lambda flag: med([f(r["benefits_change_pct"]) for r in sj if (r["in_sehbp"] == "True") == flag])
+    block("South Jersey: Burlington, Camden, Gloucester (comparable districts unless noted)", [
+        ("Districts", f"{len(sj)} comparable of {len(sj_all)}"),
+        ("Benefit increase exceeded aid change", f"{sum(1 for r in sj if f(r['aid_change_minus_benefit_change']) < 0)} of {len(sj)}"),
+        ("Employee benefits", f"${s26/1e6:,.1f}M → ${s27/1e6:,.1f}M ({(s27/s26-1)*100:+.1f}%, {(s27-s26)/1e6:+,.1f}M)"),
+        ("Formula aid change", f"{sa/1e6:+,.1f}M, of which Camden City {cc/1e6:+,.1f}M"),
+        ("Without Camden City", f"aid {(sa-cc)/1e6:+,.1f}M vs benefits {(ben(nocc, 'benefits_budget_2627')-ben(nocc, 'benefits_budget_2526'))/1e6:+,.1f}M"),
+        ("Median general-fund levy change", f"{statistics.median(slv):+.1f}%; above 2%: {sum(1 for x in slv if x > 2.05)} of {len(slv)}"),
+        ("Budgeted fund balance (planned drawdown)", f"${ben(sj, 'fund_balance_used_2526')/1e6:,.0f}M → ${ben(sj, 'fund_balance_used_2627')/1e6:,.0f}M"),
+        ("Health share of district-paid benefits, FY25 median", "{:.1f}% (n={})".format(*med([f(r["acfr_health_share_of_benefits_2025"]) for r in sj]))),
+        ("Audited health growth FY23→FY25, median", "{:+.1f}% (n={})".format(*med([f(r["acfr_health_growth_23_25_pct"]) for r in sj]))),
+        ("Median budgeted benefit growth, SEHBP vs other", "{:+.1f}% (n={}) vs ".format(*sch(True)) + "{:+.1f}% (n={})".format(*sch(False))),
     ])
     out = ROOT / "docs" / "findings" / "numbers.md"
     out.write_text("\n".join(L))

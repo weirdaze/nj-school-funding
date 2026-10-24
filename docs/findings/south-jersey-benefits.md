@@ -22,31 +22,37 @@ or parsed figures with known exceptions; **Low** = indicative only. See [validat
 
 ## What we found
 
-1. **In 2026-27, benefit increases outran formula aid in 74 of the 101 comparable districts.** *Confidence: High.* Benefits rose **+$115.0M
-   (+14.4%)** across the three counties, while formula aid rose **+$76.0M**. $22.1M of that aid went to Camden City alone.
-   Without Camden City, aid rose about $54M against about $120M of new benefit costs.
+_Figures in findings 1–3 and 5 come from the South Jersey section of [`numbers.md`](numbers.md) and cover the 101
+comparable districts unless noted; finding 4 comes from the [district research index](../../research/districts/README.md)
+and the linked profiles._
+
+1. **In 2026-27, benefit increases outran formula aid in 74 of the 101 comparable districts.** *Confidence: High.* Benefits rose **+$112.6M
+   (+14.5%)** across the three counties' comparable districts, while formula aid rose **+$75.9M**, $22.1M of it to Camden City alone.
+   Without Camden City, aid rose $53.8M against $117.5M of new benefit costs (Camden City's own benefits line fell, an accounting move).
 2. **Health insurance is the benefit.** *Confidence: Medium-High.* In the FY2025 audits, health is a median **78%** of the benefits districts pay
-   themselves. Audited health costs grew a median **+17% from FY2023 to FY2025**. Districts reported 2026-27 renewals of
-   roughly 15–20% from the private joint fund (SHIF) and 25–33% from SEHBP. The 34% SEHBP increase for January 2027 comes on top of that.
-3. **SEHBP districts budgeted larger increases** (*Confidence: Medium-Low*: membership is name-matched; see [validation V6](../validation.md)): a median **+23%** vs. **+14%** for districts on other plans. Most
+   themselves (n=95). Audited health costs grew a median **+16.7% from FY2023 to FY2025** (n=90). Districts reported 2026-27 renewals of
+   roughly 15–20% from the private joint fund (SHIF) and 25–33% from SEHBP (see the profiles). The ~34% SEHBP increase for January 2027
+   ([Sun Papers](https://thesunpapers.com/2026/09/28/nj-school-health-plan-commission-approves-34-premium-hike-for-2027/)) comes on top of that.
+3. **SEHBP districts budgeted larger increases** (*Confidence: Medium-Low*: membership is name-matched and only 12 comparable
+   districts here are on the list; see [validation V6](../validation.md)): a median **+23.0%** vs. **+15.1%** for districts on other plans. Most
    non-SEHBP districts here buy coverage through SHIF (School Health Insurance Fund) or a broker trust.
-4. **District-by-district research (106 profiles):** each profile carries its own confidence rating and fact check. **3 Confirmed**, **21 Consistent**, **35 No cuts reported**,
+4. **District-by-district research (106 profiles):** each profile carries its own confidence rating and fact check. **1 Confirmed**, **23 Consistent**, **35 No cuts reported**,
    **47 Insufficient evidence**.
-   - **Confirmed:** the district explicitly ties cuts to health costs.
-     - **Evesham:** health +30–40% (~$4.1M) vs. $1.78M of cap room. It cut 7 elementary teachers and an assistant principal; grades 3–5 classes are projected at 26–27.
-     - **Cherry Hill:** ~$10M health increase within a $29M gap. About 70 positions cut, 14 teacher layoffs, class-size guidelines +2 in grades 1–8.
-     - **Haddonfield:** benefits +$1.8M are the core of a $3.4M gap. It cut 3.5 teachers and 5 aides and warned of larger middle and high school classes.
-   - **Consistent:** cuts were made with health costs as one stated driver. Examples: Tabernacle (7–8 positions and most
-     sports), Franklin Twp (13 teachers + 6 support, larger classes), Chesterfield (7 positions), Collingswood (school
+   - **Confirmed:** **Cherry Hill** (Medium confidence): ~$10M health increase within a $29M gap. About 70 positions cut, 14 teacher layoffs, class-size guidelines +2 in grades 1–8.
+   - **Consistent:** cuts were made with health costs as one stated driver. Examples: Evesham (7 elementary teaching
+     positions left unfilled and an assistant principal; the district also cites enrollment and lost incentive aid),
+     Haddonfield (proposed 3.5 teachers and 5 aides; health was 43% of its largest cost increases; adopted cuts unconfirmed),
+     Tabernacle (7–8 positions and most sports), Franklin Twp (13 teachers + 6 support, larger classes), Chesterfield (7 positions), Collingswood (school
      closure, 33 positions), Waterford (34 staff, mainly tuition), Haddon Heights, Haddon Twp, Moorestown, Pemberton,
      Washington Twp (52 positions proposed, then reserves used instead).
-   - **The common outcome is a tax increase, not a layoff.** At least a dozen districts (Winslow, Willingboro, Pine
+   - **Tax increases were more commonly documented than layoffs.** At least a dozen districts (Winslow, Willingboro, Pine
      Hill, Voorhees, Lenape, Swedesboro-Woolwich, West Deptford, Monroe, Cinnaminson, Elk, Riverton, Springfield and others) used the
      levy cap's **health-care cost adjustment**, often with banked cap, to pass the increase to property taxpayers.
-     The median general-fund levy rose 5.6%, and 76 of 106 districts went above 2%.
-5. **Reserves are running out.** *Confidence: High* for the totals (UFB). Budgeted fund-balance use falls from $236M (2025-26) to $204M (2026-27), and at least
-   seven Camden County districts plan to use up their excess surplus by June 2027. That leaves less cushion for 2027-28, the first full
-   year of the 34% SEHBP increase.
+     The median general-fund levy in comparable districts rose 5.7%, and 75 of 101 went above 2%.
+5. **Planned use of surplus fell.** *Confidence: High* for the totals (UFB line 580). Budgeted fund balance, the surplus districts plan to spend in the year,
+   falls from $234M (2025-26) to $203M (2026-27). That is a smaller planned drawdown, not a measure of what is left; separately, at least
+   seven Camden County districts' documents say they will use up their excess surplus by June 2027 (see their profiles), leaving less cushion for 2027-28, the first full
+   year of the ~34% SEHBP increase.
 6. **Kingsway Regional, home of the "Fair Funding" campaign:** health renewal +15.8% (~$1.4M), a $1.3M health waiver, levy +6.7%, and 9 FTE
    cut (framed by the district as enrollment-driven). Its Fair Funding page dates from 2016–2018 (pre-S2) and hasn't been updated.
 
@@ -66,13 +72,13 @@ or parsed figures with known exceptions; **Low** = indicative only. See [validat
 
 <!-- generated tables below -->
 
-| Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Districts with more students per teacher, 2021-22 → 2024-25 |
+| Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Students per teacher (TGES ratio, not class size), 2021-22 → 2024-25: districts up / down by more than 0.2 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=471) | +18% (n=421) | 231 of 560 |
-| **Selected counties** | 106 | 13 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=96) | +17% (n=91) | 40 of 102 |
-| Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 of 38 |
-| Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=32) | 12 of 36 |
-| Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=26) | +15% (n=24) | 13 of 28 |
+| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=471) | +18% (n=421) | 231 up, 205 down of 560 |
+| **Selected counties** | 106 | 13 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=96) | +17% (n=91) | 40 up, 43 down of 102 |
+| Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
+| Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=32) | 12 up, 17 down of 36 |
+| Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=26) | +15% (n=24) | 13 up, 10 down of 28 |
 
 ### SEHBP vs. other health plans (median budgeted benefit growth, 2025-26 → 2026-27)
 
@@ -85,7 +91,7 @@ or parsed figures with known exceptions; **Low** = indicative only. See [validat
 
 Sorted by how far the benefit increase outran the state aid change (most squeezed first).
 
-| District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher 21-22 → 24-25 | Surplus used 25-26 → 26-27 |
+| District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher (TGES ratio, not class size) 21-22 → 24-25 | Budgeted fund balance (planned drawdown) 25-26 → 26-27 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Evesham Twp | ✓ | 19.9% | +$4.2M | +$0.4M | -$3.8M | 25.0% | 75% | +14% | 12.8 → 13.0 | – → – |
 | Maple Shade Twp |  | 16.7% | +$2.0M | -$0.6M | -$2.7M | 23.7% | 80% | +22% | 10.7 → 10.5 | $0.5M → $0.7M |
@@ -131,7 +137,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 
 Sorted by how far the benefit increase outran the state aid change (most squeezed first).
 
-| District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher 21-22 → 24-25 | Surplus used 25-26 → 26-27 |
+| District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher (TGES ratio, not class size) 21-22 → 24-25 | Budgeted fund balance (planned drawdown) 25-26 → 26-27 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Cherry Hill Twp |  | 13.6% | +$7.4M | -$0.9M | -$8.2M | 24.3% | 81% | +13% | 11.7 → 11.8 | $13.1M → $3.8M |
 | Voorhees Twp |  | 18.8% | +$2.2M | +$0.0M | -$2.2M | 21.4% | 84% | +19% | 12.5 → 10.9 | $2.9M → $2.4M |
@@ -176,7 +182,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 
 Sorted by how far the benefit increase outran the state aid change (most squeezed first).
 
-| District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher 21-22 → 24-25 | Surplus used 25-26 → 26-27 |
+| District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher (TGES ratio, not class size) 21-22 → 24-25 | Budgeted fund balance (planned drawdown) 25-26 → 26-27 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Washington Twp |  | 22.3% | +$6.4M | +$1.8M | -$4.7M | 21.3% | 71% | +15% | 11.0 → 11.6 | – → $7.5M |
 | Deptford Twp |  | 21.9% | +$4.1M | +$0.4M | -$3.8M | 24.4% | 77% | +26% | 12.2 → 11.9 | $5.8M → $6.3M |

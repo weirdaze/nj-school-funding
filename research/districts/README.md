@@ -6,13 +6,13 @@ Each profile tests the claim *"rising benefit costs are forcing cuts, layoffs an
 
 | | Confirmed | Consistent | No cuts reported | Insufficient evidence |
 |---|---|---|---|---|
-| Atlantic | 1 | 0 | 1 | 2 |
+| Atlantic | 0 | 1 | 1 | 2 |
 | Bergen | 0 | 1 | 0 | 2 |
-| Burlington | 1 | 5 | 14 | 19 |
-| Camden | 2 | 8 | 12 | 16 |
+| Burlington | 0 | 6 | 14 | 19 |
+| Camden | 1 | 9 | 12 | 16 |
 | Cape May | 0 | 1 | 1 | 1 |
 | Cumberland | 0 | 0 | 0 | 3 |
-| Essex | 2 | 0 | 0 | 3 |
+| Essex | 1 | 1 | 0 | 3 |
 | Gloucester | 0 | 8 | 9 | 12 |
 | Hudson | 0 | 0 | 1 | 2 |
 | Hunterdon | 1 | 0 | 1 | 1 |
@@ -27,7 +27,7 @@ Each profile tests the claim *"rising benefit costs are forcing cuts, layoffs an
 | Sussex | 0 | 1 | 1 | 1 |
 | Union | 0 | 2 | 1 | 0 |
 | Warren | 0 | 0 | 1 | 2 |
-| **Total** | **8** | **31** | **52** | **80** |
+| **Total** | **4** | **35** | **52** | **80** |
 
 **Confidence** (is the profile's evidence solid enough to quote publicly?): High: 45, Low: 84, Medium: 42. High = key claims verified in the district's own documents and our numbers reconcile; Medium = credible news or partial documents; Low = snippets/unverified. Only quote High-confidence profiles as fact.
 
@@ -38,7 +38,7 @@ _Coverage caveat: the session's web-search quota ran out partway through most ba
 
 | District | Classification | Confidence | Summary |
 |---|---|---|---|
-| [Somers Point City](atlantic/4800-somers-point-city.md) | Confirmed | High | In its own hearing presentation, the district names "out of control health insurance" costs (+25%, +$648,080), alongside state aid losses and utilities, as the reason "further cuts were necessary," and lists 11 positions cut, including teac |
+| [Somers Point City](atlantic/4800-somers-point-city.md) | Consistent | High | The district cut 11 positions (four by resignation or retirement) and lists "out of control health insurance and utility costs" alongside "loss of state funding" as reasons (slide 12). |
 | [Atlantic City](atlantic/0110-atlantic-city.md) | No cuts reported | Low | Atlantic City's benefits line rises $8.1M (+26.8%) while formula aid is roughly flat and total state revenue falls $4.8M, yet the district cut the levy 1.4% and balanced the budget with ~$30M of budgeted fund balance plus reserve withdrawal |
 | [Galloway Twp](atlantic/1690-galloway-twp.md) | Insufficient evidence | Low | Benefits rise $3.2M (+19.1%), about $1.5M more than the state aid increase, and the levy rises 5.1% (above the 2% cap), but no district presentation, minutes or news coverage describing cuts or the reason for the above-cap levy could be fou |
 | [Pleasantville City](atlantic/4180-pleasantville-city.md) | Insufficient evidence | Low | State aid rose $3.5M and the measured benefits line only $0.6M, but that line misses school-based benefits, and the district cut its fund-balance draw in half while raising the levy 13.7%. |
@@ -55,8 +55,8 @@ _Coverage caveat: the session's web-search quota ran out partway through most ba
 
 | District | Classification | Confidence | Summary |
 |---|---|---|---|
-| [Evesham Twp](burlington/1420-evesham-twp.md) | Confirmed | High | The district explicitly presents the health benefits increase (~$4.1M, "30-40%") against a $1.78M cap-limited levy increase. |
 | [Chesterfield Twp](burlington/0830-chesterfield-twp.md) | Consistent | Medium | The district lists the health benefits increase ($485,965) as its largest cost driver alongside declining state aid. |
+| [Evesham Twp](burlington/1420-evesham-twp.md) | Consistent | High | The final presentation sets the health benefits increase (~$4.1M, "30-40%") against a $1.78M cap-limited levy increase and closes the gap by not refilling 7 elementary teaching positions (about 1 per elementary school) and 1 elementary AP,  |
 | [Moorestown Twp](burlington/3360-moorestown-twp.md) | Consistent | High | The district's own deck makes the 17.6% health renewal (+$3.0M) the main cause of a $1.6M structural gap. |
 | [Pemberton Twp](burlington/4050-pemberton-twp.md) | Consistent | Medium | The district explicitly ties the levy increase to a $5.9M health-benefit increase, and it eliminated about eight positions by attrition and started a subcontracting notice for aides; but the cuts were modest and the main response was a 26%  |
 | [Springfield Twp](burlington/5010-springfield-twp.md) | Consistent | High | Springfield made small but real cuts: a reduction in force in one salary line, reduced hours, and trimmed special-ed and co-curricular spending. |
@@ -100,12 +100,12 @@ _Coverage caveat: the session's web-search quota ran out partway through most ba
 | District | Classification | Confidence | Summary |
 |---|---|---|---|
 | [Cherry Hill Twp](camden/0800-cherry-hill-twp.md) | Confirmed | Medium | The district explicitly lists health benefit increases (~$10M) as a primary driver, alongside state aid cuts and transportation, of a $29M gap closed with ~70 position cuts, 14 teacher layoffs (per union), larger class-size guidelines (+2 i |
-| [Haddonfield Boro](camden/1900-haddonfield-boro.md) | Confirmed | High | Haddonfield's own materials name the benefits increase (+$1.8M; health benefits +$1.575M, the largest single line) as the core of a $3.45M gap. |
 | [Audubon Boro](camden/0150-audubon-boro.md) | Consistent | Medium | The Retrospect places Audubon's cuts (two early-grade classrooms eliminated — which implies larger 1st/2nd-grade classes — an academic support teacher, music positions cut to part-time) in a story about health costs, and our data show the l |
 | [Collingswood Boro](camden/0940-collingswood-boro.md) | Consistent | Medium | Collingswood closed an elementary school, eliminated 33 positions/programs, added fees and expects larger elementary classes, with a 22% health insurance increase and a state aid cut both cited as drivers of the $3.3M gap — but the district |
 | [Gloucester Twp](camden/1780-gloucester-twp.md) | Consistent | Low | The district named a 17.63% healthcare increase and a $2.5M drop in usable surplus as the drivers of an initial $10M gap. |
 | [Haddon Heights Boro](camden/1880-haddon-heights-boro.md) | Consistent | Medium | The district raised its levy 6.93%, cut 10 positions (3 full-time and 7 part-time), and raised student fees to close a roughly $2M gap. |
 | [Haddon Twp](camden/1890-haddon-twp.md) | Consistent | Medium | Haddon Township cut about 5+ positions: an unreplaced HS math teacher and registrar, one elementary teacher, three 1:1 aides, and daily substitute coverage. |
+| [Haddonfield Boro](camden/1900-haddonfield-boro.md) | Consistent | High | Haddonfield's materials put the benefits increase (+$1.8M; health benefits +$1.575M, 43% of the $3.649M of largest increases) at the core of a $3.45M gap, alongside salaries ($608K), ESIP lease payments ($297K), property insurance ($253K),  |
 | [Oaklyn Boro](camden/3770-oaklyn-boro.md) | Consistent | High | The district's own analysis names the 20.3% health-benefit increase as a primary reason cuts ($156,600 in line items; one FTE eliminated per The Retrospect) were needed despite higher state aid, alongside the loss of $303,722 in one-time re |
 | [Voorhees Twp](camden/5400-voorhees-twp.md) | Consistent | High | Health care increases were a named driver of a $6.4M initial gap, and the district used a $1.79M health-care cap adjustment to close it; cuts were limited to courtesy busing and contracted substitute/RBT services, with the district stating  |
 | [Waterford Twp](camden/5560-waterford-twp.md) | Consistent | Medium | Deep cuts (34 positions) and explicitly larger class sizes are confirmed, but the board attributes the crunch primarily to Hammonton sending-receiving tuition and a collapsing surplus; benefits growth is mentioned as a contributor. |
@@ -158,8 +158,8 @@ _Coverage caveat: the session's web-search quota ran out partway through most ba
 
 | District | Classification | Confidence | Summary |
 |---|---|---|---|
-| [Bloomfield Twp](essex/0410-bloomfield-twp.md) | Confirmed | High | In its own hearing deck, the district presents a $5M health-benefit increase (the largest of ~$10.4M in cost increases) and a $1.55M state aid cut as "financial losses beyond our control." It balances them with a 24-position RIF, including  |
 | [Livingston Twp](essex/2730-livingston-twp.md) | Confirmed | High | The district names a 33% medical/dental/Rx premium increase as "the primary driver" of its financial difficulty. |
+| [Bloomfield Twp](essex/0410-bloomfield-twp.md) | Consistent | High | The district cut 24 positions (slide 22; 16 instructional), left two senior administrative posts unfilled, froze some salaries and eliminated programs. |
 | [City of Orange Twp](essex/3880-city-of-orange-twp.md) | Insufficient evidence | Low | Orange's sample selection rests on an accounting artifact: the 212% benefits jump is a reclassification out of school-based budgets, not a cost spike. |
 | [Irvington Township](essex/2330-irvington-township.md) | Insufficient evidence | Low | Irvington is overwhelmingly state-funded. |
 | [Montclair Town](essex/3310-montclair-town.md) | Insufficient evidence | Medium | Montclair made deep cuts: over 100 layoff/RIF notices in 2025-26 and the closure of Renaissance Middle School for 2026-27. |
@@ -316,20 +316,20 @@ Districts that cut positions or programs with benefits/health costs as a stated 
 
 | District | County | Classification | Confidence | Positions cut | Teacher positions cut | Larger classes |
 |---|---|---|---|---|---|---|
-| [Somers Point City](atlantic/4800-somers-point-city.md) | Atlantic | Confirmed | High | 11 | unknown | unknown |
-| [Evesham Twp](burlington/1420-evesham-twp.md) | Burlington | Confirmed | High | 8 | 7 | yes |
-| [Haddonfield Boro](camden/1900-haddonfield-boro.md) | Camden | Confirmed | High | 9.5 | 3.5 | unknown |
-| [Bloomfield Twp](essex/0410-bloomfield-twp.md) | Essex | Confirmed | High | 24 | 16 | unknown |
 | [Livingston Twp](essex/2730-livingston-twp.md) | Essex | Confirmed | High | 40 | 11 | unknown |
 | [Piscataway Twp](middlesex/4130-piscataway-twp.md) | Middlesex | Confirmed | High | 44.5 | 28 | yes |
 | [Cherry Hill Twp](camden/0800-cherry-hill-twp.md) | Camden | Confirmed | Medium | 70 | 14 | yes |
 | [Tewksbury Twp](hunterdon/5180-tewksbury-twp.md) | Hunterdon | Confirmed | Medium | unknown | unknown | yes |
+| [Somers Point City](atlantic/4800-somers-point-city.md) | Atlantic | Consistent | High | 11 | unknown | unknown |
+| [Evesham Twp](burlington/1420-evesham-twp.md) | Burlington | Consistent | High | 8 | 7 | unknown |
 | [Moorestown Twp](burlington/3360-moorestown-twp.md) | Burlington | Consistent | High | unknown | unknown | unknown |
 | [Springfield Twp](burlington/5010-springfield-twp.md) | Burlington | Consistent | High | unknown | unknown | unknown |
 | [Tabernacle Twp](burlington/5130-tabernacle-twp.md) | Burlington | Consistent | High | 7 | unknown | unknown |
+| [Haddonfield Boro](camden/1900-haddonfield-boro.md) | Camden | Consistent | High | unknown | unknown | unknown |
 | [Oaklyn Boro](camden/3770-oaklyn-boro.md) | Camden | Consistent | High | 1 | unknown | unknown |
 | [Voorhees Twp](camden/5400-voorhees-twp.md) | Camden | Consistent | High | 0 | 0 | no |
 | [Lower Twp](cape-may/2840-lower-twp.md) | Cape May | Consistent | High | unknown | unknown | yes |
+| [Bloomfield Twp](essex/0410-bloomfield-twp.md) | Essex | Consistent | High | 24 | 16 | unknown |
 | [Franklin Twp](gloucester/1590-franklin-twp.md) | Gloucester | Consistent | High | 19 | 13 | yes |
 | [Gateway Regional](gloucester/1715-gateway-regional.md) | Gloucester | Consistent | High | 3 | 1 | unknown |
 | [Harrison Twp](gloucester/2070-harrison-twp.md) | Gloucester | Consistent | High | unknown | 0 | unknown |
@@ -355,4 +355,4 @@ Districts that cut positions or programs with benefits/health costs as a stated 
 | [Paterson City](passaic/4010-paterson-city.md) | Passaic | Consistent | Medium | 208 | 39 | unknown |
 | [Hillside Twp](union/2190-hillside-twp.md) | Union | Consistent | Medium | unknown | unknown | unknown |
 
-**Health-care cost cap adjustments documented** in district resolutions/presentations: 38 districts, $69.4M in total (sum of the documented amounts; each sourced in its profile). These let districts raise the levy above 2% specifically for health costs, which is the main way most districts absorbed the increase.
+**Health-care cost cap adjustments documented**: 38 of the 61 profiled districts where it could be determined used one (the other 110 profiles have no public document that says either way; "unknown" means not found, not "not used"). The documented amounts sum to $69.4M. This is a sum of figures from different stages, not an audited total: some come from adopted resolutions or hearing decks, some from tentative or preliminary presentations, and some are rounded figures from news reports; each profile says which. The adjustment lets a district raise the levy above 2% for health costs. Because the profiled districts over-sample large benefit increases, this does not show how districts statewide absorbed the increase.

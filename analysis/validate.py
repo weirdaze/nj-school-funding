@@ -227,7 +227,13 @@ def main():
           "| Any single district's growth rate | **Medium** unless its profile is rated High | Baseline revisions (V3) "
           "and outliers (V4) can move it a lot. |",
           "| \"Layoffs / larger classes were caused by benefits\" | **Only where a profile says Confirmed with High "
-          "confidence** | Causation comes from district statements, not from our data. |"]
+          "confidence**, and even then as \"the district names health costs as a cause\" | Causation comes from district statements, "
+          "not from our data, and districts usually name several causes (aid, enrollment, salaries) alongside health. |",
+          "| Budgeted fund balance totals | **High** as figures; they are *planned* drawdowns (UFB line 580) | They do not show "
+          "remaining reserves, so they cannot support \"reserves are running out\". |",
+          "| Students per teacher (TGES Indicator 16) | **Low** for any class-size claim | It counts all teaching staff "
+          "(about half of typical class size); 2024-25 is a budget-year column, 2021-22 is actual; the CSG16 label is inferred "
+          "from its columns. Roughly as many districts went down as up. |"]
     (ROOT / "docs" / "validation.md").write_text("\n".join(L) + "\n")
     print("wrote docs/validation.md;", f"V1 {ok}/{len(res)}, V2 {within}/{len(pairs)}, V3 {len(big)}, V4 {len(out)}, "
           f"V6 agree {agree} conflict {disagree}")

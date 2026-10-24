@@ -48,9 +48,10 @@ def summary_row(label, rs):
     st = [(f(r["students_per_teacher_2021_22"]), f(r["students_per_teacher_2024_25"])) for r in rs]
     st = [(a, b) for a, b in st if a and b]
     up = sum(1 for a, b in st if b > a + 0.2)
+    down = sum(1 for a, b in st if b < a - 0.2)
     return (f"| {label} | {len(rs)} | {sum(r['in_sehbp'] == 'True' for r in rs)} | ${b26/1e6:,.0f}M → ${b27/1e6:,.0f}M "
             f"({(b27/b26-1)*100:+.1f}%) | {money(b27-b26)} | {money(aid)} | {squeezed} of {len(rs)} | {fmt(hs, '%', 0)} (n={n_hs}) | "
-            f"{'–' if hg is None else f'{hg:+.0f}%'} (n={n_hg}) | {up} of {len(st)} |")
+            f"{'–' if hg is None else f'{hg:+.0f}%'} (n={n_hg}) | {up} up, {down} down of {len(st)} |")
 
 
 def main():
@@ -63,7 +64,7 @@ def main():
     counties = sorted({(r["county_id"], r["county"]) for r in sel})
 
     L = []
-    L.append("| Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Districts with more students per teacher, 2021-22 → 2024-25 |")
+    L.append("| Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Students per teacher (TGES ratio, not class size), 2021-22 → 2024-25: districts up / down by more than 0.2 |")
     L.append("|---|---|---|---|---|---|---|---|---|---|")
     L.append(summary_row("**Statewide**", rows))
     if a.counties != "all":
@@ -83,7 +84,7 @@ def main():
         rs = sorted((r for r in sel if r["county_id"] == cid), key=lambda r: f(r["aid_change_minus_benefit_change"]))
         L.append(f"\n### {cname} County\n")
         L.append("Sorted by how far the benefit increase outran the state aid change (most squeezed first).\n")
-        L.append("| District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher 21-22 → 24-25 | Surplus used 25-26 → 26-27 |")
+        L.append("| District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher (TGES ratio, not class size) 21-22 → 24-25 | Budgeted fund balance (planned drawdown) 25-26 → 26-27 |")
         L.append("|---|---|---|---|---|---|---|---|---|---|---|")
         for r in rs:
             st0, st1 = f(r["students_per_teacher_2021_22"]), f(r["students_per_teacher_2024_25"])

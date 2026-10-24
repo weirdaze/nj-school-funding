@@ -1,5 +1,5 @@
 # Bloomfield Twp (Essex County) — district 0410
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: top-gap (largest $ benefit increase minus aid change)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: top-gap (largest $ benefit increase minus aid change)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -8,7 +8,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Benefits share of operating budget** 2026-27: 23.4% (computed from [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/13/UFB27_0410.pdf): employee benefits ÷ Total General Current Expense).
 - **Health share of district-paid benefits** FY25: 81.5%; **audited health growth** FY23→FY25: +21.0%. Source: audited ACFR Exhibit C-1, "Health Benefits" actual: [FY2025 report](https://www.nj.gov/education/finance/fp/acfr/search/25/0410.pdf#page=102), [FY2023 report](https://www.nj.gov/education/finance/fp/acfr/search/23/0410.pdf#page=101).
 - **Tax levy change**: +7.7%; **budgeted fund balance used** 2025-26 → 2026-27: $2.00M → $2.86M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/13/UFB27_0410.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
-- **Students per teacher** 2021-22 → 2024-25: 11.5 → 11.8. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
+- **Students per teacher (TGES ratio)** 2021-22 → 2024-25: 11.5 → 11.8. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16, file `CSG16.CSV` column `STRAT` (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22). This divides students by all teaching staff, so it is roughly half of typical class size and is **not a class-size measure**; the 2021-22 value is actual and the 2024-25 value is from the budget-year column.
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $23.71M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
@@ -25,10 +25,13 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
   - District: 3 certified instructional and 1 clerical position.
   - 1 IT support specialist and 2 facilities positions.
   
+  The itemized slides (23-29) sum to 25 positions (2 + 3 + 3 + 10 + 4 + 3), one more than the slide-22 total of 24; the deck does not reconcile the difference.
+
   The Assistant Superintendent of Curriculum & Instruction and Director of Administration/Personnel positions will not be filled, and central-office directors and non-affiliated staff get a salary freeze. Same deck, slides 18-19 and 23-29.
 - [primary] Non-position cuts: district-wide supplies cut 50%; technology subscriptions, non-mandated PD, contracted paraprofessional services (attrition), custodial and transportation overtime, and field trips reduced. The Bloomfield Teacher Academy, BackStop program and BHS SAT Prep class are eliminated. Same deck, slide 30.
 - [primary] Class sizes: "the District remains in full compliance with Board policy on class sizes." The deck gives no class-size figures. Same deck, slides 20 and 31.
 - [primary] Tax levy: general fund $83,064,572 → $89,435,625 (+7.67%). The debt-service levy ($2,139,154) is eliminated by a one-time $2,044,522 capital-reserve transfer, so the total levy rises 4.97%. Estimated impact is $79.64 per $100,000 assessed. Same deck, slide 33. Patch also reported the 4.97% levy increase ([Patch](https://patch.com/new-jersey/bloomfield/amp/34568036/bloomfield-town-council-oks-hefty-tax-hike-here-s-what-homeowners-will-pay), July 31, 2026).
+- [primary] Enrollment: on-roll enrollment 6,513 (2024) → 6,312 (2025) → 6,283 estimated (2026); regular full-time 5,542 → 5,271 (-4.9%). [NJDOE 2026-27 UFB, Bloomfield Twp](https://www.nj.gov/education/budget/ufb/2627/reports/13/UFB27_0410.pdf), p. 1.
 - [news] Preliminary $152M budget approved Mar. 24, 2026, with the salary freeze and supply/technology/supplemental-program cuts. [The Jersey Bee (from TAPinto Bloomfield)](https://jerseybee.org/2026/04/07/bloomfield-school-board-introduces-152-million-budget-for-2026-27/), Apr. 7, 2026.
 - [primary] Budgeted fund balance $2,000,000 (2025-26) → $2,859,061 (2026-27), plus a $1,500,000 maintenance-reserve withdrawal each year. Employee benefits as a share of salaries rise from 36.27% to 40.80%. [NJDOE 2026-27 UFB, Bloomfield Twp](https://www.nj.gov/education/budget/ufb/2627/reports/13/UFB27_0410.pdf), p. 2 and p. 8.
 - [primary] Health plan: not identified. The UFB shared-services list names the Diploma Joint Insurance Fund and the "North Jersey School Boards Insurance Fund," but does not say either covers health benefits. Same UFB, p. 10.
@@ -41,7 +44,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance $2.0M → $2.86M: matches the UFB. The deck gives no figure.
 
 ## Assessment
-**Confirmed.** In its own hearing deck, the district presents a $5M health-benefit increase (the largest of ~$10.4M in cost increases) and a $1.55M state aid cut as "financial losses beyond our control." It balances them with a 24-position RIF, including 16 instructional staff and 14 classroom positions, two unfilled senior administrative posts, salary freezes and program eliminations. Health is not the only driver: contractual increases ($4M) and the aid cut also contribute. The district says class sizes stay within board policy.
+**Consistent.** The district cut 24 positions (slide 22; 16 instructional), left two senior administrative posts unfilled, froze some salaries and eliminated programs. Its deck presents a $5M health-benefit increase as the largest of about $10.4M in cost increases, alongside $4M of contractual raises and a $1.55M state aid cut, but it never says health costs caused the cuts: slide 15 cites "health benefit costs and other operational expenses" together. Enrollment is also falling (regular full-time -4.9% from 2024 to 2025). The district says class sizes stay within board policy. (Reclassified from Confirmed after adversarial review: health is one stated factor, not the stated cause.)
 
 ## Confidence
 **High**: key facts come from the district's own adopted-budget presentation, opened and read, and our benefits, aid and levy figures reconcile with it.

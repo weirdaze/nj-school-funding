@@ -68,8 +68,10 @@ def numbers_block(r):
         f"- **Tax levy change**: {p(r['levy_change_pct'], True)}; **budgeted fund balance used** 2025-26 → 2026-27: "
         f"{m(r['fund_balance_used_2526'], False)} → {m(r['fund_balance_used_2627'], False)}. Source: [UFB]({ufb}), Revenues, "
         f"lines \"Total Tax Levy\" and \"Budgeted Fund Balance-Operating Budget\".",
-        f"- **Students per teacher** 2021-22 → 2024-25: {st0} → {st1}. Source: [Taxpayers' Guide to Education Spending]({TGES}) "
-        f"Indicator 16 (2025 edition for 2024-25; [2023 edition]({TGES23}) for 2021-22).",
+        f"- **Students per teacher (TGES ratio)** 2021-22 → 2024-25: {st0} → {st1}. Source: [Taxpayers' Guide to Education Spending]({TGES}) "
+        f"Indicator 16, file `CSG16.CSV` column `STRAT` (2025 edition for 2024-25; [2023 edition]({TGES23}) for 2021-22). "
+        f"This divides students by all teaching staff, so it is roughly half of typical class size and is **not a class-size measure**; "
+        f"the 2021-22 value is actual and the 2024-25 value is from the budget-year column.",
         f"- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): {m(r['tpaf_onbehalf_total_2025'], False)}. "
         f"Source: [Treasury TPAF on-behalf allocations FY2025]({TPAF}).",
         f"- **In SEHBP**: {'yes' if r['in_sehbp'] == 'True' else 'no'} per the [October 2026 participating-employer list]({SEHBP}) (name-matched).",
@@ -155,9 +157,14 @@ def main():
         fx = facts.get(x[2], {})
         out.append(f"| [{x[1]}]({x[5]}) | {x[0]} | {x[3]} | {x[6]} | {fx.get('positions_cut', 'unknown')} | "
                    f"{fx.get('teacher_positions_cut', 'unknown')} | {fx.get('class_size_increase', 'unknown')} |")
-    out += ["", f"**Health-care cost cap adjustments documented** in district resolutions/presentations: {len(adj)} districts, "
-            f"${sum(v for _, v in adj)/1e6:,.1f}M in total (sum of the documented amounts; each sourced in its profile). These let districts raise "
-            f"the levy above 2% specifically for health costs, which is the main way most districts absorbed the increase.", ""]
+    determined = sum(1 for x in index if facts.get(x[2], {}).get("health_cap_adjustment", "unknown") not in ("unknown", ""))
+    out += ["", f"**Health-care cost cap adjustments documented**: {len(adj)} of the {determined} profiled districts where it could be "
+            f"determined used one (the other {len(index) - determined} profiles have no public document that says either way; "
+            f"\"unknown\" means not found, not \"not used\"). The documented amounts sum to ${sum(v for _, v in adj)/1e6:,.1f}M. "
+            "This is a sum of figures from different stages, not an audited total: some come from adopted resolutions or hearing decks, some "
+            "from tentative or preliminary presentations, and some are rounded figures from news reports; each profile says which. "
+            "The adjustment lets a district raise the levy above 2% for health costs. Because the profiled districts over-sample large "
+            "benefit increases, this does not show how districts statewide absorbed the increase.", ""]
     (DIR / "README.md").write_text("\n".join(out))
     print("updated", len(index), "profiles;", dict(counts))
 
