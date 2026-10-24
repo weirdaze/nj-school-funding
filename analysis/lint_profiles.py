@@ -55,7 +55,8 @@ def main():
                         and m.group(0).strip().lstrip("+-") not in ("2%", "100%")})  # 2% = statutory cap
         if stale:
             issues.append((rel, "L1", "not found elsewhere in profile: " + ", ".join(stale)))
-        cls = next((c for c in CLASSES if f"**{c}" in section(t, "Assessment")), None)
+        lead = re.match(r"\s*\*\*(" + "|".join(CLASSES) + r")\b", section(t, "Assessment"))
+        cls = lead.group(1) if lead else None  # the label must open the Assessment
         conf = re.match(r"\s*\**(High|Medium|Low)", section(t, "Confidence"), re.I)
         facts = re.search(r"<!-- facts: (.*?) -->", t, re.S)
         fconf = re.search(r"confidence=(\w+)", facts.group(1)) if facts else None

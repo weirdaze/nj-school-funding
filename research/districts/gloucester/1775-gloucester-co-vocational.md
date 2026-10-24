@@ -20,7 +20,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on fair funding or formula statements by the district.
 
 ## Assessment
-The district's own UFB confirms a large jump in benefits ($6.29M → $7.24M; benefits rising to 45% of salaries) while state aid fell and the county levy was flat. That leaves the gap to be covered by fund balance ($2.5M) and other lines. No cuts, layoffs or class-size changes have been publicly reported, so the claim is unverified here. **Insufficient evidence.** The district's UFB shows 2025-26 revised benefits of $6,289,737, about $7.5K below our $6,297,255, likely from a different UFB version.
+**Insufficient evidence.** The district's own UFB confirms a large jump in benefits ($6.29M → $7.24M; benefits rising to 45% of salaries) while state aid fell and the county levy was flat. That leaves the gap to be covered by fund balance ($2.5M) and other lines. No cuts, layoffs or class-size changes have been publicly reported, so the claim is unverified here. The district's UFB shows 2025-26 revised benefits of $6,289,737, about $7.5K below our $6,297,255, likely from a different UFB version.
 
 ## Confidence
 **Low**: "Insufficient evidence" — the district's own UFB confirms the benefit jump, but no cuts or district statements on health costs were found.
