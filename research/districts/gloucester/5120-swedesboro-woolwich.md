@@ -1,0 +1,27 @@
+# Swedesboro-Woolwich (Gloucester County) — district 5120
+_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+
+## Our numbers
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- Benefits budget 2025-26 (revised) → 2026-27: $7.73M → $9.08M (+17.4%); formula aid change: +$0.53M; aid change minus benefit increase: -$0.81M
+- Benefits share of operating budget 2026-27: 25.3%; health share of district-paid benefits (FY25 audit): 88.8%; audited health growth FY23→FY25: +20.6%
+- Tax levy change: +11.3%; budgeted fund balance used 2025-26 → 2026-27: $0.19M → $0.47M
+- Students per teacher 2021-22 → 2024-25: 11.3 → 10.9; state-paid TPAF pension/retiree medical FY25 (not in district budget): $5.90M
+
+## What the district / local reporting says
+- **Budget adoption, April 29, 2026.** The board adopted the 2026-27 budget 9-0. General fund expenditures are $36,112,957 and the general fund levy is $21,464,348 ($24,287,724 including debt service). [BOE minutes, Apr 29, 2026](https://resources.finalsite.net/images/v1778762253/swedesborowoolwichcom/yzk61t99gk3aar7yebrg/Minutes4-29-2026Public.pdf), 2026-04-29.
+- **Health benefits cap adjustment.** The same resolution "includes in the final budget the adjustment for increased costs of health benefits in the amount of $1,006,184," which "will be used to pay for the additional increases in health benefit premiums." [BOE minutes, Apr 29, 2026](https://resources.finalsite.net/images/v1778762253/swedesborowoolwichcom/yzk61t99gk3aar7yebrg/Minutes4-29-2026Public.pdf), 2026-04-29. The tentative budget resolution has the same language. [BOE minutes (file dated 3-25-2026; page header reads March 23, 2026)](https://resources.finalsite.net/images/v1777653870/swedesborowoolwichcom/uhvcnxsfpfzrtgghvjgs/Minutes3-25-2026.pdf).
+- **Banked cap.** The district used banked cap of $784,256 "to increase the general fund tax levy above the (2%) cap." It said it "has fully exhausted all eligible statutory spending authority and must exercise this increase for the purpose of staff retainment and delivery of services." [BOE minutes, Apr 29, 2026](https://resources.finalsite.net/images/v1778762253/swedesborowoolwichcom/yzk61t99gk3aar7yebrg/Minutes4-29-2026Public.pdf).
+  - Arithmetic check: 2% of the $19,288,145 prior levy is $385,763. Adding $1,006,184 (health) and $784,256 (banked) gives $2,176,203, exactly the levy increase to $21,464,348 (+11.3%). The health adjustment alone is about 5.2 points of the 11.3% increase.
+- **No staff cuts.** At the tentative budget hearing, the SWEA president said the union "Appreciates no staff cuts" and "Expressed concerns with Heath [sic] Insurance Increases." [BOE minutes (3-25-2026 file)](https://resources.finalsite.net/images/v1777653870/swedesborowoolwichcom/uhvcnxsfpfzrtgghvjgs/Minutes3-25-2026.pdf).
+- **Plan switching.** On March 11, 2026, the SWEA president said "NJEA working on Healthcare & Benefits expiring in 2027" and "Proposing Large Group Benefits (SHIF)." [BOE minutes, Mar 11, 2026](https://resources.finalsite.net/images/v1777653870/swedesborowoolwichcom/fo4addoe3sfnwah8q6yd/Minutes3-11-2026Public.pdf), 2026-03-11.
+- **Personnel actions, April 29, 2026.** Four teacher resignations, one LPC resignation, one paraprofessional resignation and one teacher retirement. No RIFs or abolished positions appear (same minutes). Whether these will be refilled is not stated.
+- **Not found.** No public reporting found on class-size changes, program cuts, or district comments on state aid or fair funding. The district's Presentations page lists no 2026-27 budget presentation; the latest is 2025-26. [Business Office Presentations](https://www.swedesboro-woolwich.com/departments/businessoffice/presentations), accessed 2026-10-24.
+
+## Assessment
+**No cuts reported.** Rising health premiums clearly drove the 11.3% levy increase: $1.0M of the $2.18M increase is an explicit health benefits cap adjustment. The board also used $784K of banked cap "for the purpose of staff retainment." The teachers' union publicly noted "no staff cuts." Here the benefit costs were passed to taxpayers rather than absorbed through layoffs. Our +16.5% benefits figure ($1.29M) agrees in direction and scale with the district's $1.0M health adjustment.
+
+## Open questions
+- Get the 2026-27 budget hearing slide deck (not posted on the Presentations page).
+- Were the April 2026 teacher resignations backfilled? Check summer 2026 personnel agendas.
+- Is the district moving off its current carrier, or into a union-proposed large-group plan, for 2027?

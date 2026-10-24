@@ -136,6 +136,14 @@ def fetch(args):
             time.sleep(args.delay)
 
 
+def fix_digits(raw):
+    """Repair scan artifacts inside numbers: '4, 135,755', '2,851 ,731', '670,6 17', '( 184,331)'."""
+    line = re.sub(r"\s+", " ", raw)
+    line = re.sub(r"(?<=\d) ?, ?(?=\d{3}\b)", ",", line)
+    line = re.sub(r"(?<=,\d) (?=\d\d\b)|(?<=,\d\d) (?=\d\b)", "", line)
+    return re.sub(r"\( (?=\d)", "(", line)
+
+
 def to_num(tok):
     if tok == "-":
         return 0.0
@@ -185,7 +193,7 @@ def _parse_c1_main(text):
         start = next((i for i, l in enumerate(lines) if re.search(r"^\s*(Social Security|Health Benefits)\s+[\d(]", l, re.I)), 16) - 2
     out, pending = {}, ""
     for raw in lines[max(start, 0): max(start, 0) + 60]:
-        line = re.sub(r"(\d) ,(\d)", r"\1,\2", re.sub(r"\s+", " ", raw)).strip()
+        line = fix_digits(raw).strip()
         line = re.sub(r"(?<=[\s(,\d])[Iil](?=[\d,])|(?<=\d)[Iil](?=[\d,\s)]|$)", "1", line)
         if re.match(r"^Total (Undistributed|General Current|Expenditures)", line, re.I) and not re.search(r"Benefits", line, re.I):
             break
@@ -227,9 +235,9 @@ def _parse_c1_main(text):
 def parse_c1(text):
     """Unallocated-benefits block if it has health; otherwise try benefits allocated by function."""
     main = _parse_c1_main(text)
-    if main.get("health"):
-        return main
     alloc = parse_allocated([re.sub(r"[ \t\xa0]+", " ", p) for p in text.split("=== page ")])
+    if main.get("health") and not (alloc and alloc.get("n_health_lines", 0) >= 3):
+        return main
     if alloc:
         alloc.update({k: v for k, v in main.items() if k.startswith(("tpaf", "reimbursed"))})
         return alloc
@@ -245,7 +253,7 @@ def parse_allocated(pages):
     seen = set()
     for p in pages:
         for raw in p.splitlines():
-            line = re.sub(r"(\d) ,(\d)", r"\1,\2", re.sub(r"\s+", " ", raw)).strip()
+            line = fix_digits(raw).strip()
             m = re.search(r"\b11-[\dX]{3}-[\dX]{3}-2(\d\d)\b", line)  # general fund only
             if not m or ("2" + m.group(1)) not in CODES or m.group(0) in seen:
                 continue
@@ -255,6 +263,8 @@ def parse_allocated(pages):
             if len(nums) >= 2:
                 col = CODES["2" + m.group(1)]
                 out[col] = out.get(col, 0) + actual_of(nums)
+                if col == "health" and not m.group(0).startswith("11-000-291"):
+                    out["n_health_lines"] = out.get("n_health_lines", 0) + 1
     if out.get("health"):
         out["total_unallocated"] = sum(v for k, v in out.items() if k in CODES.values())
         out["method"] = "allocated"

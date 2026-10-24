@@ -1,0 +1,26 @@
+# Oaklyn Boro (Camden County) — district 3770
+_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+
+## Our numbers
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- Benefits budget 2025-26 (revised) → 2026-27: $1.08M → $1.29M (+19.6%); formula aid change: +$0.15M; aid change minus benefit increase: -$0.06M
+- Benefits share of operating budget 2026-27: 11.7%; health share of district-paid benefits (FY25 audit): 91.0%; audited health growth FY23→FY25: +35.1%
+- Tax levy change: +7.0%; budgeted fund balance used 2025-26 → 2026-27: $0.40M → $0.41M
+- Students per teacher 2021-22 → 2024-25: 8.3 → 9.6; state-paid TPAF pension/retiree medical FY25 (not in district budget): $1.10M
+
+## What the district / local reporting says
+- District long-term analysis: "The 2026-27 budget remains structurally imbalanced. Approximately $512,842 of fund balance/reserve support is used to balance the operating plan, while recurring revenue is roughly $0.5 million below recurring expenditures." [Oaklyn Budget Sustainability & Multi-Year Forecast (PDF)](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/1530/Oaklyn/f98b56ac-0c60-402b-9221-f229d8422881/Oaklyn_Budget_Long_Term_Analysis.pdf?disposition=inline) (undated; linked from Sept 1, 2026 superintendent letter).
+- Same analysis: "Health benefits increase by about $204,083 (20.3%)"; state aid +$126,254 but total state aid of $3,131,687 is "still about $103,657 below 2024-25"; one-time support falls from $816,564 to $512,842 (−$303,722); the workbook identifies "$156,600 of line-item cuts"; levy +$480,164 (7.0%) = "a 2% increase plus health-benefit and enrollment adjustments." It explicitly lists health benefits (+$204,083) as a factor that "Hurts" and explains "why increased state aid did not eliminate the need for cuts." [Long-term analysis PDF](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/1530/Oaklyn/f98b56ac-0c60-402b-9221-f229d8422881/Oaklyn_Budget_Long_Term_Analysis.pdf?disposition=inline).
+- Base-case forecast (8% annual health growth, flat aid, 2% levy) projects gaps of $782,828 (2027-28) rising to $1,703,225 (2030-31). [Long-term analysis PDF](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/1530/Oaklyn/f98b56ac-0c60-402b-9221-f229d8422881/Oaklyn_Budget_Long_Term_Analysis.pdf?disposition=inline).
+- Superintendent letter: funding gaps stem from "increases to competitive staff salaries, healthcare, utilities"; "diminishing financial reserves are being used to balance the annual operating budget"; "Without real change at the State level, we will continue to face extremely difficult decisions"; urges advocacy for "fair share of school funding" and links the NJ Fair Funding Collective. [BOE Budget Update: Long-Term Financial Planning](https://www.oaklynschool.org/article/3104831) (Sept 1, 2026).
+- The Retrospect: Oaklyn health care spending rose from $605,000 (2020-21) to more than $1 million (2025-26); the budget "eliminated one full-time position," reduced spending on student assemblies and recognition programs, and delayed technology, furniture and equipment purchases; employee contributions went from $103,000 to $126,087 while health spending grew by more than $400,000. [Benefit Costs Squeeze Schools… (The Retrospect via InsuranceNewsNet)](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs) (Sept 11, 2026).
+- State UFB: health/benefits coverage via "BCIP JIF and the Brown and Brown Employers Trust Fund" (not SEHBP); legal reserve $611,649 (6/30/2025) → $0 (est. 6/30/2027); benefits as % of salaries 46.08% → 55.37%. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3770.pdf) (July 14, 2026).
+- No public reporting found on class-size changes, referendums, or a health-plan switch for 2026-27.
+
+## Assessment
+**Consistent** (bordering on Confirmed). The district's own analysis names the 20.3% health-benefit increase as a primary reason cuts ($156,600 in line items; one FTE eliminated per The Retrospect) were needed despite higher state aid, alongside the loss of $303,722 in one-time reserve support and shared-service cost growth. District figures (+$204,083 benefits, +$126,254 aid, +7.0% levy) closely match ours (+$204,501, +$126,254, +7.0%).
+
+## Open questions
+- Which position was eliminated (role, teaching vs non-teaching) — check spring 2026 personnel actions.
+- Obtain the accompanying Excel forecast model referenced in the analysis.
+- Size of the health-benefit cap adjustment used in the 7.0% levy.

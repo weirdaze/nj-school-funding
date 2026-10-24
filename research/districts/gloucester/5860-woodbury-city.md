@@ -1,0 +1,45 @@
+# Woodbury City (Gloucester County) — district 5860
+_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+
+## Our numbers
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- Benefits budget 2025-26 (revised) → 2026-27: $7.54M → $8.82M (+16.9%); formula aid change: +$1.70M; aid change minus benefit increase: +$0.42M
+- Benefits share of operating budget 2026-27: 20.1%; health share of district-paid benefits (FY25 audit): 77.9%; audited health growth FY23→FY25: +21.3%
+- Tax levy change: +0.0%; budgeted fund balance used 2025-26 → 2026-27: $0.95M → $0.90M
+- Students per teacher 2021-22 → 2024-25: 11.7 → 11.3; state-paid TPAF pension/retiree medical FY25 (not in district budget): $6.33M
+
+## What the district / local reporting says
+Both sources below were opened and read:
+- [2026-27 Budget Presentation](https://www.woodburysch.com/ourpages/auto/2023/3/25/44166788/2026-27%20Budget%20presentation.pdf), public hearing 2026-04-29 (the "presentation").
+- [BOE minutes, Apr 29, 2026](https://www.woodburysch.com/pdf/Board/Minutes/2025-2026%20Minutes/26-04-29%20-%20Minutes.pdf), a scanned PDF read from rendered page images (the "minutes").
+
+- **Benefits.** The presentation shows the benefits appropriation rising from $7,621,131 to $8,822,221 (+$1,201,090, +15.76%). This matches our figures exactly.
+- **Revenue.**
+  - State aid (general) rises from $28,302,554 to $30,002,687 (+$1,700,133, +6.01%).
+  - The general fund tax levy is flat at $13,278,506 (0.00%).
+  - General surplus used falls from $953,318 to $899,997.
+  - Capital reserve withdrawal falls from $9,790,828 to $8,457,828.
+  - Source: presentation.
+- **Spending by category, 2025-26 → 2026-27.** Classroom instruction rises while every other operating category falls:
+
+  | Category | 2025-26 | 2026-27 | Change |
+  |---|---|---|---|
+  | Classroom instruction | $17,528,425 | $18,607,240 | +$1,078,815 (+6.15%) |
+  | Support services | | | -$269,815 (-3.06%) |
+  | Administration | | | -$69,369 |
+  | Maintenance and operations | | | -$302,256 (-8.49%) |
+  | Transportation | | | -$103,405 |
+
+  The presentation does not attribute these reductions to staff cuts. Source: presentation.
+- **Health care cap adjustment not used.** At the April 29, 2026 hearing, board member Mrs. Mangeri "said she was very pleased that [we] didn't have to use the health care adjustment or our capped bank so that we could continue to have zero percent increase again." She "reiterated that this may not be sustainable if these health care increases continue and taxes may have to be raised in the future." Source: minutes.
+- **Budget adoption.** The board adopted a general fund levy of $13,278,506 and total expenditures of $58,772,541. The same meeting approved new teacher hires for 2026-27 (Spanish, Science, and Elementary) and listed no RIFs on the pages reviewed. Source: minutes.
+- **State aid and the funding formula.** The presentation includes an SFRA slide and a chart titled "Actual State Aid vs SFRA Aid Uncapped." No narrative is attached to the chart. The budget timeline says that after state aid is published (March 12) "the budget is finalized, making budget cuts as needed." Source: presentation.
+- **Insurance.** "Insurance Pool Participation" is listed among shared services, and a "SHIF Wellness Grant" ($14,750) appears among grants. This suggests the district is a member of the Schools Health Insurance Fund. Source: presentation.
+- **Not found.** No public reporting found on layoffs, class-size increases, or program cuts. No local news was checked, because web search capacity ran out.
+
+## Assessment
+**No cuts reported.** Benefits rose 15.8% (+$1.2M), but a $1.7M state aid increase more than covered it. The levy stayed flat, classroom instruction grew 6%, and the board said it did not need the health care cap adjustment. Non-instructional lines were trimmed and the board warned that continued health increases may force tax increases. Our figures match the district's presentation exactly.
+
+## Open questions
+- Did the support services and maintenance reductions come from position eliminations? Check the March 25, 2026 minutes and BoardDocs personnel items.
+- What are the district's SHIF renewal rates for 2027? Is it at risk of using the cap adjustment next year?
