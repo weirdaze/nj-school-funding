@@ -15,7 +15,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## What the district / local reporting says
 - [primary] The district's "New Jersey School Health Insurance Fund" link redirects to hifundnj.com, which indicates Delsea gets health coverage through the NJ School Health Insurance Fund (SHIF), a joint fund, rather than SEHBP ([Delsea district page](https://delsearegional.us/31127_1), accessed 2026-10-24). This is consistent with our "not in SEHBP" flag.
 - [primary] The district's Budget Information page posts budgets only through 2024-2025. No 2025-26 or 2026-27 budget or presentation is posted ([Budget Information](https://delsearegional.us/118233_2), accessed 2026-10-24).
-- [snippet] The district announced a special meeting on March 19, 2025 to introduce the 2025-26 budget ([Notice, oldsite.delsearegional.us](https://oldsite.delsearegional.us/?p=11666), per search snippet). No content was found.
+- [snippet] The district announced a special meeting on March 19, 2025 to introduce the 2025-26 budget ([Notice, oldsite.delsearegional.us](https://oldsite.delsearegional.us/?p=11666) ⚠️ *(site unreachable as of 2026-10-24)*, per search snippet). No content was found.
 - [primary] State UFB, 2025-26 revised → 2026-27 proposed ([UFB27 4940](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4940.pdf), generated July 14, 2026, PDF opened 2026-10-24):
   - Levy $17,713,461 → $18,953,403 (+7.0%).
   - Fund balance $1,402,112 → $2,086,333.

@@ -166,6 +166,13 @@ def src(r):
     return r["source_url"] + (f"#page={r['source_page']}" if r.get("source_page") else "")
 
 
+def school_based_budget_districts():
+    """District ids that file school-based budgets (schapp27.csv): the 31 former Abbott districts. Their salaries and
+    benefits sit partly in school-level lines, so the general-fund "employee benefits" line can be partial."""
+    with open(RAW / "ufb" / "2627" / "schapp27.csv", encoding="latin-1") as fh:
+        return {r["district_id"] for r in csv.DictReader(fh)}
+
+
 def pct(a, b):
     return (a / b - 1) * 100 if b else None
 
@@ -180,6 +187,7 @@ def main():
     rev, _ = ufb_lines("rev", {"114", "520", "580"})
     tp = tpaf()
     faid = formula_aid()
+    sbb = school_based_budget_districts()
     in_sehbp, unmatched = sehbp(meta)
     ratios, benpct = tges()
     audits = acfr()
@@ -206,7 +214,7 @@ def main():
         au = audits.get(d, {})
         def usable(r):
             """Use an audit row only if its components reconcile to the total, or health is a sane share of it."""
-            if not r or not num(r.get("health")):
+            if not r or num(r.get("health")) < 1e4:  # no operating district pays <$10K in health benefits
                 return False
             if r.get("quality") == "reconciled":
                 return True
@@ -240,7 +248,8 @@ def main():
             "acfr_health_share_of_benefits_2025": round(h25 / t25 * 100, 1) if h25 and t25 and 0.2 <= h25 / t25 <= 1.0 else "",
             "acfr_quality_2023": (a23 or {}).get("quality", ""), "acfr_quality_2025": (a25 or {}).get("quality", ""),
             "tpaf_onbehalf_total_2025": tpaf25[2] or "",
-            "benefits_line_incomplete": bool(h25 and h25 > 1.05 * ben27),
+            "former_abbott": d in sbb,
+            "benefits_line_incomplete": bool(h25 and h25 > 1.05 * ben27) or d in sbb,
             "students_per_teacher_2021_22": ratio.get("2021-22", ("",))[0],
             "students_per_teacher_2024_25": ratio.get("2024-25", ("",))[0],
             "median_teacher_salary_2024_25": ratio.get("2024-25", ("", ""))[1],

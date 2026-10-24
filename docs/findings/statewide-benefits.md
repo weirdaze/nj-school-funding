@@ -51,6 +51,21 @@ statewide benefit and aid totals from the raw state files._
 8. **Timing:** these budgets were adopted in spring 2026, before the SEHBP commission's ~34% PY2027 increase (September
    2026). The January–June 2027 half of the year was budgeted on an assumption, so actual FY27 benefit spending may run higher.
 
+9. **What districts actually did: 171 district profiles** ([index and evidence table](../../research/districts/README.md)).
+   Every Burlington, Camden and Gloucester district plus 65 elsewhere (each county's most- and least-squeezed and median
+   district, and the 16 largest statewide gaps). **The sample is not random, so don't extrapolate these counts statewide.**
+   - **8 Confirmed**: the district itself ties layoffs or larger classes to health/benefit costs. **6 at High confidence**:
+     Piscataway (44.5 positions incl. 28 teaching; "class sizes … will be impacted"), Livingston (40 positions;
+     33% premium increase "the primary driver"), Bloomfield (24 positions; +$5M health), Somers Point (11 positions; health
+     +25%), Evesham (7 elementary teachers; grades 3–5 classes up to 26–27), Haddonfield (3.5 teachers, 5 aides). Medium:
+     Cherry Hill, Tewksbury.
+   - **31 Consistent**: cuts made with benefits as one stated factor (e.g. Robbinsville 15 positions and larger classes;
+     Franklin Twp, Gloucester: 13 teachers; Paterson 200+ positions with several drivers).
+   - **52 No cuts reported**: most absorbed the increase with the levy cap's **health-care cost adjustment**. 38 profiled
+     districts document one, totalling **$69.4M** (e.g. Monroe Twp, Middlesex $7.94M; Jackson $7.31M; Piscataway $6.27M; Livingston $5.61M).
+   - **80 Insufficient evidence**: no usable public documents. Many district sites block automated access.
+   *Confidence: as rated in each profile.* Only High- and Medium-confidence profiles are listed as examples, and every claim links to its source.
+
 ## Caveats
 - District-level growth rates can be distorted by mid-year budget revisions (29 districts revised 2025-26 benefits by
   >10%) and accounting moves (24 outliers). See [validation V3–V4](../validation.md); don't quote those without district documents.

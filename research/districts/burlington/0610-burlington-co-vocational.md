@@ -11,6 +11,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Students per teacher** 2021-22 → 2024-25: 14.2 → 15.4. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $7.13M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
+- ⚠️ the 2025-26 benefits budget was revised -13% mid-year ($8.12M original → $7.05M revised); measured from the original budget the 2026-27 change is -1.4%
 
 ## What the district / local reporting says
 - [primary] The state UFB shows the county tax levy flat at $15,894,974. Tuition from sending districts rises to about $9.89M from $8.52M (2025-26 revised). Estimated on-roll enrollment is 2,360 for Oct 2026, down from 2,442 in Oct 2025 (per search snippet). [UFB27 0610](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0610.pdf), state summary generated July 14, 2026.

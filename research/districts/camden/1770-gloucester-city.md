@@ -11,7 +11,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Students per teacher** 2021-22 → 2024-25: 13.2 → 13.0. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $7.98M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
-- ⚠️ audited health exceeds the budget benefits line, so some benefits are charged elsewhere and the line understates them
+- ⚠️ former Abbott district: may budget by school, so the general-fund benefits line can be partial
 
 ## What the district / local reporting says
 - [primary] **Benefits line:** The district's 2026-27 User Friendly Budget (generated Apr 28, 2026) shows "Personal Services-Employee Benefits" at $3,018,361 actual in 2024-25, $2,501,697 revised in 2025-26, and $2,760,371 proposed in 2026-27. Source: [2026-2027 User Friendly Budget Summary](https://www.gcsd.k12.nj.us/ourpages/auto/2025/4/10/59932611/26-27%20User%20Friendly%20Budget.pdf?rnd=1777564214466) (Apr 28, 2026).

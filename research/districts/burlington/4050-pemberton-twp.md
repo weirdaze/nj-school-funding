@@ -11,7 +11,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Students per teacher** 2021-22 → 2024-25: n/a → 11.3. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $18.76M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: yes per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
-- ⚠️ audited health exceeds the budget benefits line, so some benefits are charged elsewhere and the line understates them
+- ⚠️ former Abbott district: may budget by school, so the general-fund benefits line can be partial
 
 ## What the district / local reporting says
 - [news] Board adopted a $135,886,516 2026-27 budget 6-2 at the April 30, 2026 hearing; total tax levy $33,047,274, a $6.8M increase, described as a 26% school-tax increase for Pemberton Township and Pemberton Borough. Average-assessed Township home ($165,893): +$709.10/yr; Borough ($186,258): +$679.05/yr. [Pine Barrens Tribune, "Pemberton Board of Education OKs Whopping 26 Percent Increase in School Taxes..."](https://www.pinebarrenstribune.com/articles/featured-stories/pemberton-board-of-education-oks-whopping-26-percent-increase-in-school-taxes-despite-warnings-itll-be-detrimental-catastrophic/) (May 7, 2026)

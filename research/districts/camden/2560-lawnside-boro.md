@@ -11,6 +11,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Students per teacher** 2021-22 → 2024-25: 12.7 → 13.0. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $1.22M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
+- ⚠️ the 2025-26 benefits budget was revised +22% mid-year ($1.42M original → $1.73M revised); measured from the original budget the 2026-27 change is +50.4%
 
 ## What the district / local reporting says
 - [primary] **Budget summary.** The district's hearing presentation says: "All programs continue. All staff positions filled this year even if vacant continue." It states: "The proposed budget will have a 0% school tax increase. Accomplished by cutting a vacant position and using surplus funds, but the surplus will be replenished after receiving extraordinary aide in the Summer." [Lawnside School District Budget Presentation 2026-2027](https://resources.finalsite.net/images/v1781659099/lawnsidek12njus/turfti3qyrfu1z0ogzqo/LawnsidePublicSchoolBudgetPresentation2026-2027.pdf) (May 7, 2026)

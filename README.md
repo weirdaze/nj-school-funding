@@ -21,6 +21,21 @@ flowchart TD
 
 Each stage and the dataset that documents it are listed in **[SOURCES.md](SOURCES.md)**.
 
+## Start here
+
+| Document | What it is |
+|---|---|
+| [docs/findings/statewide-benefits.md](docs/findings/statewide-benefits.md) | Statewide findings, each with a **confidence level** |
+| [docs/findings/south-jersey-benefits.md](docs/findings/south-jersey-benefits.md) | Burlington, Camden & Gloucester findings |
+| [docs/findings/numbers.md](docs/findings/numbers.md) | Every number quoted in the findings, generated from the data |
+| [research/districts/README.md](research/districts/README.md) | 171 district profiles: classification, confidence, sourced evidence |
+| [docs/validation.md](docs/validation.md) | Checks of every assumption (provenance, audit vs budget, baselines, outliers, plan membership) |
+| [docs/link-check.md](docs/link-check.md) | Status of every cited URL |
+| [data/processed/district_panel.csv](data/processed/district_panel.csv) | Per-district data with source links (ACFR page numbers) |
+
+**Confidence levels.** *High*: from the state's own published files or a district's own documents, checked. *Medium*:
+derived or partly reconciled. *Low*: indicative only; don't quote as fact. Every number links to a public source.
+
 ## Layout
 
 ```

@@ -141,6 +141,7 @@ def fix_digits(raw):
     line = re.sub(r"\s+", " ", raw)
     line = re.sub(r"(?<=\d) ?, ?(?=\d{3}\b)", ",", line)
     line = re.sub(r"(?<=,\d) (?=\d\d\b)|(?<=,\d\d) (?=\d\b)", "", line)
+    line = re.sub(r"(?<=\d)\}", ")", line)  # scan artifact: "(50,146}"
     return re.sub(r"\( (?=\d)", "(", line)
 
 

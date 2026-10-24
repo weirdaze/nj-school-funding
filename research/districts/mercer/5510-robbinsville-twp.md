@@ -1,0 +1,38 @@
+# Robbinsville Twp (Mercer County) — district 5510
+_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county most-squeezed (% of budget)._
+
+## Our numbers
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- **Benefits budget** 2025-26 (revised) → 2026-27: $9.97M → $11.83M (+18.7%). Source: [2026-27 User-Friendly Budget](https://www.nj.gov/education/budget/ufb/2627/reports/21/UFB27_5510.pdf), Appropriations, line "Total Personal Services – Employee Benefits" (columns 2025-26 revised / 2026-27 budget); also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `approp27.csv` line 71260.
+- **Formula aid change** FY26 → FY27: -$0.29M. Source: [NJDOE FY27 K-12 aid, district details](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) (row for district 5510, "FY26–FY27 K–12 Aid Difference"). Aid change minus benefit increase: -$2.16M (computed).
+- **Benefits share of operating budget** 2026-27: 19.1% (computed from [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/21/UFB27_5510.pdf): employee benefits ÷ Total General Current Expense).
+- **Health share of district-paid benefits** FY25: 80.1%; **audited health growth** FY23→FY25: +16.1%. Source: audited ACFR Exhibit C-1, "Health Benefits" actual: [FY2025 report](https://www.nj.gov/education/finance/fp/acfr/search/25/5510.pdf#page=84), [FY2023 report](https://www.nj.gov/education/finance/fp/acfr/search/23/5510.pdf#page=97).
+- **Tax levy change**: +5.6%; **budgeted fund balance used** 2025-26 → 2026-27: $1.40M → $2.69M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/21/UFB27_5510.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
+- **Students per teacher** 2021-22 → 2024-25: 12.0 → 12.1. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
+- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $10.37M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
+- **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
+
+## What the district / local reporting says
+- [primary] April 28, 2026 public hearing presentation (Asst. Superintendent/School Business Administrator Nick Mackres): **$2.4M in "structural reductions"** and **15 staff position reductions** (slide 3). RIF: 1 administrator, 5 part-time instructional aides, **9 certificated staff** (slide 4). Program cuts: $426,250 in contracted school-based mental health clinicians (55 students affected), $134,000 technology services, $100,000 curriculum with the AVID program eliminated, $85,000 buildings and grounds, and at least 5% cut in all other departments (slide 4). Academic impact: middle school intervention eliminated, **"Class sizes increasing across the district,"** electives reduced (slide 5). All elementary clubs cut, 7 of 26 middle school and 15 of 64 high school clubs eliminated (slide 6). All middle school JV sports, plus high school golf and swim, eliminated (slide 7). Courtesy busing cut, saving $546,518 and affecting 663 students (slide 8). [Robbinsville 2026-27 Public Hearing Budget Presentation](https://files.smartsites.parentsquare.com/7708/presentation_public_hearing_budget_20260428_1.pdf).
+- [primary] Revenues: levy = 2% cap ($937,591) + **Health Care Adjustment $1,670,886** (slide 17). Benefits budgeted at $12,567,979, 16.0% of $78.66M total expenditures (slide 18). Outlook: "Healthcare Adjustment will most likely be the same for next year"; "Benefits – continue to rise: at least 10% for the following year to 19%"; capital reserves "depleted"; the REA contract expires in 2025/26 (slide 21). State aid: SFRA formula would cut $4,474,733, but the 3% cap limits the cut to **$294,479** (slide 15, NJDOE aid notice of 03/12/2026). The district is $6.86M below adequacy for 2026-27 (slide 13). Capital: $5,352,333 HVAC project funded from capital reserve ($4,004,986) and mostly unassigned reserve ($1,347,347) (slide 11). Same source.
+- [news] Before the vote: a $5M levy question above cap for a Mar. 10, 2026 special election. If it failed, the district said it could cut up to 22 classroom teachers and 9 other staff (31 total) to close a ~$2.2M 2026-27 shortfall, class sizes could reach 30, and rising health care costs were cited as a cause. Superintendent Patrick Pizzo: "This referendum is not about expansion, it's about stability." [NJ.com via Yahoo News](https://www.yahoo.com/news/articles/n-j-school-district-may-114705996.html), Feb. 10, 2026.
+- [snippet] Voters rejected the $5,031,476 question 2,079-1,574 (56.91%-43.09%) per the Mercer County Clerk (per search snippet; communitynews.org returned 403). [Community News, "Robbinsville voters reject $5.03M school referendum"](https://communitynews.org/?p=359321). Community News also reported that officials cited declining state aid, rising health care and transportation costs, and years of below-cap tax increases (per search snippet). [Community News, "Robbinsville schools plan cuts, busing changes"](https://communitynews.org/robbinsville-advance/robbinsville-schools-plan-cuts-busing-changes/).
+- Health plan: no public reporting found (not SEHBP).
+
+## Verification of our numbers
+- Benefits: our $9.97M → $11.83M (+18.7%) matches UFB p. 4 ([UFB27_5510](https://www.nj.gov/education/budget/ufb/2627/reports/21/UFB27_5510.pdf)). The district's slide shows $12,567,979, probably all funds (e.g., preschool-funded staff). The health care adjustment ($1.67M) is roughly consistent with a +$1.86M general fund benefits rise.
+- Aid: our formula aid change **-$294,479 matches the district exactly** (slide 15). UFB state revenue change -$411,623 (p. 2).
+- Levy: our +5.6% matches UFB p. 2 ($46,829,559 → $49,437,036). That is +$2,607,477 = 2% + health care adjustment. The district's "2% = $937,591" is $1,000 above 2% of the UFB base ($936,591), likely a rounding or typo.
+- Fund balance: our $1.40M → $2.69M matches UFB p. 2.
+
+## Assessment
+**Consistent.** Robbinsville cut 15 positions (9 certificated), raised class sizes district-wide, cut mental health clinicians, AVID, clubs, sports and courtesy busing after voters rejected a $5.03M above-cap levy question. The district cites health benefit increases (it used a $1.67M health care cap adjustment and expects 10-19% more growth), alongside state aid cuts, below-adequacy funding and depleted reserves. Health costs are one stated driver, not the sole one.
+
+## Confidence
+**High**: cuts, the health adjustment and aid figures come from the district's own hearing presentation and match our aid, levy and benefits numbers. Only the referendum tally is snippet-sourced.
+
+## Open questions
+- Health plan/carrier and 2026-27 premium % (not stated in the presentation).
+- Snippet reports of "more than 30 teaching positions" lost do not match the presentation's 15 positions (9 certificated); possibly a pre-vote scenario. Not verified.
+
+<!-- facts: confidence=high; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=1670886; banked_cap_used=none; positions_cut=15; teacher_positions_cut=9; class_size_increase=yes; our_benefits_match=yes; our_aid_match=yes -->

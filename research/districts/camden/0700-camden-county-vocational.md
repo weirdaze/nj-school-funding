@@ -11,6 +11,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Students per teacher** 2021-22 → 2024-25: 11.5 → 11.1. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $8.07M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: yes per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
+- ⚠️ the 2025-26 benefits budget was revised +21% mid-year ($8.82M original → $10.70M revised); measured from the original budget the 2026-27 change is +47.8%
 
 ## What the district / local reporting says
 - [news] SEHBP: "Camden County Technical Schools" listed among South Jersey entities in the state plan facing the ~34.4% increase from Jan. 2027. [Philadelphia Inquirer, SEHBP 2027 premium article](https://www.inquirer.com/politics/health-care-premiums-nj-school-employees-2027-20260929.html), Sept. 29, 2026.

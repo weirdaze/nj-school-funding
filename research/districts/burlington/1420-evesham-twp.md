@@ -11,6 +11,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Students per teacher** 2021-22 → 2024-25: 12.8 → 13.0. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $15.31M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: yes per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
+- ⚠️ the 2025-26 benefits budget was revised +16% mid-year ($18.16M original → $21.12M revised); measured from the original budget the 2026-27 change is +39.4%
 
 ## What the district / local reporting says
 - [primary] On its cost drivers slide, the final budget presentation lists "Health Benefits … 30-40% Increase ~$4.1M" against "2% Tax Levy Cap = $1,778,100". Another slide notes "Insurance surplus helps to offset the cost of premiums". [ETSD 2026-27 Final Budget Presentation](https://files.smartsites.parentsquare.com/13602/etsd_2026-27_final_budget_presentation_boe_meeting_43026.pdf), BOE meeting April 30, 2026.

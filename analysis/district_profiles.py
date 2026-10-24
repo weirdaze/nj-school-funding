@@ -46,7 +46,7 @@ def numbers_block(r):
     flags = []
     if r["comparable"] != "True":
         flags.append("not directly comparable (non-operating, service commission, or special services district)")
-    if r["benefits_line_incomplete"] == "True":
+    if r["benefits_line_incomplete"] == "True" and r.get("former_abbott") != "True":
         flags.append("audited health exceeds the budget benefits line, so some benefits are charged elsewhere and the line understates them")
     ufb = UFB_PDF.format(cc=r["county_id"], d=r["district_id"])
     a23, a25 = r.get("acfr_2023_source", ""), r.get("acfr_2025_source", "")
@@ -74,6 +74,12 @@ def numbers_block(r):
         f"Source: [Treasury TPAF on-behalf allocations FY2025]({TPAF}).",
         f"- **In SEHBP**: {'yes' if r['in_sehbp'] == 'True' else 'no'} per the [October 2026 participating-employer list]({SEHBP}) (name-matched).",
     ]
+    o, rv, b27 = f(r.get("benefits_budget_2526_original")), f(r["benefits_budget_2526"]), f(r["benefits_budget_2627"])
+    if o and rv and abs(rv / o - 1) > 0.10:
+        flags.append(f"the 2025-26 benefits budget was revised {(rv / o - 1) * 100:+.0f}% mid-year (${o/1e6:.2f}M original → "
+                     f"${rv/1e6:.2f}M revised); measured from the original budget the 2026-27 change is {(b27 / o - 1) * 100:+.1f}%")
+    if r.get("former_abbott") == "True":
+        flags.append("former Abbott district: may budget by school, so the general-fund benefits line can be partial")
     if flags:
         lines.append("- ⚠️ " + "; ".join(flags))
     return "\n".join(lines) + "\n\n"
@@ -127,6 +133,31 @@ def main():
         for _, title, did, cls, summary, rel, conf in sorted((x for x in index if x[0] == county), key=lambda x: (order.get(x[3], 9), x[1])):
             out.append(f"| [{title}]({rel}) | {cls} | {conf} | {summary.replace('|', '/')} |")
         out.append("")
+    # Evidence summary from the machine-readable facts lines
+    facts = {}
+    for x in index:
+        t = (DIR / x[5]).read_text()
+        m_ = re.search(r"<!-- facts: (.*?) -->", t, re.S)
+        if m_:
+            facts[x[2]] = dict(kv.split("=", 1) for kv in [k.strip() for k in m_.group(1).split(";")] if "=" in kv)
+    def num_(v):
+        try:
+            return float(str(v).replace(",", "").replace("$", ""))
+        except ValueError:
+            return None
+    strong = [x for x in index if x[3] in ("Confirmed", "Consistent") and x[6] in ("High", "Medium")]
+    adj = [(x, num_(facts.get(x[2], {}).get("health_cap_adjustment"))) for x in index]
+    adj = [(x, v) for x, v in adj if v]
+    out += ["## Evidence summary (High/Medium-confidence profiles only)", "",
+            "Districts that cut positions or programs with benefits/health costs as a stated cause. **Only these should be cited as examples.**", "",
+            "| District | County | Classification | Confidence | Positions cut | Teacher positions cut | Larger classes |", "|---|---|---|---|---|---|---|"]
+    for x in sorted(strong, key=lambda x: (order[x[3]], {"High": 0, "Medium": 1}[x[6]], x[0], x[1])):
+        fx = facts.get(x[2], {})
+        out.append(f"| [{x[1]}]({x[5]}) | {x[0]} | {x[3]} | {x[6]} | {fx.get('positions_cut', 'unknown')} | "
+                   f"{fx.get('teacher_positions_cut', 'unknown')} | {fx.get('class_size_increase', 'unknown')} |")
+    out += ["", f"**Health-care cost cap adjustments documented** in district resolutions/presentations: {len(adj)} districts, "
+            f"${sum(v for _, v in adj)/1e6:,.1f}M in total (sum of the documented amounts; each sourced in its profile). These let districts raise "
+            f"the levy above 2% specifically for health costs, which is the main way most districts absorbed the increase.", ""]
     (DIR / "README.md").write_text("\n".join(out))
     print("updated", len(index), "profiles;", dict(counts))
 

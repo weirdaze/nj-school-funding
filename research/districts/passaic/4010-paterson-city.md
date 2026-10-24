@@ -11,7 +11,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Students per teacher** 2021-22 → 2024-25: 11.9 → 12.4. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $84.24M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
-- ⚠️ audited health exceeds the budget benefits line, so some benefits are charged elsewhere and the line understates them
+- ⚠️ former Abbott district: may budget by school, so the general-fund benefits line can be partial
 
 ## What the district / local reporting says
 - [primary] State UFB 2026-27 (p. 2-4): total tax levy $79,294,985 (2025-26 revised) → $85,686,599 (2026-27); total state sources revenue $624,588,888 → $661,704,220 (equalization aid $562,429,022 → $590,874,879); budgeted fund balance $23,680,196 → $0; employee benefits (11-XXX-XXX-2XX) $57,229,370 (2024-25 actual) → $42,988,096 (2025-26 revised) → $45,414,534 (2026-27). [NJDOE UFB27_4010](https://www.nj.gov/education/budget/ufb/2627/reports/31/UFB27_4010.pdf), generated July 14, 2026.

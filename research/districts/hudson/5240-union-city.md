@@ -11,7 +11,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Students per teacher** 2021-22 → 2024-25: 12.9 → 13.1. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $46.59M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
-- ⚠️ audited health exceeds the budget benefits line, so some benefits are charged elsewhere and the line understates them
+- ⚠️ the 2025-26 benefits budget was revised +21% mid-year ($21.30M original → $25.86M revised); measured from the original budget the 2026-27 change is -10.5%; former Abbott district: may budget by school, so the general-fund benefits line can be partial
 
 ## What the district / local reporting says
 - [primary] UFB: employee benefits line (11-XXX-XXX-2XX) $29,613,968 (2024-25 actual) → $25,864,200 (2025-26 revised) → $19,056,442 (2026-27). But most of the general fund goes out as "General Fund Contribution to School Based Budgeting" (10-000-520-930): $151,248,603 → $145,326,184. Benefits for school-based staff are budgeted there, not in the 2XX line. [NJDOE UFB 2026-27, Union City](https://www.nj.gov/education/budget/ufb/2627/reports/17/UFB27_5240.pdf), pp. 4-5 (generated July 14, 2026).

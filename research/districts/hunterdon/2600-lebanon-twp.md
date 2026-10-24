@@ -2,7 +2,15 @@
 _Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county least-squeezed._
 
 ## Our numbers
-(filled automatically)
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- **Benefits budget** 2025-26 (revised) → 2026-27: $3.38M → $3.76M (+11.4%). Source: [2026-27 User-Friendly Budget](https://www.nj.gov/education/budget/ufb/2627/reports/19/UFB27_2600.pdf), Appropriations, line "Total Personal Services – Employee Benefits" (columns 2025-26 revised / 2026-27 budget); also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `approp27.csv` line 71260.
+- **Formula aid change** FY26 → FY27: +$0.11M. Source: [NJDOE FY27 K-12 aid, district details](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) (row for district 2600, "FY26–FY27 K–12 Aid Difference"). Aid change minus benefit increase: -$0.28M (computed).
+- **Benefits share of operating budget** 2026-27: 24.5% (computed from [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/19/UFB27_2600.pdf): employee benefits ÷ Total General Current Expense).
+- **Health share of district-paid benefits** FY25: n/a; **audited health growth** FY23→FY25: n/a. Source: audited ACFR Exhibit C-1, "Health Benefits" actual (not extracted for this district).
+- **Tax levy change**: +3.6%; **budgeted fund balance used** 2025-26 → 2026-27: $0.60M → $0.50M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/19/UFB27_2600.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
+- **Students per teacher** 2021-22 → 2024-25: 9.1 → 8.6. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
+- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $2.70M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
+- **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
 - [primary] April 28, 2026 budget hearing presentation, "Major Universal Cost Increases": out-of-district tuition +75%, liability insurance +10%, **"Health Benefits Increase $301,056"**, salaries pending collective bargaining, and loss of Title I revenue (slide 4). Tax levy table titled "Partial Health Benefits Waiver": 2025-26 levy $12,152,132 + 2% ($243,043) + **health benefits adjustment $194,434** + banked cap $0 = $12,589,609, a **3.60%** levy increase; tax on an average $385,214 home goes from $5,026.66 to $5,200.39 (slide 11). State aid excluding school choice fell from ~$1.9M (FY19) to ~$0.93M (FY25) and recovers slightly to ~$1.05M in FY27 (slide 10, chart; values read from bars). [LTSD 2026-27 Budget Hearing Presentation](https://drive.google.com/file/d/1LH18M0bcoY0ZibBtDsY2nCUSYxzxmd9P/view), Apr. 28, 2026.

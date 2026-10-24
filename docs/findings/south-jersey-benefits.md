@@ -68,11 +68,11 @@ or parsed figures with known exceptions; **Low** = indicative only. See [validat
 
 | Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Districts with more students per teacher, 2021-22 → 2024-25 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=483) | +18% (n=506) | 231 of 560 |
-| **Selected counties** | 106 | 13 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=95) | +17% (n=97) | 40 of 102 |
-| Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=35) | +17% (n=38) | 15 of 38 |
-| Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=34) | 12 of 36 |
-| Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=26) | +14% (n=25) | 13 of 28 |
+| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=471) | +18% (n=421) | 231 of 560 |
+| **Selected counties** | 106 | 13 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=96) | +17% (n=91) | 40 of 102 |
+| Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 of 38 |
+| Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=32) | 12 of 36 |
+| Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=26) | +15% (n=24) | 13 of 28 |
 
 ### SEHBP vs. other health plans (median budgeted benefit growth, 2025-26 → 2026-27)
 
@@ -97,10 +97,10 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Florence Twp |  | 45.9% | +$2.4M | +$0.8M | -$1.6M | 20.8% | 71% | +24% | 11.9 → 11.0 | $1.1M → – |
 | Cinnaminson Twp |  | 21.1% | +$2.5M | +$1.2M | -$1.3M | 19.6% | 72% | +26% | 12.0 → 11.7 | $6.0M → $6.3M |
 | Burlington Co Spec Serv |  | 8.1% | +$1.1M | +$0.0M | -$1.1M | 31.3% | 68% | +14% | 4.3 → 5.1 | – → – |
-| Burlington Twp |  | 23.8% | +$2.7M | +$1.8M | -$1.0M | 16.9% | – | +6% | 10.9 → 11.2 | $0.5M → $0.5M |
+| Burlington Twp |  | 23.8% | +$2.7M | +$1.8M | -$1.0M | 16.9% | – | – | 10.9 → 11.2 | $0.5M → $0.5M |
 | Northern Burlington Reg |  | 7.1% | +$0.7M | -$0.2M | -$0.9M | 20.4% | 81% | +9% | 13.0 → 12.1 | $1.8M → $1.8M |
-| Delanco Twp | ✓ | 49.0% | +$0.7M | -$0.1M | -$0.8M | 18.0% | – | +23% | 13.1 → 12.1 | $0.9M → $1.3M |
-| Palmyra Boro |  | 20.8% | +$0.9M | +$0.2M | -$0.7M | 21.1% | – | – | 11.4 → 11.7 | $1.6M → $2.8M |
+| Delanco Twp | ✓ | 49.0% | +$0.7M | -$0.1M | -$0.8M | 18.0% | – | – | 13.1 → 12.1 | $0.9M → $1.3M |
+| Palmyra Boro |  | 20.8% | +$0.9M | +$0.2M | -$0.7M | 21.1% | 79% | – | 11.4 → 11.7 | $1.6M → $2.8M |
 | Chesterfield Twp |  | 20.2% | +$0.6M | -$0.1M | -$0.6M | 22.5% | 86% | +17% | 10.3 → 10.3 | $0.4M → $0.5M |
 | Edgewater Park Twp |  | 6.1% | +$0.3M | -$0.2M | -$0.6M | 18.4% | 74% | +23% | 11.7 → 10.7 | $1.4M → $1.7M |
 | Mount Holly Twp |  | 12.8% | +$0.7M | +$0.2M | -$0.5M | 19.5% | 78% | +8% | 10.1 → 10.2 | $2.0M → $2.0M |
@@ -114,7 +114,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Pemberton Twp | ✓ | 23.2% | +$2.2M | +$2.0M | -$0.2M | 21.7% | 100% | +26% | – → 11.3 | $11.1M → $12.1M |
 | Medford Lakes Boro |  | 8.2% | +$0.2M | -$0.0M | -$0.2M | 20.6% | 72% | -11% | 10.6 → 9.5 | $0.8M → $0.9M |
 | Springfield Twp |  | 17.0% | +$0.2M | -$0.0M | -$0.2M | 22.7% | 88% | +17% | 12.9 → 17.5 | $0.3M → – |
-| New Hanover Twp | ✓ | 25.7% | +$0.2M | +$0.1M | -$0.1M | 14.0% | – | +26% | 9.4 → 9.1 | $0.6M → $0.0M |
+| New Hanover Twp | ✓ | 25.7% | +$0.2M | +$0.1M | -$0.1M | 14.0% | – | – | 9.4 → 9.1 | $0.6M → $0.0M |
 | Woodland Twp |  | 13.6% | +$0.1M | +$0.0M | -$0.1M | 17.8% | 79% | -8% | 6.1 → 6.5 | $0.3M → $0.3M |
 | Beverly City | ✓ | 31.2% | +$0.5M | +$0.4M | -$0.0M | 17.2% | 75% | +49% | 9.5 → 9.2 | $0.2M → $0.2M |
 | Eastampton Twp |  | 16.0% | +$0.3M | +$0.3M | +$0.0M | 19.1% | 81% | -5% | 11.0 → 10.8 | $0.1M → $0.1M |
@@ -157,7 +157,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Camden Co Ed Serv Comm |  | 8.4% | +$0.1M | +$0.0M | -$0.1M | 2.0% | – | – | – → – | – → – |
 | Berlin Twp |  | 14.1% | +$0.5M | +$0.4M | -$0.1M | 18.5% | 87% | +26% | 10.5 → 11.5 | $0.6M → $0.3M |
 | Oaklyn Boro |  | 19.6% | +$0.2M | +$0.1M | -$0.1M | 11.7% | 91% | +35% | 8.3 → 9.6 | $0.4M → $0.4M |
-| Pennsauken Twp |  | 10.0% | +$3.1M | +$3.0M | -$0.0M | 22.3% | – | +17% | 12.6 → 12.6 | $18.1M → $20.2M |
+| Pennsauken Twp |  | 10.0% | +$3.1M | +$3.0M | -$0.0M | 22.3% | – | – | 12.6 → 12.6 | $18.1M → $20.2M |
 | Hi Nella |  | 0.0% | +$0.0M | -$0.0M | -$0.0M | 0.1% | – | – | – → – | – → $0.0M |
 | Brooklawn Boro | ✓ | 26.4% | +$0.4M | +$0.4M | -$0.0M | 19.8% | 78% | +16% | 9.7 → 8.7 | $0.3M → $0.5M |
 | Lawnside Boro |  | 23.6% | +$0.4M | +$0.4M | +$0.0M | 14.0% | 76% | +18% | 12.7 → 13.0 | $2.0M → $2.6M |
@@ -165,7 +165,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Mount Ephraim Boro |  | 11.1% | +$0.2M | +$0.3M | +$0.1M | 15.6% | 56% | +4% | 10.2 → 10.0 | $1.7M → $1.7M |
 | Merchantville Boro |  | 11.3% | +$0.2M | +$0.3M | +$0.1M | 13.1% | 75% | +1% | 12.0 → 11.1 | $1.8M → $1.8M |
 | Stratford Boro |  | -0.9% | -$0.0M | +$0.3M | +$0.3M | 18.0% | 79% | +12% | 11.9 → 10.5 | $3.6M → $3.0M |
-| Pine Hill Boro |  | 11.4% | +$1.1M | +$1.7M | +$0.6M | 18.4% | – | +22% | 11.1 → 12.0 | $9.1M → $4.7M |
+| Pine Hill Boro |  | 11.4% | +$1.1M | +$1.7M | +$0.6M | 18.4% | – | – | 11.1 → 12.0 | $9.1M → $4.7M |
 | Black Horse Pike Regional |  | 12.8% | +$1.9M | +$2.5M | +$0.6M | 17.3% | 78% | +22% | 11.5 → 12.1 | $3.4M → $5.8M |
 | Waterford Twp |  | 3.3% | +$0.1M | +$0.9M | +$0.8M | 12.2% | 71% | – | 9.0 → 10.3 | $1.8M → $0.2M |
 | Gloucester Twp |  | 12.3% | +$2.9M | +$4.2M | +$1.3M | 18.7% | 83% | +18% | 12.1 → 12.1 | $6.8M → $4.4M |
@@ -189,7 +189,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Gloucester Co Spec Serv |  | 12.2% | +$1.2M | +$0.0M | -$1.2M | 31.4% | – | – | 5.1 → 5.2 | $1.7M → – |
 | Swedesboro-Woolwich |  | 17.4% | +$1.3M | +$0.5M | -$0.8M | 25.3% | 89% | +21% | 11.3 → 10.9 | $0.2M → $0.5M |
 | East Greenwich Twp |  | 13.9% | +$0.6M | -$0.2M | -$0.8M | 20.8% | 81% | – | 11.5 → 11.8 | $1.5M → $1.5M |
-| Paulsboro Boro |  | 16.9% | +$1.0M | +$0.3M | -$0.7M | 19.6% | – | -4% | 11.5 → 10.5 | $3.7M → $1.7M |
+| Paulsboro Boro |  | 16.9% | +$1.0M | +$0.3M | -$0.7M | 19.6% | – | – | 11.5 → 10.5 | $3.7M → $1.7M |
 | Elk Twp | ✓ | 50.5% | +$0.5M | -$0.0M | -$0.5M | 19.1% | 82% | -9% | 10.5 → 9.2 | $0.8M → $0.6M |
 | Gateway Regional |  | 20.7% | +$1.1M | +$0.7M | -$0.4M | 21.4% | 73% | +8% | 10.1 → 10.4 | $2.7M → $2.7M |
 | National Park Boro |  | 17.2% | +$0.2M | -$0.1M | -$0.3M | 20.8% | 84% | +22% | 9.8 → 9.3 | $0.7M → $0.7M |
