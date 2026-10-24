@@ -44,7 +44,20 @@ done
 fetch ufb "$NJ/education/budget/ufb/2627/download/userfr_layout.xlsx"
 
 # Stage 5: actual spending (Taxpayers' Guide to Education Spending)
+fetch tges/2023 "$NJ/education/guide/docs/2023_TGES.zip"
+fetch tges/2024 "$NJ/education/guide/docs/2024/TGES24_Zipped.zip"
 fetch tges/2025 "$NJ/education/guide/docs/2025/TGES2025_Zipped.zip"
+for z in "$RAW"/tges/*/*.zip; do  # analysis reads tges/<edition>/x/*/CSG*.CSV
+  [[ -d "$(dirname "$z")/x" && $FORCE -eq 0 ]] || unzip -oq "$z" -d "$(dirname "$z")/x"
+done
+
+# State-paid teacher pension / retiree medical on behalf of districts (TPAF allocations)
+fetch audit "$NJ/education/fpp/audit/2223/docs/NJ_TPAF_Allocations_LEAs_FY2023.xlsx"
+fetch audit "$NJ/education/fpp/audit/2324/docs/NJ_TPAF_Allocations_LEAs_FY2024.xlsx"
+fetch audit "$NJ/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx"
+
+# SEHBP participating employers (current list; Treasury replaces it in place, so keep a dated copy when it matters)
+fetch sehbp "$NJ/treasury/pensions/documents/pdf/sehbpemp.pdf"
 
 # Outcomes: School Performance Reports (district/state detail ~120MB; school detail is larger)
 SPR="$NJ/education/sprreports/download/DataFiles/2024-2025"
