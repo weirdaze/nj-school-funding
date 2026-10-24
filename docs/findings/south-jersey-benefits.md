@@ -9,7 +9,7 @@ SEHBP participating-employer list, and the Taxpayers' Guide to Education Spendin
 
 1. **In 2026-27, benefit increases outran state aid in 75 of the 106 districts.** Across the three counties,
    budgeted benefits rose **+$121.5M (+15.4%)** while state aid rose **+$74.0M**, and $21.4M of that aid went to Camden City
-   alone. Leaving Camden City out, aid grew about $53M against $119M of new benefit costs.
+   alone. Leaving Camden City out, aid grew about $53M against $120M of new benefit costs.
 2. **Health insurance is the benefit.** In the FY2025 audits, health is a median **78%** of the benefits districts pay
    themselves. The rest is mostly PERS pension for non-teaching staff and Social Security. Audited health costs grew a
    median **+17% from FY2023 to FY2025**, before the 34% SEHBP increase that takes effect in January 2027.
