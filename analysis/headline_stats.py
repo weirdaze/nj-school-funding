@@ -134,6 +134,27 @@ def main():
         ("Caveat", "the Oct 2026 list post-dates the budgets; some audits contradict it (validation V6)"),
     ])
 
+    # membership history: Sep 2025 list (Wayback) vs Oct 2026 list
+    if any(r["in_sehbp_2025_09"] for r in comp):
+        grp = lambda r: {("True", "True"): "both", ("True", "False"): "left",
+                         ("False", "True"): "joined", ("False", "False"): "neither"}[(r["in_sehbp_2025_09"], r["in_sehbp"])]
+        g = {k: med([ch(r) for r in comp if grp(r) == k]) for k in ("both", "left", "joined", "neither")}
+        hd = []
+        for c in sorted({r["county"] for r in comp}):
+            a1 = [ch(r) for r in comp if r["county"] == c and grp(r) == "both" and ch(r) is not None]
+            a2 = [ch(r) for r in comp if r["county"] == c and grp(r) == "neither" and ch(r) is not None]
+            if len(a1) >= 3 and len(a2) >= 3:
+                hd.append(statistics.median(a1) - statistics.median(a2))
+        block("SEHBP membership history (Sep 2025 Wayback list vs Oct 2026 list; comparable districts)", [
+            ("On the Sep 2025 list / the Oct 2026 list", f"{sum(r['in_sehbp_2025_09'] == 'True' for r in comp)} / {sum(r['in_sehbp'] == 'True' for r in comp)}"),
+            ("Median budgeted benefit growth by group", "; ".join(f"{k} {v[0]:+.1f}% (n={v[1]})" for k, v in g.items() if v[1])
+             + " (joined: too few to report)" * (0 < g["joined"][1] < 10)),
+            ("Within-county gap, on both lists vs on neither (counties with ≥3 of each)",
+             f"median {statistics.median(hd):+.1f} pts; positive in {sum(x > 0 for x in hd)} of {len(hd)} counties" if hd else "n/a"),
+            ("Caveat", "the Oct 2026 list is titled 'Participating Local Education Employers' (Sep 2025: 'SEHBP - Participating "
+                       "Education Employers'); a drop off the list may be a scope change rather than an exit, pending DPB confirmation"),
+        ])
+
     lv = [f(r["levy_change_pct"]) for r in comp if f(r["levy_change_pct"]) is not None]
     fb26, fb27 = ben(comp, "fund_balance_used_2526"), ben(comp, "fund_balance_used_2627")
     block("Levy and reserves (comparable districts; UFB)", [

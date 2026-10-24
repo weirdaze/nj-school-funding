@@ -76,9 +76,9 @@ and the linked profiles._
 
 | Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Students per teacher (TGES ratio, not class size), 2021-22 → 2024-25: districts up / down by more than 0.2 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=410) | 231 up, 205 down of 560 |
-| **Selected counties** | 106 | 13 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=95) | +16% (n=90) | 40 up, 43 down of 102 |
-| Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
+| **Statewide** | 585 | 151 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=410) | 231 up, 205 down of 560 |
+| **Selected counties** | 106 | 14 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=95) | +16% (n=90) | 40 up, 43 down of 102 |
+| Burlington | 39 | 8 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
 | Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=32) | 12 up, 17 down of 36 |
 | Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=25) | +14% (n=23) | 13 up, 10 down of 28 |
 
@@ -86,8 +86,8 @@ and the linked profiles._
 
 | Area | SEHBP districts | Other plans |
 |---|---|---|
-| Statewide | 23.5% (n=149) | 15.8% (n=436) |
-| Selected counties | 22.9% (n=13) | 14.4% (n=93) |
+| Statewide | 23.5% (n=151) | 15.8% (n=434) |
+| Selected counties | 22.8% (n=14) | 14.4% (n=92) |
 
 ### Burlington County
 
@@ -104,7 +104,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Burlington City |  | 68.8% | +$2.0M | +$0.3M | -$1.7M | 18.8% | 75% | +19% | 10.1 → 9.9 | $4.7M → $5.9M |
 | Florence Twp |  | 45.9% | +$2.4M | +$0.8M | -$1.6M | 20.8% | 71% | +24% | 11.9 → 11.0 | $1.1M → – |
 | Cinnaminson Twp |  | 21.1% | +$2.5M | +$1.2M | -$1.3M | 19.6% | 72% | +26% | 12.0 → 11.7 | $6.0M → $6.3M |
-| Burlington Co Spec Serv |  | 8.1% | +$1.1M | +$0.0M | -$1.1M | 31.3% | 68% | +14% | 4.3 → 5.1 | – → – |
+| Burlington Co Spec Serv | ✓ | 8.1% | +$1.1M | +$0.0M | -$1.1M | 31.3% | 68% | +14% | 4.3 → 5.1 | – → – |
 | Burlington Twp |  | 23.8% | +$2.7M | +$1.8M | -$1.0M | 16.9% | – | – | 10.9 → 11.2 | $0.5M → $0.5M |
 | Northern Burlington Reg |  | 7.1% | +$0.7M | -$0.2M | -$0.9M | 20.4% | 81% | +9% | 13.0 → 12.1 | $1.8M → $1.8M |
 | Delanco Twp | ✓ | 49.0% | +$0.7M | -$0.1M | -$0.8M | 18.0% | – | – | 13.1 → 12.1 | $0.9M → $1.3M |

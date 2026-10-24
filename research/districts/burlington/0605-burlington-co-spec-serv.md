@@ -1,5 +1,5 @@
 # Burlington Co Spec Serv (Burlington County) — district 0605
-_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -10,7 +10,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **Tax levy change**: +0.0%; **budgeted fund balance used** 2025-26 → 2026-27: $0.00M → $0.00M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
 - **Students per teacher (TGES ratio)** 2021-22 → 2024-25: 4.3 → 5.1. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16, file `CSG16.CSV` column `STRAT` (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22). This divides students by all teaching staff, so it is roughly half of typical class size and is **not a class-size measure**; the 2024-25 value is the latest edition's newer column, which later editions usually confirm but which is not yet final.
 - **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $7.63M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
-- **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
+- **In SEHBP**: yes per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 - ⚠️ not directly comparable (non-operating, service commission, or special services district)
 
 ## What the district / local reporting says

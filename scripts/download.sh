@@ -58,6 +58,9 @@ fetch audit "$NJ/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.x
 
 # SEHBP participating employers (current list; Treasury replaces it in place, so keep a dated copy when it matters)
 fetch sehbp "$NJ/treasury/pensions/documents/pdf/sehbpemp.pdf"
+# Earlier list (Sep 2025, archived by the Wayback Machine) for the membership-history comparison; the
+# 2021-2025 lists cut names at 30 characters, which district_panel.untruncate() handles
+fetch sehbp/2025-09 "https://web.archive.org/web/20250904173748id_/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf"
 
 # Outcomes: School Performance Reports (district/state detail ~120MB; school detail is larger)
 SPR="$NJ/education/sprreports/download/DataFiles/2024-2025"

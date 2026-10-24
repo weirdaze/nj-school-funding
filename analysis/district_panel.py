@@ -5,7 +5,8 @@ Inputs (all under data/):
   raw/ufb/*/approp*.csv, rev*.csv     district budgets (benefits, operating budget, aid, levy, fund balance)
   raw/audit/NJ_TPAF_Allocations_*     state-paid teacher pension / retiree medical (on-behalf)
   processed/acfr_benefits.csv         audited benefit breakdown (health, PERS, FICA...) from ACFRs
-  raw/sehbp/sehbpemp.pdf              districts in the State School Employees' Health Benefits Program
+  raw/sehbp/sehbpemp.pdf              districts in the State School Employees' Health Benefits Program (Oct 2026)
+  raw/sehbp/2025-09/sehbpemp.pdf      the Sep 2025 list (Wayback copy), for membership history
   raw/tges/*/CSG16.CSV, CSG14.CSV     students per teacher, median teacher salary, benefits % of salaries
 
 Output: data/processed/district_panel.csv, plus a summary printed for chosen counties.
@@ -81,18 +82,34 @@ def norm(name):
 
 
 # SEHBP list names that don't normalize to the UFB district name
-OVERRIDES = {"TRENTON CITY": "5210", "SOUTHERN REG H S DISTRICT": "4950", "SUSSEX WANTAGE REG SCHOOL DIST": "5100"}
+OVERRIDES = {"TRENTON CITY": "5210", "SOUTHERN REG H S DISTRICT": "4950", "SUSSEX WANTAGE REG SCHOOL DIST": "5100",
+             # names cut off at 30 characters on the 2021-2025 lists
+             "HUDSON CO SCHOOLS OF TECHN": "2295", "LAKELAND REG HIGH SCHOOL": "2510",
+             "RED BANK REG HS DIST": "4365", "WEST ESSEX REG SCHOOL DIS": "5630", "HENRY HUDSON REG": "1456"}
+SUFFIXES = (" BD OF ED", " BOARD OF EDUCATION")
 
 
-def sehbp(meta):
+def untruncate(n):
+    """'SOUTH BOUND BROOK BOROUGH BD O' -> '... BD OF ED': older lists cut names at 30 characters."""
+    if len(n) < 29:
+        return n
+    for full in SUFFIXES:
+        for k in range(len(full) - 1, 1, -1):  # longest partial suffix first, at least " B"
+            if n.endswith(full[:k]):
+                return n[: -k] + full
+    return n
+
+
+def sehbp(meta, pdf=RAW / "sehbp" / "sehbpemp.pdf"):
     """District ids whose board of education appears on the SEHBP participating-employer list."""
-    text = "\n".join(p.get_text(sort=True) for p in pymupdf.open(RAW / "sehbp" / "sehbpemp.pdf"))
+    text = "\n".join(p.get_text(sort=True) for p in pymupdf.open(pdf))
     entries = []
     for line in text.splitlines():
         m = re.match(r"^\s*(.+?)\s{2,}([A-Z ]+) COUNTY\s*$", line)
-        if m and re.search(r"BD OF ED|BOARD OF EDUCATION|SCHOOL|VOC|SPEC|REGIONAL", m.group(1)) \
-                and not re.search(r"CHARTER|COLLEGE|UNIVERSITY|JOINTURE|COMMISSION", m.group(1)):
-            entries.append((norm(m.group(1)), m.group(2).strip().title()))
+        name = untruncate(m.group(1).strip()).replace(" SPCL SRVCS", " SPEC SERV") if m else ""
+        if m and re.search(r"BD OF ED|BOARD OF EDUCATION|SCHOOL|VOC|SPEC|REGIONAL|\bREG\b|TECHN", name) \
+                and not re.search(r"CHARTER|COLLEGE|UNIVERSITY|JOINTURE|COMMISSION", name):
+            entries.append((norm(name), m.group(2).strip().title()))
     by_county = {}
     for d, (_, cname, name) in meta.items():
         by_county.setdefault(cname.title(), {})[norm(name)] = d
@@ -189,6 +206,8 @@ def main():
     faid = formula_aid()
     sbb = school_based_budget_districts()
     in_sehbp, unmatched = sehbp(meta)
+    prev = RAW / "sehbp" / "2025-09" / "sehbpemp.pdf"  # earlier list, for membership history (download.sh)
+    in_sehbp_prev = sehbp(meta, prev)[0] if prev.exists() else set()
     ratios, benpct = tges()
     audits = acfr()
 
@@ -236,6 +255,7 @@ def main():
         rows.append({
             "county_id": cid, "county": cname, "district_id": d, "district_name": name,
             "in_sehbp": d in in_sehbp,
+            "in_sehbp_2025_09": d in in_sehbp_prev if prev.exists() else "",
             "baseline_source": baseline_source, "aid_source": aid_source,
             "comparable": baseline_source == "revised" and aid_source == "formula" and not (ben27 < 1e5 or re.search(r"Ed(uc)?\.? Serv|Spec(ial)?\.? Serv|Jointure|Commission|Regional Day", name, re.I)),
             "benefits_budget_2526": ben26, "benefits_budget_2627": ben27, "benefits_budget_2526_original": ben26_orig,

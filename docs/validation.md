@@ -126,23 +126,23 @@ We use NJDOE **K-12 formula aid** (the figure districts are notified of and quot
 ## V6. SEHBP membership: state list vs. the district's own audit
 We flag SEHBP districts by matching names on Treasury's [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf). As a cross-check, the FY25 audit pages we extracted were searched for the district's own description of its plan (SEHBP vs. SHIF/JIF/trust). Only benefit-related pages were kept, so many audits say nothing either way.
 
-**Result: 15 agree, 15 conflict, 527 undetermined.** Manual review of the conflicts found real disagreements, not just text-matching noise. Long Branch's FY25 audit says it dissolved its self-insured fund "as a result of the District's participation in the State of New Jersey Health Benefits Plan", and Mendham Twp's says benefits are "provided to the employees through the State of New Jersey Health Benefits Plan". Neither appears on the October 2026 list. Either the list is incomplete, these districts are in a different state program, or they left after FY25. **Treat SEHBP membership, and the SEHBP-vs-other comparison, as Medium-Low confidence until confirmed with the Division of Pensions & Benefits.** Conflicts:
+**Result: 15 agree, 15 conflict, 527 undetermined.** Manual review of the full audit notes (and, where needed, the UFB shared-services page) settles most conflicts in favour of the list. The sentence "Health Benefits are provided to the employees through the State of New Jersey Health Benefits Plan" is an auditor template: it appears word for word in 10 FY25 audits, only one of which (Haworth) is on either list, and two of those districts' own budgets name the School Health Insurance Fund. Districts whose only evidence is that sentence are probably not in SEHBP, but this isn't confirmed. Long Branch and North Plainfield remain genuinely unresolved. The [September 2025 list](https://web.archive.org/web/20250904173748/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (Wayback copy) is shown alongside. **Treat SEHBP membership, and the SEHBP-vs-other comparison, as Medium confidence until confirmed with the Division of Pensions & Benefits.** Conflicts:
 
-- Hillsdale Boro (Bergen): list says not SEHBP; audit mentions SEHBP
-- Mahwah Twp (Bergen): list says not SEHBP; audit mentions SEHBP
-- Fairfield Twp (Essex): list says not SEHBP; audit mentions SEHBP
-- Roseland Boro (Essex): list says not SEHBP; audit mentions SEHBP
-- High Bridge Boro (Hunterdon): list says not SEHBP; audit mentions SEHBP
-- Long Branch City (Monmouth): list says not SEHBP; audit mentions SEHBP
-- Boonton Twp (Morris): list says not SEHBP; audit mentions SEHBP
-- Hanover Park Regional (Morris): list says not SEHBP; audit mentions SEHBP
-- Mendham Twp (Morris): list says not SEHBP; audit mentions SEHBP
-- Rockaway Twp (Morris): list says not SEHBP; audit mentions SEHBP
-- Branchburg Twp (Somerset): list says not SEHBP; audit mentions SEHBP
-- North Plainfield Boro (Somerset): list says not SEHBP; audit mentions SEHBP
-- Green Twp (Sussex): list says not SEHBP; audit mentions SEHBP
-- Stanhope Boro (Sussex): list says not SEHBP; audit mentions SEHBP
-- Sussex County Vocational (Sussex): list says SEHBP; audit mentions SHIF/JIF/trust
+- Hillsdale Boro (Bergen): Oct 2026 list says not SEHBP (on the Sep 2025 list); audit mentions SEHBP. **Review:** consistent with the Sep 2025 list (on it), so likely left after FY25
+- Mahwah Twp (Bergen): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** resolved for the list; note 14: "Effective January 1, 2025, the District has health benefits coverage for its employees under Horizon Blue Cross Blue Shield of New Jersey. Prior to that … State of New Jersey" (on the archived 2021-2024 lists, off from Mar 2025)
+- Fairfield Twp (Essex): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** only the template sentence; no carrier named
+- Roseland Boro (Essex): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** only the template sentence; no carrier named
+- High Bridge Boro (Hunterdon): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** only the template sentence; no carrier named
+- Long Branch City (Monmouth): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** unresolved; the audit says the District transitioned to the State Health Benefits program during FY25 and dissolved its self-insurance fund, but it is on the archived 2022-23 lists and on neither the 2025 nor the 2026 list
+- Boonton Twp (Morris): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** only the template sentence; no carrier named
+- Hanover Park Regional (Morris): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** resolved for the list; UFB 2026-27 shared-services page: "Medical insurance with School Health Insurance Fund"; audit has the template sentence
+- Mendham Twp (Morris): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** resolved for the list; UFB 2026-27 shared-services page: "a member of the School Health Insurance Fund (SHIF)"; audit has the template sentence
+- Rockaway Twp (Morris): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** only the template sentence; on the archived 2021-22 lists, not on 2025-26
+- Branchburg Twp (Somerset): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** only the template sentence; no carrier named
+- North Plainfield Boro (Somerset): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** unresolved; audit says "through the State Health Benefits Plan"; on none of the archived 2021-2026 lists
+- Green Twp (Sussex): Oct 2026 list says not SEHBP (not on the Sep 2025 list); audit mentions SEHBP. **Review:** only the template sentence; no carrier named
+- Stanhope Boro (Sussex): Oct 2026 list says not SEHBP (on the Sep 2025 list); audit mentions SEHBP. **Review:** consistent with the Sep 2025 list (on it), so likely left after FY25
+- Sussex County Vocational (Sussex): Oct 2026 list says SEHBP (on the Sep 2025 list); audit mentions SHIF/JIF/trust. **Review:** resolved for the list; the self-insured plan ended December 31, 2023 and the SHIF hit is property/casualty JIF text
 
 ## V7. Levy increases above 2%
 450 of 557 comparable districts raised the general-fund levy more than 2%. The cap law allows this through adjustments (health-care costs, enrollment, banked cap) or a voter-approved question. The state files do not break the adjustments out, so **we cannot attribute any district's above-cap increase to health costs from the data alone**; the district research reads it from adopted budget resolutions (e.g. Winslow $4.22M, Willingboro $2.34M, Swedesboro-Woolwich $1.01M health adjustments).
@@ -153,7 +153,7 @@ We flag SEHBP districts by matching names on Treasury's [October 2026 participat
 | Statewide / county totals of budgeted benefits and formula aid | **High** | Straight sums of the state's own published files; V1 shows the inputs match the PDFs. |
 | "Benefit increase exceeded aid increase in N districts" | **High** for the count, **Medium** for any single district | Robust in aggregate; individual districts can be distorted by accounting moves (V2, V4). |
 | Health ≈ 78% of district-paid benefits; audited health growth ~17–18% FY23→FY25 | **Medium-High** | Medians from audited reports; ~91% parse coverage; V2 shows the audit and budget files agree for most districts. |
-| SEHBP vs. non-SEHBP growth gap | **Medium-Low** | Membership is name-matched to a single Treasury list that some districts' own audits contradict (V6). The direction is plausible, but don't publish the exact gap until membership is confirmed. |
+| SEHBP vs. non-SEHBP growth gap | **Medium** | Membership is name-matched to Treasury lists. The gap holds on both the Sep 2025 and Oct 2026 lists and within counties, and most audit conflicts resolve in the lists' favour (V6), but two remain and the 2026 list's scope may differ. Quote the direction and approximate size; confirm membership with DPB before quoting exact figures for individual districts. |
 | Any single district's growth rate | **Medium** unless its profile is rated High | Baseline revisions (V3) and outliers (V4) can move it a lot. |
 | "Layoffs / larger classes were caused by benefits" | **Only where a profile says Confirmed with High confidence**, and even then as "the district names health costs as a cause" | Causation comes from district statements, not from our data, and districts usually name several causes (aid, enrollment, salaries) alongside health. |
 | Budgeted fund balance totals | **High** as figures; they are *planned* drawdowns (UFB line 580) | They do not show remaining reserves, so they cannot support "reserves are running out". |

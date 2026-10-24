@@ -9,7 +9,7 @@ _Data as of 2026-10-24. Commentary is hand-written; the tables below the marker 
 [2026-27 User-Friendly Budget data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) (`approp27.csv` line 71260 benefits, `rev27.csv` levy/fund balance; per-district PDFs at `https://www.nj.gov/education/budget/ufb/2627/reports/<county>/UFB27_<district>.pdf`) ·
 [NJDOE FY27 K-12 aid by district](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) ·
 district ACFRs `https://www.nj.gov/education/finance/fp/acfr/search/<yy>/<district>.pdf` (page of each figure in [`data/processed/acfr_benefits.csv`](../../data/processed/acfr_benefits.csv)) ·
-[SEHBP participating employers, Oct 2026](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) ·
+[SEHBP participating employers, Oct 2026](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) and [Sep 2025](https://web.archive.org/web/20250904173748/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (Wayback copy) ·
 [Taxpayers' Guide to Education Spending 2025](https://www.nj.gov/education/guide/2025tges.shtml).
 Per-district figures with links: [`data/processed/district_panel.csv`](../../data/processed/district_panel.csv). How the inputs were checked: [`docs/validation.md`](../validation.md).
 
@@ -43,10 +43,15 @@ statewide benefit and aid totals from the raw state files._
    to Newark, Paterson, Trenton and Camden City. *Confidence: High.*
 5. **Health insurance is most of it.** Health is a median **78%** of district-paid benefits in FY25 audits (n=447).
    *Confidence: Medium-High.*
-6. **Districts on the state plan (SEHBP) budgeted bigger increases**: a median +23.5% (n=143) vs +15.9% (n=414). The gap holds
-   **within counties** (median +7.4 points; positive in 15 of 16 counties with enough districts) and **within each
-   size tercile**, so it isn't a county or size effect. *Confidence: Medium.* Membership is name-matched to an October 2026
-   list that post-dates the budgets, and some districts' audits contradict it ([validation V6](../validation.md)).
+6. **Districts on the state plan (SEHBP) budgeted bigger increases**: a median +23.7% (n=144) vs +15.8% (n=413). The gap holds
+   **within counties** (median +7.8 points; positive in 15 of 16 counties with enough districts) and **within each
+   size tercile**, so it isn't a county or size effect. It also holds against the earlier
+   [September 2025 list](https://web.archive.org/web/20250904173748/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf):
+   districts on both lists budgeted +23.7% (n=142) vs +16.1% (n=358) for districts on neither (within-county gap +7.1
+   points, positive in 15 of 15 counties). 55 comparable districts on the September 2025 list are missing from the
+   October 2026 one (median +14.5%); only 2 were added. *Confidence: Medium.* Membership is name-matched; the 2026 list
+   was retitled "Participating Local Education Employers", so the 55 may partly reflect a change in what the list
+   covers rather than exits; and two districts' audits still contradict the lists ([validation V6](../validation.md)).
 7. **Levies rose.** The median general-fund levy rose **+5.0%** and **450 of 557** districts exceeded 2%. *Confidence: High.*
    Budgeted fund balance (UFB line 580, the surplus a district *plans to spend* in the year) fell from $1.47B to $1.36B in
    comparable districts ($1.50B → $1.38B across all districts). That is a smaller planned drawdown; the state files do not
@@ -93,10 +98,10 @@ together with other causes. Districts that attribute cuts primarily to health co
 
 | Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Students per teacher (TGES ratio, not class size), 2021-22 → 2024-25: districts up / down by more than 0.2 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=410) | 231 up, 205 down of 560 |
+| **Statewide** | 585 | 151 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=410) | 231 up, 205 down of 560 |
 | Atlantic | 25 | 7 | $189M → $222M (+17.4%) | +$32.9M | +$17.7M | 19 of 25 | 74% (n=21) | +18% (n=20) | 8 up, 12 down of 24 |
 | Bergen | 77 | 51 | $614M → $751M (+22.4%) | +$137.5M | +$12.9M | 73 of 77 | 79% (n=65) | +21% (n=57) | 29 up, 28 down of 75 |
-| Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
+| Burlington | 39 | 8 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
 | Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=32) | 12 up, 17 down of 36 |
 | Cape May | 18 | 2 | $61M → $70M (+15.7%) | +$9.5M | +$1.2M | 12 of 18 | 74% (n=15) | +18% (n=15) | 7 up, 5 down of 16 |
 | Cumberland | 14 | 3 | $70M → $79M (+13.3%) | +$9.3M | +$14.7M | 8 of 14 | 77% (n=10) | +24% (n=9) | 7 up, 2 down of 13 |
@@ -109,7 +114,7 @@ together with other causes. Districts that attribute cuts primarily to health co
 | Monmouth | 53 | 16 | $440M → $507M (+15.3%) | +$67.3M | +$3.1M | 47 of 53 | 78% (n=39) | +16% (n=30) | 16 up, 20 down of 48 |
 | Morris | 40 | 5 | $367M → $436M (+18.9%) | +$69.3M | +$3.2M | 40 of 40 | 78% (n=35) | +16% (n=30) | 13 up, 12 down of 39 |
 | Ocean | 27 | 9 | $302M → $349M (+15.5%) | +$46.8M | +$7.9M | 21 of 27 | 77% (n=26) | +20% (n=24) | 10 up, 13 down of 27 |
-| Passaic | 21 | 8 | $269M → $329M (+22.6%) | +$60.8M | +$65.1M | 17 of 21 | 79% (n=17) | +22% (n=14) | 11 up, 7 down of 20 |
+| Passaic | 21 | 9 | $269M → $329M (+22.6%) | +$60.8M | +$65.1M | 17 of 21 | 79% (n=17) | +22% (n=14) | 11 up, 7 down of 20 |
 | Salem | 14 | 1 | $45M → $54M (+18.9%) | +$8.6M | +$5.2M | 12 of 14 | 74% (n=12) | +14% (n=10) | 6 up, 6 down of 13 |
 | Somerset | 19 | 3 | $260M → $316M (+21.8%) | +$56.7M | +$2.2M | 18 of 19 | 79% (n=15) | +20% (n=15) | 8 up, 6 down of 18 |
 | Sussex | 26 | 6 | $95M → $110M (+16.2%) | +$15.3M | +$2.3M | 24 of 26 | 73% (n=23) | +8% (n=22) | 16 up, 4 down of 25 |
@@ -120,7 +125,7 @@ together with other causes. Districts that attribute cuts primarily to health co
 
 | Area | SEHBP districts | Other plans |
 |---|---|---|
-| Statewide | 23.5% (n=149) | 15.8% (n=436) |
+| Statewide | 23.5% (n=151) | 15.8% (n=434) |
 
 ### Atlantic County
 
@@ -253,7 +258,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Burlington City |  | 68.8% | +$2.0M | +$0.3M | -$1.7M | 18.8% | 75% | +19% | 10.1 → 9.9 | $4.7M → $5.9M |
 | Florence Twp |  | 45.9% | +$2.4M | +$0.8M | -$1.6M | 20.8% | 71% | +24% | 11.9 → 11.0 | $1.1M → – |
 | Cinnaminson Twp |  | 21.1% | +$2.5M | +$1.2M | -$1.3M | 19.6% | 72% | +26% | 12.0 → 11.7 | $6.0M → $6.3M |
-| Burlington Co Spec Serv |  | 8.1% | +$1.1M | +$0.0M | -$1.1M | 31.3% | 68% | +14% | 4.3 → 5.1 | – → – |
+| Burlington Co Spec Serv | ✓ | 8.1% | +$1.1M | +$0.0M | -$1.1M | 31.3% | 68% | +14% | 4.3 → 5.1 | – → – |
 | Burlington Twp |  | 23.8% | +$2.7M | +$1.8M | -$1.0M | 16.9% | – | – | 10.9 → 11.2 | $0.5M → $0.5M |
 | Northern Burlington Reg |  | 7.1% | +$0.7M | -$0.2M | -$0.9M | 20.4% | 81% | +9% | 13.0 → 12.1 | $1.8M → $1.8M |
 | Delanco Twp | ✓ | 49.0% | +$0.7M | -$0.1M | -$0.8M | 18.0% | – | – | 13.1 → 12.1 | $0.9M → $1.3M |
@@ -698,7 +703,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Hawthorne Boro | ✓ | 23.9% | +$2.5M | +$0.2M | -$2.3M | 23.0% | 81% | – | 9.8 → 10.2 | $2.1M → $2.2M |
 | Totowa Boro | ✓ | 37.8% | +$2.0M | +$0.0M | -$2.0M | 26.1% | 81% | +18% | 13.6 → 13.2 | $7.4M → $9.8M |
 | Pompton Lakes Boro |  | 24.1% | +$1.9M | -$0.1M | -$1.9M | 23.0% | 78% | +10% | 12.2 → 11.4 | $0.8M → $1.0M |
-| Passaic Co Manchester Reg |  | 34.6% | +$1.2M | -$0.1M | -$1.4M | 16.3% | 83% | +24% | 11.4 → 12.0 | $1.1M → $0.8M |
+| Passaic Co Manchester Reg | ✓ | 34.6% | +$1.2M | -$0.1M | -$1.4M | 16.3% | 83% | +24% | 11.4 → 12.0 | $1.1M → $0.8M |
 | Woodland Park | ✓ | 27.8% | +$1.2M | -$0.1M | -$1.3M | 24.6% | 76% | +17% | 10.7 → 11.4 | $0.1M → $0.3M |
 | Passaic County Vocational | ✓ | 25.5% | +$5.5M | +$4.2M | -$1.3M | 20.3% | 75% | +27% | 12.3 → 11.9 | $6.0M → $5.7M |
 | Haledon Boro | ✓ | 17.5% | +$0.9M | -$0.2M | -$1.0M | 26.2% | 84% | +33% | 10.1 → 9.9 | $1.2M → $1.2M |

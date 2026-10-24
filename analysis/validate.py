@@ -28,6 +28,21 @@ ROOT = Path(__file__).resolve().parent.parent
 PANEL = ROOT / "data" / "processed" / "district_panel.csv"
 ACFR = ROOT / "data" / "processed" / "acfr_benefits.csv"
 TEXT = ROOT / "data" / "raw" / "acfr_text"
+# V6: auditor template sentence (FY25 audits containing it), and manual review of the remaining conflicts
+TEMPLATE = {"0460", "0510", "1465", "1800", "1990", "2090", "2140", "3100", "4490", "4530"}
+V6_NOTES = {
+    "2900": "resolved for the list; note 14: \"Effective January 1, 2025, the District has health benefits coverage for its employees "
+            "under Horizon Blue Cross Blue Shield of New Jersey. Prior to that … State of New Jersey\" (on the archived 2021-2024 lists, off from Mar 2025)",
+    "5110": "resolved for the list; the self-insured plan ended December 31, 2023 and the SHIF hit is property/casualty JIF text",
+    "3100": "resolved for the list; UFB 2026-27 shared-services page: \"a member of the School Health Insurance Fund (SHIF)\"; audit has the template sentence",
+    "1990": "resolved for the list; UFB 2026-27 shared-services page: \"Medical insurance with School Health Insurance Fund\"; audit has the template sentence",
+    "4490": "only the template sentence; on the archived 2021-22 lists, not on 2025-26",
+    "2770": "unresolved; the audit says the District transitioned to the State Health Benefits program during FY25 and dissolved its "
+            "self-insurance fund, but it is on the archived 2022-23 lists and on neither the 2025 nor the 2026 list",
+    "2180": "consistent with the Sep 2025 list (on it), so likely left after FY25",
+    "5030": "consistent with the Sep 2025 list (on it), so likely left after FY25",
+    "3670": "unresolved; audit says \"through the State Health Benefits Plan\"; on none of the archived 2021-2026 lists",
+}
 UFB = ROOT / "data" / "raw" / "ufb" / "2627" / "approp27.csv"
 UFB_PDF = "https://www.nj.gov/education/budget/ufb/2627/reports/{cc}/UFB27_{d}.pdf"
 
@@ -188,15 +203,20 @@ def main():
           "(https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf). As a cross-check, the FY25 audit pages we "
           "extracted were searched for the district's own description of its plan (SEHBP vs. SHIF/JIF/trust). Only "
           "benefit-related pages were kept, so many audits say nothing either way.", "",
-          f"**Result: {agree} agree, {disagree} conflict, {unknown} undetermined.** Manual review of the conflicts found real "
-          f"disagreements, not just text-matching noise. Long Branch's FY25 audit says it dissolved its self-insured fund "
-          f"\"as a result of the District's participation in the State of New Jersey Health Benefits Plan\", and Mendham Twp's "
-          f"says benefits are \"provided to the employees through the State of New Jersey Health Benefits Plan\". Neither "
-          f"appears on the October 2026 list. Either the list is incomplete, these districts are in a different state program, "
-          f"or they left after FY25. **Treat SEHBP membership, and the SEHBP-vs-other comparison, as Medium-Low confidence "
-          f"until confirmed with the Division of Pensions & Benefits.** Conflicts:", ""]
+          f"**Result: {agree} agree, {disagree} conflict, {unknown} undetermined.** Manual review of the full audit notes "
+          f"(and, where needed, the UFB shared-services page) settles most conflicts in favour of the list. The sentence "
+          f"\"Health Benefits are provided to the employees through the State of New Jersey Health Benefits Plan\" is an "
+          f"auditor template: it appears word for word in {len(TEMPLATE)} FY25 audits, only one of which (Haworth) is on either "
+          f"list, and two of those districts' own budgets name the School Health Insurance Fund. Districts whose only evidence "
+          f"is that sentence are probably not in SEHBP, but this isn't confirmed. Long Branch and North Plainfield remain "
+          f"genuinely unresolved. The [September 2025 list](https://web.archive.org/web/20250904173748/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) "
+          f"(Wayback copy) is shown alongside. **Treat SEHBP membership, and the SEHBP-vs-other comparison, as Medium "
+          f"confidence until confirmed with the Division of Pensions & Benefits.** Conflicts:", ""]
     for r, why in conflicts[:30]:
-        L.append(f"- {r['district_name']} ({r['county']}): list says {'SEHBP' if r['in_sehbp'] == 'True' else 'not SEHBP'}; {why}")
+        prev = {"True": "on", "False": "not on"}.get(r.get("in_sehbp_2025_09"), "?")
+        note = V6_NOTES.get(r["district_id"]) or ("only the template sentence; no carrier named" if r["district_id"] in TEMPLATE else "")
+        L.append(f"- {r['district_name']} ({r['county']}): Oct 2026 list says {'SEHBP' if r['in_sehbp'] == 'True' else 'not SEHBP'} "
+                 f"({prev} the Sep 2025 list); {why}" + (f". **Review:** {note}" if note else ""))
 
     # V7
     rows7 = []
@@ -222,8 +242,10 @@ def main():
           "district | Robust in aggregate; individual districts can be distorted by accounting moves (V2, V4). |",
           "| Health ≈ 78% of district-paid benefits; audited health growth ~17–18% FY23→FY25 | **Medium-High** | Medians from "
           "audited reports; ~91% parse coverage; V2 shows the audit and budget files agree for most districts. |",
-          "| SEHBP vs. non-SEHBP growth gap | **Medium-Low** | Membership is name-matched to a single Treasury list that "
-          "some districts' own audits contradict (V6). The direction is plausible, but don't publish the exact gap until membership is confirmed. |",
+          "| SEHBP vs. non-SEHBP growth gap | **Medium** | Membership is name-matched to Treasury lists. The gap holds on both "
+          "the Sep 2025 and Oct 2026 lists and within counties, and most audit conflicts resolve in the lists' favour (V6), but "
+          "two remain and the 2026 list's scope may differ. Quote the direction and approximate size; confirm membership with "
+          "DPB before quoting exact figures for individual districts. |",
           "| Any single district's growth rate | **Medium** unless its profile is rated High | Baseline revisions (V3) "
           "and outliers (V4) can move it a lot. |",
           "| \"Layoffs / larger classes were caused by benefits\" | **Only where a profile says Confirmed with High "
