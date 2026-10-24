@@ -1,5 +1,5 @@
 # Delanco Twp (Burlington County) — district 1030
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -17,24 +17,25 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] Same presentation: "Health insurance - 31.9% increase confirmed 7/1 - 12/31; 25% increase estimated 1/1 - 6/30". General insurance and student accident insurance are at 0.00%. Same source.
 - [primary] Same presentation: the "Local Tax Levy - 6.72% increase budgeted which amounts to $503,953.00 increase". On state aid: "Initially budgeted flat. Confirmed decrease of $66,240.00". Budgeted fund balance rises by $342,761. New revenue includes a "new YALE contract at $200,000" for facility rental. Same source.
 - [primary] Same presentation: "District personnel updated for retirements, movements, student needs, and enrollment driven changes as needed". No specific position cuts appear in the extractable text, and several slides (revenue, appropriations, tax impact) are images. The district is in year 1 of a 3-year DTEA contract and negotiating a 2026-2029 agreement. Same source.
+- [primary] The image-only "Current Status - Appropriations" slide (slide 8, read visually) shows 2025-26 → 2026-27: Health Benefits $1,233,857 → $1,715,400 (+$481,543, +39.03%); Total Benefits $1,485,357 → $2,095,991.65 (+$610,634.65, +41.11%); Salaries $4,197,295.93 → $4,552,882.91 (+$355,586.98, +8.47%); Student Tuition +$419,909.29 (+13.19%); Professional Fees −$336,957.82; Total Appropriations $10,922,520 → $11,877,994 (+$955,474, +8.75%). [Budget Adoption](https://www.delanco.com/ourpages/auto/2024/11/5/59498027/DTSD%202026-2027%20Budget%20Adoption.pdf?rnd=1778097263460), slide 8.
 - [primary] The district's budget page lists the 2026-27 UFB and the Budget Adoption deck, but no separate preliminary presentation. [Budget Resources](https://www.delanco.com/apps/pages/index.jsp?uREC_ID=593565&type=d&termREC_ID=&pREC_ID=1144450&hideMenu=0), accessed 2026-10-24.
 - [snippet] No public reporting found on RIFs, class size changes, program cuts, or plan changes (e.g., leaving SEHBP).
 
 ## Assessment
-**No cuts reported** (strong benefit pressure documented). The district explicitly says the health benefit increase ($481,433) produced a $397,753 shortfall under a 2% levy. It closed the gap with a 6.72% levy increase, presumably via the health-care cap adjustment, plus about $343K more fund balance and new rental revenue, not with announced cuts. Discrepancy: the district reports a state aid decrease of $66,240, while ours is -$41,240. The difference may be because ours includes categorical or other aid lines. The district's health increase ($481K) is also smaller than our total benefits line increase ($611K), which includes non-health benefits.
+**No cuts reported** (strong benefit pressure documented). The district's challenges slide nets only the health benefit increase ($481,433) against the 2% levy and the state aid decrease, producing a $397,753 shortfall. Its own appropriations slide shows other large increases too: salaries +$355,587 (+8.5%) and student tuition +$419,909, partly offset by lower professional fees and purchased services. The health line rises 39% in the budget; the premium increase is 31.9% confirmed for Jul–Dec 2026 and 25% estimated for Jan–Jun 2027. The district closed the gap with a 6.72% levy increase, presumably via the health-care cap adjustment, plus about $343K more fund balance and new rental revenue, not with announced cuts. The district's state aid decrease ($66,240) is consistent with our formula aid change (−$0.07M). The district's 2026-27 total benefits ($2,095,992) match ours ($2.10M); its 2025-26 base ($1,485,357) is higher than the UFB revised base ($1.41M), so its +41% is below our +49.0%.
 
 ## Confidence
-**High**: the health-driven gap, health premium increase, and levy increase are verified in the district's adoption presentation, and the state aid figure now reconciles with ours.
+**High**: the health-driven gap, health premium increase, and levy increase are verified in the district's adoption presentation, and the state aid and 2026-27 benefits figures reconcile with ours. Note that 39.0 in the facts line is the budgeted health-line increase (slide 8), not a premium rate.
 
 ## Fact check
 - ✔ "Tax Levy Increase (2%) $149,920", "State Aid Decrease (66,240)", "Health Benefit Increase 481,433", "Total Excess Appropriations ($397,753)" — verified at [Budget Adoption](https://www.delanco.com/ourpages/auto/2024/11/5/59498027/DTSD%202026-2027%20Budget%20Adoption.pdf?rnd=1778097263460) (page 4).
 - ✔ "Local Tax Levy - 6.72% increase … $503,953" (page 5) and "Health insurance - 31.9% increase confirmed 7/1 - 12/31; 25% increase" estimated (page 6) — verified at the same document.
-- ✘ Assessment says our state aid change is "-$41,240" — differs: our numbers now show -$0.07M, consistent with the district's -$66,240. The Assessment's discrepancy note is stale.
+- ✔ State aid: our numbers show −$0.07M, consistent with the district's −$66,240; the Assessment's stale "−$41,240" was corrected after review.
+- ✔ Slide 8 health line +39.03% and salaries +$355,586.98 — verified visually at the same document.
 
 ## Open questions
-- Image-only slides (revenue, appropriations, tax impact) need visual review. Do they list staffing changes?
-- Reconcile the state aid change (-$66,240 district vs -$41,240 ours).
+- Image-only slides (revenue, tax impact) need visual review. The appropriations slide (slide 8) shows salaries rising 8.5%, with no staffing changes listed.
 - The 25% estimated SEHBP increase for Jan–Jun 2027 is below the ~34% actually approved. What is the resulting mid-year shortfall in 2026-27?
 - Fund balance use of $1.29M is about 11% of the operating budget, which raises a sustainability question.
 
-<!-- facts: confidence=high; plan=SEHBP; health_increase_pct=31.9; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=yes -->
+<!-- facts: confidence=high; plan=SEHBP; health_increase_pct=39.0; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

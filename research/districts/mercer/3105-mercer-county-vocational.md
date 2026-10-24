@@ -24,7 +24,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance: $623,821 → $2,700,980 matches.
 
 ## Assessment
-**Insufficient evidence.** Benefits rose 25.3% (+$955K), outpacing the +$403K aid increase, with flat county funding. The district bridged this with a much larger fund balance draw ($2.70M) while enrollment is projected to grow ~21%. No cuts, layoffs or district statements about health costs were found.
+**Insufficient evidence.** Benefits rose 25.3% (+$955K: $3,778,000 → $4,733,337), outpacing the +$403K aid increase, with flat county funding. The district bridged this with a much larger fund balance draw ($2.70M) while enrollment is projected to grow ~21%. No cuts, layoffs or district statements about health costs were found.
 
 ## Confidence
 **Low**: the only sources are the UFB and the county budget address; no district budget narrative or board resolution could be accessed.

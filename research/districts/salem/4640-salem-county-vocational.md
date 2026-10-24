@@ -25,7 +25,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Data issue: our `acfr_health_2023` = 1518.061 is clearly a units error (likely $1,518,061 entered in thousands), which is why `acfr_health_growth_23_25_pct` is blank.
 
 ## Assessment
-**Insufficient evidence.** Budgeted benefits rise 29% (+$834K) against a $227K aid increase, closed mainly by a $1.18M fund balance draw and a 2% levy increase. Tuition revenue falls with lower projected enrollment. We found no district narrative or news coverage of cuts or of health costs.
+**Insufficient evidence.** Budgeted benefits rise 29% (+$834K: $2,873,030 → $3,706,760) against a $227K aid increase, closed mainly by a $1.18M fund balance draw and a 2% levy increase. Tuition revenue falls with lower projected enrollment. We found no district narrative or news coverage of cuts or of health costs.
 
 ## Confidence
 **Low**: district and state budget documents reconcile with our numbers, but they contain no narrative about cuts or health costs, and no local reporting exists.

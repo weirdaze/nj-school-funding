@@ -1,5 +1,5 @@
 # Burlington Co Spec Serv (Burlington County) — district 0605
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -20,17 +20,17 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on RIFs, program cuts, class size changes, health plan changes, or district statements on benefits.
 
 ## Assessment
-**No cuts reported.** The benefits increase (+4.6%) is modest, and the district's tuition revenue and per-pupil cost are rising. No reporting links benefits to reductions. This district's costs flow to sending districts as tuition, so the benefit pressure is exported rather than absorbed.
+**No cuts reported.** Benefits rise from 13,076,695 to 14,131,681 (+8.1%, [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf) page 3), a moderate increase, and the district's tuition revenue and per-pupil cost are rising. No reporting links benefits to reductions. This district's costs flow to sending districts as tuition, so the benefit pressure is exported rather than absorbed.
 
 ## Confidence
-**Medium**: tuition and benefits verified in the state UFB, but the "no cuts" finding rests on absence of reporting and the Assessment's benefits percentage is stale.
+**Medium**: tuition and benefits verified in the state UFB, but the "no cuts" finding rests on absence of reporting.
 
 ## Fact check
 - ✔ Tuition from LEAs 27,398,841 → 27,652,132 — verified at [UFB27 0605](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf) (page 2).
-- ✘ Assessment says benefits rose "+4.6%" — differs: the [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf) (page 3) shows 13,076,695 → 14,131,681 (+8.1%), as in our numbers.
+- ✔ Benefits 13,076,695 → 14,131,681 (+8.1%) — verified at the [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf) (page 3); the Assessment's earlier stale "+4.6%" was corrected after review.
 
 ## Open questions
 - 2026-27 tuition rate schedule by program, and the year-over-year change, to measure pass-through to sending districts.
 - The health carrier and the 2027 renewal. With benefits at 31% of the operating budget, the highest share in this batch, the district is exposed to a premium spike.
 
-<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

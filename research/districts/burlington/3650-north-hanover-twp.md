@@ -19,7 +19,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on staff reductions, class sizes, program cuts, or district statements on health costs. Web search quota ran out before local news could be checked.
 
 ## Assessment
-**No cuts reported** (and the numbers make benefit-driven cuts unlikely). Benefits rose 20.1% (+$1.15M), but the state aid increase (+$1.75M) more than covered it. The levy is held to 2% with no fund balance draw, and classroom spending per pupil rises. This district is a counterexample to the claim, although public documentation is thin.
+**No cuts reported** (and the numbers make benefit-driven cuts unlikely). Benefits rose 20.2% (+$1.15M = $6.85M − $5.70M), but the state aid increase (+$1.75M) more than covered it. The levy is held to 2% with no fund balance draw, and classroom spending per pupil rises. This district is a counterexample to the claim, although public documentation is thin.
 
 ## Confidence
 **Low**: the UFB figures are verified and support the arithmetic, but there is no district narrative confirming that no staff were reduced.

@@ -1,5 +1,5 @@
 # Washington Twp (Gloucester County) — district 5500
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -15,8 +15,8 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## What the district / local reporting says
 - [news] **Preliminary 2026-27 budget (Inquirer, March 31, 2026).** The board narrowly rejected a preliminary $186.1M budget that proposed cutting **29 teaching positions and 23 support staff positions**. The district had a **$4.8M budget gap** even though state aid rose $1.5M. The business administrator said class sizes were being considered, and that the number of affected positions would not be known until schedules were built. She said the district "could impose a **6.1% tax increase under a waiver for increased healthcare costs**." Superintendent Eric Hibbs: "It's a completely flawed system ... They have to revamp the entire formula." [Some South Jersey districts plan to eliminate positions, cut programs, and close schools to plug budget gaps (Inquirer)](https://www.inquirer.com/education/south-jersey-school-districts-budget-cuts-taxes-20260331.html), 2026-03-31.
 - [primary] **Advertised 2026-27 budget (generated April 24, 2026).** Base levy rises from $105,177,286 to $111,661,654 (+6.2%). Employee benefits rise from $28,868,951 to $35,314,211. The budget uses **$7,498,134 of budgeted fund balance** (none in 2025-26), and equalization aid rises from $28,316,272 to $30,103,160.
-  - Despite the preliminary cut list, regular-programs instruction rises from $41,252,250 to $44,050,013.
-  - Projected on-roll enrollment is 7,470, up from 7,213.
+  - Despite the preliminary cut list, regular-programs instruction rises from $41,252,250 to $44,050,013 (+6.8%).
+  - Projected on-roll enrollment is 7,470, up from 7,213 (+3.6%), after falling from 7,477 in Oct 2024 (same figures in [UFB27 5500](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5500.pdf#page=1), page 1).
   - "Employee Benefits as a percentage of salaries" rises from 34.89% to 40.60%.
   - [2026-27 Advertised Budget (district site)](https://www.wtps.org/fs/resource-manager/view/c32e9b8e-96b5-43f8-96cb-95beb58ed0ed), 2026-04-24.
 - **Prior-year context (2025-26).**
@@ -28,10 +28,10 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Several search results labeled "Washington Township" (washtwpsd.org, Long Valley Patch) refer to other Washington Townships and were excluded.
 
 ## Assessment
-**Consistent.** In March 2026 the district proposed cutting 52 positions and considered larger classes to close a $4.8M gap. It explicitly framed the tax response as a health-care cost waiver. The final advertised budget instead leans on a $7.5M fund balance draw plus about 6.2% levy growth, and instruction spending rises, so the final number of cuts is unverified and may be well below the proposal. Our +$6.4M benefit increase is larger than the $4.8M gap, which fits the claim that benefits drove the shortfall. Note the waiver framing: a 6.1% increase (per the BA) against our 6.2% levy change.
+**Insufficient evidence.** In March 2026 a preliminary budget proposed cutting 52 positions (29 teaching, 23 support) and considered larger classes to close a $4.8M gap; the board narrowly rejected that budget. The business administrator said the district "could" raise taxes 6.1% under a health-care waiver, a conditional option rather than an adopted amount. The advertised budget instead uses $7,498,134 of budgeted fund balance plus 6.2% levy growth, regular-programs instruction rises 6.8%, and enrollment is projected to rise 3.6%, so there is no evidence that the proposed cuts were adopted. Our +$6.4M benefit increase ($28.87M → $35.31M) is larger than the $4.8M gap, which fits benefits being a major pressure, but the final budget's response is unknown. (Reclassified from Consistent after adversarial review: the 52 cuts were in a preliminary budget that was rejected, and the advertised budget does not show them.)
 
 ## Confidence
-**Medium**: the proposed 52 cuts and healthcare waiver framing rest on one news article, the final number of cuts is unverified, and the advertised budget (primary) matches our numbers exactly.
+**Medium**: the advertised budget (primary) matches our numbers exactly, but the proposed cuts and waiver framing rest on one news article about a rejected preliminary budget, and the adopted staffing outcome is unknown.
 
 ## Fact check
 - ✔ Proposed cuts of 29 teaching and 23 support positions, a $4.8M gap, class sizes under consideration, and a "6.1% tax increase under a waiver for increased healthcare costs" — verified at [Inquirer, 2026-03-31](https://www.inquirer.com/education/south-jersey-school-districts-budget-cuts-taxes-20260331.html).

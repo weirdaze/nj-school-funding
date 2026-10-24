@@ -1,5 +1,5 @@
 # Cinnaminson Twp (Burlington County) — district 0840
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,10 +19,11 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] The district says state aid rose $1,227,842 (6%), from $20,464,037 to $21,691,879, mostly Equalization Aid (+$1,197,035). The tax levy rises 4.04%, about $238.98/yr on the average home. Same source.
 - [primary] General fund $73,019,801, with Employee Benefits $14,259,761 (matches ours) and Budgeted Fund Balance $6,346,946 (matches ours). Same source.
 - [primary] The district scheduled a September 15, 2026 bond referendum: Q1 $57.7M and Q2 $18.3M, about $76M in total, for roofs, HVAC, classroom, pre-K and gym additions, and a turf field. No result was posted when accessed. This is capital and not tied to operating costs or benefits. [Bond Referendum](https://www.cinnaminson.com/referendum), accessed 2026-10-24.
+- [primary] Enrollment on roll rises from 3,012 (10/15/2025 actual) to 3,278 (10/15/2026 estimate), +8.8%. The UFB also states "District participates in the School Health Insurance Fund for School District health benefits." [UFB27 0840](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0840.pdf), pages 1 and 10.
 - [snippet] No public reporting found on RIFs, program cuts, health plan changes, or employee contribution changes.
 
 ## Assessment
-**No cuts reported.** The district explicitly maintained staffing, class sizes, and athletics, and added pre-K, a special education program, and fall drama. It absorbed a $2.36M benefits increase through a state aid gain of +$1.23M, a 4.04–4.35% levy increase using part of the health-care cap adjustment, and about $6.3M of budgeted fund balance. It left $1.33M of health-care cap authority and $1.68M of expiring banked cap unused, so it had more taxing room than it used. Our figures match the district's.
+**No cuts reported.** The district explicitly maintained staffing, class sizes, and athletics, and added pre-K, a special education program, and fall drama. Enrollment is projected to grow 8.8%, so "maintain staffing levels" means more students per existing staff; class size targets are stated as ranges, not observed sizes. It absorbed a $2.48M benefits increase ($11.78M → $14.26M, +21.1%) through a state aid gain of +$1.23M (the district's figure matches our NJDOE formula aid change), a 4.04–4.35% levy increase using part of the health-care cap adjustment, and about $6.3M of budgeted fund balance. It left $1.33M of health-care cap authority and $1.68M of expiring banked cap unused, so it had more taxing room than it used. Our figures match the district's.
 
 ## Confidence
 **High**: staffing, cap use, benefits, and aid are all verified in the district's hearing presentation, and they match our numbers.
@@ -34,6 +35,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Open questions
 - Sustainability of using about $6.3M/yr of fund balance (8.7% of the general fund). What is the remaining unassigned balance after FY26?
 - Result of the September 15, 2026 bond referendum.
-- The health carrier, and the 2027 renewal if not in SEHBP.
+- The SHIF renewal rate for 2026-27 and 2027.
+- Actual 2026-27 class sizes against the stated targets, given enrollment growth of 8.8% with flat staffing.
 
-<!-- facts: confidence=high; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=904531; banked_cap_used=none; positions_cut=0; teacher_positions_cut=0; class_size_increase=no; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=high; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=904531; banked_cap_used=none; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

@@ -1,5 +1,5 @@
 # Newton Town (Sussex County) — district 3590
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county most-squeezed (% of budget)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county most-squeezed (% of budget)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -23,6 +23,7 @@ All "slide" citations are to [Newton Board of Education: 2026-2027 Budget, Fisca
 - [primary] Equipment and capital: "All non-essential equipment and capital projects were cut to zero to offset high health, energy, and insurance rates." Slide 11. The district also added $90,000 for paraprofessionals for two out-of-district placements. Slide 10.
 - [primary] Benefits: "Unallocated Benefits ($7.8M+ allocated directly to Health/Dental)." Slide 9. The average assessed home ($424,446) pays $4,034 (2025-26) and $4,160 (2026-27), +$126. Slide 12. Total local taxes to be raised are $15,111,993, which is the general fund plus debt service. Slide 13.
 - [primary] The 2026-27 UFB does not identify the health plan; no insurance shared service is listed. [NJDOE UFB, Newton Town](https://www.nj.gov/education/budget/ufb/2627/reports/37/UFB27_3590.pdf).
+- [primary] Enrollment (on roll) is flat: 1,474 (Oct. 2024) → 1,456 (Oct. 2025) → 1,454 (Oct. 2026 estimate). [UFB 2026-27, p. 1](https://www.nj.gov/education/budget/ufb/2627/reports/37/UFB27_3590.pdf).
 - No news coverage was found. Search results were dominated by Newton, Massachusetts. No class-size figures were found.
 
 ## Verification of our numbers
@@ -33,7 +34,7 @@ All "slide" citations are to [Newton Board of Education: 2026-2027 Budget, Fisca
 - Minor: the UFB p. 9 "total school levy" is $14,889,810, while slide 13 gives "total local taxes" of $15,111,993 ($14,587,205 + $524,788 debt service). Slide 12 uses $14,889,810, so the UFB figure is probably net of debt service aid.
 
 ## Assessment
-**Consistent.** Newton closed a $1.25M deficit with reductions in force, non-renewals, unreplaced retirements and consolidated librarian and counselor roles. It explicitly cites 16% medical and 30% prescription premium increases and says state aid "has not kept pace" with them. It also tied cutting equipment and capital to zero directly to health, energy and insurance rates. However, the deficit also reflects a $1.18M loss of send/receive tuition and a $330K equalization aid cut. Health costs are a major stated factor but not the only driver of the staff reductions.
+**Consistent.** Newton closed a $1.25M deficit with reductions in force, non-renewals, unreplaced retirements and consolidated librarian and counselor roles. It explicitly cites 16% medical and 30% prescription premium increases and says state aid "has not kept pace" with them. It also tied cutting equipment and capital to zero directly to health, energy and insurance rates. However, the $1.25M deficit is almost the same size as the $1,176,803 loss of send/receive tuition (slide 3), which on its own accounts for about 94% of it ($1,176,803 ÷ $1,246,217), and there is also a $330K equalization aid cut; the deck does not say how much of the deficit health costs caused, and only $162,630 of health care cap adjustment was added to the levy. Health costs are a stated factor, but the tuition loss is likely the larger driver of the staff reductions.
 
 ## Confidence
 **High**: the key facts come from the district's own budget hearing deck, and our benefits, aid, levy and fund balance figures reconcile with the UFB. Caveats: the deck has no position counts and two transposed chart labels.
@@ -43,4 +44,4 @@ All "slide" citations are to [Newton Board of Education: 2026-2027 Budget, Fisca
 - What is the health plan carrier (private, a JIF or self-insured)? What was the "health benefit breakage" assumption?
 - Were class sizes affected by the merged teaching loads?
 
-<!-- facts: confidence=high; plan=unknown; health_increase_pct=16; health_cap_adjustment=162630; banked_cap_used=none; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=high; plan=unknown; health_increase_pct=16; health_cap_adjustment=162630; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

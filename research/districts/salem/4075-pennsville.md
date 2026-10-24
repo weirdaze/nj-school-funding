@@ -24,7 +24,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance: $159,013 → $645,442, matching ours.
 
 ## Assessment
-**Insufficient evidence.** In the UFB, the state aid increase (+$1.23M) exceeds the benefits increase (+$1.02M), and the levy rises only 2%, so the budget shows little benefit-driven squeeze. We found no district or news reporting of cuts. It cannot be classified as "No cuts reported" without a source.
+**Insufficient evidence.** In the UFB, the state aid increase (+$1.23M) exceeds the benefits increase (+$1.02M: $8.95M → $9.97M), and the levy rises only 2%, so the budget shows little benefit-driven squeeze. We found no district or news reporting of cuts. It cannot be classified as "No cuts reported" without a source.
 
 ## Confidence
 **Low**: only the state UFB was available (it reconciles with our numbers), with no district narrative or local coverage.

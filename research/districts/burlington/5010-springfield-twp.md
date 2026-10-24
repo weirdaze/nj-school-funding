@@ -1,5 +1,5 @@
 # Springfield Twp (Burlington County) — district 5010
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,24 +19,26 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] Final-budget changes included "MD Salaries $141,522 → $101,477, -$40,045, Reduction in Force"; reduced hours for the supervisor of instruction (-$8,446), special-ed home instruction and basic skills; co-curricular field trip cut (-$3,000); CSSSD tuition -$29,000; transportation contract services -$25,000. [May 6, 2026 minutes](https://www.springfieldschool.org/fs/resource-manager/view/e4ef5568-62ae-4b60-9443-699163b018fa)
 - [primary] Health plan: the district participates in the School Health Insurance Fund (SHIF), not SEHBP; it appointed a fund commissioner Feb 18, 2026. [Minutes, Feb 18, 2026](https://www.springfieldschool.org/fs/resource-manager/view/89ae1b75-2e1d-4362-8235-61d022f6bbb8). On May 20, 2026 the board considered a resolution "URGING RELIEF FROM RISING PUBLIC SCHOOL EMPLOYEE HEALTH CARE COSTS." [Minutes, May 20, 2026](https://www.springfieldschool.org/fs/resource-manager/view/4d8aa12a-f575-4240-b9fa-767c2025fea6) (May 20, 2026)
 - [primary] Class size: at the May 20 meeting a parent said "class sizes of 30 are unacceptable"; another raised concerns about "Special Ed services being cut from the budget." [May 20, 2026 minutes](https://www.springfieldschool.org/fs/resource-manager/view/4d8aa12a-f575-4240-b9fa-767c2025fea6)
-- [primary] UFB: budgeted fund balance $251,657 (2025-26) → $0 (2026-27); levy $3,672,254 → $4,002,785 (+9.0%); benefits line 2025-26 revised $955,486 → $1,117,566. [UFB27 5010](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5010.pdf) (generated July 14, 2026)
+- [primary] UFB: budgeted fund balance $251,657 (2025-26) → $0 (2026-27) and "Adjustment for Prior Year Encumbrances" $164,059 → $0, together about $416K of one-time 2025-26 revenue not repeated; levy $3,672,254 → $4,002,785 (+9.0%, +$330,531); benefits line 2025-26 revised $955,486 → $1,117,566 (+$162,080). [UFB27 5010](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5010.pdf) (generated July 14, 2026), page 2 and page 4.
+- [primary] Enrollment on roll: 295 (10/15/2024) → 282 (10/15/2025) → 285 (10/15/2026 estimate), +1.1% for the budget year, −3.4% over two years. [UFB27 5010](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5010.pdf), page 1.
 - [primary] No reporting found on school closure; residents mentioned "forced consolidation" (Apr 29). [Minutes, Apr 29, 2026](https://www.springfieldschool.org/fs/resource-manager/view/9d06d23d-a7c6-4322-af25-e7483cd3fd5b)
 
 ## Assessment
-**Consistent.** Springfield made small but real cuts: a reduction in force in one salary line, reduced hours, and trimmed special-ed and co-curricular spending. It also raised the levy 9% using a $153,132 health-benefits cap adjustment and banked cap, and parents report classes of about 30. Health costs are an explicit driver: the cap adjustment, residents' comments and the board's May 20 resolution seeking relief all point to them. But no fund balance was left ($0 vs $251,657), and state aid fell, so benefits are one factor among several. Our 2025-26 benefits base ($925,000) is below the UFB revised figure ($955,486); on the revised basis the increase is +17.0% rather than +20.8%. Our students-per-teacher jump (12.9 → 17.5) is consistent with the class-size complaints.
+**Consistent.** Springfield made small but real cuts: a reduction in force in one salary line, reduced hours, and trimmed special-ed and co-curricular spending. It also raised the levy 9% using a $153,132 health-benefits cap adjustment and banked cap, and a parent said classes of 30 are unacceptable (not verified against class-size data). Health costs are an explicit factor: the cap adjustment's stated purpose, residents' comments and the board's May 20 resolution seeking relief all point to them. But the larger hole is one-time revenue that does not repeat: about $416K of 2025-26 budgeted fund balance and prior-year encumbrances, against a benefits increase of about $162K ($0.96M → $1.12M, +17.0%). Formula aid also fell slightly (−$0.02M). So benefits are one factor among several, not the main one. The TGES students-per-teacher ratio is not a class-size measure and is not used as evidence here.
 
 ## Confidence
-**High**: the cuts, the health-benefits cap adjustment and its stated premium purpose are all verified in the district's own hearing minutes, and our benefits figures match the UFB revised base.
+**Medium**: the cuts, the health-benefits cap adjustment and its stated premium purpose are verified in the district's own hearing minutes, and our benefits figures match the UFB. But the cuts are small, the RIF's size is unknown, and the loss of one-time revenue outweighs the benefits increase as a driver.
 
 ## Fact check
 - ✔ "MD Salaries $141,522 → $101,477, -$40,045, Reduction in Force" — verified at [May 6, 2026 hearing minutes](https://www.springfieldschool.org/fs/resource-manager/view/e4ef5568-62ae-4b60-9443-699163b018fa) (page 6).
 - ✔ General-fund levy $4,002,785; health-benefits adjustment $153,132 "principally to pay for additional increases in benefit premiums"; banked cap $103,954 — verified at [May 6 minutes](https://www.springfieldschool.org/fs/resource-manager/view/e4ef5568-62ae-4b60-9443-699163b018fa) (page 7).
 - ✔ Board asked for 9% and 11% levy scenarios; the superintendent "discussed the tax levy and staffing impact"; the 9% version was adopted — verified at [May 6 minutes](https://www.springfieldschool.org/fs/resource-manager/view/e4ef5568-62ae-4b60-9443-699163b018fa) (page 3).
-- Note: the Assessment's "$925,000 base / +20.8%" is out of date. The regenerated "Our numbers" uses the revised base ($0.96M → $1.12M, +17.0%).
+- Note: the Assessment's earlier "$925,000 base / +20.8%" was corrected after review to the revised base ($0.96M → $1.12M, +17.0%).
+- ✔ Budgeted fund balance $251,657 → $0 and prior-year encumbrances $164,059 → $0 — verified at [UFB27 5010](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5010.pdf) (page 2).
 
 ## Open questions
 - Which position(s) the "MD" reduction in force covers, and how many FTE were cut or not renewed (non-renewal appendix of Res. 25/26-SM-126-102)?
 - SHIF renewal rate for 2026-27 (not stated in minutes reviewed).
 - Verify grade-level class sizes (parent claim of 30).
 
-<!-- facts: confidence=high; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=153132; banked_cap_used=103954; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=153132; banked_cap_used=103954; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

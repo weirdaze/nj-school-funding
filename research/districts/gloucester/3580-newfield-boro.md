@@ -1,5 +1,5 @@
 # Newfield Boro (Gloucester County) — district 3580
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -20,10 +20,10 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on staffing, class size, or health benefits. These are not applicable to a non-operating district; any benefit-cost pass-through would occur through receiving-district tuition rates.
 
 ## Assessment
-Newfield employs almost no staff, so the benefits claim does not apply directly. Its exposure is indirect, through tuition, which rises about 8.5% to $4.73M. **No cuts reported** (not applicable: non-operating district). Our numbers are correct for this district but should be excluded or flagged in any benefit-cost analysis. The "In SEHBP: yes" flag likely covers only a handful of board or administrative enrollees.
+**Insufficient evidence** (non-operating district). Newfield runs no schools and budgets only $5,967 in benefits, so the question of benefit-driven cuts does not apply to it directly. Its exposure is indirect, through tuition to Franklin Twp and Delsea, which rises about 8.5% ($4,355,858 → $4,725,083); any cuts would show up in those receiving districts. Our numbers are correct for this district but should be excluded or flagged in any benefit-cost analysis. The "In SEHBP: yes" flag likely covers only a handful of board or administrative enrollees. (Reclassified from No cuts reported after adversarial review: a district with no staff cannot meaningfully report "no cuts".)
 
 ## Confidence
-**High**: the UFB figures (tuition-dominated budget, ~$6K benefits) are verified and match ours. The non-operating status is from Wikipedia, but the UFB's sent-student counts corroborate it.
+**Medium**: the UFB figures (tuition-dominated budget, ~$6K benefits) are verified and match ours. The non-operating status is from Wikipedia, but the UFB's sent-student counts corroborate it.
 
 ## Fact check
 - ✔ Tuition $4,120,105 / $4,355,858 / $4,725,083 and employee benefits $3,148 / $5,967 / $5,967 — verified at [UFB27_3580](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_3580.pdf) (page 4).
@@ -33,4 +33,4 @@ Newfield employs almost no staff, so the benefits claim does not apply directly.
 - How much of the tuition increase charged by Franklin Twp and Delsea reflects their own health-benefit growth?
 - Confirm whether Newfield's SEHBP participation is meaningful, given $5,967 in benefits.
 
-<!-- facts: confidence=high; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

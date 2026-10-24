@@ -1,5 +1,5 @@
 # Bordentown Regional (Burlington County) — district 0475
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -23,19 +23,19 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on RIFs, class size increases, health plan changes, or employee contribution changes.
 
 ## Assessment
-**No cuts reported.** The district explicitly budgeted "no reduction of staff," added positions, and eliminated activity fees within a 2% levy. Its benefits line is essentially flat, +0.2%, which contradicts the statewide pattern and is consistent with audited health costs being flat FY23→FY25. The cause (a non-SEHBP plan, a renewal, or plan design) is undocumented. Our one-year state aid gain of +$498K fits alongside the district's 5-year-cumulative-loss framing. That framing does not conflict with our figure.
+**No cuts reported.** The district explicitly budgeted "no reduction of staff," added positions, and eliminated activity fees within a 2% levy. Its benefits line rises modestly, $8.90M → $9.30M (+4.5%, about +$0.40M = $9.30M − $8.90M), below the statewide pattern and in line with audited health costs being flat FY23→FY25. The cause (a non-SEHBP plan, a renewal, or plan design) is undocumented. Our one-year NJDOE formula aid gain of +$0.49M covers the benefits increase and fits alongside the district's 5-year-cumulative-loss framing; that framing does not conflict with our figure.
 
 ## Confidence
-**Medium**: the "no reduction of staff" goal is verified in the district's own presentation, but the Assessment's benefits figure (+0.2%) does not reconcile with our numbers (+4.5%) and the cause is unexplained.
+**Medium**: the "no reduction of staff" goal is verified in the district's own presentation, and the budget figures come from the UFB; the reason benefits grew only modestly is unexplained.
 
 ## Fact check
 - ✔ "NO REDUCTION OF STAFF – Maintain all current staffing levels districtwide" — verified at [Tentative Budget Presentation](https://files.smartsites.parentsquare.com/12816/2026-2027tentativebudgetpresentationfinal_1.pdf) (page 5).
 - ✔ Total tax levy $37,148,889 (page 15) and "Total 5-Year State Aid Reduction: $1,778,919 (–16.98%)" (page 14) — verified at the same presentation.
-- ✘ Assessment says the benefits line is "+0.2%" — differs: our numbers (2025-26 revised baseline, from the [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0475.pdf)) show $8.90M → $9.30M (+4.5%). The Assessment figure appears to predate the switch to the revised baseline.
+- ✔ Assessment's earlier "+0.2%" benefits figure (which predated the switch to the revised baseline) corrected after review to our numbers: $8.90M → $9.30M (+4.5%), from the [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0475.pdf).
 
 ## Open questions
 - Who is the health carrier or plan (private or self-insured), and what was the renewal rate for 2026-27? The flat benefits line needs explanation.
-- Fund balance use dropped from $1.33M to $0.23M. Confirm whether this reflects depleted reserves or just a smaller appropriation.
+- Fund balance use dropped from $1.33M to $0.23M. Budgeted fund balance is a planned appropriation, not remaining reserves; confirm why the district budgeted less.
 - May 6, 2026 public hearing presentation, if it differs from the tentative one.
 
 <!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=none; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

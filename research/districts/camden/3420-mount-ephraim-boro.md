@@ -20,7 +20,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on staff reductions, RIFs, class-size changes, program cuts, health-plan switches, cap waivers, or referendums for 2026-27. No district budget presentation or local news coverage located.
 
 ## Assessment
-**Insufficient evidence.** The levy rose 12.8% (well above the 2% cap, implying cap adjustments — likely health-benefit and/or other — but the adjustment breakdown was not found), benefits rose ~11%, and the district is spending its legal reserve down to zero, but no cuts or district statements tying anything to benefit costs were found. Our numbers match the state UFB (benefit line +$228K; state aid rose more than benefits).
+**Insufficient evidence.** The levy rose 12.8% (well above the 2% cap, implying cap adjustments — likely health-benefit and/or other — but the adjustment breakdown was not found), benefits rose ~11%, and the district is spending its legal reserve down to zero, but no cuts or district statements tying anything to benefit costs were found. Our numbers match the state UFB (benefit line +$228K: $2,284,982 − $2,057,388; state aid rose more than benefits).
 
 ## Confidence
 **Low**: insufficient evidence — UFB figures verified, but no district statements, cap-adjustment breakdown or cut reporting were found.

@@ -19,7 +19,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on RIFs, program cuts, class size changes, health plan changes, or district statements on benefits or state aid for 2026-27.
 
 ## Assessment
-**No cuts reported.** Budgeted benefits rise 13.4% from the 2025-26 revised budget ($7.05M → $8.00M), though they are slightly below the 2024-25 actual ($8.10M). State aid (+$1.08M) and tuition revenue (+$1.37M) rise more than benefits, and the district expanded capacity. (Corrected in fact check: an earlier draft said benefits fall slightly.) Students per teacher rose (14.2 → 15.4) over 2021-22 to 2024-25, but that predates and is unrelated to the 2026-27 benefits spike.
+**No cuts reported.** Budgeted benefits rise 13.4% from the 2025-26 revised budget ($7.05M → $8.00M), though they are slightly below the 2024-25 actual ($8.10M). State aid (+$1.08M) and tuition revenue (+$1.37M: $9.89M − $8.52M) rise more than benefits, and the district expanded capacity. (Corrected in fact check: an earlier draft said benefits fall slightly.) Students per teacher rose (14.2 → 15.4) over 2021-22 to 2024-25, but that predates and is unrelated to the 2026-27 benefits spike.
 
 ## Confidence
 **Low**: no district narrative; the profile's original premise (benefits falling) was wrong, and "no cuts" rests only on absence of reporting.

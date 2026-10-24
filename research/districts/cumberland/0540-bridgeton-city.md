@@ -30,7 +30,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance used $13,987,401 → $16,446,141: **match** UFB p. 2.
 
 ## Assessment
-**Insufficient evidence.** Bridgeton is almost entirely state-funded (levy of $3.7M against roughly $138M of state aid). It loses $3.28M of aid and fills the gap with $16.4M of budgeted fund balance and a large capital-reserve draw rather than a levy increase. No public reporting of cuts, layoffs or the district's view of health costs was found.
+**Insufficient evidence.** Bridgeton is almost entirely state-funded (levy of $3.7M against roughly $138.3M of state aid). It loses $3.28M of aid and fills the gap with $16.4M of budgeted fund balance and a large capital-reserve draw rather than a levy increase. No public reporting of cuts, layoffs or the district's view of health costs was found.
 
 ## Confidence
 **Low**: figures reconcile with the state UFB, but the benefits line is structurally incomplete and no district narrative or news coverage was found.

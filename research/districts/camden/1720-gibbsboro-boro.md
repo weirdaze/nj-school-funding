@@ -1,5 +1,5 @@
 # Gibbsboro Boro (Camden County) — district 1720
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -27,10 +27,10 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
   - commentary on state aid
 
 ## Assessment
-**No cuts reported.** Benefits rose about $225K while state aid rose only $64K. The 2026-27 budget nonetheless shows flat-to-rising instructional lines and a projected enrollment jump, with no cuts. The gap was covered by a levy increase above 2% (about 5.7%) plus more fund balance. Our 2025-26 benefits base ($1,480,274) is slightly below the advertised "revised" figure ($1,490,202). That suggests we used the original budget, so the increase against the revised budget is about +14.5%.
+**No cuts reported.** Benefits rose about $215K (+14.5%, $1.49M → $1.71M) while NJDOE formula aid rose $0.12M. The 2026-27 budget nonetheless shows flat-to-rising instructional lines and a projected enrollment jump (292 → 337 on-roll), with no cuts found. The gap was covered by a levy increase above 2% (about 5.7%) plus more budgeted fund balance ($0.23M → $0.34M). Our benefits figures now use the revised 2025-26 base and match the advertised budget exactly. No position count was published, so positions are recorded as unknown rather than zero.
 
 ## Confidence
-**Medium**: the advertised budget (primary) verifies the benefit, levy and enrollment figures, but "no cuts" rests on what is absent from the budget lines (no presentation, minutes or news), and our 2025-26 benefits base differs slightly from the revised figure.
+**Medium**: the advertised budget (primary) verifies the benefit, levy and enrollment figures, but "no cuts" rests on what is absent from the budget lines (no presentation, minutes or news).
 
 ## Fact check
 - ✔ Employee benefits $1,490,202 → $1,705,606; base levy $4,129,802 → $4,366,563; enrollment estimate 337; benefits 36.93% of salaries — verified at [Gibbsboro Advertised Budget 2026-2027](https://resources.finalsite.net/images/v1777643762/gibbsboroschoolorg/y57bmbeqldim2iubsknm/2026-2027AdvertisedBudgeetdoc.pdf) (pages 1-3, 5).
@@ -41,4 +41,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Find out what is behind the legal reserve drawdown to $0.
 - Confirm the very low students-per-teacher figure (7.9), which may reflect the preschool/special education share.
 
-<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=no; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

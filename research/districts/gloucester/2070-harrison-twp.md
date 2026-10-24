@@ -1,5 +1,5 @@
 # Harrison Twp (Gloucester County) — district 2070
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -23,13 +23,13 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on layoffs or RIFs of current staff, class-size changes, or a switch into or out of SEHBP. No local news coverage of the 2026-27 budget was found.
 
 ## Assessment
-Harrison faces the largest benefit jump in this batch (+29% in our numbers; benefits rising to 36.8% of salaries) on top of a 3% aid cut. Its budget trims the technology base and eliminates vacant positions, but the district explicitly says no current staff were cut. It does not tie these trims to health costs in the slides; it frames them as "to balance this budget". Classification: **Consistent** (modest cuts with benefit pressure evident in the numbers, but not explicitly attributed). Discrepancy: the district cites a $158,040 aid cut versus our -$100,999. Ours likely nets other aid categories or uses a different base; worth reconciling.
+**Insufficient evidence.** Harrison faces the largest benefit jump in this batch (+30.5%, +$1.31M = $5.60M − $4.29M in our numbers; benefits rising to 36.8% of salaries) on top of a 3% cut in formula aid (-$158,040, matching the district's figure exactly; the UFB total state revenue change is -$100,999). Its budget trims the technology base and eliminates unfilled positions on the position control roster. The district says those positions "are NOT staff members"; it does not say whether any current employee was cut, and gives no count. It does not tie these trims to health costs; it frames them as "to balance this budget". (Reclassified from Consistent after adversarial review: the district never names benefits as a cause of the trims, so the link rests only on our numbers.)
 
 ## Confidence
-**High**: the cuts (unfilled positions, technology base) and the 3% aid cut are verified in the district's own hearing presentation, and the regenerated numbers now match the district's aid-cut figure.
+**Medium**: the trims (unfilled positions, technology base) and the 3% aid cut are verified in the district's own hearing presentation and our formula aid matches the district's figure, but no source connects the trims to health costs.
 
 ## Fact check
-- ✔ "ONCE AGAIN CUT the maximum 3% in aid ($158,040.00)" — verified at [Budget Presentation](https://resources.finalsite.net/images/v1777585763/harrisontwpk12njus/hsl98isycqfducmrkxqr/2026-2027SchoolBudgetPresentation.pdf) (page 4). Our numbers now show -$0.16M, which matches. The Assessment's "-$100,999" and "+29%" are stale; current numbers are -$0.16M and +30.5%.
+- ✔ "ONCE AGAIN CUT the maximum 3% in aid ($158,040.00)" — verified at [Budget Presentation](https://resources.finalsite.net/images/v1777585763/harrisontwpk12njus/hsl98isycqfducmrkxqr/2026-2027SchoolBudgetPresentation.pdf) (page 4). Our numbers now show -$0.16M, which matches. The Assessment now uses -$158,040 and +30.5%; -$100,999 is the UFB total state revenue change, not formula aid.
 - ✔ Unfilled positions on the position control roster eliminated; $250,000 technology base "cut significantly" — verified at [Budget Presentation](https://resources.finalsite.net/images/v1777585763/harrisontwpk12njus/hsl98isycqfducmrkxqr/2026-2027SchoolBudgetPresentation.pdf) (page 9).
 - ✔ Health benefits through the School Health Insurance Fund — verified at [Budget Presentation](https://resources.finalsite.net/images/v1777585763/harrisontwpk12njus/hsl98isycqfducmrkxqr/2026-2027SchoolBudgetPresentation.pdf) (page 6, Shared Services). No health increase % or $ appears in the deck.
 - ✔ Employee benefits as % of salaries 28.55% → 36.79% — verified at [UFB27_2070](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_2070.pdf) (page 8).
@@ -38,7 +38,7 @@ Harrison faces the largest benefit jump in this batch (+29% in our numbers; bene
 ## Open questions
 - Request the health-benefit cap adjustment amount, if any, used in the 7.7% levy increase, and the SHIF renewal rate for Harrison.
 - How many unfilled positions were eliminated, and in which roles?
-- Reconcile the aid cut figure ($158,040 vs our $100,999), and clarify the "$706,363 ... 25-26 tax levy increase as approved by the state late" (a 2025-26 cap waiver?).
+- Clarify the "$706,363 ... 25-26 tax levy increase as approved by the state late" (a 2025-26 cap waiver?).
 - Watch the result of the November 3, 2026 referendum.
 
-<!-- facts: confidence=high; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=medium; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

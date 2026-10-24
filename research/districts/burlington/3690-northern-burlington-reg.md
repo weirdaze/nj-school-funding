@@ -20,14 +20,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on layoffs, class sizes, program cuts, health-plan changes or state-aid commentary. Web search was limited (session search quota exhausted partway through this batch).
 
 ## Assessment
-**Insufficient evidence.** The fiscal profile points to some squeeze: a modest benefits increase (+$0.7M), a state-aid decrease (-$0.19M), a levy increase above cap (+4.9%) and a $0.55M cut in regular-instruction appropriations. But no district or press source describing staffing or program decisions was found. **Our audited health figure looks wrong:** FY25 ACFR health of $6,955 (0.4% of benefits, -99.9% vs FY23 $6.27M) is almost certainly an extraction or coding error, not a real cost change.
+**Insufficient evidence.** The fiscal profile points to some squeeze: a modest benefits increase (+$0.71M = $10.77M − $10.06M), a state-aid decrease (-$0.19M), a levy increase above cap (+4.9%) and a $0.55M cut in regular-instruction appropriations. But no district or press source describing staffing or program decisions was found.
 
 ## Confidence
 **Low**: only the state UFB is available (figures verified); no district narrative, minutes or press found, so nothing shows whether the instruction cut is staffing or benefit-driven.
 
 ## Fact check
 - ✔ Regular Programs-Instruction $13,836,161 → $13,288,073 and benefits $10,059,565 → $10,768,841 — verified at [UFB27 3690](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3690.pdf) (page 5); levy $23,409,161 → $24,563,344 and fund balance $1,756,852 → $1,750,000 on page 2.
-- Note: the Assessment's warning about a $6,955 FY25 audited health figure is out of date. The regenerated "Our numbers" now shows FY25 health at 80.9% of benefits and +8.8% FY23→FY25, so that extraction error appears fixed.
+- Note: the Assessment's warning about a $6,955 FY25 audited health figure is out of date. The regenerated "Our numbers" now shows FY25 health at 80.9% of benefits and +8.8% FY23→FY25, so that extraction error appears fixed; the warning was removed from the Assessment.
 
 ## Open questions
 - Re-extract FY25 ACFR health-benefit expense (Exhibit/schedule J or the notes); the $6,955 value is implausible.

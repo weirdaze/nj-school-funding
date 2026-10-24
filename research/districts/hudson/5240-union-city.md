@@ -25,7 +25,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Levy 0.0% and fund balance $18.19M → $0.26M match UFB p. 2.
 
 ## Assessment
-**Insufficient evidence.** Union City's general fund budget fell about $32M (‑10.6%) as budgeted fund balance dropped from $18.2M to near zero with a flat levy and flat aid, which suggests real spending reductions. But no district or press account describes layoffs or attributes anything to health costs. Our benefits figures for this district are structurally incomplete and should be excluded from benefit-growth comparisons.
+**Insufficient evidence.** Union City's general fund budget fell about $32M (‑10.6%: $300,750,907 → $268,796,813) as budgeted fund balance dropped from $18.2M to near zero with a flat levy and flat aid, which suggests real spending reductions. But no district or press account describes layoffs or attributes anything to health costs. Our benefits figures for this district are structurally incomplete and should be excluded from benefit-growth comparisons.
 
 ## Confidence
 **Low**: the only source is the UFB, with no district narrative or news coverage, and our benefits line is known to be incomplete.

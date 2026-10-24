@@ -27,7 +27,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance: $3.0M → $7.0M, which matches ours.
 
 ## Assessment
-**Insufficient evidence.** Perth Amboy is labeled "least-squeezed" only because its 71260 benefits line is incomplete. The district-wide benefits-to-salaries ratio jumps about 8 points, and audited health costs have been growing about 9% a year. A $6.3M aid increase, a 4% levy increase and more fund balance ($7M, exhausting the legal reserve) appear to cover the gap. No public statements or reporting on cuts or health costs were found.
+**Insufficient evidence.** Perth Amboy is labeled "least-squeezed" only because its 71260 benefits line is incomplete. The district-wide benefits-to-salaries ratio jumps about 8 points, and audited health costs have been growing about 9% a year (+18.3% over FY23→FY25). A $6.3M aid increase, a 4% levy increase and more fund balance ($7M, exhausting the legal reserve) appear to cover the gap. No public statements or reporting on cuts or health costs were found.
 
 ## Confidence
 **Low**: only state UFB data was available. The key benefits figure in our data is known to be incomplete for this district.

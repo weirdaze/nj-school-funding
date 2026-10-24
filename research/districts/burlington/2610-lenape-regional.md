@@ -1,5 +1,5 @@
 # Lenape Regional (Burlington County) — district 2610
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -21,23 +21,25 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] Prior cycles:
   - [snippet] 2025-26: the board adopted a $178.3M budget (+1.92%) with state aid cut by $567,953 (-3%) and a 14% healthcare cost increase (per search snippet). [Board Highlights, April 30, 2025](https://www.lrhsd.org/our-district/board-of-education/board-highlights/april-30-2025)
   - [snippet] 2024-25: after a $4.7M aid cut, reports said "agreements with 90 non-tenured staff will not be renewed, 20 stipend positions will be cut and more than 40 positions will be left vacant", and NJROTC would be eliminated (per search snippet). [70and73.com, 2024](https://www.70and73.com/news/lenape-regional-high-school-district-board-votes-to-take-deep-cuts-in-the-2024-25/article_bd326cc8-0d91-11ef-8adb-6b979295f761.html)
+- [primary] Enrollment on roll falls from 6,373 (10/15/2025 actual) to 6,248 (10/15/2026 estimate), −2.0%. [UFB27 Lenape Regional](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2610.pdf), page 1.
 - [primary] The UFB lists health coverage under shared services as "Joint School Health Insurance Fund for Medical Insurance" (not SEHBP). [UFB27 Lenape Regional](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2610.pdf) (July 14, 2026)
 
 ## Assessment
-**No cuts reported** for 2026-27. The district explicitly says there are no staff or program reductions, despite a $4.6M (16.8%) health increase that it attributes partly to Chapter 44. The large deep cuts happened in 2024-25 and were tied to state aid loss, not benefits. There is a discrepancy in the aid figure: the district reports +$1,101,830 (SFRA aid, +6%), while our number is +$601,830 (total UFB general-fund state revenue, which likely includes a lower extraordinary-aid estimate). The district's health increase ($4.62M) is also larger than our net benefits-line increase ($3.66M). (See Fact check: the regenerated "Our numbers" now shows +$1.10M formula aid and a +$3.04M benefits line.)
+**No cuts reported** for 2026-27. The district explicitly says there are no staff or program reductions, despite a $4.6M (16.79%) health increase that it attributes partly to Chapter 44. The hearing's summary slide reads "No reductions to student programs or staff as a result of the budget." The deep cuts happened in 2024-25 and were tied to state aid loss, not benefits. The district's SFRA aid change (+$1,101,830) matches our NJDOE formula aid change (+$1.10M). The district's gross health increase ($4.62M, medical/RX/dental) is larger than our benefits-line increase ($31.59M → $34.63M, +$3.04M, +9.6%); the cause of that gap is unexplained. Enrollment is declining 2.0%. The levy rises 4.63%, while the $3,015,309 health-care adjustment is reserved "to be used in future years."
 
 ## Confidence
-**Medium**: the health increase and Chapter 44 framing are verified in the district's own board highlights, and our aid figure now reconciles. The "no reductions" slide could not be read because the slides are images.
+**High**: the health increase, Chapter 44 framing, and "no reductions" summary are verified in the district's board highlights and hearing slides (read visually), and the district's aid figure matches ours.
 
 ## Fact check
 - ✔ "nearly 17% increase in healthcare costs", two-year total about 26%, $185.7M general fund budget (+4.11%), Chapter 44 attribution: verified at [Board Highlights, April 29, 2026](https://www.lrhsd.org/our-district/board-of-education/board-highlights/april-29-2026).
-- – Health Benefit Costs slide ($4,624,069; 16.79%; $3,015,309 future adjustment) and "No reductions to student programs or staff": source unavailable, because the [hearing slides](https://www.lrhsd.org/our-district/budget-information/2026-2027-budget-presentation) are image files with no extractable text.
+- ✔ Health Benefit Costs slide ($32,158,746; increase $4,624,069; 16.79%; employee contribution $4,835,560; "$3,015,309" future adjustment), levy slide ($147,027,785, +4.63%) and Summary "No reductions to student programs or staff as a result of the budget" — verified visually at the [hearing slides](https://www.lrhsd.org/our-district/budget-information/2026-2027-budget-presentation) (image files 10, 11 and 16).
 - ✔ General fund levy $147,027,785, UFB benefits line $31,594,161 → $34,634,812, and coverage via "Joint School Health Insurance Fund for Medical Insurance": verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2610.pdf#page=2) (p. 2), [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2610.pdf#page=4) (p. 4) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2610.pdf#page=8) (p. 8).
-- ✘ Assessment's aid discrepancy (our +$601,830) and benefits-line increase ($3.66M) are out of date. The current "Our numbers" shows formula aid +$1.10M, which matches the district's +$1,101,830, and the UFB benefits line rises $3.04M (+9.6%).
+- ✔ Formula aid +$1.10M matches the district's +$1,101,830, and the UFB benefits line rises $3.04M (+9.6%); the Assessment's stale figures (+$601,830; $3.66M) were corrected after review.
 
 ## Open questions
-- Reconcile the $500K gap between district-reported SFRA aid (+$1.10M) and the UFB state revenue change (+$0.60M), likely extraordinary aid.
-- The $13.65M fund balance appropriation is large relative to the budget. Is this structural?
+- Why the UFB benefits line rises $3.04M when the district's health cost rises $4.62M (employee contributions, other benefit lines, or a revised 2025-26 base).
+- Which cap adjustment supports the 4.63% general fund levy, given the health adjustment is reserved for future years.
+- The $13.65M budgeted fund balance is a planned drawdown and is large relative to the budget. Is it structural?
 - Track whether the $3,015,309 banked health-care adjustment is used in 2027-28 alongside the SHIF/JIF renewal.
 
-<!-- facts: confidence=medium; plan=SHIF; health_increase_pct=16.79; health_cap_adjustment=none; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=no; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=high; plan=SHIF; health_increase_pct=16.79; health_cap_adjustment=none; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

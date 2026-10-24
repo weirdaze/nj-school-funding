@@ -27,10 +27,10 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
   - the district's own budget presentation, which was not located online
 
 ## Assessment
-**Consistent.** The district named a 17.63% healthcare increase and a $2.5M drop in usable surplus as the drivers of an initial $10M gap. It closed the gap with a 7% levy increase and unspecified cuts, which reportedly included elementary Spanish and heavier counselor loads. State aid did rise about $4.2M, more than the $2.7M benefit increase. So the gap came from health costs plus the loss of one-time surplus, not health costs alone. The only source is a third-party summary, so the cuts need verification against minutes or the presentation.
+**Consistent.** The district named a 17.63% healthcare increase and a "$2.5 million reduction in surplus" as the drivers of an initial "$10 million budget deficit". It closed the gap with a 7% levy increase and unspecified cuts, which reportedly included elementary Spanish and heavier counselor loads. State aid did rise about $4.2M, more than the $2.88M benefit increase ($26.37M − $23.49M). So the gap came from health costs plus the loss of one-time surplus, not health costs alone. The only source is a third-party summary, so the cuts need verification against minutes or the presentation.
 
 ## Confidence
-**Low**: the 17.63% health increase, the $10M gap and the cuts rest only on an AI-written meeting summary on a procurement portal (Govly); only the levy, fund balance and benefits figures are confirmed in the state UFB.
+**Low**: the 17.63% health increase, the "$10 million" gap and the cuts rest only on an AI-written meeting summary on a procurement portal (Govly); only the levy, fund balance and benefits figures are confirmed in the state UFB.
 
 ## Fact check
 - ✔ "$2.5 million reduction in surplus", "healthcare cost increases of 17.63%", initial "$10 million budget deficit", levy 7% (down from 9%), concerns about cuts to elementary Spanish and counselor workloads — the text appears at the [Govly meeting summary](https://app.govly.com/public/meetings/26192), but that is an AI-generated summary, not the district's minutes.

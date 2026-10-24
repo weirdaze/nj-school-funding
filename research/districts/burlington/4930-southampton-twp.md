@@ -1,5 +1,5 @@
 # Southampton Twp (Burlington County) — district 4930
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -17,11 +17,11 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] May 28, 2026: a board member "asked if we are ok and budgeted with the 17% increase in HB. Mrs. Conroy stated that we are." [BOE minutes, May 28, 2026](https://www.stsdwarriors.org/fs/resource-manager/view/b9329aa1-cf92-48e1-a80b-617ecdf64500) (May 28, 2026)
 - [primary] The 2026-27 budget was approved Apr 27, 2026 after a public budget presentation. The minutes record the approval but give no figures, staffing changes or program changes. [BOE minutes, Apr 27, 2026](https://www.stsdwarriors.org/fs/resource-manager/view/3ce8c2da-15b6-44e4-98c8-75a26e9694d5). In March a board member remarked that "many districts are struggling or closing schools." [Minutes, Mar 26, 2026](https://www.stsdwarriors.org/fs/resource-manager/view/fc1756fb-a551-4731-b8aa-8098363daa5b)
 - [primary] UFB: benefits line $2,079,285 (2024-25 actual) → $2,667,614 (2025-26) → $2,698,528 (2026-27); levy +2.0% ($13,000,837 → $13,260,854); budgeted fund balance $1,116,907 → $618,002; equalization aid $0. [UFB27 4930](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4930.pdf) (generated July 14, 2026)
-- [primary] A voter-approved facilities referendum (annex, track/turf) is under way; there is no operating referendum. [Minutes, Feb–May 2026](https://www.stsdwarriors.org/fs/resource-manager/view/b9329aa1-cf92-48e1-a80b-617ecdf64500)
+- [primary] A facilities referendum project is under way: the minutes list a "Referendum" committee, a "Referendum Timeline Update" covering the "Humanities Annex" and "Track and Turf", and approval of a "Referendum Account Bill List". The cited minutes do not give the referendum's date or vote result. No operating referendum is mentioned. [Minutes, Feb 19, 2026](https://www.stsdwarriors.org/fs/resource-manager/view/59ee0270-f466-4737-9656-5da3ec210bea); [Minutes, May 28, 2026](https://www.stsdwarriors.org/fs/resource-manager/view/b9329aa1-cf92-48e1-a80b-617ecdf64500)
 - No public reporting found on layoffs, position cuts, class-size changes or program cuts for 2026-27. The district's budget page posts the 2025-26 presentation but not a 2026-27 one.
 
 ## Assessment
-**No cuts reported.** The district itself cites a 16-17% health-benefit increase as a top 2026-27 obstacle, but the minutes record no cuts. The business administrator says the increase is budgeted, and the levy rose only 2%. Our benefits line shows only +1.2%, which conflicts with the district's 16-17% premium increase. Either 2025-26 was over-budgeted (the 2024-25 actual was $2.08M) or costs were offset elsewhere, so the increase may have been absorbed by an inflated 2025-26 base, even while the district used $0.5M less fund balance.
+**No cuts reported.** The district itself cites a 16-17% health-benefit increase as a top 2026-27 obstacle, but the minutes record no cuts. The business administrator says the increase is budgeted, and the levy rose only 2%. Our benefits line shows only +1.2%, which conflicts with the district's 16-17% premium increase. Either 2025-26 was over-budgeted (the 2024-25 actual was $2.08M) or costs were offset elsewhere, so the increase may have been absorbed by an inflated 2025-26 base, even while the district used $0.5M less fund balance ($1.12M → $0.62M).
 
 ## Confidence
 **Medium**: district minutes verify the 16-17% health increase, but our budget-line increase (+1.2%) does not reconcile with it, and the budget presentation is not posted.

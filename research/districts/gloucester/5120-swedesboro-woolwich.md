@@ -1,5 +1,5 @@
 # Swedesboro-Woolwich (Gloucester County) — district 5120
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -18,15 +18,16 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] **Banked cap.** The district used banked cap of $784,256 "to increase the general fund tax levy above the (2%) cap." It said it "has fully exhausted all eligible statutory spending authority and must exercise this increase for the purpose of staff retainment and delivery of services." [BOE minutes, Apr 29, 2026](https://resources.finalsite.net/images/v1778762253/swedesborowoolwichcom/yzk61t99gk3aar7yebrg/Minutes4-29-2026Public.pdf).
   - Arithmetic check: 2% of the $19,288,145 prior levy is $385,763. Adding $1,006,184 (health) and $784,256 (banked) gives $2,176,203, exactly the levy increase to $21,464,348 (+11.3%). The health adjustment alone is about 5.2 points of the 11.3% increase.
 - [primary] **No staff cuts.** At the tentative budget hearing, the SWEA president said the union "Appreciates no staff cuts" and "Expressed concerns with Heath [sic] Insurance Increases." [BOE minutes (3-25-2026 file)](https://resources.finalsite.net/images/v1777653870/swedesborowoolwichcom/uhvcnxsfpfzrtgghvjgs/Minutes3-25-2026.pdf).
+- [primary] **Health plan.** The UFB shared-services page states: "The District is a member of the Schools Health Insurance Fund." ([UFB27_5120](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5120.pdf#page=8), page 8).
 - [primary] **Plan switching.** On March 11, 2026, the SWEA president said "NJEA working on Healthcare & Benefits expiring in 2027" and "Proposing Large Group Benefits (SHIF)." [BOE minutes, Mar 11, 2026](https://resources.finalsite.net/images/v1777653870/swedesborowoolwichcom/fo4addoe3sfnwah8q6yd/Minutes3-11-2026Public.pdf), 2026-03-11.
 - [primary] **Personnel actions, April 29, 2026.** Four teacher resignations, one LPC resignation, one paraprofessional resignation and one teacher retirement. No RIFs or abolished positions appear ([same minutes](https://resources.finalsite.net/images/v1778762253/swedesborowoolwichcom/yzk61t99gk3aar7yebrg/Minutes4-29-2026Public.pdf)). Whether these will be refilled is not stated.
 - [primary] **Not found.** No public reporting found on class-size changes, program cuts, or district comments on state aid or fair funding. The district's Presentations page lists no 2026-27 budget presentation; the latest is 2025-26. [Business Office Presentations](https://www.swedesboro-woolwich.com/departments/businessoffice/presentations), accessed 2026-10-24.
 
 ## Assessment
-**No cuts reported.** Rising health premiums clearly drove the 11.3% levy increase: $1.0M of the $2.18M increase is an explicit health benefits cap adjustment. The board also used $784K of banked cap "for the purpose of staff retainment." The teachers' union publicly noted "no staff cuts." Here the benefit costs were passed to taxpayers rather than absorbed through layoffs. Our +17.4% benefits figure (about $1.35M) agrees in direction and scale with the district's $1.0M health adjustment.
+**No cuts reported.** Rising health premiums clearly drove the 11.3% levy increase: $1.0M of the $2.18M increase is an explicit health benefits cap adjustment. The board also used $784K of banked cap "for the purpose of staff retainment." The teachers' union president noted "no staff cuts" at the tentative hearing, and the April 29 personnel actions show resignations and a retirement but no RIFs or abolished positions. The district itself did not state that no positions were cut, so the zero count rests on the union remark plus the absence of RIFs. On this evidence the benefit costs were passed to taxpayers rather than absorbed through layoffs. Our +17.4% benefits figure (about $1.35M: $7.73M → $9.08M) agrees in direction and scale with the district's $1.0M health adjustment.
 
 ## Confidence
-**High**: the health cap adjustment, banked cap, and "no staff cuts" statements are verified in the board's own minutes, and the levy arithmetic reconciles exactly.
+**Medium**: the health cap adjustment and banked cap are verified in the board's own resolution and the levy arithmetic reconciles exactly, but "no staff cuts" is a union official's remark recorded in the minutes, not a district statement, and whether the resignations were backfilled is unknown.
 
 ## Fact check
 - ✔ Health benefits adjustment of $1,006,184, banked cap of $784,256, general fund levy of $21,464,348, and "staff retainment" — verified at [BOE minutes, Apr 29, 2026](https://resources.finalsite.net/images/v1778762253/swedesborowoolwichcom/yzk61t99gk3aar7yebrg/Minutes4-29-2026Public.pdf) (p. 7).
@@ -38,4 +39,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Were the April 2026 teacher resignations backfilled? Check summer 2026 personnel agendas.
 - Is the district moving off its current carrier, or into a union-proposed large-group plan, for 2027?
 
-<!-- facts: confidence=high; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=1006184; banked_cap_used=784256; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=1006184; banked_cap_used=784256; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

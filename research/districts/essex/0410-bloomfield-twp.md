@@ -44,7 +44,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance $2.0M → $2.86M: matches the UFB. The deck gives no figure.
 
 ## Assessment
-**Consistent.** The district cut 24 positions (slide 22; 16 instructional), left two senior administrative posts unfilled, froze some salaries and eliminated programs. Its deck presents a $5M health-benefit increase as the largest of about $10.4M in cost increases, alongside $4M of contractual raises and a $1.55M state aid cut, but it never says health costs caused the cuts: slide 15 cites "health benefit costs and other operational expenses" together. Enrollment is also falling (regular full-time -4.9% from 2024 to 2025). The district says class sizes stay within board policy. (Reclassified from Confirmed after adversarial review: health is one stated factor, not the stated cause.)
+**Consistent.** The district cut 24 positions (slide 22; 16 instructional), left two senior administrative posts unfilled, froze some salaries and eliminated programs. Its deck presents a "$5 Million" health-benefit increase as the largest of about $10.4M in cost increases, alongside $4M of contractual raises and a $1.55M state aid cut, but it never says health costs caused the cuts: slide 15 cites "health benefit costs and other operational expenses" together. Enrollment is also falling (regular full-time -4.9% from 2024 to 2025). The district says class sizes stay within board policy. (Reclassified from Confirmed after adversarial review: health is one stated factor, not the stated cause.)
 
 ## Confidence
 **High**: key facts come from the district's own adopted-budget presentation, opened and read, and our benefits, aid and levy figures reconcile with it.

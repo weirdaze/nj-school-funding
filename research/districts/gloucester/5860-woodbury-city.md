@@ -1,5 +1,5 @@
 # Woodbury City (Gloucester County) — district 5860
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -24,7 +24,7 @@ Both sources below were opened and read:
   - General surplus used falls from $953,318 to $899,997.
   - Capital reserve withdrawal falls from $9,790,828 to $8,457,828.
   - Source: presentation.
-- [primary] **Spending by category, 2025-26 → 2026-27.** Classroom instruction rises while every other operating category falls:
+- [primary] **Spending by category, 2025-26 → 2026-27.** Classroom instruction rises while the other categories shown fall:
 
   | Category | 2025-26 | 2026-27 | Change |
   |---|---|---|---|
@@ -34,7 +34,7 @@ Both sources below were opened and read:
   | Maintenance and operations | | | -$302,256 (-8.49%) |
   | Transportation | | | -$103,405 |
 
-  The presentation does not attribute these reductions to staff cuts. Source: presentation.
+  The presentation does not attribute these reductions to staff cuts. Source: presentation. Not every line falls: "Transfer of Funds to Charter Schools" rises from $156,341 to $190,416 (+21.8%) ([UFB27_5860](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5860.pdf#page=5), page 5).
 - [primary] **Health care cap adjustment not used.** At the April 29, 2026 hearing, board member Mrs. Mangeri "said she was very pleased that [we] didn't have to use the health care adjustment or our capped bank so that we could continue to have zero percent increase again." She "reiterated that this may not be sustainable if these health care increases continue and taxes may have to be raised in the future." Source: minutes.
 - [primary] **Budget adoption.** The board adopted a general fund levy of $13,278,506 and total expenditures of $58,772,541. The same meeting approved new teacher hires for 2026-27 (Spanish, Science, and Elementary) and listed no RIFs on the pages reviewed. Source: minutes.
 - [primary] **State aid and the funding formula.** The presentation includes an SFRA slide and a chart titled "Actual State Aid vs SFRA Aid Uncapped." No narrative is attached to the chart. The budget timeline says that after state aid is published (March 12) "the budget is finalized, making budget cuts as needed." Source: presentation.
@@ -42,7 +42,7 @@ Both sources below were opened and read:
 - **Not found.** No public reporting found on layoffs, class-size increases, or program cuts. No local news was checked, because web search capacity ran out.
 
 ## Assessment
-**No cuts reported.** Benefits rose 15.8% (+$1.2M), but a $1.7M state aid increase more than covered it. The levy stayed flat, classroom instruction grew 6%, and the board said it did not need the health care cap adjustment. Non-instructional lines were trimmed and the board warned that continued health increases may force tax increases. Our 2026-27 benefits figure matches the district's presentation exactly; the 2025-26 base differs by $77K (UFB revised versus the presentation's figure).
+**No cuts reported.** Benefits rose 15.8% (+$1.2M), but a $1.7M state aid increase more than covered it. The levy stayed flat, classroom instruction grew 6%, and the board said it did not need the health care cap adjustment. Most non-instructional lines were trimmed (charter school transfers rise 21.8%), and the board warned that continued health increases may force tax increases. Our 2026-27 benefits figure matches the district's presentation exactly; the 2025-26 base differs by $77K (UFB revised versus the presentation's figure).
 
 ## Confidence
 **High**: benefits, aid, and the flat levy are verified in the district's own presentation, and the base-year difference is explained (UFB revised versus presentation).

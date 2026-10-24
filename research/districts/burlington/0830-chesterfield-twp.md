@@ -1,5 +1,5 @@
 # Chesterfield Twp (Burlington County) — district 0830
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Note: the district's Health Benefits page lists "NJ Educators Health Plan" (an SEHBP plan) alongside Aetna and AmeriHealth; the page is undated._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Note: the district's Health Benefits page lists "NJ Educators Health Plan" (an SEHBP plan) alongside Aetna and AmeriHealth; the page is undated._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,6 +19,8 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
   - **"Reduction of Positions - Financial"** (7): Kindergarten Teacher, 1st Grade Teacher, Special Education Teacher, HPE Teacher, Secretary, Custodian, Administrator.
   
   Same source.
+- [primary] The same deck also adds and replaces positions: "Budget Highlights" (slide 5) include "Expanding our preschool to 7 classrooms" and "Maintained all student programs and activities"; slide 10 introduces a Dean of Students, a "New 10-month position" "Replacing a 12-month administrator as part of the strategic budget process". So the "Administrator" reduction is a swap, and preschool staffing grows by an unstated amount. Slide 7 adds "$416,194 savings" from cutting departmental budgets by more than 10%. [Final Budget Presentation](http://www.chesterfieldschool.com/fs/resource-manager/view/30976dfc-1b94-473c-a304-ae9dba8f714d).
+- [primary] Enrollment on roll rises from 662 (10/15/2025 actual) to 680 (10/15/2026 estimate), +2.7%. [UFB27 0830](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0830.pdf), page 1.
 - [primary] Projected 2026-27 class sizes are K 22 (3 sections), grade 1 23 (3), grade 2 21 (4), grade 3 23 (4), grade 4 21 (4), grade 5 21 (4), and grade 6 24 (4). Enrollment was projected from the 3/18/26 count. The deck gives no prior-year sizes for comparison. Same source.
 - [primary] The deck says state aid is $3,145,808 in 2026-27, down $97,243 (3%), "Limited to a 3% reduction due to NJDOE imposed temporary limitation on reductions to state aid". Aid has fallen 4 years running from $3,611,892 in 2022-23. Same source.
 - [primary] Revenue: local tax levy $10,213,696 → $10,675,724 (+4.52%); fund balance $422,365 → $469,453; capital reserve withdrawal $90,000 → $291,000; maintenance reserve withdrawal $26,300 → $124,750. The total budget is $14,911,743 (+4.8%). The school tax rate rises from 1.42 to 1.502, $236 on the average home. Same source.
@@ -26,22 +28,24 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on health plan changes, employee contribution changes, or referendums.
 
 ## Assessment
-**Consistent** (borderline Confirmed). The district lists the health benefits increase ($485,965) as its largest cost driver alongside declining state aid. In the same presentation it eliminates 7 positions for "financial" reasons, including K and grade 1 teachers, plus 5 more through attrition, with projected class sizes of 21–24. It does not explicitly say health costs caused the cuts, so this is "Consistent" rather than "Confirmed." Discrepancy: the deck's 2026-27 benefits figure ($2,663,359) equals our 2025-26 figure, not our 2026-27 figure ($3,277,445). Fund balance on the slide ($469,453) also differs from ours ($521,530).
+**Consistent.** The district lists the health benefits increase ($485,965) as the largest of its cost increases under "Budget Challenges," alongside declining state aid (formula aid −$0.10M in our numbers; the deck's −$97,243) and salaries. In the same presentation it lists 7 positions reduced for "financial" reasons, including K and grade 1 teachers, plus 5 through attrition, with projected class sizes of 21–24. The deck never states that health costs caused the cuts; slide 6 only lists them side by side. The 12 listed reductions are gross: the administrator is replaced by a new Dean of Students, and preschool expands to 7 classrooms, so the net staffing change is smaller and not stated (11 reductions excluding the administrator swap). Enrollment is rising (+2.7%), so the K and grade 1 section cuts are not enrollment-driven. Our numbers show benefits $2.73M → $3.28M (+20.2%) against a formula aid change of −$0.10M. Discrepancy: the deck's benefits figure ($2,663,359) matches neither UFB year (2025-26 revised $2,725,981; 2026-27 $3,277,445). Fund balance on the slide ($469,453) also differs from ours ($0.52M).
 
 ## Confidence
-**Medium**: cuts and the health-cost driver are verified in the district's own presentation, but the deck's benefits total ($2.66M) does not reconcile with the UFB ($3.28M) and the link between them is implied, not stated.
+**Medium**: cuts and the health-cost driver are verified in the district's own presentation, but the deck's benefits total ($2.66M) does not reconcile with the UFB ($3.28M), the link between health and cuts is implied, not stated, and the net staffing change is unknown.
 
 ## Fact check
 - ✔ Budget Challenges: "Decrease in State Aid", "Loss of Title Funding", "Annual Increases in Salaries and Benefits"; Health Benefits $485,965, Salaries $376,949, Utilities $94,794 — verified at [Final Budget Presentation](http://www.chesterfieldschool.com/fs/resource-manager/view/30976dfc-1b94-473c-a304-ae9dba8f714d) (slide 6).
 - ✔ "Reduction of Positions - Attrition" (5 positions, slide 8) and "Reduction of Positions - Financial" (K, grade 1, special education, HPE teachers, secretary, custodian, administrator; slide 9) — verified at the same presentation.
 - ✔ State aid $3,145,808, down $97,243, "Limited to a 3% reduction" — verified at the same presentation (slide 13).
-- ✘ Assessment says the deck's $2,663,359 benefits figure "equals our 2025-26 figure" — differs: our 2025-26 figure is now the revised $2,725,981 ([UFB27 0830](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0830.pdf), page 4). The deck's $2,663,359 (slide 15) matches neither year of the UFB (2026-27: $3,277,445); the gap is still unexplained.
+- ✔ The deck's $2,663,359 benefits figure (slide 15) matches neither year of the UFB (2025-26 revised $2,725,981; 2026-27 $3,277,445; [UFB27 0830](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0830.pdf), page 4); the gap is still unexplained. Assessment corrected after review.
+- ✔ "Expanding our preschool to 7 classrooms" (slide 5) and Dean of Students "Replacing a 12-month administrator" (slide 10) — verified visually at the [Final Budget Presentation](http://www.chesterfieldschool.com/fs/resource-manager/view/30976dfc-1b94-473c-a304-ae9dba8f714d).
 - Note: the finalsite link redirects to resources.finalsite.net; it still works.
 
 ## Open questions
 - Reconcile the benefits figures. Is the slide's $2.66M a different category (e.g., health only, or excluding FICA/pensions), or a stale cell?
+- How many preschool staff were added for the 7th classroom, i.e., the net staffing change?
 - Prior-year class sizes by grade, to quantify the class size increase from cutting K and grade 1 sections.
 - Health carrier status: is the district (partly) in SEHBP via NJEHP, contrary to the Oct 2026 list?
 - Several slides are images (not text-extractable). Review them visually, or watch the preliminary budget video for the narrative.
 
-<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=12; teacher_positions_cut=7; class_size_increase=unknown; our_benefits_match=no; our_aid_match=yes -->
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=11; teacher_positions_cut=7; class_size_increase=unknown; our_benefits_match=no; our_aid_match=yes -->

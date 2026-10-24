@@ -1,5 +1,5 @@
 # Lower Twp (Cape May County) — district 2840
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -15,10 +15,11 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## What the district / local reporting says
 - [primary] Pressures: contractual salary increases up to 3.3%; "Health Insurance Surge: Medical insurance premiums increased by 14.1% and prescription coverage by 22.5% — far exceeding the rate of inflation"; inflation; available surplus $1,968,109 less than the prior year. [Lower Township ESD, 2026-2027 School Budget Presentation, slide 7](https://lowertwpschools.com/uploads/17773958922026%E2%80%932027-School-Budget-Presentation.pdf) (public hearing Apr. 27, 2026, slide 3).
 - [primary] 2025-26 actions: purchasing freeze and hiring freeze (all replacement positions frozen) effective Jan. 1, 2026, and review of every retirement/resignation. Same presentation, slide 8.
-- [primary] How the budget was balanced: "Staffing Reductions — Reduced staffing levels strategically — without negatively impacting class sizes"; departmental restructuring reducing part-time staff; ancillary accounts cut 5-10%; liability insurance renewed at 0%; some costs shifted to Pre-K; "The district utilized the cap exemption for health cost increases exceeding 2%." Same presentation, slide 9.
+- [primary] How the budget was balanced: the district says it reached compliance "without compromising core educational programs or significantly increasing class sizes"; "Staffing Reductions — Reduced staffing levels strategically — without negatively impacting class sizes"; departmental restructuring reducing part-time staff; ancillary accounts cut 5-10%; liability insurance renewed at 0%; "Pre-K Budget Reallocation" (certain permissible expenses moved to the Pre-K budget); "The district utilized the cap exemption for health cost increases exceeding 2%." Same presentation, slide 9.
 - [primary] Appropriations 2025-26 → 2026-27: salaries & wages $16,082,204 → $14,489,946 (-$1,592,258); benefits $6,001,486 → $6,834,428 (+$832,942), "Benefits costs increased due to rising health insurance premiums"; equipment/capital -$1,210,184. Slide 10.
 - [primary] Projected class sizes (current → projected): K 15 → 17, 1st 16 → 19, 2nd 18 → 19, 3rd 20 → 21, 4th 21 → 20, 5th 24 → 21, 6th 21 → 21. Slide 12. The district describes these as "modest changes of 1–3 students."
-- [primary] Fund balance falls from $6.75M (6/30/23) to an estimated $1,027,724 (6/30/26); $513,862 appropriated for 2026-27. Slide 6. The general fund levy increase is 5.1% "which includes the health care cap adjustment"; ~$37/yr on the average home. Slide 14. The adjustment amount is not given.
+- [primary] Fund balance falls from $6.75M (6/30/23) to $1,027,724, of which $513,862 is appropriated for 2026-27. Slide 6. The slide contradicts itself on the date: its text says the balance "stands at approximately $1,027,724" by the end of 2024-25, while its table shows $1,027,724 as the 6/30/26 balance, marked "???" (and $3,509,695 at 6/30/25). The general fund levy increase is 5.1% "which includes the health care cap adjustment"; ~$37/yr on the average home. Slide 14. The adjustment amount is not given.
+- [primary] Enrollment: "Average daily enrollment has declined consistently over six years," from 1,606 (2019-20) to 1,370 (2024-25), -5.52% in 2024-25 alone; the district says enrollment affects "state aid formulas, staffing needs." [Presentation, slide 11](https://lowertwpschools.com/uploads/17773958922026%E2%80%932027-School-Budget-Presentation.pdf); it lists "Enrollment Decline & State Aid" among future concerns (slide 15). On-roll enrollment per the state: 1,397 (Oct. 2024) → 1,350 (Oct. 2025, -3.4%) → 1,351 (Oct. 2026 estimate, flat). [UFB 2026-27, p. 1](https://www.nj.gov/education/budget/ufb/2627/reports/09/UFB27_2840.pdf).
 - [primary] Health plan: member of the Southern Coastal Health Insurance Fund (medical/prescription) and the ACCASBO JIF. [NJDOE UFB 2026-27, p. 9](https://www.nj.gov/education/budget/ufb/2627/reports/09/UFB27_2840.pdf).
 - [primary] "Future Concerns": "Health benefit increases of 14.1% (medical) and 22.5% (Rx) are unsustainable at current trajectory." Presentation slide 15.
 - No public reporting found on the number of positions eliminated or on layoffs vs. attrition. No news coverage found.
@@ -30,7 +31,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance $2,481,971 → $513,862: **match** slide 4.
 
 ## Assessment
-**Consistent.** Lower Township cut salaries by $1.59M through staffing reductions, a hiring freeze and part-time restructuring, and projected class sizes rise 1-3 students in K-3. Health premium increases (medical +14.1%, Rx +22.5%) are one of four pressures it lists, alongside salary increases, inflation and a $2M smaller surplus, and it used the health-care cap adjustment. The district does not attribute the staffing cuts to health costs specifically, and says class sizes were not "significantly" increased.
+**Consistent.** Lower Township's salary line falls $1.59M (slide 10), reflecting staffing reductions, a hiring freeze and part-time restructuring, though not all of the drop is necessarily staffing (some permissible costs were reallocated to the Pre-K budget, and the number of positions is not given). Projected class sizes rise 1-3 students in K-3 (slide 12), which is why class_size_increase is recorded as yes, but the district itself says the budget avoids "significantly increasing class sizes." Health premium increases (medical +14.1%, Rx +22.5%) are one of four pressures it lists, alongside salary increases, inflation and a $2M smaller surplus, and it used the health-care cap adjustment (amount not given). Six years of declining enrollment (-5.5% average daily enrollment in 2024-25) is also cited as a driver of staffing needs. The district does not attribute the staffing cuts to health costs specifically.
 
 ## Confidence
 **High**: all key claims come from the district's own budget presentation, which we opened, and our aid, levy, fund balance and benefits figures reconcile; the district's benefits category runs ~$80K below our increase, probably a classification difference (not confirmed).
@@ -38,5 +39,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Open questions
 - How many positions (and how many teachers) were eliminated, and how many by attrition?
 - Dollar amount of the health care cap adjustment and any banked cap.
+- How much of the -$1.59M salary change is position cuts vs. Pre-K reallocation or turnover savings?
+- Is $1,027,724 the 6/30/25 or the projected 6/30/26 fund balance (slide 6 says both)?
 
 <!-- facts: confidence=high; plan=other-JIF; health_increase_pct=14.1; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=yes; our_benefits_match=yes; our_aid_match=yes -->

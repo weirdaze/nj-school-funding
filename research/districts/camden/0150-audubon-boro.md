@@ -1,5 +1,5 @@
 # Audubon Boro (Camden County) — district 0150
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -21,7 +21,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on state aid / funding-formula commentary from the district.
 
 ## Assessment
-**Consistent.** The Retrospect places Audubon's cuts (two early-grade classrooms eliminated — which implies larger 1st/2nd-grade classes — an academic support teacher, music positions cut to part-time) in a story about health costs, and our data show the largest relative squeeze in this batch: benefits +$1.43M (+26.1%) while state aid fell $253K. No district document was found that explicitly attributes the cuts to benefits. Discrepancy: the Retrospect's "$6.93M in health costs for 2026-27" equals our *total* benefits line 71260 ($6,930,968), not health alone; health was ~74% of district-paid benefits in FY25.
+**Consistent.** The Retrospect places Audubon's cuts (one 1st-grade and one 2nd-grade classroom eliminated, an academic support teacher reduced, two instrumental music positions cut to part-time) in a story about health costs, but the same article states that "the districts' budgets show that health benefits are not the sole cause of the cuts or tax increases." Our data show benefits +$1.15M ($6.93M − $5.78M, +19.8%, 2025-26 revised → 2026-27) while NJDOE formula aid fell $0.21M. No district document was found that attributes the cuts to benefits. The article does not give a position count or class sizes, so those are recorded as unknown. Discrepancy: the Retrospect's "$6.93M in health care costs for 2026-27" equals our *total* benefits line 71260 ($6,930,968), not health alone; health was ~74% of district-paid benefits in FY25.
 
 ## Confidence
 **Medium**: cuts and health figures verified in one credible local news story (The Retrospect); no district document found, and the article's "health" figure is actually our total benefits line.
@@ -31,10 +31,10 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - ✔ Health care spending $3.21M (2020-21) → $4.14M (2025-26); $6.93M anticipated for 2026-27 — verified at [The Retrospect via InsuranceNewsNet](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs). The $6.93M equals our total benefits line 71260 ($6,930,968) in the [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `approp27.csv`, not health alone.
 - ✔ Tax levy $16,509,030 vs $15,343,932 and general fund total $31,140,006 — verified in [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) (`rev27.csv` line 114; `approp27.csv` line 84060) (the UFB PDF itself is not text-extractable via our fetch tool; checked against the NJDOE data files that the PDF is generated from).
 - – Budget adoption / music-staffing debate (Citizen Portal) — source unavailable (cpo.soar.com does not resolve).
-- – Note: the Assessment's "+$1.43M (+26.1%)" and "state aid fell $253K" differ from Our numbers (+$1.15M, +19.8% on the 2025-26 revised baseline; aid −$0.21M); the Assessment appears to use an earlier baseline. Direction and conclusion unchanged.
+- ✔ "Health benefits are not the sole cause of the cuts or tax increases" — verified 2026-10-24 in a [Wayback copy](https://web.archive.org/web/2026/https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs) of the article.
 
 ## Open questions
 - Obtain the 2026-27 budget hearing presentation (audubonnj.com budget information page; prior years' decks are posted there) to confirm the health increase % and whether a health-benefits cap adjustment was used.
 - Confirm the final music staffing decision and the resulting 1st/2nd-grade class sizes.
 
-<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=2; teacher_positions_cut=2; class_size_increase=yes; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

@@ -1,5 +1,5 @@
 # Barrington Boro (Camden County) — district 0190
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -14,12 +14,12 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [news] Health costs: health care spending rose from $1.73M (2020-21) to $2.33M (2025-26); "anticipated $2.53M in health costs." [The Retrospect via InsuranceNewsNet, "Benefit Costs Squeeze Schools, Driving Cuts, Tax Hikes And Difficult Tradeoffs"](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs), Sept. 11, 2026.
-- [news] Reserve use / no cuts: district used $35,000 from its emergency reserve to offset insurance costs in its $19.3M budget, "avoiding staffing and academic cuts"; school tax levy increased 5.95%. [The Retrospect via InsuranceNewsNet, "Benefit Costs Squeeze Schools, Driving Cuts, Tax Hikes And Difficult Tradeoffs"](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs), Sept. 11, 2026. (Article does not state the budget year explicitly; the 5.95% matches our 2026-27 levy change of +6.0%.)
+- [news] Reserve use / no cuts: district used $35,000 from its emergency reserve to offset insurance costs in its $19.3M budget, "helping it avoid staffing and academic program reductions"; school tax levy increased 5.95%. [The Retrospect via InsuranceNewsNet, "Benefit Costs Squeeze Schools, Driving Cuts, Tax Hikes And Difficult Tradeoffs"](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs), Sept. 11, 2026. (Article does not state the budget year explicitly; the 5.95% matches our 2026-27 levy change of +6.0%.)
 - No public reporting found on staff reductions, class size changes, program cuts, plan switching, employee contribution changes, or a cap waiver (district documents not located online).
 - No public reporting found on district commentary on state aid / the funding formula.
 
 ## Assessment
-**No cuts reported.** The only local reporting says Barrington absorbed higher insurance costs with a ~6% levy increase and a small ($35K) emergency-reserve draw, explicitly avoiding staffing and academic cuts. Our numbers show benefits +$632K (+25.0%) versus +$174K state aid. Discrepancy: the Retrospect's "$2.53M anticipated health costs" equals our *2025-26 total* benefits budget ($2,532,299), not health alone and not 2026-27 ($3.16M) — the year/definition in the article is unclear.
+**No cuts reported.** The only local reporting says Barrington absorbed higher insurance costs with a ~6% levy increase and a small ($35K) emergency-reserve draw, explicitly avoiding staffing and academic cuts. Our numbers show benefits +$0.63M ($3.16M − $2.53M, +25.0%) versus +$0.22M NJDOE formula aid. The article does not mention class sizes, so class size is recorded as unknown. Discrepancy: the Retrospect's "$2.53M anticipated health costs" equals our *2025-26 total* benefits budget ($2,532,299), not health alone and not 2026-27 ($3.16M) — the year/definition in the article is unclear.
 
 ## Confidence
 **Medium**: the no-cuts finding rests on one credible local news story (verified); no district document, and the article's year/definition for $2.53M is unclear.
@@ -32,4 +32,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Get the district's 2026-27 budget hearing presentation/minutes to confirm the year of the $35K reserve use and whether a health-benefits cap adjustment was taken (a ~6% levy is above the 2% cap).
 - Verify the 25% benefits line increase against the district's stated premium renewal.
 
-<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=no; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

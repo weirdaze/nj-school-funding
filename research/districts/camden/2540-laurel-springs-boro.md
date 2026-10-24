@@ -25,7 +25,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on staff reductions, class size, program cuts, the district's own statements about health costs, cap waivers or referendums, or state aid commentary.
 
 ## Assessment
-**Insufficient evidence.** The budget lines show the benefit increase ($137K, +20%) being absorbed through a much larger fund-balance draw (+$367K) and a 4% levy increase. Instruction spending was held flat. No cut reporting was found, but the search was limited. Our figures match the UFB.
+**Insufficient evidence.** The budget lines show the benefit increase ($137K, +20%) being absorbed through a much larger fund-balance draw (+$367K: $498,492 − $131,207) and a 4% levy increase. Instruction spending was held flat. No cut reporting was found, but the search was limited. Our figures match the UFB.
 
 ## Confidence
 **Low**: insufficient evidence — figures verified in the state UFB, but no district documents or local reporting on cuts or health costs were found.

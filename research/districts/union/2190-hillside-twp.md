@@ -1,5 +1,5 @@
 # Hillside Twp (Union County) — district 2190
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county most-squeezed (% of budget)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county most-squeezed (% of budget)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,6 +19,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] Changes from tentative to final: transportation contracted services -$216,322, plus salary reallocations, for a net general fund change of +$55,950. These reflect "staffing adjustments, program realignment, operational efficiencies, and statutory obligations." Preschool special revenue rose $3,441,163 from carryover. [May 13, 2026 agenda](https://files.smartsites.parentsquare.com/13519/public-hearing-may-13-2026.pdf), pp. 3-5.
 - [snippet] At the May 5, 2026 budget meeting, officials described a structural gap of about $4M and a potential $4.37M charter school cost. They cited declining enrollment, rising healthcare costs and limited tax base growth, and discussed staff reductions, program cuts and a 6% levy ("2% cap plus a healthcare waiver"). Public comment raised layoffs and the possible closure or consolidation of Hillside Innovation Academy. [Govly meeting summary](https://app.govly.com/public/meetings/26934), possibly AI-generated, and not minutes.
 - [primary] Revenue: general fund state revenue goes from $38,051,864 to $36,582,587, with equalization aid falling from $32,294,299 to $30,920,323. Budgeted fund balance rises from $3,483,954 to $4,067,383. [NJDOE 2026-27 UFB, Hillside Twp](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_2190.pdf), p. 2.
+- [primary] Enrollment: UFB on-roll (incl. special education) is projected to **rise** from 2,996 (2025-26) to 3,100 (2026-27), +3.5%, which does not fit the "declining enrollment" in the Govly summary. [UFB27_2190](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_2190.pdf), p. 1.
 - No public reporting found on the number of positions eliminated, class sizes, the health plan carrier, or the size of the premium increase.
 
 ## Verification of our numbers
@@ -28,14 +29,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance: $3,483,954 and $4,067,383 match.
 
 ## Assessment
-**Consistent.** Hillside's board placed a reduction-in-force resolution on its May 2026 budget agendas, eliminating positions effective June 30, 2026. It also used a $1.29M health care cap adjustment explicitly "to pay for the additional increases in health care premiums." The RIF resolution, however, cites "budgetary constraints, enrollment considerations, and/or organizational restructuring," and the district also faced a ~$1.4M equalization aid cut and a looming charter school cost. Health costs are one stated factor, not the sole cause.
+**Consistent.** Hillside's board placed a reduction-in-force resolution on its May 2026 budget agendas, eliminating positions effective June 30, 2026; the source is an agenda, not minutes, so adoption and the number of positions are not verified. It also used a $1.29M health care cap adjustment explicitly "to pay for the additional increases in health care premiums." The RIF resolution, however, cites "budgetary constraints, enrollment considerations, and/or organizational restructuring," and the district also faced a ~$1.4M equalization aid cut (formula aid −$1.13M) and a looming charter school cost, while UFB enrollment is projected to rise. Health costs are one stated factor, not the sole cause.
 
 ## Confidence
-**Medium**: the cap adjustment, levy and RIF resolution come from district agendas and reconcile exactly with the UFB. However, the number and type of positions, the final vote, and the gap narrative rely on a secondary, possibly AI-generated summary. Our benefits growth rate is also inflated by a low 2025-26 revised baseline.
+**Low**: the cap adjustment and levy come from district agendas and reconcile exactly with the UFB. But the RIF is known only from agenda resolutions (no minutes showing adoption), the number and type of positions are unknown, and the gap narrative relies on a secondary, possibly AI-generated summary. Our benefits growth rate is also inflated by a low 2025-26 revised baseline.
 
 ## Open questions
 - How many positions were eliminated (teachers vs support), and was Hillside Innovation Academy consolidated?
 - Why was the 2025-26 revised benefits budget ($13.67M) below the 2024-25 actual ($14.65M)?
 - What is the health plan (carrier or self-insured)?
 
-<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=1294064; banked_cap_used=none; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=1294064; banked_cap_used=none; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

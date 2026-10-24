@@ -26,7 +26,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - State aid: our formula-aid change (+$1,310,650) is $10,000 below the UFB total state revenue change (+$1,320,650, $21,766,942 → $23,087,592). The gap is presumably a non-formula state line. **Match** (within $10K).
 
 ## Assessment
-**Insufficient evidence.** Benefits rise 17.6% (+$0.93M), but state aid rises more (+$1.31M). The levy stays at the 2% cap, apparently with no health-care adjustment, while the district roughly doubles its fund-balance draw. No public reporting of cuts was found.
+**Insufficient evidence.** Benefits rise 17.6% (+$0.93M = $6,191,164 − $5,265,216), but state aid rises more (+$1.31M). The levy stays at the 2% cap, apparently with no health-care adjustment, while the district roughly doubles its fund-balance draw. No public reporting of cuts was found.
 
 ## Confidence
 **Low**: numbers reconcile with the state UFB, but no district narrative or news coverage was found.

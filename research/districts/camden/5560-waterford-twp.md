@@ -1,5 +1,5 @@
 # Waterford Twp (Camden County) — district 5560
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,15 +13,16 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [news] Hammonton Gazette: budget introduced March 25, 2026; Board President Matthew DeNafo: "We're cutting 34 staff"; "Employee benefits, however, will increase by 19.8% from the 2025–2026 budget"; taxes +3.06%; cost of instruction $6.49M → $5.80M; student services $2.03M → $1.60M; administration $1.51M → $1.39M; tuition $13.48M → $14.34M; "We're seeing a dwindling surplus because we continue to see these increases." [Waterford Twp BOE presents 2026-2027 budget](https://www.hammontongazette.com/news/neighbors/waterford-twp-boe-presents-2026-2027-budget/article_62b45259-3dac-4135-a8e9-3524bb8d25cf.html) (Apr 13, 2026).
+- [news] Hammonton Gazette: budget introduced March 25, 2026; Board President Matthew DeNafo: "We're cutting 34 staff"; "Employee benefits, however, will increase by 19.8% from the 2025–2026 budget"; "I know tuition is driving a lot of that"; taxes +3.06%; cost of instruction $6.49M → $5.80M; student services $2.03M → $1.60M; administration $1.51M → $1.39M; tuition $13.48M → $14.34M; "We're seeing a dwindling surplus because we continue to see these increases." [Waterford Twp BOE presents 2026-2027 budget](https://www.hammontongazette.com/news/neighbors/waterford-twp-boe-presents-2026-2027-budget/article_62b45259-3dac-4135-a8e9-3524bb8d25cf.html) (Apr 13, 2026).
 - [news] Hammonton Gazette: staff falls from a 2022-23 high of 231 to a proposed 167; surplus normally ~$1.5M but "this year they will receive $156,000"; Hammonton high-school tuition up ~40% ($3.5M) over four years and 22% ($1.2M) from 2024-25; Superintendent Michael Nolan: "As a result of the budget crunch that we're in the midst of, we do expect class sizes to be a bit larger next year"; classes 15–31 students, largest in grades 2–3. [Rising tuition strains Waterford budget](https://www.hammontongazette.com/news/neighbors/rising-tuition-strains-waterford-budget/article_af3287f3-bd55-408f-b262-86731d05530c.html) (May 18, 2026).
 - [primary] State UFB: levy $15,829,833 → $16,314,816; employee benefits $3,881,742 (2025-26 revised) → $4,010,820 (+3.3%); budgeted fund balance $1,795,322 → $154,285; legal reserve $1,250,924 (6/30/2025) → $0 (est. 6/30/2027); health insurance via "Southern Coastal Health Insurance" fund (not SEHBP). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5560.pdf) (July 14, 2026).
+- [primary] Enrollment: UFB on-roll (full-time + SpEd) 929 (2025-26) → 962 projected 2026-27 (+3.6%), so the larger classes come with rising, not falling, enrollment. [NJDOE UFB27_5560, p.1](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5560.pdf) (also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `enroll27.csv`).
 
 ## Assessment
-**Consistent.** Deep cuts (34 positions) and explicitly larger class sizes are confirmed, but the board attributes the crunch primarily to Hammonton sending-receiving tuition and a collapsing surplus; benefits growth is mentioned as a contributor. The reported "19.8%" benefit increase conflicts with our figure and the state UFB (both +3.3%) — possibly a health-premium rate rather than the budget line, or the line shrank because of the staff cuts.
+**Insufficient evidence.** Deep cuts (34 positions) and larger class sizes are reported, but neither Gazette article ties them to health or benefit costs: the board president says "I know tuition is driving a lot of that," and the district points to Hammonton sending-receiving tuition and a much smaller budgeted surplus ($1.80M → $0.15M). The "19.8%" benefit increase is reported in the operating-costs list without explanation, and it conflicts with our figure and the state UFB (both +3.3%, $3.88M → $4.01M) — possibly a premium rate rather than the budget line, or the line grew less because of the staff cuts. NJDOE formula aid rose $0.89M and on-roll enrollment rises 3.6%. (Reclassified from Consistent after adversarial review: no source names benefits as a cause of the cuts; the stated driver is tuition.)
 
 ## Confidence
-**Medium**: cuts and larger classes verified in credible local news (not a district document); the reported 19.8% benefit increase conflicts with the UFB.
+**Medium**: cuts, larger classes and the tuition attribution verified in credible local news (not a district document; Apr 13 article re-read 2026-10-24); the reported 19.8% benefit increase conflicts with the UFB.
 
 ## Open questions
 - Reconcile benefits: Gazette's +19.8% vs UFB/our +3.3% (premium rate vs. line total after 34 position cuts?).
@@ -29,7 +30,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Whether any positions were later restored after state aid (+$893K per our data).
 
 ## Fact check
-- ✔ Board President: "We're cutting 34 staff"; "Employee benefits, however, will increase by 19.8% from the 2025–2026 budget"; taxes +3.06%; cost of instruction $6.49M → $5.80M — verified at [Hammonton Gazette, Apr 13, 2026](https://www.hammontongazette.com/news/neighbors/waterford-twp-boe-presents-2026-2027-budget/article_62b45259-3dac-4135-a8e9-3524bb8d25cf.html).
+- ✔ Board President: "We're cutting 34 staff"; "Employee benefits, however, will increase by 19.8% from the 2025–2026 budget"; "I know tuition is driving a lot of that"; "I know tuition is driving a lot of that"; taxes +3.06%; cost of instruction $6.49M → $5.80M — verified at [Hammonton Gazette, Apr 13, 2026](https://www.hammontongazette.com/news/neighbors/waterford-twp-boe-presents-2026-2027-budget/article_62b45259-3dac-4135-a8e9-3524bb8d25cf.html).
 - ✔ Staff 231 (2022-23) → 167 proposed; surplus $156,000; Superintendent: "we do expect class sizes to be a bit larger next year"; classes 15–31 — verified at [Hammonton Gazette, May 18, 2026](https://www.hammontongazette.com/news/neighbors/rising-tuition-strains-waterford-budget/article_af3287f3-bd55-408f-b262-86731d05530c.html).
 - ✔ Employee benefits $3,881,742 → $4,010,820 (+3.3%); budgeted fund balance $1,795,322 → $154,285; "Southern Coastal Health Insurance" — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5560.pdf) (pp. 2, 4, 8).
 - ✘ Gazette's "19.8%" benefits increase — differs: the state UFB shows +3.3% for the employee-benefits line. Unreconciled.

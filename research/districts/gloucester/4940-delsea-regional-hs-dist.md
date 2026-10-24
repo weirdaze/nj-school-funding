@@ -28,7 +28,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on cap waivers or referendums. A +7.0% levy increase is above the 2% cap, which suggests cap adjustments (e.g., health care or banked cap) were used. This is unverified.
 
 ## Assessment
-**Insufficient evidence.** On paper the squeeze is severe: benefits rose $1.40M while aid fell $270K, a gap of about $1.67M. The district covered it with a +7.0% levy increase and about $684K more in budgeted fund balance. We found no public reporting on cuts or on how the district explains the increase.
+**Insufficient evidence.** On paper the squeeze is severe: benefits rose $1.61M ($7,865,543 → $9,473,135) while formula aid fell $0.25M (UFB state revenue $16,557,807 → $16,287,716), a gap of about $1.85M (Our numbers, computed). The district covered it with a +7.0% levy increase and about $684K more in budgeted fund balance ($1,402,112 → $2,086,333). We found no public reporting on cuts or on how the district explains the increase.
 
 ## Confidence
 **Low**: the UFB figures check out, but nothing from the district or local press explains the increase or reports cuts.

@@ -1,5 +1,5 @@
 # Beverly City (Burlington County) — district 0380
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,7 +19,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on RIFs or layoffs, class size changes, program cuts, health plan changes, referendums, or district statements on state aid.
 
 ## Assessment
-**No cuts reported.** Benefits jumped about 31%, the largest jump in this batch by percentage. The district absorbed it with a 6% levy increase (above the 2% cap, so some cap adjustment was presumably used) and a state aid increase of about $384K. Instructional lines grew. No local reporting ties benefits to cuts. District figures match ours.
+**No cuts reported.** Benefits jumped about 31%, the largest jump in this batch by percentage. The district absorbed it with a 6% levy increase (above the 2% cap, so some cap adjustment was presumably used) and an NJDOE formula aid increase of about $0.43M (our figure; formula aid, not total UFB state revenue). Formula aid alone falls about $0.03M short of the $0.45M benefits increase ($1.90M − $1.45M). Instructional lines grew. No local reporting ties benefits to cuts. District figures match ours.
 
 ## Confidence
 **Medium**: budget figures verified in the district-posted UFB and match ours, but "no cuts" rests only on the absence of any narrative or reporting.

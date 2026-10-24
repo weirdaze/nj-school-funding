@@ -1,5 +1,5 @@
 # Monroe Twp (Middlesex County) — district 3290
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: top-gap (largest $ benefit increase minus aid change)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: top-gap (largest $ benefit increase minus aid change)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,7 +19,8 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] General fund state aid: $13,205,683 → $12,336,437 (-$869,246), including the loss of $500,000 "Additional State Aid." Transportation aid falls from $4.15M to $3.82M. [Hearing presentation, slide 10](https://www.monroe.k12.nj.us/fs/resource-manager/view/bd9ffb95-0479-4c65-bc65-d1a906964aef)
 - [primary] Benefits are $43,170,088, 24.97% of all appropriations. Fund balance used: $6,703,125. [Hearing presentation, slides 8 and 11](https://www.monroe.k12.nj.us/fs/resource-manager/view/bd9ffb95-0479-4c65-bc65-d1a906964aef)
 - [primary] The budget "will provide for": "Maintain current programs; Maintain staff," all courtesy busing and athletics, an increased capital reserve, and establishing full-day kindergarten. The key considerations listed include "Student / Teacher Ratio." [Hearing presentation, slides 6 and 15](https://www.monroe.k12.nj.us/fs/resource-manager/view/bd9ffb95-0479-4c65-bc65-d1a906964aef). The Mar. 25 [tentative presentation](https://www.monroe.k12.nj.us/fs/resource-manager/view/7fc969d5-fa76-4bbc-9b70-5bc6582fff47) has the same figures.
-- [primary] UFB p. 7: the legal reserve goes from $9,667,127 (6/30/2025) to $6,703,125 (6/30/2026) to $0 (est. 6/30/2027), so the $6.7M of fund balance used in 2026-27 exhausts it. UFB p. 8: benefits as a share of salaries 40.63% → 49.10%. [UFB27 3290](https://www.nj.gov/education/budget/ufb/2627/reports/23/UFB27_3290.pdf)
+- [primary] UFB p. 6: the legal reserve goes from $9,667,127 (audited 6/30/2025) to $6,703,125 (est. 6/30/2026) to $0 (est. 6/30/2027), so the $6.7M of fund balance budgeted for 2026-27 uses all of it; unrestricted general fund balance is estimated at $2,944,088 at 6/30/2027 (same page). UFB p. 8: benefits as a share of salaries 40.63% → 49.10%. [UFB27 3290](https://www.nj.gov/education/budget/ufb/2627/reports/23/UFB27_3290.pdf)
+- [primary] Enrollment on roll: 6,775 (Oct. 15, 2024) → 6,428 (Oct. 15, 2025) → 6,415 (2026-27 est.): -0.2% for the budget year, -5.3% over two years. [UFB27 3290](https://www.nj.gov/education/budget/ufb/2627/reports/23/UFB27_3290.pdf), p. 1.
 - The district does not name its health carrier in the documents opened. The UFB lists only NJSIG for property/casualty.
 
 ## Verification of our numbers
@@ -29,7 +30,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance: $2,964,002 → $6,703,125, which matches ours.
 
 ## Assessment
-**No cuts reported.** Monroe's own presentation documents a 28.9% one-year jump in health insurance (+$8.8M), almost entirely passed to taxpayers through a $7.94M health-care cap adjustment. That adjustment accounts for most of the +5.14% tax-rate increase. The district also drew down its remaining $6.7M excess surplus. It explicitly maintained staff and programs and added full-day kindergarten. The pressure is real but showed up as taxes and reserve depletion, not cuts.
+**No cuts reported.** Monroe's own presentation documents a 28.9% one-year jump in health insurance (+$8.8M), almost entirely passed to taxpayers through a $7.94M health-care cap adjustment. That adjustment accounts for most of the +5.14% tax-rate increase. The district also budgets $6.7M of fund balance, all of its legal reserve per UFB p. 6 (about $2.9M unrestricted balance remains, est.). It explicitly planned to "Maintain current programs; Maintain staff" and added full-day kindergarten; class sizes were not reported. The pressure is real but showed up as taxes and fund-balance use, not cuts.
 
 ## Confidence
 **High**: the figures come from the district's adopted-budget hearing deck and the state UFB, and they reconcile with ours. The one aid difference is explained by the one-time $500K.
@@ -38,4 +39,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Which carrier or plan (non-SEHBP) produced the per-plan increase of about 90% over three years?
 - With the legal reserve at $0 after 2026-27, how will 2027-28 be balanced?
 
-<!-- facts: confidence=high; plan=unknown; health_increase_pct=28.9; health_cap_adjustment=7939427; banked_cap_used=none; positions_cut=0; teacher_positions_cut=0; class_size_increase=no; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=high; plan=unknown; health_increase_pct=28.9; health_cap_adjustment=7939427; banked_cap_used=none; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

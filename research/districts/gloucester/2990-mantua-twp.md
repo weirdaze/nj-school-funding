@@ -1,5 +1,5 @@
 # Mantua Twp (Gloucester County) — district 2990
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,16 +19,18 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] **Preschool aid.** The district accepted Preschool Education Aid of $3,733,360, and the board approved a job description for a new Preschool Social Worker position. [Board minutes Apr 13, 2026](https://www.mantuaschools.com/pdf/Board_Minutes/Board%20Minutes%202025-2026/11April%2013%202026%20Minutes.pdf)
 - [primary] **Bond referendum.** "In December 2025, a $39.1 million bond referendum passed to support critical improvements across our three schools." [Bond Referendum page](https://www.mantuaschools.com/apps/pages/index.jsp?uREC_ID=641998&type=d) (accessed Oct 24, 2026) Election-night reporting had it trailing 1,074–1,097 before mail ballots (per search snippet; election-night coverage, e.g. [NJ Globe special school referendum results](https://newjerseyglobe.com/local/special-school-referendum-results/), Dec 2025).
 - [primary] At the Mar 9, 2026 meeting a resident said families "cannot pay more" and criticized referendum counsel costs. [Board minutes Mar 9, 2026](https://www.mantuaschools.com/pdf/Board_Minutes/Board%20Minutes%202025-2026/09March%209%202026%20Minutes.pdf)
+- [primary] **Regional context (not Mantua's own figure).** Neighboring Kingsway Regional, also a SHIF member, reports a SHIF "average district renewal (Medical and Prescription combined)" of "+15.8%" for 2026-27. Mantua's own renewal rate is not published. [Kingsway 2026-27 Tentative Budget in Brief](https://resources.finalsite.net/images/v1774536578/kingswayk12njus/juiz9vyxzzbinoibaxsm/2026-27TentativeBudgetinBrief-31926Final.pdf), pages 12–13.
 - [snippet] No public reporting found on staff reductions, RIFs, class-size changes, program cuts, cap waivers, or fair funding statements. The budget hearing presentation itself was not posted (agendas are on BoardDocs, not reviewed).
 
 ## Assessment
-Our numbers show the benefits line falling 13.9% while state aid rose, and the levy rose only 2% with no waiver. The minutes show routine renewals (SHIF medical, Benecard Rx) and no cuts. **No cuts reported.** The benefits decline is anomalous for a SHIF member in a ~15% renewal year (Kingsway cites +15.8% average SHIF renewal). It may reflect lower enrollment in plans, a prescription carve-out savings, account reclassification, or an error in our data or the UFB, and should be verified.
+**No cuts reported.** Our numbers show the benefits line falling 13.9% while formula aid rose $260K, and the levy rose exactly 2% ($16,012,594 → $16,332,846), so no health care adjustment was used. The minutes show routine renewals (SHIF medical, Benecard Rx) and no cuts. The benefits decline is anomalous for a SHIF member in a high-renewal year: neighboring Kingsway's Budget in Brief reports a SHIF "average district renewal (Medical and Prescription combined)" of +15.8% (see the regional-context bullet above); Mantua's own renewal rate is not published. It may reflect lower enrollment in plans, a prescription carve-out savings, account reclassification, or an error in our data or the UFB, and should be verified.
 
 ## Confidence
 **Medium**: the budget adoption and SHIF renewal are verified in board minutes, and the UFB matches our benefits line, but the 13.9% benefits drop is unexplained and the hearing presentation was not reviewed.
 
 ## Fact check
 - ✔ Employee benefits $5,153,826 → $4,439,765 (-13.9%) and benefits as % of salaries 37.00% → 31.64% — verified at [UFB27_2990](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_2990.pdf) (pages 4 and 8). The figure matches ours, so the drop is in the district's own budget and is not a parsing error on our side.
+- ✔ Levy $16,012,594 → $16,332,846, exactly +2.0% — verified at [UFB27_2990](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_2990.pdf#page=2) (page 2).
 - ✔ Final budget $26,852,579, levy $16,332,846, $155,000 maintenance reserve withdrawal; medical renewal "through the SHIF" and Rx through Benecard — verified at [Board minutes May 4, 2026](https://www.mantuaschools.com/pdf/Board_Minutes/Board%20Minutes%202025-2026/13May%204%202026%20Minutes.pdf) (pages 3 and 8).
 
 ## Open questions

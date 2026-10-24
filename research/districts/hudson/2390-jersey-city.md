@@ -1,5 +1,5 @@
 # Jersey City (Hudson County) — district 2390
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -15,20 +15,20 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [primary] Preliminary 2026-27 general fund budget of $1,096,541,152 adopted Mar. 26, 2026; tax support of $625,304,688 = local tax levy $545,175,855 + **banked cap $80,128,833**; public hearing and final adoption scheduled Apr. 30, 2026. [Jersey City Public Schools, School Funding and District Budget page](https://www.jcboe.org/apps/pages/index.jsp?uREC_ID=1537228&type=d&pREC_ID=1667727), accessed Oct. 24, 2026. The $545.2M base equals the 2025-26 levy ($534,486,132) + 2.0%, so the whole increase above 2% comes from banked cap.
-- [primary] UFB: total tax levy $534,486,132 (2025-26 revised) → $625,304,688 (2026-27), +17.0%; general fund state revenue $132,632,193 → $128,974,263; budgeted fund balance $148,847,199 → $98,245,713; employee benefits (11-XXX-XXX-2XX) $73,370,353 → $75,476,516; enrollment on roll 30,507 (Oct. 2025) → 31,784 est. [NJDOE UFB 2026-27, Jersey City](https://www.nj.gov/education/budget/ufb/2627/reports/17/UFB27_2390.pdf), pp. 1, 2, 4 (generated July 14, 2026). The district's 9-page advertised budget notice (scanned; public hearing Apr. 30, 2026) shows the same enrollment table. [2026-2027 Advertised Budget](https://4.files.edl.io/53a9/04/27/26/185511-b416b739-e2b9-4e1a-b61f-613e7d7aa093.pdf), pp. 1-2.
-- [primary] The budget page says the budget supports "competitive salaries and benefits for our staff"; it gives no staffing or health-plan figures. [JCPS budget page](https://www.jcboe.org/apps/pages/index.jsp?uREC_ID=1537228&type=d&pREC_ID=1667727).
+- [primary] UFB: total tax levy $534,486,132 (2025-26 revised) → $625,304,688 (2026-27), +17.0%; general fund state revenue $132,632,193 → $128,974,263; budgeted fund balance $148,847,199 → $98,245,713; employee benefits (11-XXX-XXX-2XX) $73,370,353 → $75,476,516; enrollment on roll 30,507 (Oct. 2025) → 31,784 est. (+4.2%) [NJDOE UFB 2026-27, Jersey City](https://www.nj.gov/education/budget/ufb/2627/reports/17/UFB27_2390.pdf), pp. 1, 2, 4 (generated July 14, 2026). The district's 9-page advertised budget notice (scanned; public hearing Apr. 30, 2026) shows the same enrollment table. [2026-2027 Advertised Budget](https://4.files.edl.io/53a9/04/27/26/185511-b416b739-e2b9-4e1a-b61f-613e7d7aa093.pdf), pp. 1-2.
+- [primary] The budget page lists what the budget "specifically supports," starting with "Enrollment growth and student achievement" and "Competitive salaries and benefits for our staff"; it gives no staffing or health-plan figures. [JCPS budget page](https://www.jcboe.org/apps/pages/index.jsp?uREC_ID=1537228&type=d&pREC_ID=1667727).
 - [news] Background (2025-26, not 2026-27): the preliminary 2025-26 budget of $1,027,273,122 had "health and employee benefits" of $168.9M, up 15% (this likely uses a broader definition than our UFB benefits line), about a 20% tax increase, and a state aid loss of ~$98M per Superintendent Norma Fernandez, who said "My goal is to keep the classrooms intact." [Hudson County View](https://hudsoncountyview.com/jersey-city-boe-approves-preliminary-1b-budget-with-20-percent-tax-increase/), Mar. 20, 2025.
 - No public reporting found on 2026-27 layoffs, RIFs, position cuts, class sizes or program cuts; searches returned only 2018 and 2025 coverage. No public reporting found on the district's health plan, its 2026-27 health premium increase, or any health care cost cap adjustment.
 
 ## Verification of our numbers
 - Benefits: our $73.37M (2025-26 revised) → $75.48M (2026-27) matches UFB p. 4 exactly.
 - Levy: our +17.0% matches UFB p. 2 ($534.49M → $625.30M) and the district's page (base + banked cap = $625.30M).
-- State revenue: our UFB state revenue change (-$3.66M) matches UFB p. 2 ($132.63M → $128.97M). The formula-aid figure (-$3.89M) has no district statement to compare against.
+- State aid: our figure is NJDOE formula aid (-$3.89M); UFB total general fund state revenue falls -$3.66M ($132.63M → $128.97M, p. 2). No district statement of the aid change was found to compare against.
 - Fund balance: our $148.85M → $98.25M matches UFB p. 2.
 - **Data problem:** our `acfr_health_2025` = 66 (giving -100% growth and a 0% health share) is clearly a parsing error and should be fixed; FY23 = $58.30M looks plausible.
 
 ## Assessment
-**Insufficient evidence.** Jersey City's 2026-27 benefits line rose only 2.9%, while the levy rose 17% using $80.1M of banked cap and fund balance use fell by ~$50.6M. That points to closing the gap left by state aid cuts and shrinking reserves, not to a benefit-driven squeeze. No reported 2026-27 layoffs, class-size increases or statements tying cuts to health costs were found.
+**Insufficient evidence.** Jersey City's 2026-27 benefits line rose only 2.9%, while the levy rose 17% using $80.1M of banked cap and fund balance use fell by ~$50.6M ($148.85M → $98.25M). That points to replacing a smaller planned fund-balance draw and a modest state revenue drop (-$3.66M total state revenue; formula aid -$3.89M) while funding projected enrollment growth (+4.2% on roll, which the district names first among what the budget supports), not to a benefit-driven squeeze. No reported 2026-27 layoffs, class-size increases or statements tying cuts to health costs were found.
 
 ## Confidence
 **Medium**: the levy, banked cap and UFB figures come from district/NJDOE primary documents that reconcile with ours, but staffing and health-plan facts are missing, not disproven.

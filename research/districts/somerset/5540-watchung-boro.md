@@ -1,5 +1,5 @@
 # Watchung Boro (Somerset County) — district 5540
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -21,7 +21,8 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] Cap: tentative levy of $16,314,545, which is $15,190,345 + $1,124,200 (+7.4%). That is made up of the 2% increase ($303,807), a **health care adjustment of $563,194** (+3.71%) and **banked cap expiring in 2027 of $257,199** (+1.69%). The "additional levy" above 2% is $820,393 (5.4%) and "avoids reductions that would impact students." Slides 25-26.
 - [primary] State aid (transportation, special education, security) goes from $1,286,213 (2025-26) to $1,247,627 (2026-27). "State Aid declined $78,366.00 since 2024-2025." Budgeted fund balance is $1,200,772. Slides 10-11.
 - [primary] Tax impact including referendum debt: total levy $15,956,115 to $17,085,073. The average home ($998,103 assessed) pays +$245.03, or 3.85%. Slide 19.
-- [primary] Final adopted figures: general fund levy $16,249,045 and employee benefits $4,396,013. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/35/UFB27_5540.pdf), pp. 2, 4. The tentative budget had $4,461,513 for benefits (slide 13). Both the levy and benefits came down $65,500 between the tentative and final budgets.
+- [primary] Final adopted figures: general fund levy $16,249,045 and employee benefits $4,396,013. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/35/UFB27_5540.pdf), pp. 2, 4. The tentative budget had $4,461,513 for benefits (slide 13). Both the levy and benefits came down $65,500 between the tentative and final budgets. The UFB does not report how much health care adjustment or banked cap the final levy uses, so the split of the final $1,058,700 increase over the $303,807 2% growth is unknown.
+- [primary] Enrollment (on roll) rises: 667 (Oct. 2024) → 639 (Oct. 2025) → 662 (Oct. 2026 estimate), +3.6% for the budget year. [UFB 2026-27, p. 1](https://www.nj.gov/education/budget/ufb/2627/reports/35/UFB27_5540.pdf).
 
 ## Verification of our numbers
 - Benefits: the UFB shows $3,734,484 (2025-26 revised) and $4,396,013 (2026-27), which matches ours (+$661,529, +17.7%). This is consistent with the district's +$669K medical/dental increase in the tentative budget.
@@ -30,13 +31,13 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance: $1,224,847 and $1,200,772 match ours.
 
 ## Assessment
-**No cuts reported.** Health benefits are clearly the largest cost driver: medical/dental rose $669K, and the tentative budget used a $563K health care cap adjustment plus $257K of expiring banked cap. But the district explicitly chose to keep class sizes, staffing and programs. Residents absorbed the increase through a levy rise of about 7%.
+**No cuts reported.** Health benefits are clearly the largest cost driver: medical/dental rose $669K, and the tentative budget planned a $563K health care cap adjustment plus $257K of expiring banked cap (the final levy is $65,500 lower, and how that reduction splits between the two is not published). The district's stated budget goals were to "Maintain current class sizes" and "Maintain staffing levels," and the levy above 2% "avoids reductions that would impact students"; these are goals in the tentative presentation, and we found no record of cuts in the adopted budget, but also no post-adoption confirmation of staffing or class sizes. Enrollment is estimated up 3.6%. Residents absorbed the increase through a levy rise of about 7%.
 
 ## Confidence
-**High**: the district's own tentative budget presentation and the state UFB were both opened, and our benefits, aid, levy and fund balance figures reconcile with them.
+**Medium**: the district's own tentative budget presentation and the state UFB were both opened, and our benefits, aid, levy and fund balance figures reconcile with them; but "no cuts" rests on the tentative budget's stated goals, the final budget presentation was not located, and the final cap-adjustment amounts are unknown.
 
 ## Open questions
 - Did the final adopted budget keep the full $563,194 health care adjustment and $257,199 banked cap? The final levy is $65,500 lower than the tentative one, and the final budget presentation was not located.
 - How will the district handle the 2027-28 budget, with no banked cap left and Chapter 44 sunsetting?
 
-<!-- facts: confidence=high; plan=SHIF; health_increase_pct=14.2; health_cap_adjustment=563194; banked_cap_used=257199; positions_cut=0; teacher_positions_cut=0; class_size_increase=no; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=medium; plan=SHIF; health_increase_pct=14.2; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

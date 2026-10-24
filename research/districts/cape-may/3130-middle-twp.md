@@ -28,7 +28,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Formula aid change -$372,110: **match** the UFB's total state sources ($13,043,414 → $12,671,304, p. 2). No district commentary was found.
 
 ## Assessment
-**Insufficient evidence.** Benefits rise 19.5% (+$1.98M) while state aid falls $372K. The district raised the levy 9.8%, likely through health and/or enrollment cap adjustments, but we found no public document or reporting describing cuts, layoffs or class-size changes.
+**Insufficient evidence.** Benefits rise 19.5% (+$1.98M = $12.11M − $10.13M) while state aid falls $372K. The district raised the levy 9.8%, likely through health and/or enrollment cap adjustments, but we found no public document or reporting describing cuts, layoffs or class-size changes.
 
 ## Confidence
 **Low**: our numbers reconcile with the state UFB, but nothing public on cuts or on the district's own explanation was found.

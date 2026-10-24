@@ -1,5 +1,5 @@
 # Parsippany-Troy Hills Twp (Morris County) — district 3950
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: top-gap (largest $ benefit increase minus aid change)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: top-gap (largest $ benefit increase minus aid change)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -23,12 +23,12 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## Verification of our numbers
 - Benefits: the UFB shows $32,845,206 (2025-26 revised) and $41,392,235 (2026-27), which matches ours (+$8,547,029, +26.0%). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_3950.pdf), p. 4. The district's "more than $13 million" (+45%) was the projection before the switch to self-funding. The budgeted increase after that change is consistent with our +$8.5M.
-- State aid: UFB state sources rise from $13,800,956 to $14,539,013 (+$738,057), which matches ours. No district statement on aid was found.
+- State aid: UFB total state revenue rises from $13,800,956 to $14,539,013 (+$738,057), which matches our NJDOE formula aid change (+$0.74M). No district statement on aid was found.
 - Levy: $159,557,688 to $170,091,588 is +6.60%, which matches ours (6.6%). The Daily Record's "6.5%" refers to the proposed tax increase. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_3950.pdf), p. 2.
 - Fund balance: $8,604,107 (2025-26) and $6,604,108 (2026-27) match ours.
 
 ## Assessment
-**Consistent.** The district identified health care as the main pressure, a projected +45% (more than $13M), and responded with the cap adjustment, a 6.6% levy increase and a switch to self-funded health insurance. Staffing changes came through "retirements, reassignments, and non-renewals", with five teaching positions moved to elementary grades because of class-size pressure. Reported cuts are unquantified, and the clearer staff cuts (14 positions) came in the prior year's budget.
+**Consistent.** The district identified health care as the main pressure, a projected +45% ("more than $13 million") "under the current structure", i.e. before the switch to self-funding; the adopted benefits line rises +26.0% (+$8.5M). It responded with the cap adjustment, a 6.6% levy increase and a switch to self-funded health insurance. Staffing changes came through "retirements, reassignments, and non-renewals", with five teaching positions moved to elementary grades because of class-size pressure. Reported cuts are unquantified, and the clearer staff cuts (14 positions) came in the prior year's budget.
 
 ## Confidence
 **Medium**: the 2026-27 facts come from one local news report (Parsippany Focus) quoting the superintendent. The district's own documents could not be opened. Our UFB numbers reconcile.
@@ -38,4 +38,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - How many non-renewals were budget-driven, and what roles were they?
 - What self-funding savings are assumed, who is the third-party administrator, and what stop-loss coverage is in place?
 
-<!-- facts: confidence=medium; plan=self-insured; health_increase_pct=45; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=self-insured; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

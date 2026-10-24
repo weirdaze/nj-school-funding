@@ -29,7 +29,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance $3,300,000 → $3,500,000: **match** UFB p. 2 / slide 21.
 
 ## Assessment
-**Consistent.** The district's own presentation says a $3.58M health premium increase absorbs most of the $4.97M state aid increase, and it cuts an estimated 60 positions (~$7M in salaries and benefits). Health is the largest single cost driver listed, but charter, energy, substitute and special-ed tuition increases are also cited, and the deck does not say the cuts were made specifically because of health costs.
+**Consistent.** The district's own presentation says a $3.58M health premium increase absorbs most of the $4.97M state aid increase, and it cuts an estimated 60 positions ("nearly $7 Million" in salaries and benefits). Health is the largest single cost driver listed, but charter, energy, substitute and special-ed tuition increases are also cited, and the deck does not say the cuts were made specifically because of health costs.
 
 ## Confidence
 **Medium**: from the district's own presentation, which we opened, and aid, levy and fund balance reconcile; but our benefits line ($0.89M) is known to be incomplete versus the district's $3.58M, and the position count is an "estimate" with no breakdown.

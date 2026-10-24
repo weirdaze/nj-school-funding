@@ -25,7 +25,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Note: web search quota ran out during this batch, so local news (South Jersey Times, Glassboro Sun) was **not** searched for this district.
 
 ## Assessment
-**Insufficient evidence.** The +7.3% levy increase suggests a health care cost adjustment, and/or banked cap, on top of the 2% cap, plus a $456K drop in fund balance use. The large aid increase (+$1.02M) covered most of the $1.21M benefit increase. UFB instruction lines are not declining, so cuts seem unlikely, but this is not confirmed.
+**Insufficient evidence.** The +7.3% levy increase suggests a health care cost adjustment, and/or banked cap, on top of the 2% cap, plus a $456K drop in fund balance use ($1,450,966 → $994,591). The large aid increase (+$1.02M) covered most of the $1.25M benefit increase ($10,248,435 − $9,002,658). UFB instruction lines are not declining, so cuts seem unlikely, but this is not confirmed.
 
 ## Confidence
 **Low**: "Insufficient evidence" — the UFB figures are verified, but there is no district statement or reporting on cuts, health costs or the cap adjustment.

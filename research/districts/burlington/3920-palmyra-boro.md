@@ -1,5 +1,5 @@
 # Palmyra Boro (Burlington County) — district 3920
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,13 +19,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] Staffing: "Staffing Updates" slide lists only two vacancies to be filled (PHS Math – operating budget; Director of Early Childhood Development – Pre-K aid). No reductions listed. [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
 - [primary] Programs: additions, not cuts — new MS Spanish/computer science electives, AP Music Theory, AP Business, AP Cybersecurity, Theatre I, 7 HS academies, "All extracurricular activities will continue, including the addition of Winter Pep Band." [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
 - [primary] Benefits: the deck does not quantify health-benefit increases; cost-savings slide cites shared services including "Insurance Coverage and Benefits (SAIF is our joint insurance fund)." [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
+- [primary] State UFB: on-roll enrollment 1,026 (10/15/2025) → 1,020 (10/15/2026 estimate), −0.6%. [UFB27 3920](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3920.pdf), page 1.
 - No public reporting found on health premium increases, layoffs, class sizes, or state-aid commentary.
 
 ## Assessment
-**No cuts reported.** Despite our +16.4% benefits increase exceeding the aid increase by ~$0.5M, Palmyra held the levy to 2%, left $1.36M banked cap unused, drew $2.75M of fund balance (up from $1.63M), and added courses and programs. The deck's figures (levy +2.0%, fund balance $2,754,094) match ours.
+**No cuts reported.** Despite our benefits increase of $4.22M → $5.10M (+20.8%) exceeding the NJDOE formula aid increase (+$0.23M) by about $0.65M, Palmyra held the levy to 2%, left $1.36M banked cap unused, drew $2.75M of fund balance (up from $1.63M), and added courses and programs. Enrollment is roughly flat (1,026 → 1,020 on roll, −0.6%; [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3920.pdf) p. 1). The deck's figures (levy +2.0%, fund balance $2,754,094) match ours.
 
 ## Confidence
-**High**: the district's own budget deck confirms the 2% levy, the unused $1.36M banked cap, the higher fund-balance draw and the staffing additions, and these match our numbers; the deck gives no health-premium figure.
+**High**: the district's own budget deck confirms the 2% levy, the unused $1.36M banked cap, the higher budgeted fund balance and the staffing slide (two vacancies filled, no reductions), and these match our numbers; the deck gives no health-premium figure.
 
 ## Fact check
 - ✔ Levy +2.0% ($218,605; $10,930,215 → $11,148,820), banked cap used $0 of $1,356,938 available — verified at [Palmyra budget presentation](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf) (slide 24, "Estimated Tax Impact").
@@ -34,7 +35,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## Open questions
 - What is Palmyra's health plan (private carrier/broker) and its 2026-27 renewal %? The deck is silent.
-- Fund balance use rose ~$1.1M; is this sustainable given the 2027 premium environment? Check 2025-26 ACFR surplus.
+- Budgeted fund balance rose ~$1.1M (a planned drawdown); is this sustainable given the 2027 premium environment? Check 2025-26 ACFR surplus.
 - Our ACFR health figure for FY23 is missing; FY25 audited health $2.95M.
 
 <!-- facts: confidence=high; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=none; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

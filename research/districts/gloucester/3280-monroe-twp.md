@@ -22,7 +22,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on layoffs, class-size increases, health plan switching (SEHBP or otherwise), or the renewal percentage. The 2026-27 web search budget was exhausted, so local news was not checked.
 
 ## Assessment
-Monroe's large state aid increase (+$2.84M) more than covers its benefit increase (+$1.1M in our numbers). The district states that all programs are maintained, and it is adding courses. It did use a $694,481 health-benefit cap adjustment plus banked cap to raise the levy 4.21%. **No cuts reported.** Health costs drove part of the above-cap tax increase rather than cuts. District figures match ours: benefits $21,912,992, fund balance $6,147,064, aid +$2,839,526, and levy about 4.2–4.3%.
+Monroe's large state aid increase (+$2.84M) more than covers its benefit increase (+$1.1M in our numbers: $20.80M → $21.91M). The district states that all programs are maintained, and it is adding courses. It did use a $694,481 health-benefit cap adjustment plus banked cap to raise the levy 4.21%. **No cuts reported.** Health costs drove part of the above-cap tax increase rather than cuts. District figures match ours: benefits $21,912,992, fund balance $6,147,064, aid +$2,839,526, and levy about 4.2–4.3%.
 
 ## Confidence
 **High**: the district's own hearing presentation states that all programs are maintained and gives the health-benefit and banked-cap adjustments; its figures reconcile with ours.

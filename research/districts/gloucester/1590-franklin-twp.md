@@ -1,5 +1,5 @@
 # Franklin Twp (Gloucester County) — district 1590
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -21,9 +21,10 @@ All bullets below are from the district's [2026-27 Public Hearing Budget Present
 - [primary] **Tax levy:** +$967,954 (+7.38%), made up of the 2% cap ($262,240) plus a **Health Care Cost Adjustment of $705,714 (5.38%)**, which the district justified with the state-projected "SHBP Percentage Increase = 31.9%." $465,639 of banked cap expired unused. Average home: +$171.77 per year.
 - [primary] **State aid:** +$537,340 (+6%), "the maximum percentage a district can receive… the District is considered 'under adequacy'." A multi-year table shows aid cuts in 2021-22 (-1.48%), 2022-23 (-8.26%) and 2023-24 (-2.94%) under S2.
 - [primary] The state UFB shows the matching line changes: Regular Programs-Instruction $6,063,949 → $5,445,204 (-10.2%), Special Education-Instruction -10.8%, and total general current expense -3.3% ([UFB27 1590](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1590.pdf), generated July 14, 2026).
+- [primary] On-roll enrollment goes from 1,280 (Oct 2025 actual) to an estimated 1,327 (+3.7%), so the teacher cuts come with more students, not fewer ([UFB27 1590](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1590.pdf#page=1), page 1).
 
 ## Assessment
-**Consistent.** Franklin cut 13 teachers and 6 support positions and warns explicitly of larger class sizes. The district lists a 17.5% (~$830K) health premium increase, and lost employee contributions under Ch. 44, among the drivers. However, its own explanation puts the main cause on running out of fund balance and surplus ($2.19M gone) after years of S2 aid cuts. Health costs are an important co-factor, not the sole stated cause. The health increase was covered mainly by a $705,714 levy adjustment, so the $2.0M revenue hole from one-time funds is what drove the cuts. The district's figures (benefits up ~$830K in premiums; aid +$537K) closely match ours (+$824K benefits; +$536K aid).
+**Consistent.** Franklin cut 13 teachers and 6 support positions and warns explicitly of larger class sizes. The district lists a 17.5% (~$830K) health premium increase, and lost employee contributions under Ch. 44, among the drivers. However, its own explanation puts the main cause on running out of fund balance and surplus ($2.19M gone) after years of S2 aid cuts. Health costs are an important co-factor, not the sole stated cause. The health increase was covered mainly by a $705,714 levy adjustment, so the $2.0M revenue hole from one-time funds is what drove the cuts. The district's figures (benefits up ~$830K in premiums; aid +$537,340) closely match ours (+$833K benefits; formula aid +$537,340, exactly the district's figure; the UFB total state revenue change is +$535,668).
 
 ## Confidence
 **High**: the 13 teacher cuts, class-size warning, 17.5% health renewal and $705,714 health adjustment are all verified in the district's own hearing presentation, and its aid and benefit figures reconcile with ours.

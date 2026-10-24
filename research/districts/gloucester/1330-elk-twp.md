@@ -1,5 +1,5 @@
 # Elk Twp (Gloucester County) — district 1330
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -28,22 +28,22 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on class size, program cuts, or SEHBP plan or contribution changes.
 
 ## Assessment
-**No cuts reported.** Elk is in SEHBP and its budgeted benefits jump 41%. The board explicitly cites "increases in health benefit appropriations" to justify a $227,704 health care levy-cap adjustment, so health costs are clearly driving the tax increase (+10.8%). But the minutes show no layoffs or abolished positions; the response was to tax more, draw down fund balance ($836K → $595K), and cut equipment. One inference: a Basic Skills teacher resigned effective June 30, 2026, and the Basic Skills instruction budget falls 74%. That suggests the position was left unfilled (a reduction through attrition), though the district does not say so. The +41% benefits jump contrasts with audited health spending that *fell* 8.7% FY23→FY25. The 2025-26 budget base may have been low, so check the 2025-26 actual vs. budget.
+**Insufficient evidence.** Elk is in SEHBP and its budgeted benefits jump 50.5% (+$477K). The board explicitly cites "increases in health benefit appropriations" to justify a $227,704 health care levy-cap adjustment, so health costs clearly drive part of the tax increase (+10.8%). The minutes show no layoffs or abolished positions, but the UFB shows real instructional reductions the district does not explain: Basic Skills instruction -73.7% ($236,737 → $62,214), Special Education instruction -11.0%, and guidance -35.8%, plus equipment cut to $0. A Basic Skills teacher resigned effective June 30, 2026, which suggests that position was left unfilled (a reduction through attrition), though the district does not say so. Budgeted fund balance use also falls ($836K → $595K). The +50.5% benefits jump contrasts with audited health spending that *fell* 8.7% FY23→FY25; the 2025-26 budget base may have been low. (Reclassified from No cuts reported after adversarial review: the UFB shows sizable unexplained instructional line cuts, so "no cuts" is not supported, but the district does not describe them as cuts or tie them to health costs.)
 
 ## Confidence
-**High**: the health care cap adjustment ($227,704), banked cap ($114,984) and levy are verified in the board's own resolution, the UFB benefits match Our numbers, and the minutes show no RIFs.
+**Medium**: the health care cap adjustment ($227,704), banked cap ($114,984) and levy are verified in the board's own resolution and the UFB benefits match Our numbers, but whether the instructional line drops are staff reductions is unknown.
 
 ## Fact check
 - ✔ Health care cost adjustment $227,704 "due to increases in health benefit appropriations" — verified at [May 7, 2026 budget adoption](https://files.smartsites.parentsquare.com/6075/05_07_26_budget_adopt.pdf#page=2) (page 2); same language in the [March 26 introduction](https://files.smartsites.parentsquare.com/6075/03_26_26_budget_intro.pdf).
 - ✔ Banked cap $114,984 and taxes to be raised $4,292,399 — verified at [May 7, 2026 budget adoption](https://files.smartsites.parentsquare.com/6075/05_07_26_budget_adopt.pdf) (pages 1–2); 2025-26 levy $3,872,266 at [UFB27 1330](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1330.pdf#page=2) (page 2).
 - ✔ Benefits $943,323 → $1,420,100 and Basic Skills $236,737 → $62,214 — verified at [UFB27 1330](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1330.pdf#page=4) (page 4); matches Our numbers.
 - ✔ No abolished positions/RIFs — the [May 7, 2026 regular minutes](https://files.smartsites.parentsquare.com/6075/5_7_26.pdf) show only a Basic Skills teacher resignation; no RIF/abolish resolution found.
-- Note: the Assessment's "+41%" benefits jump used the original 2025-26 base; on the revised base (Our numbers, UFB) it is +50.5%.
+- Note: an earlier Assessment said "+41%" (original 2025-26 base); it now uses +50.5% on the revised base, matching Our numbers.
 
 ## Open questions
-- Is the decline in fund balance use ($836K → $595K) due to depleted reserves? Check the FY25/FY26 ACFR unassigned balance.
+- Is the decline in budgeted fund balance use ($836K → $595K) due to lower available reserves? Check the FY25/FY26 ACFR unassigned balance.
 - Is the Basic Skills Teacher resignation being backfilled? The UFB line drop suggests it is not; also check whether a 2026-27 RFP for an "English, Mathematics, and MLL Instructional Coach" (posted on the district site) replaces it.
 - Note that the RFP for a 2026-27 mental health partnership and the coach RFP indicate outsourcing of some roles.
 - Reconcile the 2025-26 benefits budget ($1.0M) with FY25 audited health ($722K) and the SEHBP rate increases.
 
-<!-- facts: confidence=high; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=227704; banked_cap_used=114984; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=227704; banked_cap_used=114984; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

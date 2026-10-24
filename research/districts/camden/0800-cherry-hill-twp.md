@@ -1,5 +1,5 @@
 # Cherry Hill Twp (Camden County) — district 0800
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -21,10 +21,11 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] Tax levy: general fund levy +7.4% (~$14.8M), ~6.8% including debt service, ~$420/yr on avg home. [Budget Clarity Hub](https://www.chclc.org/fs/pages/6710).
 - [primary] State aid: district reports total aid falling from $28,592,928 (2025-26) to $27,735,140 (2026-27), down ~$857,788, third straight year of cuts; still "overfunded" under SFRA by ~$4.5M. [Budget Clarity Hub](https://www.chclc.org/fs/pages/6710); [Inquirer](https://www.inquirer.com/education/south-jersey-school-districts-budget-cuts-taxes-20260331.html), Mar. 31, 2026.
 - [primary] Fund balance: prior one-time surplus and fund balance used to delay cuts are "mostly depleted." [Budget Clarity Hub](https://www.chclc.org/fs/pages/6710).
+- [primary] Enrollment: UFB on-roll (full-time + SpEd) 10,573 (2025-26) → 11,012 projected 2026-27 (+4.2%). [NJDOE UFB27_0800, p.1](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0800.pdf) (also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `enroll27.csv`).
 - [news] Health plan: Cherry Hill obtains coverage outside the SEHBP. [Philadelphia Inquirer, SEHBP 2027 premium article](https://www.inquirer.com/politics/health-care-premiums-nj-school-employees-2027-20260929.html), Sept. 29, 2026. No public reporting found on employee contribution changes (residents urged higher teacher contributions; no adoption confirmed).
 
 ## Assessment
-**Confirmed.** The district explicitly lists health benefit increases (~$10M) as a primary driver, alongside state aid cuts and transportation, of a $29M gap closed with ~70 position cuts, 14 teacher layoffs (per union), larger class-size guidelines (+2 in grades 1-8) and a maximum 7.4% levy increase. Discrepancies: the district's ~$10M health increase exceeds our 71260 increase ($6.94M, +12.7%; preliminary 13.6%); the district reports state aid *down* $858K while our figure is *up* $392K (likely a difference in which aid categories are counted, e.g., preschool aid); attrition share is reported as 76%, 84% and 96% by different sources.
+**Consistent.** The district lists health benefit increases (~$10M) as one of three drivers, alongside state aid reductions and transportation, of a $29M gap closed with ~70 position reductions (mostly attrition), 14 teacher layoffs (per union), larger class-size guidelines (+2 in grades 1-8) and a 7.4% general-fund levy increase (the board approved the budget at that rate per NBC10; our UFB levy change is also +7.4%). Health is the largest named item and the superintendent said "Our healthcare premiums have skyrocketed," but the district's written explanation names several causes together, so we do not treat health as singled out. Our numbers: benefits +$7.35M (+13.6%, revised 2025-26 base) vs the district's "about $10 million" premium increase; NJDOE formula aid −$0.86M, which matches the district's reported aid drop (−$857,788). Attrition share is reported as 76%, 84% and 96% by different sources. The Inquirer's "$10 million increase in healthcare costs" that lets the district exceed the 2% cap describes an allowance; the dollar amount actually used as a cap adjustment is not documented. (Reclassified from Confirmed after adversarial review: the district names health alongside state aid and transportation rather than singling it out.)
 
 ## Confidence
 **Medium**: the district's own Budget Clarity Hub verifies the $10M health increase, ~70 positions and +2 class-size guidelines, and our formula-aid figure now matches the district exactly (−$857,788); the remaining gap is benefits: our budget line rises +$7.35M (revised 2025-26 base) vs the district's "about $10 million" premium increase, likely gross premiums vs the net benefits line, which is not yet confirmed. (Updated 2026-10-24 after the switch to formula aid and the revised baseline.)
@@ -36,9 +37,11 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - ✔ Superintendent: "Our healthcare premiums have skyrocketed"; ~70 positions, ~84% via attrition — verified at [NBC10](https://www.nbcphiladelphia.com/news/local/collingswood-new-jersey-school-districts-facing-cuts/4394230/).
 - ✔ Third straight year of state aid cuts (~$850K less) — verified at [Inquirer, Mar. 31, 2026](https://www.inquirer.com/education/south-jersey-school-districts-budget-cuts-taxes-20260331.html); the "overfunded" figure is from the district hub, not this article.
 
+- – health_increase_pct set to unknown: the 13.6% (70and73.com) is the preliminary *total employee benefits* increase, not a health premium rate. (NBC10's "22% increase in health insurance" refers to Collingswood, not Cherry Hill — checked 2026-10-24.)
+
 ## Open questions
-- Reconcile the ~$10M "premium" increase with our +$6.94M benefits line (gross vs net of employee contributions? health-only vs all benefits?).
+- Reconcile the ~$10M "premium" increase with our +$7.35M benefits line (gross vs net of employee contributions? health-only vs all benefits?).
 - ~~Reconcile state aid direction~~: resolved; ours now uses NJDOE formula aid (−$857,788), matching the district.
 - Confirm final layoff count after retirements, and actual 2026-27 class sizes.
 
-<!-- facts: confidence=medium; plan=unknown; health_increase_pct=13.6; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=70; teacher_positions_cut=14; class_size_increase=yes; our_benefits_match=no; our_aid_match=no -->
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=70; teacher_positions_cut=14; class_size_increase=yes; our_benefits_match=no; our_aid_match=yes -->

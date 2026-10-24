@@ -26,7 +26,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on staff reductions, class sizes, program cuts, health plan changes, cap waivers, or district statements on state aid. The district website could not be located, and the session's web search limit ran out, so local news and board minutes were **not checked**.
 
 ## Assessment
-**Insufficient evidence.** State aid fell slightly, and benefits rose about $89–92K. The gap was covered by a 2% levy increase and a continued large fund balance draw (about $665K, roughly 12% of the operating budget), not by visible instructional cuts. Regular instruction grew. The special education instruction decline (-$63K) has no stated cause. Our figures now use the UFB revised base ($941,894) and match it exactly.
+**Insufficient evidence.** State aid fell slightly, and benefits rose about $89–92K. The gap was covered by a 2% levy increase and a continued large fund balance draw ($648,451 → $665,456), not by visible instructional cuts. Regular instruction grew. The special education instruction decline (-$63K) has no stated cause. Our figures now use the UFB revised base ($941,894) and match it exactly.
 
 ## Confidence
 **Low**: no district documents, minutes, or local news were checked. Only the state UFB was checked, and it matches our numbers.

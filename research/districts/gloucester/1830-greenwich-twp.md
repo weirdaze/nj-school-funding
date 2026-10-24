@@ -1,5 +1,5 @@
 # Greenwich Twp (Gloucester County) — district 1830
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -14,12 +14,13 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [primary] The NJDOE 2026-27 UFB summary lists a proposed local tax levy of $13,144,509, up from $12,886,774 (about +2%). Estimated enrollment is 447 on roll for Oct 15, 2026, versus 398 actual in 2025 ([UFB27_1830](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1830.pdf), generated Jul 16, 2026).
+- [primary] The UFB adds a new special revenue line, "Local Tax Levy-Preschool Education Aid," of $590,590 in 2026-27 ($0 in 2025-26), while state Preschool Education Aid falls from $1,005,182 to $409,046. Total state revenue in the general fund rises $195,442 ($942,102 → $1,137,544) ([UFB27_1830](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1830.pdf#page=2), page 2).
 - [primary] The district posts only the User Friendly Budget for 2026-27; no budget presentation is listed. [About GTSD](https://www.gtsdk8.us/about) (accessed Oct 24, 2026)
 - [primary] The 2026 board minutes (Feb 18, Mar 11, Mar 25, Apr 29, May 27, Jun 17) are posted as scanned image PDFs. The Apr 29, 2026 minutes could not be text-extracted and were not reviewed. [BOE Minutes](https://www.gtsdk8.us/boeminutes) (accessed Oct 24, 2026)
 - [snippet] No public reporting found on staff reductions, class size, program cuts, health-benefit increases or plan changes, cap waivers, or fair funding statements.
 
 ## Assessment
-Our numbers show benefits essentially flat (+1%) while state aid rose by $195K and the levy rose by the 2% cap. No cuts were reported, and there is no benefit-cost pressure visible in the budget lines. **No cuts reported.** A flat benefits line during a statewide 15%+ renewal year is unusual. It may reflect a plan or carrier change, a lower budget estimate, or staff turnover, and is worth verifying.
+**No cuts reported.** Our numbers show benefits essentially flat (+1.2%) while K-12 formula aid rose $57K (total general fund state revenue in the UFB rose $195K) and the base levy rose by the 2% cap. No cuts were reported, and there is no benefit-cost pressure visible in the budget lines. Taxpayers do face a new $590,590 preschool tax levy as state preschool aid falls about $596K; this is outside the general fund and unrelated to benefits. A flat benefits line in a year when many districts report large health renewals is unusual. It may reflect a plan or carrier change, a lower budget estimate, or staff turnover, and is worth verifying.
 
 ## Confidence
 **Medium**: the budget figures are verified in the state UFB and match ours, but the "no cuts" finding rests on an absence of reporting, and the 2026 minutes (scanned images) were not reviewed.

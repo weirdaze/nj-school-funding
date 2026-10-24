@@ -21,14 +21,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on layoffs, class sizes, program cuts or state-aid commentary for 2026-27. Web search was limited (quota exhausted).
 
 ## Assessment
-**Insufficient evidence.** The numbers show real pressure: benefits up about $0.57-0.66M (+16-19%), outpacing a $0.30M aid increase, and a 6% levy increase that likely used cap adjustments. Regular-instruction spending dipped slightly, but no source describing staff or program cuts was found. Our +16.3% uses a 2025-26 base of $3.48M; the UFB revised base is $3.39M (+19.4%).
+**Insufficient evidence.** The numbers show real pressure: benefits up about $0.66M ($4.05M − $3.39M, +19.4%), outpacing a +$0.32M NJDOE formula aid increase, and a 6% levy increase that likely used cap adjustments. Regular-instruction spending dipped slightly, but no source describing staff or program cuts was found.
 
 ## Confidence
 **Low**: only the state UFB is available (figures verified); the district site blocked access, and the background on health plans comes from search snippets.
 
 ## Fact check
 - ✔ Benefits $3,389,018 → $4,045,441 (page 4); levy $13,124,650 → $13,917,842 (page 2) — verified at [UFB27 5720](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5720.pdf).
-- Note: the Assessment's "+16.3% on a $3.48M base" is out of date. The regenerated "Our numbers" uses the revised base (+19.4%).
+- Note: the Assessment's earlier "+16.3% on a $3.48M base" (and "$0.57-0.66M, +16-19%" range and $0.30M aid figure) was out of date and has been replaced with the revised-base figures from "Our numbers" (+$0.66M, +19.4%; formula aid +$0.32M).
 
 ## Open questions
 - Retrieve the May 4, 2026 hearing presentation and minutes (site blocks automated access; try manually or via OPRA): which cap adjustments were used, any staffing changes.

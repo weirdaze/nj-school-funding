@@ -1,5 +1,5 @@
 # Lawnside Boro (Camden County) — district 2560
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -30,9 +30,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on class size changes, layoffs, or employee contribution changes. Board minutes (Mar 12 and May 7, 2026) are scanned PDFs without extractable text and were not reviewed.
 
 ## Assessment
-**No cuts reported.** The only reduction was one vacant position ($97,325). Rising benefits (about +$434K across both district lines) were covered by higher state aid and a $2.59M surplus draw, with a 0% tax increase. Lawnside's high surplus use is risky, but the district counts on extraordinary aid to replenish it.
-
-**Discrepancy:** Our +50.4% benefits change uses the original 2025-26 budget ($1,418,107). The UFB's revised 2025-26 figure is $1,725,072, which puts the increase at about +23.6%. The 50% figure overstates the jump and should be replaced with the revised base or flagged.
+**No cuts reported.** The only reduction was one vacant position ($97,325). Rising benefits (+$0.41M, +23.6% on the UFB revised 2025-26 base; about +$434K across the district's two presentation lines) were covered by higher state aid (NJDOE formula aid +$0.41M; the presentation's operating state aid +$411,827) and a $2.59M budgeted fund balance draw, with a 0% tax rate increase (levy −1.2%). The district says the surplus "will be replenished after receiving extraordinary aide in the Summer." No cap-adjustment or banked-cap use is documented; with the levy falling, none was needed, but those fields are recorded as unknown rather than none.
 
 ## Confidence
 **High**: the only reduction (one vacant position, $97,325), the benefit lines and the 0% tax increase are verified in the district's own hearing presentation; our numbers (revised base, +23.6%; aid +$0.41M) reconcile.
@@ -49,4 +47,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Why was 2025-26 benefits revised upward mid-year by about $307K?
 - Can the district sustain a $2.6M surplus draw? Check the FY26 audit.
 
-<!-- facts: confidence=high; plan=private; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=none; positions_cut=1; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=high; plan=private; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=1; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

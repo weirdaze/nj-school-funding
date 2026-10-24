@@ -27,7 +27,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Note: web search quota ran out during this batch, so local news was not searched for this district.
 
 ## Assessment
-**Insufficient evidence** (and the claim may not apply in its usual form). This is a tuition-funded special services district, so "state aid minus benefits" is not a meaningful gap measure: costs are recovered through tuition (+9.5%). The instruction lines grow, which suggests no cuts. **Our 2025-26 benefits base ($9.36M) is ~$0.77M below the UFB's 2025-26 revised figure ($10.13M).** That inflates our increase to +21.5% vs. +12.2% on the revised base, so this row should be flagged.
+**Insufficient evidence** (and the claim may not apply in its usual form). This is a tuition-funded special services district, so "state aid minus benefits" is not a meaningful gap measure: costs are recovered through tuition (+9.5%). The instruction lines grow, which suggests no cuts. An earlier version of our numbers used a lower 2025-26 benefits base ($9.36M), which inflated the increase to +21.5%; Our numbers now use the UFB's 2025-26 revised figure ($10.13M) and show +12.2%, so the row no longer needs a flag.
 
 ## Confidence
 **Low**: "Insufficient evidence" — the UFB figures are verified, but there is no district statement on staffing or health costs, and the aid-vs-benefits test does not fit a tuition-funded district.

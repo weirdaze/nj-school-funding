@@ -34,7 +34,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance: $16.93M → $6.72M, which matches ours.
 
 ## Assessment
-**Insufficient evidence.** Edison faces one of the largest squeezes in the sample: benefits +$7.7M and aid -$2.4M to -$2.7M, while its excess-surplus reserve is nearly exhausted. The UFB shows regular-instruction spending down $8.4M within a flat current-expense budget, which suggests reductions or reclassification once the levy was halved from the 12% proposal. However, no district or news source opened describes the final cuts or ties them to health costs. At the 12% stage, administrators said there would be no layoffs.
+**Insufficient evidence.** Edison faces one of the largest squeezes in the sample: benefits +$7.7M and aid -$2.4M (UFB state revenue, -$2,382,623) to -$2.75M (formula aid), while its excess-surplus reserve is nearly exhausted. The UFB shows regular-instruction spending down $8.4M within a flat current-expense budget, which suggests reductions or reclassification once the levy was halved from the 12% proposal. However, no district or news source opened describes the final cuts or ties them to health costs. At the 12% stage, administrators said there would be no layoffs.
 
 ## Confidence
 **Low**: the fiscal figures reconcile with the UFB, but the narrative relies on one TV report and an AI meeting summary, and the adopted-budget changes are unverified.

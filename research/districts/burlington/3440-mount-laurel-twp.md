@@ -1,5 +1,5 @@
 # Mount Laurel Twp (Burlington County) — district 3440
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,22 +19,22 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] The deck does not discuss health benefit costs except as a "cost-saving measure": membership in the "School Health Insurance Fund – 69 Districts" (the UFB lists the "South Jersey Health Insurance Fund", with $225,000 savings). [Hearing presentation](https://filecabinet13.eschoolview.com/2E0A21A8-FC98-4E17-AE95-C532A04DC339/47f1d06f-0b4f-49aa-9a69-14c4b590da68.pptx); [UFB27 Mount Laurel Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3440.pdf) (July 14, 2026)
 - [primary] State aid (general fund) per the district is $8,095,100 (2025-26) → $8,580,806 (2026-27), +$485,706. [Hearing presentation](https://filecabinet13.eschoolview.com/2E0A21A8-FC98-4E17-AE95-C532A04DC339/47f1d06f-0b4f-49aa-9a69-14c4b590da68.pptx)
 - [primary] The UFB shows on-roll enrollment of 4,227 → 4,313 (est.). Employee benefits as a percentage of salaries are 35.90% → 40.23%. Budgeted fund balance goes from $2,178,751 to $0, while unrestricted fund balance holds at $1,792,673. [UFB27 Mount Laurel Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3440.pdf)
-- [primary] Mount Laurel is a sending district to Lenape Regional. Lenape's levy adds $81.57 for the average Mount Laurel home. [LRHSD FY27 hearing slides](https://www.lrhsd.org/our-district/budget-information/2026-2027-budget-presentation)
+- [primary] Mount Laurel is a sending district to Lenape Regional. Lenape's levy adds $81.57 for the average Mount Laurel home ("Summary: Tax Impact" table, image file 14 on the page). [LRHSD FY27 hearing slides](https://www.lrhsd.org/our-district/budget-information/2026-2027-budget-presentation)
 - [snippet] No public reporting found on RIFs, class size increases, or program cuts.
 
 ## Assessment
-**No cuts reported.** Mount Laurel absorbs a $2.9M (+15.3%) benefits increase through a 6.7% general fund levy increase (5.82% on the average tax bill), above the cap and presumably via the health-care adjustment. It also stops appropriating fund balance. Programs expand (full-day preK and K, STEAM elective). One discrepancy: the district reports general fund state aid of +$485,706, while our figure is +$596,364 (total UFB state revenue). (See Fact check: the regenerated "Our numbers" now shows +$0.49M, which matches.)
+**No cuts reported.** Mount Laurel absorbs a $2.9M (+15.3%) benefits increase through a 6.7% general fund levy increase (5.82% on the average tax bill), above the cap and presumably via the health-care adjustment. It also stops appropriating fund balance. Existing programs continue (full-day kindergarten in its 8th year, full-day preschool in its 5th year with continued expansion of 3- and 4-year-old seats), and a STEAM elective (7-8) is added. Enrollment is rising 2.0%. The district's general fund state aid change (+$485,706) matches our NJDOE formula aid change (+$0.49M).
 
 ## Confidence
-**Medium**: the levy and benefits figures are verified in the UFB and match ours, but the district hearing deck (the source for the no-cuts and program-expansion claims) could not be fetched for verification.
+**Medium**: the levy, benefits and aid figures are verified in the UFB and the district hearing deck and match ours, but "no cuts" rests on the deck's silence about reductions and the absence of local reporting.
 
 ## Fact check
-- – Hearing deck claims (5.82% / $178.55 average-home impact, "Additional Staffing", program expansion): source unavailable, because the [PPTX](https://filecabinet13.eschoolview.com/2E0A21A8-FC98-4E17-AE95-C532A04DC339/47f1d06f-0b4f-49aa-9a69-14c4b590da68.pptx) exceeds the fetch size limit.
+- ✔ Hearing deck: "$178.55 (or 5.82%)" and levy $72,674,274 → $77,544,942 (slide 17); "sustains the 8th year of our Full-Day Kindergarten Program" and "Replacing current Staff (Retirees/Resignations)" (slide 7); STEAM elective and preschool expansion (slide 5); state aid 2025-26 $8,095,100 (slide 8) — verified at the [PPTX](https://filecabinet13.eschoolview.com/2E0A21A8-FC98-4E17-AE95-C532A04DC339/47f1d06f-0b4f-49aa-9a69-14c4b590da68.pptx).
 - ✔ General fund levy $72,674,274 → $77,544,942 (+6.7%), benefits $19,204,846 → $22,139,237 (+$2.93M, +15.3%), coverage via "South Jersey Health Insurance Fund" with $225,000 savings: verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3440.pdf#page=2) (p. 2), [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3440.pdf#page=5) (p. 5) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3440.pdf#page=10) (p. 10).
-- ✔ Aid: the Assessment's discrepancy is out of date. Our formula aid change is now +$0.49M, which matches the district's +$485,706.
+- ✔ Aid: our formula aid change (+$0.49M) matches the district's +$485,706; the Assessment's stale discrepancy note (+$596,364) was removed after review.
 
 ## Open questions
-- The "Additional Staffing" slide appears to contain a table or image that was not extracted. Confirm the positions added.
+- The "Additional Staffing" slide's text names only replacements for retirees/resignations; any table of added positions was not extracted. Confirm the positions added.
 - Did the district use the health-care cap adjustment, and how much? (The levy rose 6.7% in the general fund.)
 - Is the 2025-26 levy increase of 4.98% also health-driven? Check the 2025-26 hearing deck.
 

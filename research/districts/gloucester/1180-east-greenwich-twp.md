@@ -1,5 +1,5 @@
 # East Greenwich Twp (Gloucester County) — district 1180
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,7 +13,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [snippet] The board adopted the tentative 2026-27 budget on April 15, 2026, then held the public hearing and final adoption on April 29, 2026. The adopted budget "incorporated provisions for health benefit premium increases," with no amount given (per search snippet of aggregator meeting summaries on starbridge.ai, e.g. [starbridge.ai entry](https://starbridge.ai/buyer/contact/mark-schonewise); secondary source, unverified). This wording usually refers to the health care cost adjustment to the 2% levy cap. That is unconfirmed.
+- [snippet] The board adopted the tentative 2026-27 budget on April 15, 2026, then held the public hearing and final adoption on April 29, 2026. The adopted budget "incorporated provisions for health benefit premium increases," with no amount given (per search snippet of aggregator meeting summaries on starbridge.ai; secondary source). The quoted text could not be found on the cited page or on any page checked, by us or by an independent review, so it is treated as unverified and not relied on below.
 - [primary] The state UFB (generated July 14, 2026) lists a proposed 2026-27 local tax levy of $16,149,837 vs. $15,291,104 in 2025-26 revised, about +5.6%, which matches our figure ([UFB27 1180](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1180.pdf)).
 - [primary] The district's April 29, 2026 public hearing notice and advertised budget ([April 29, 2026 Public Hearing Session document](https://www.eastgreenwich.k12.nj.us/fs/resource-manager/view/a4adb218-6775-4a44-a6e0-468ac9c4d6de)):
   - Total state revenue is $6,567,205 → $6,370,189 (-$197,016, which matches our aid figure). Categorical transportation aid falls $1,109,729 → $957,230, and special education aid $1,733,740 → $1,596,264. Equalization aid rises $3,480,662 → $3,603,354.
@@ -29,21 +29,21 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on a referendum.
 
 ## Assessment
-**Consistent** (weak; reclassified 2026-10-24 from Insufficient evidence, see Fact check). Benefits rose $606K (UFB revised base; earlier draft said $546K) while aid fell $197K. The district appears to have used a health-benefit-related levy cap adjustment, with the levy up 5.6%, and kept fund balance use flat. The May 13, 2026 minutes record one RIF (a physical education teacher, effective July 1, 2026, "for reasons of efficiency and economy"); the district does not tie it to health costs. The advertised budget shows regular instruction down $258K (-4.1%) while special education and tuition rise, which suggests possible reallocation or reductions in general-education staffing. The March 18 and April 15, 2026 minutes have not been reviewed.
+**Insufficient evidence.** Benefits rose $606K ($4,961,458 − $4,355,797, UFB revised base) while formula aid fell $197K. The levy rose 5.6%, above the 2% cap, but no document we could verify says which cap adjustment (health care or banked cap) was used. The May 13, 2026 minutes record one RIF (a physical education teacher, effective July 1, 2026, "for reasons of efficiency and economy"); the district does not tie it to health costs, and the only health link was an aggregator snippet we could not verify. The advertised budget shows regular instruction down $258K ($6,367,314 → $6,109,027, -4.1%) while special education and tuition rise, which may reflect reallocation; the district does not explain it. The March 18 and April 15, 2026 minutes have not been reviewed. (Reclassified from Consistent after adversarial review: no district source links the RIF or other reductions to health costs, and the "premium increases" snippet could not be verified.)
 
 ## Confidence
-**Medium**: the RIF, the aid cut and the benefit increase are verified in the district's own documents, but the only link to health costs is an unverified aggregator snippet; the district gives "efficiency and economy" as the reason.
+**Low**: the RIF, the aid cut and the benefit increase are verified in the district's own documents, but nothing verifiable connects them to health costs; the district gives "efficiency and economy" as the reason.
 
 ## Fact check
 - ✔ Benefits $4,355,797 → $4,961,458 and Regular Programs-Instruction $6,367,314 → $6,109,027 — verified at [April 29, 2026 hearing document](https://www.eastgreenwich.k12.nj.us/fs/resource-manager/view/a4adb218-6775-4a44-a6e0-468ac9c4d6de) (page 5); benefits match Our numbers.
 - ✔ Levy $15,291,104 → $16,149,837 and "Member of the School Health Insurance Funds" — verified at [UFB27 1180](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1180.pdf#page=2) (pages 2 and 8).
 - ✔ RIF of a Physical Education Teacher effective July 1, 2026 "for reasons of efficiency and economy" — found at [May 13, 2026 minutes](https://resources.finalsite.net/images/v1781787278/eastgreenwichk12njus/p5b8qmzpifzmtdaebf47/May132026PUBLICMinuteswithAttachments.pdf#page=5) (page 5; public comment on page 1).
 - – "incorporated provisions for health benefit premium increases" — source unavailable: the cited [starbridge.ai page](https://starbridge.ai/buyer/contact/mark-schonewise) loads only a contact profile; the quoted text is not visible.
-- Classification changed from Insufficient evidence to Consistent (weak) because the district's own minutes record a teacher RIF for economy in the same year benefits rose $606K while aid fell $197K; the district does not cite health costs as the reason.
+- Classification was briefly changed to Consistent (weak) on the strength of the RIF; after adversarial review it is back to Insufficient evidence, because the district does not cite health costs as the reason.
 
 ## Open questions
 - Request the April 29, 2026 budget hearing presentation and the resolution amount for the health care cost adjustment.
 - Review the April and May 2026 minutes (scanned PDFs) for non-renewals or abolished positions.
 - Identify the health carrier (district is not in SEHBP) and its 2026-27 renewal rate.
 
-<!-- facts: confidence=medium; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=1; teacher_positions_cut=1; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=low; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=1; teacher_positions_cut=1; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

@@ -36,25 +36,27 @@ and the linked profiles._
 3. **SEHBP districts budgeted larger increases** (*Confidence: Medium-Low*: membership is name-matched and only 12 comparable
    districts here are on the list; see [validation V6](../validation.md)): a median **+23.0%** vs. **+15.1%** for districts on other plans. Most
    non-SEHBP districts here buy coverage through SHIF (School Health Insurance Fund) or a broker trust.
-4. **District-by-district research (106 profiles):** each profile carries its own confidence rating and fact check. **1 Confirmed**, **23 Consistent**, **35 No cuts reported**,
-   **47 Insufficient evidence**.
-   - **Confirmed:** **Cherry Hill** (Medium confidence): ~$10M health increase within a $29M gap. About 70 positions cut, 14 teacher layoffs, class-size guidelines +2 in grades 1–8.
-   - **Consistent:** cuts were made with health costs as one stated driver. Examples: Evesham (7 elementary teaching
-     positions left unfilled and an assistant principal; the district also cites enrollment and lost incentive aid),
-     Haddonfield (proposed 3.5 teachers and 5 aides; health was 43% of its largest cost increases; adopted cuts unconfirmed),
-     Tabernacle (7–8 positions and most sports), Franklin Twp (13 teachers + 6 support, larger classes), Chesterfield (7 positions), Collingswood (school
-     closure, 33 positions), Waterford (34 staff, mainly tuition), Haddon Heights, Haddon Twp, Moorestown, Pemberton,
-     Washington Twp (52 positions proposed, then reserves used instead).
-   - **Tax increases were more commonly documented than layoffs.** At least a dozen districts (Winslow, Willingboro, Pine
-     Hill, Voorhees, Lenape, Swedesboro-Woolwich, West Deptford, Monroe, Cinnaminson, Elk, Riverton, Springfield and others) used the
-     levy cap's **health-care cost adjustment**, often with banked cap, to pass the increase to property taxpayers.
-     The median general-fund levy in comparable districts rose 5.7%, and 75 of 101 went above 2%.
+4. **District-by-district research (106 profiles):** each profile carries its own confidence rating and fact check, and
+   the High/Medium profiles were checked against their sources in an independent adversarial review. **0 Confirmed**,
+   **20 Consistent**, **33 No cuts reported**, **53 Insufficient evidence**.
+   - **No South Jersey district in our research singles out health costs as the cause of its cuts.** Cherry Hill,
+     Evesham and Haddonfield were first rated Confirmed and downgraded in review: each names health alongside other causes.
+   - **Consistent** (cuts made, health one stated driver). Examples: Cherry Hill (~70 positions, 14 teacher layoffs; the
+     district names health with state aid and transportation), Evesham (7 elementary teaching positions left unfilled and
+     an assistant principal; also enrollment and lost incentive aid), Haddonfield (proposed 3.5 teachers and 5 aides;
+     adopted cuts unconfirmed), Franklin Twp (13 teachers + 6 support, larger classes), Tabernacle, Chesterfield,
+     Collingswood, Haddon Heights, Haddon Twp, Moorestown, Pemberton.
+   - **Tax increases were more commonly documented than layoffs.** Many districts used the levy cap's **health-care cost
+     adjustment**, often with banked cap, to pass the increase to property taxpayers; the documented amounts are in each
+     profile and summed in the [index](../../research/districts/README.md). The median general-fund levy in comparable
+     districts rose 5.7%, and 75 of 101 went above 2%.
 5. **Planned use of surplus fell.** *Confidence: High* for the totals (UFB line 580). Budgeted fund balance, the surplus districts plan to spend in the year,
    falls from $234M (2025-26) to $203M (2026-27). That is a smaller planned drawdown, not a measure of what is left; separately, at least
    seven Camden County districts' documents say they will use up their excess surplus by June 2027 (see their profiles), leaving less cushion for 2027-28, the first full
    year of the ~34% SEHBP increase.
-6. **Kingsway Regional, home of the "Fair Funding" campaign:** health renewal +15.8% (~$1.4M), a $1.3M health waiver, levy +6.7%, and 9 FTE
-   cut (framed by the district as enrollment-driven). Its Fair Funding page dates from 2016–2018 (pre-S2) and hasn't been updated.
+6. **Kingsway Regional, home of the "Fair Funding" campaign:** a SHIF-projected health increase of +14.14% (~$1.4M; +15.8% is SHIF's average
+   renewal), a $1,301,423 health waiver, levy +6.7%, and a reported −9.0 FTE (the final deck's rows sum to −9.84; framed by
+   the district as enrollment-driven). See its [profile](../../research/districts/gloucester/2440-kingsway-regional.md). Its Fair Funding page dates from 2016–2018 (pre-S2) and hasn't been updated.
 
 ## Limits / next steps
 - **Thin evidence for 47 districts.** The session's web-search quota ran out mid-way, and several district sites block bots or

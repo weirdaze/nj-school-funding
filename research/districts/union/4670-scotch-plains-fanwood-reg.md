@@ -1,5 +1,5 @@
 # Scotch Plains-Fanwood Reg (Union County) — district 4670
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -17,30 +17,31 @@ All "slide" citations are to [Scotch Plains-Fanwood Public Schools, "2026-2027 B
 
 - [primary] Health benefits go from **$25,252,339 (2025-26) to $29,060,819 (2026-27), +$3,808,480 (+15.1%)**. "Health insurance is major challenge." Salaries rise +3.70% and the general fund +5.4% ($125,354,503 to $132,108,151). Slide 6.
 - [primary] Structural challenges, 4-year trend: "Medical enrollment up 8% despite essentially flat headcount"; "Employer Medical contributions increased from 85% to 88% of the total medical cost"; "Average net cost of medical care per employee is up 44%"; "Enrollment up 6%, Employee FTEs up less than 1%." Slide 7.
-- [primary] Reductions: "Over $1M in reductions over the last 24 months": IT administration, HR restructuring, Social Studies Supervisor (K-12), Math Supervisor (6-12), Arts Integration Specialist (K-12), Director of Operations, Elementary Spanish Teacher, and salary savings. Slide 7. The deck does not say which of these fall in the 2026-27 budget.
+- [primary] Reductions: "Over $1M in reductions over the last 24 months": IT administration, HR restructuring, Social Studies Supervisor (K-12), Math Supervisor (6-12), Arts Integration Specialist (K-12), Director of Operations, Elementary Spanish Teacher, and salary savings. Slide 7. The deck does not date these items or say which, if any, fall in the 2026-27 budget.
 - [primary] Medical outlook: "FY27 Increase capped due to prior year negotiation"; "Major risk for next year's budget - expected 20% increase"; "Due to Chapter 44 regulation, employer contribution has increased." Slide 8.
 - [primary] Other impacts: a state aid cap with a $618K impact, extraordinary aid funded at 50% ($2M impact), IDEA -$96K, ESEA -$68K, and new sick leave law +$120K. Slide 7.
 - [primary] Levy and cap: the levy goes from $110,851,366 to $117,588,480 (+$6,737,114, **+6.1%**). It is made up of "$2.22M 2% Base Budget", "$0.16M Enrollment Adj", "**$3.29M Medical Adj**" and "**$1.06M Banked Cap**". State aid goes from $9,034,869 to $9,576,961 (+$542,092). Fund balance is $2,000,000 in both years. Extraordinary aid goes from $2,065,426 to $1,584,231. Slide 11.
 - [primary] Budget goal: "Respond to challenging economic climate without impacting instructional programs or services." Slide 3.
 - [primary] Tax impact: estimated monthly increase for the average home of $50.05 (5.70%) in Scotch Plains and $56.01 (7.27%) in Fanwood. Slide 12.
 - [news] The Westfield Leader reports a $132.1M operating budget, "$3.8 million" in health care cost increases, a 6.1% levy, $542,000 more state aid, and school tax increases of $606 for Scotch Plains and $672 for Fanwood. Superintendent Dr. Joan Mast is quoted: "Every dollar must deliver value for our students." [The Westfield Leader / goleader.com](https://www.goleader.com/article/1501,spf-schools-follow-county-wide-property-tax-increase-trend), uploaded Apr. 2, 2026 (partially paywalled).
+- [primary] Enrollment: UFB on-roll (incl. special education) goes from 5,744 (2025-26) to 5,755 (2026-27), +0.2%. [UFB27_4670](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_4670.pdf), p. 1.
 - A Google Slides deck that surfaces in searches (26.1% health; $605,376 adjustment; $462,917 banked) is **not** this district. It is the Highland Park look-alike.
 - No public reporting found on 2026-27 layoffs, class sizes or the health plan carrier.
 
 ## Verification of our numbers
-- Benefits: our UFB line 71260 goes from $29,270,259 to $33,481,535 (+$4,211,276, +14.4%), which matches the [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_4670.pdf), p. 4. The district's health-only line is +$3,808,480 (+15.1%). The roughly $4.0-4.4M difference is consistent with non-health benefits (e.g., workers' comp and Social Security, slide 10) in line 71260. This is consistent, not a mismatch.
-- Formula aid: the district's state aid change is +$542,092, which matches our state_aid_change exactly. Our UFB state revenue change (+$60,897) nets in the -$481,195 extraordinary aid drop.
+- Benefits: our UFB line 71260 goes from $29,270,259 to $33,481,535 (+$4,211,276, +14.4%), which matches the [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_4670.pdf), p. 4. The district's health-only line is +$3,808,480 (+15.1%). The difference between the two increases is about $0.40M ($4,211,276 − $3,808,480), presumably non-health benefits (e.g., workers' comp and Social Security, slide 10) in line 71260, though the deck does not itemize it. The health increase is consistent with ours, not a mismatch.
+- Formula aid: the district's state aid change (slide 11) is +$542,092, which matches our state_aid_change exactly. Our UFB state revenue change (+$60,897) nets in the -$481,195 extraordinary aid drop.
 - Levy: +6.1%, which matches.
 - Fund balance: $2,000,000 in both years, which matches.
 
 ## Assessment
-**Consistent.** The district calls health insurance its "major challenge." It used a $3.29M medical cap adjustment plus $1.06M of banked cap to fund a +15.1% ($3.8M) health increase, and it lists more than $1M of reductions over 24 months, mostly supervisory and administrative roles plus one elementary Spanish teacher. Those reductions span two budget years and are not tied specifically to health costs. The 2026-27 budget's stated goal was to avoid "impacting instructional programs or services," so the main response in 2026-27 was a large levy increase, not layoffs.
+**Insufficient evidence.** The district calls health insurance its "major challenge," and its levy build-up includes a $3.29M medical cap adjustment plus $1.06M of banked cap alongside a +15.1% ($3.8M) health increase (slides 6, 11). It lists "over $1M in reductions over the last 24 months" (supervisory and administrative roles, one elementary Spanish teacher, and salary savings), but these are undated, span two budget years and are not tied to health costs. The 2026-27 budget's stated goal was to avoid "impacting instructional programs or services" (a goal, not an observed outcome), so the main documented response in 2026-27 was a large levy increase; we found no evidence of 2026-27 cuts either way. (Reclassified from Consistent after adversarial review: the listed reductions are undated and not shown in the 2026-27 budget.)
 
 ## Confidence
-**High**: the key figures come from the district's own budget presentation and reconcile with the UFB and with our aid, levy and fund balance numbers. The benefits difference is explained by non-health lines.
+**Medium**: the key figures come from the district's own budget presentation and reconcile with the UFB and with our aid, levy and fund balance numbers, but the timing of the listed reductions is unknown and the ~$0.40M non-health benefits difference is not itemized.
 
 ## Open questions
 - Which of the listed reductions take effect in 2026-27 rather than 2025-26?
 - What is the health plan (carrier or self-insured)? What "prior year negotiation" capped the FY27 increase, and what happens with the expected 20% increase in 2027-28?
 
-<!-- facts: confidence=high; plan=unknown; health_increase_pct=15.1; health_cap_adjustment=3290000; banked_cap_used=1060000; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=15.1; health_cap_adjustment=3290000; banked_cap_used=1060000; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

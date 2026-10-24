@@ -32,7 +32,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
   Web search was unavailable for this part of the batch.
 
 ## Assessment
-**Insufficient evidence.** The budget lines show aid growth (+$279K) exceeding the benefit increase (+$196K). Instruction is flat to up, and the levy rose 6%, which implies a cap adjustment. Nothing indicates cuts, but local reporting and board minutes were not checked. Audited health growth is low (+1.4% FY23→FY25), yet the budgeted benefits line jumped from $1.13M (FY25 actual) to $1.93M. Whether that reflects health costs or reclassification is worth checking.
+**Insufficient evidence.** The budget lines show aid growth (+$279K) exceeding the benefit increase (+$196K: $1,929,000 − $1,732,550). Instruction is flat to up, and the levy rose 6%, which implies a cap adjustment. Nothing indicates cuts, but local reporting and board minutes were not checked. Audited health growth is low (+1.4% FY23→FY25), yet the budgeted benefits line jumped from $1.13M (FY25 actual) to $1.93M. Whether that reflects health costs or reclassification is worth checking.
 
 ## Confidence
 **Low**: insufficient evidence — UFB figures verified, but board minutes and local reporting were not reviewed, and the jump from FY25 actual benefits is unexplained.

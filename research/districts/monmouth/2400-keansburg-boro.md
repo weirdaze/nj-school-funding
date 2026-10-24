@@ -1,5 +1,5 @@
 # Keansburg Boro (Monmouth County) — district 2400
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list). Sample: county least-squeezed._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list). Sample: county least-squeezed._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -24,7 +24,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
   [Keansburg Budget Presentation 2026-2027](https://www.keansburg.k12.nj.us/fs/resource-manager/view/96fc0e8d-fa36-4749-ab09-ed5dc167db93)
 - [primary] Same deck, slide 7: state sources are $26,642,494 (60.5% of revenue), including $22.4M of equalization aid, and the local tax levy is $9.85M. Slide 10: the student-to-teacher ratio is 10.4, against a state average of 10.9. Slide 13 lists "rising state healthcare benefits" and utilities under "Rising Operational Overhead" as a challenge. Slide 8: the only changes from tentative to final were higher interest projections on the maintenance and capital reserves (+$15,000 and +$30,000). The deck lists no staff, program or class-size reductions. [Budget Presentation](https://www.keansburg.k12.nj.us/fs/resource-manager/view/96fc0e8d-fa36-4749-ab09-ed5dc167db93)
-- [primary] State UFB (generated July 14, 2026), p. 2: base levy $9,101,800 → $9,851,800 (+$750,000, +8.24%). State revenue $25,958,767 → $26,642,494 (+$684K). Budgeted fund balance $4,553,860 → $1,653,348. UFB p. 7: the legal reserve goes from $1,653,809 (6/30/2025) to $937,244 (6/30/2026) to $0 (est. 6/30/2027). UFB p. 8: benefits as a share of salaries 36.60% → 42.35%. UFB p. 1: on-roll enrollment 1,418 → 1,490 (est.). [UFB27 2400](https://www.nj.gov/education/budget/ufb/2627/reports/25/UFB27_2400.pdf)
+- [primary] State UFB (generated July 14, 2026), p. 2: base levy $9,101,800 → $9,851,800 (+$750,000, +8.24%). State revenue $25,958,767 → $26,642,494 (+$684K). Budgeted fund balance $4,553,860 → $1,653,348. UFB p. 6: the legal reserve goes from $1,653,809 (6/30/2025) to $937,244 (6/30/2026) to $0 (est. 6/30/2027); unrestricted general fund balance is estimated at $845,972 at 6/30/2027, and the capital reserve at $4,228,093. UFB p. 8: benefits as a share of salaries 36.60% → 42.35%. UFB p. 1: on-roll enrollment 1,418 → 1,490 (est.). UFB pp. 4-5: Total General Current Expense $22,580,414 (2025-26 revised) → $20,376,575 (−9.8%) and total appropriations $48,566,875 → $44,071,302 (−$4.5M); the largest line decreases are out-of-district tuition ($3,974,902 → $2,613,273) and operation and maintenance of plant ($6,135,556 → $5,090,734), not instruction lines (regular instruction $932,781 → $1,003,062). [UFB27 2400](https://www.nj.gov/education/budget/ufb/2627/reports/25/UFB27_2400.pdf)
 - [primary] Health plan: the district is in SEHBP per the state list. The UFB names the Monmouth Ocean Cooperative Shared Service Insurance Fund only for property/casualty insurance (p. 9).
 - No news coverage of the 2026-27 budget was found. A CBS News item on Keansburg losing state aid appears to date from the 2018 S2 formula change and was not used.
 - No public reporting found on a health-care cap adjustment or banked cap amount, or on the SEHBP increase in dollars.
@@ -36,7 +36,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance: $4,553,860 → $1,653,348, which matches ours.
 
 ## Assessment
-**No cuts reported.** Keansburg's adopted-budget presentation names rising state health-benefit costs as a challenge, but it lists no staff, program or class-size reductions. Its student-teacher ratio (10.4) is below the state average. The district funded the budget with an 8.2% levy increase, a $0.7M aid increase and the last of its excess surplus. Its "least-squeezed" ranking is an artifact of the incomplete benefits line.
+**No cuts reported.** Keansburg's adopted-budget presentation names rising state health-benefit costs as a challenge, but it lists no staff, program or class-size reductions. Its student-teacher ratio (10.4) is below the state average. The district funded the budget with an 8.2% levy increase, +$0.58M of formula aid (+$0.68M total state revenue) and $1.65M of budgeted fund balance (down from $4.55M); the UFB still projects $0.85M of unrestricted fund balance and $4.2M of capital reserve at 6/30/2027 (p. 6), so this is a planned drawdown, not exhausted reserves. The −9.8% drop in general current expense comes mainly from lower out-of-district tuition and plant operations, not from instruction lines; no staff or program cuts are documented either way. Its "least-squeezed" ranking is an artifact of the incomplete benefits line.
 
 ## Confidence
 **Medium**: the district deck (an infographic-style presentation) and the UFB were both opened and agree on levy, aid and totals. However, the deck gives no year-over-year benefits change, and our benefits line is shown to be incomplete.
@@ -44,5 +44,6 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Open questions
 - What is the full district-wide benefits change (general fund plus school-based budgets) from 2025-26 to 2026-27? How much health-care cap adjustment produced the 8.2% levy increase?
 - How will the district absorb the ~34% SEHBP increase in Jan 2027 with its legal reserve at $0?
+- What explains the $1.36M drop in budgeted out-of-district tuition (fewer placements, or a 2025-26 one-time item)?
 
-<!-- facts: confidence=medium; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=no; our_benefits_match=no; our_aid_match=yes -->
+<!-- facts: confidence=medium; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=no; our_aid_match=yes -->
