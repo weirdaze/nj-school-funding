@@ -13,15 +13,24 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- State UFB: benefits line $422,565 (2024-25 actual) → $499,447 (2025-26 revised) → $567,586 (2026-27), +13.6% on the revised base; benefits as % of salaries 33.61% → 37.35%. [NJDOE UFB27 5890](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5890.pdf) (generated July 14, 2026)
-- Levy $2,378,384 → $2,475,299 (+4.1%); budgeted fund balance $302,730 → $337,133; on-roll enrollment 86 → 90 estimated. [UFB27 5890](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5890.pdf)
-- "Regular Programs-Instruction" rises $761,022 → $813,031 (+6.8%). [UFB27 5890](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5890.pdf)
+- [primary] State UFB: benefits line $422,565 (2024-25 actual) → $499,447 (2025-26 revised) → $567,586 (2026-27), +13.6% on the revised base; benefits as % of salaries 33.61% → 37.35%. [NJDOE UFB27 5890](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5890.pdf) (generated July 14, 2026)
+- [primary] Levy $2,378,384 → $2,475,299 (+4.1%); budgeted fund balance $302,730 → $337,133; on-roll enrollment 86 → 90 estimated. [UFB27 5890](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5890.pdf)
+- [primary] "Regular Programs-Instruction" rises $761,022 → $813,031 (+6.8%). [UFB27 5890](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5890.pdf)
 - The district website could not be identified without web search (quota exhausted), so no presentation or minutes were reviewed.
 - No public reporting found on layoffs, class sizes, program cuts, health-plan changes or state-aid commentary.
 
 ## Assessment
 **Insufficient evidence.** This is a very small (about 90-student) K-8 district. Benefits rose about $43-68K, a little more than aid (+$10K), and the levy rose 4.1%, probably using a cap adjustment. Instructional spending increased, and nothing suggests cuts. Our 2025-26 base ($524,246) differs from the UFB revised figure ($499,447).
 
+## Confidence
+**Low**: only the state UFB is available (figures verified); no district website, minutes or press were reviewed.
+
+## Fact check
+- ✔ Benefits $499,447 → $567,586 (page 3); levy $2,378,384 → $2,475,299 (page 2) — verified at [UFB27 5890](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5890.pdf).
+- Note: the Assessment's base discrepancy ($524,246 vs $499,447) is resolved. The regenerated "Our numbers" uses the revised base ($0.50M → $0.57M, +13.6%).
+
 ## Open questions
 - Locate the district website and the 2026-27 budget hearing materials; which cap adjustments explain the 4.1% levy increase?
 - Health plan carrier and renewal rate.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

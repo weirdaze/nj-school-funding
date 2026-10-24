@@ -13,15 +13,24 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state User-Friendly Budget (UFB) lists the general fund levy at $3,504,124 (2025-26 revised) and $3,574,206 (2026-27; +2.0%). Equalization aid is $18,226,013 → $19,280,491, and total state revenue $21,574,069 → $23,328,018 (+$1.75M). No budgeted fund balance is used in either year. The district is heavily state-aided, with state aid about 6.5x the levy. [UFB27 North Hanover Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3650.pdf) (generated July 14, 2026)
-- On-roll enrollment is 1,419 → 1,470 (est.). Employee benefits as a percentage of salaries are 31.56% → 36.75%. Classroom salaries and benefits per pupil are $12,400 → $13,084. Unusual revenues include $175,000 (First Bank) and $500,243 (TD Bank) in interest, plus $68,000 in SREC sales. Unrestricted fund balance is flat at $939,953 (down from $3,907,689 at 6/30/2024). [UFB27 North Hanover Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3650.pdf)
-- The district's budget page (nhanover.com/our_district/business_office/budget) loads its documents via script, and no documents rendered, so no presentation was reviewed. [North Hanover Twp SD – Budget](https://www.nhanover.com/our_district/business_office/budget) (accessed 2026-10-24)
-- No public reporting found on staff reductions, class sizes, program cuts, or district statements on health costs. Web search quota ran out before local news could be checked.
+- [primary] The state User-Friendly Budget (UFB) lists the general fund levy at $3,504,124 (2025-26 revised) and $3,574,206 (2026-27; +2.0%). Equalization aid is $18,226,013 → $19,280,491, and total state revenue $21,574,069 → $23,328,018 (+$1.75M). No budgeted fund balance is used in either year. The district is heavily state-aided, with state aid about 6.5x the levy. [UFB27 North Hanover Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3650.pdf) (generated July 14, 2026)
+- [primary] On-roll enrollment is 1,419 → 1,470 (est.). Employee benefits as a percentage of salaries are 31.56% → 36.75%. Classroom salaries and benefits per pupil are $12,400 → $13,084. Unusual revenues include $175,000 (First Bank) and $500,243 (TD Bank) in interest, plus $68,000 in SREC sales. Unrestricted fund balance is flat at $939,953 (down from $3,907,689 at 6/30/2024). [UFB27 North Hanover Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3650.pdf)
+- [primary] The district's budget page (nhanover.com/our_district/business_office/budget) loads its documents via script, and no documents rendered, so no presentation was reviewed. [North Hanover Twp SD – Budget](https://www.nhanover.com/our_district/business_office/budget) (accessed 2026-10-24)
+- [snippet] No public reporting found on staff reductions, class sizes, program cuts, or district statements on health costs. Web search quota ran out before local news could be checked.
 
 ## Assessment
 **No cuts reported** (and the numbers make benefit-driven cuts unlikely). Benefits rose 20.1% (+$1.15M), but the state aid increase (+$1.75M) more than covered it. The levy is held to 2% with no fund balance draw, and classroom spending per pupil rises. This district is a counterexample to the claim, although public documentation is thin.
 
+## Confidence
+**Low**: the UFB figures are verified and support the arithmetic, but there is no district narrative confirming that no staff were reduced.
+
+## Fact check
+- ✔ Benefits $5,698,098 → $6,850,475 (+20.2%), levy $3,504,124 → $3,574,206 (+2.0%), equalization aid $18,226,013 → $19,280,491: verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3650.pdf#page=4) (p. 4) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3650.pdf#page=2) (p. 2).
+- ✘ Open question said "The UFB lists only the BCIP liability JIF". The UFB also lists "Member of School Health Insurance Fund for joint purchae of health insurnance coverage" at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3650.pdf#page=9) (p. 9). Open question corrected.
+
 ## Open questions
 - Confirm with the district's 2026-27 budget presentation (business office documents) that there are no staffing reductions.
 - Unrestricted fund balance fell from $3.9M (2024) to $0.94M (2025). What was it used for?
-- What is the health plan/carrier? The UFB lists only the BCIP liability JIF.
+- What is the health plan/carrier? (The UFB also lists "Member of School Health Insurance Fund"; see Fact check.)
+
+<!-- facts: confidence=low; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

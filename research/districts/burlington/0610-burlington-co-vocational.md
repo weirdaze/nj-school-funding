@@ -13,13 +13,22 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state UFB shows the county tax levy flat at $15,894,974. Tuition from sending districts rises to about $9.89M from $8.52M (2025-26 revised). Estimated on-roll enrollment is 2,360 for Oct 2026, down from 2,442 in Oct 2025 (per search snippet). [UFB27 0610](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0610.pdf), state summary generated July 14, 2026.
-- BCIT completed an expansion of more than $14 million at its Westampton campus with state grants and county funds, adding capacity for about 100 more students (per search snippet, Oct 2025). [CareerTech NJ](https://careertechnj.org/bcit-celebrates-completion-of-14-million-expansion-at-westampton-campus-burlington-county-news)
-- No public reporting found on RIFs, program cuts, class size changes, health plan changes, or district statements on benefits or state aid for 2026-27.
+- [primary] The state UFB shows the county tax levy flat at $15,894,974. Tuition from sending districts rises to about $9.89M from $8.52M (2025-26 revised). Estimated on-roll enrollment is 2,360 for Oct 2026, down from 2,442 in Oct 2025 (per search snippet). [UFB27 0610](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0610.pdf), state summary generated July 14, 2026.
+- [snippet] BCIT completed an expansion of more than $14 million at its Westampton campus with state grants and county funds, adding capacity for about 100 more students (per search snippet, Oct 2025). [CareerTech NJ](https://careertechnj.org/bcit-celebrates-completion-of-14-million-expansion-at-westampton-campus-burlington-county-news)
+- [snippet] No public reporting found on RIFs, program cuts, class size changes, health plan changes, or district statements on benefits or state aid for 2026-27.
 
 ## Assessment
-**No cuts reported.** Budgeted benefits fall slightly, state aid and tuition revenue rise, and the district expanded capacity. The benefits-pressure claim does not fit this district for 2026-27. Students per teacher rose (14.2 → 15.4) over 2021-22 to 2024-25, but that predates and is unrelated to the 2026-27 benefits spike.
+**No cuts reported.** Budgeted benefits rise 13.4% from the 2025-26 revised budget ($7.05M → $8.00M), though they are slightly below the 2024-25 actual ($8.10M). State aid (+$1.08M) and tuition revenue (+$1.37M) rise more than benefits, and the district expanded capacity. (Corrected in fact check: an earlier draft said benefits fall slightly.) Students per teacher rose (14.2 → 15.4) over 2021-22 to 2024-25, but that predates and is unrelated to the 2026-27 benefits spike.
+
+## Confidence
+**Low**: no district narrative; the profile's original premise (benefits falling) was wrong, and "no cuts" rests only on absence of reporting.
+
+## Fact check
+- ✔ County tax levy flat at 15,894,974 and tuition from LEAs 8,519,302 → 9,887,365 — verified at [UFB27 0610](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0610.pdf) (page 2).
+- ✘ Assessment says "Budgeted benefits fall slightly" — differs: the [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0610.pdf) (page 4) shows 8,100,726 (2024-25 actual) → 7,052,422 (2025-26 revised) → 7,998,715 (2026-27), i.e. +13.4% vs. the revised baseline (as in our numbers). Benefits fall only vs. the 2024-25 actual. Assessment corrected in place; classification unchanged (still no cuts found).
 
 ## Open questions
 - Why does the benefits budget decline when the statewide pattern is +15%? Possibly a plan change, a renewal, or a prior-year overbudget. Ask for the health carrier and the 2026-27 renewal rate.
 - Flat county appropriation: does the county freeze push costs onto sending-district tuition (+16%)?
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

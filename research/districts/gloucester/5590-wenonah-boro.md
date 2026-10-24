@@ -13,14 +13,23 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state's 2026-27 User-Friendly Budget shows a proposed levy of about $3.43M, up from about $3.36M (2025-26 revised). Enrollment is estimated at 146 on roll, after 141 actual in Oct 2025 and 158 in 2024-25 (per search snippet). [UFB27 5590](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5590.pdf), generated 2026-07-14.
-- The district's notices page posts the 2026-27 User-Friendly and Advertised budgets (Google Drive links). It notes that the March 10, 2026 board meeting was rescheduled to March 24, 2026. No budget presentation or 2026 minutes are posted there. [Wenonah SD Public Notices](http://wenonahsd.org/district/notices/), accessed 2026-10-24.
-- The district is a one-school K-6 district; grades 7-12 attend Gateway Regional (per search snippet). [Wikipedia](https://en.wikipedia.org/wiki/Wenonah_School_District)
+- [primary] The state's 2026-27 User-Friendly Budget shows a proposed levy of about $3.43M, up from about $3.36M (2025-26 revised). Enrollment is estimated at 146 on roll, after 141 actual in Oct 2025 and 158 in 2024-25 (levy $3,358,976 → $3,434,619 and enrollment 141 → 146 confirmed in the UFB PDF, 2026-10-24). [UFB27 5590](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5590.pdf), generated 2026-07-14.
+- [primary] The district's notices page posts the 2026-27 User-Friendly and Advertised budgets (Google Drive links). It notes that the March 10, 2026 board meeting was rescheduled to March 24, 2026. No budget presentation or 2026 minutes are posted there. [Wenonah SD Public Notices](http://wenonahsd.org/district/notices/), accessed 2026-10-24.
+- [snippet] The district is a one-school K-6 district; grades 7-12 attend Gateway Regional (per search snippet). [Wikipedia](https://en.wikipedia.org/wiki/Wenonah_School_District)
 - No public reporting found on staff reductions, class sizes, program cuts, health benefit statements, plan switching, cap waivers, referendums, or state aid comments.
 
 ## Assessment
-**Insufficient evidence.** Our data shows a +16% benefits increase (about $83K) with almost flat state aid. The levy rose only about 2.3%, and the fund balance draw grew modestly ($134K → $186K), which suggests the cost was absorbed largely through reserves. No public documents or reporting on cuts were found. Students per teacher fell from 10.3 to 8.0 as enrollment declined.
+**Insufficient evidence.** Our data shows a +10.1% benefits increase (about $56K; corrected 2026-10-24 from an earlier "+16%, about $83K") with almost flat state aid. The levy rose only about 2.3%, and the fund balance draw grew modestly ($134K → $186K), which suggests the cost was absorbed largely through reserves. No public documents or reporting on cuts were found. Students per teacher fell from 10.3 to 8.0 as enrollment declined.
+
+## Confidence
+**Low**: no district documents or reporting on cuts. Only the state UFB was checked; it matches our numbers.
+
+## Fact check
+- ✔ Levy $3,358,976 → $3,434,619 — verified at [UFB27 5590](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5590.pdf) (p. 2, "Total Tax Levy").
+- ✘ Assessment said "+16% benefits increase (about $83K)" — differs: [UFB27 5590](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5590.pdf) p. 4 shows $550,072 → $605,575 (+10.1%, +$55,503), matching our current numbers. Assessment corrected.
 
 ## Open questions
 - Get the March 24, 2026 (tentative budget) and spring 2026 budget hearing minutes from the board secretary. They are not posted online.
 - Audited health costs were flat in FY23→FY25 (+0.6%), yet the budget rises 16%. Confirm whether the increase is health premiums or another benefit line.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

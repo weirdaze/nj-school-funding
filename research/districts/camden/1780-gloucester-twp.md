@@ -13,13 +13,13 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- **Budget meeting (Apr 27, 2026).** A third-party meeting summary (an AI summary on a procurement site, not the district's own document) reports that at the board's budget meeting the business administrator described "a $2.5 million reduction in surplus and substantial healthcare cost increases of 17.63%, contributing to an initial $10 million budget deficit." [Govly meeting summary — Gloucester Township BOE](https://app.govly.com/public/meetings/26192) (meeting Apr 27, 2026). The same summary says:
+- [snippet] **Budget meeting (Apr 27, 2026).** A third-party meeting summary (an AI summary on a procurement site, not the district's own document) reports that at the board's budget meeting the business administrator described "a $2.5 million reduction in surplus and substantial healthcare cost increases of 17.63%, contributing to an initial $10 million budget deficit." [Govly meeting summary — Gloucester Township BOE](https://app.govly.com/public/meetings/26192) (meeting Apr 27, 2026). The same summary says:
   - The board closed the gap with "a combination of tax levy increases (7% proposed, down from an initial 9%) and budget cuts."
   - Public comment raised "cuts to elementary Spanish instruction and increased counselor workloads." Administration responded about "staffing adjustments and compliance with state academic standards."
   - The board adopted the budget.
   - The budget adds special-education teachers and support staff to bring out-of-district students back.
-- **State UFB.** The levy goes from $56,584,280 to $60,545,180 (+7.0%). Budgeted fund balance falls from $6,797,083 to $4,405,154 (-$2.39M), which matches the "reduction in surplus." Benefits go from $23,488,985 (2025-26 revised) to $26,367,598. "Employee Benefits as a percentage of salaries" rises from 32.83% to 36.84%. [UFB27 1780](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_1780.pdf) (generated Jul 14, 2026)
-- **Substitutes (Jun 29, 2026).** At a June 2026 board meeting, substitutes raised concerns about "pay cuts and job security," and a motion was made to table certain substitute staffing items. [Govly meeting summary](https://app.govly.com/public/meetings/41232) (meeting Jun 28/29, 2026)
+- [primary] **State UFB.** The levy goes from $56,584,280 to $60,545,180 (+7.0%). Budgeted fund balance falls from $6,797,083 to $4,405,154 (-$2.39M), which matches the "reduction in surplus." Benefits go from $23,488,985 (2025-26 revised) to $26,367,598. "Employee Benefits as a percentage of salaries" rises from 32.83% to 36.84%. [UFB27 1780](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_1780.pdf) (generated Jul 14, 2026)
+- [snippet] **Substitutes (Jun 29, 2026).** At a June 2026 board meeting, substitutes raised concerns about "pay cuts and job security," and a motion was made to table certain substitute staffing items. [Govly meeting summary](https://app.govly.com/public/meetings/41232) (meeting Jun 28/29, 2026)
 - No public reporting found on:
   - the number of positions cut or RIF notices
   - class sizes
@@ -29,7 +29,16 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Assessment
 **Consistent.** The district named a 17.63% healthcare increase and a $2.5M drop in usable surplus as the drivers of an initial $10M gap. It closed the gap with a 7% levy increase and unspecified cuts, which reportedly included elementary Spanish and heavier counselor loads. State aid did rise about $4.2M, more than the $2.7M benefit increase. So the gap came from health costs plus the loss of one-time surplus, not health costs alone. The only source is a third-party summary, so the cuts need verification against minutes or the presentation.
 
+## Confidence
+**Low**: the 17.63% health increase, the $10M gap and the cuts rest only on an AI-written meeting summary on a procurement portal (Govly); only the levy, fund balance and benefits figures are confirmed in the state UFB.
+
+## Fact check
+- ✔ "$2.5 million reduction in surplus", "healthcare cost increases of 17.63%", initial "$10 million budget deficit", levy 7% (down from 9%), concerns about cuts to elementary Spanish and counselor workloads — the text appears at the [Govly meeting summary](https://app.govly.com/public/meetings/26192), but that is an AI-generated summary, not the district's minutes.
+- ✔ Levy $56,584,280 → $60,545,180; budgeted fund balance $6,797,083 → $4,405,154; benefits $23,488,985 → $26,367,598 — verified in the [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) (`rev27.csv` lines 114 and 580; `approp27.csv` line 71260), the same data behind [UFB27_1780](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_1780.pdf).
+
 ## Open questions
 - Get the Apr 27, 2026 budget presentation and minutes: the list of cuts, positions, and the health care adjustment above the cap.
 - Was elementary world language eliminated or reduced, and how many FTE?
 - Confirm the health carrier (JIF or private) and whether the 17.63% figure is the premium renewal or the budget-line growth.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=17.63; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=no; our_aid_match=unknown -->

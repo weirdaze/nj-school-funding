@@ -13,14 +13,22 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: yes per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The district's posted 2026-27 budget is the state UFB summary (generated June 11, 2026). It shows employee benefits rising from 1,450,892 (2025-26 revised) to 1,904,028 (2026-27 proposed), and the tax levy rising from 2,866,995 to 3,039,015. It also shows a tuition reserve withdrawal of 140,000 (down from 191,000) and budgeted fund balance of 218,701. These match our numbers. [BCSD budget 2026-2027 (UFB)](https://www.beverlycityschool.org/uploads/8/3/2/0/83203070/bcsd-budget-_2026-2027_.pdf), June 11, 2026.
-- Same document: estimated enrollment on roll is 347 for 10/15/2026, up from 331. Regular instruction rises to 2,573,847 from 2,363,534, and basic skills/remedial rises to 228,063 from 134,442. Spending is growing, not being cut. Shared services listed include a music teacher shared with the Springfield Board of Education. Same source.
-- The district budget page has links to the UFB documents only. It has no narrative presentation and nothing about benefits, staffing, or cuts. [Beverly City School – Budget](https://www.beverlycityschool.org/budget.html), accessed 2026-10-24.
-- No public reporting found on RIFs or layoffs, class size changes, program cuts, health plan changes, referendums, or district statements on state aid.
+- [primary] The district's posted 2026-27 budget is the state UFB summary (generated June 11, 2026). It shows employee benefits rising from 1,450,892 (2025-26 revised) to 1,904,028 (2026-27 proposed), and the tax levy rising from 2,866,995 to 3,039,015. It also shows a tuition reserve withdrawal of 140,000 (down from 191,000) and budgeted fund balance of 218,701. These match our numbers. [BCSD budget 2026-2027 (UFB)](https://www.beverlycityschool.org/uploads/8/3/2/0/83203070/bcsd-budget-_2026-2027_.pdf), June 11, 2026.
+- [primary] Same document: estimated enrollment on roll is 347 for 10/15/2026, up from 331. Regular instruction rises to 2,573,847 from 2,363,534, and basic skills/remedial rises to 228,063 from 134,442. Spending is growing, not being cut. Shared services listed include a music teacher shared with the Springfield Board of Education. Same source.
+- [primary] The district budget page has links to the UFB documents only. It has no narrative presentation and nothing about benefits, staffing, or cuts. [Beverly City School – Budget](https://www.beverlycityschool.org/budget.html), accessed 2026-10-24.
+- [snippet] No public reporting found on RIFs or layoffs, class size changes, program cuts, health plan changes, referendums, or district statements on state aid.
 
 ## Assessment
 **No cuts reported.** Benefits jumped about 31%, the largest jump in this batch by percentage. The district absorbed it with a 6% levy increase (above the 2% cap, so some cap adjustment was presumably used) and a state aid increase of about $384K. Instructional lines grew. No local reporting ties benefits to cuts. District figures match ours.
 
+## Confidence
+**Medium**: budget figures verified in the district-posted UFB and match ours, but "no cuts" rests only on the absence of any narrative or reporting.
+
+## Fact check
+- ✔ Employee benefits 1,450,892 → 1,904,028 and tax levy 2,866,995 → 3,039,015 — verified at [district-posted UFB](https://www.beverlycityschool.org/uploads/8/3/2/0/83203070/bcsd-budget-_2026-2027_.pdf) (pages 2 and 4).
+
 ## Open questions
 - Which cap adjustments (health benefits, enrollment) justified the 6% levy increase? Request the district's cap calculation or budget hearing presentation from the May 7, 2026 hearing.
 - Board minutes from spring 2026 on staffing (non-renewals).
+
+<!-- facts: confidence=medium; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

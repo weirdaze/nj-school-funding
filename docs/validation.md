@@ -11,41 +11,39 @@ Random sample of 25 comparable districts; for each, the 2025-26 revised and 2026
 |---|---|---|
 | Stone Harbor Boro (Cape May) | [UFB27_5060](https://www.nj.gov/education/budget/ufb/2627/reports/09/UFB27_5060.pdf) | all found |
 | Ramsey Boro (Bergen) | [UFB27_4310](https://www.nj.gov/education/budget/ufb/2627/reports/03/UFB27_4310.pdf) | all found |
-| Piscataway Twp (Middlesex) | [UFB27_4130](https://www.nj.gov/education/budget/ufb/2627/reports/23/UFB27_4130.pdf) | all found |
+| Sayreville Boro (Middlesex) | [UFB27_4660](https://www.nj.gov/education/budget/ufb/2627/reports/23/UFB27_4660.pdf) | all found |
 | Port Republic City (Atlantic) | [UFB27_4240](https://www.nj.gov/education/budget/ufb/2627/reports/01/UFB27_4240.pdf) | all found |
 | Maurice River Twp (Cumberland) | [UFB27_3050](https://www.nj.gov/education/budget/ufb/2627/reports/11/UFB27_3050.pdf) | all found |
-| Belvidere Town (Warren) | [UFB27_0280](https://www.nj.gov/education/budget/ufb/2627/reports/41/UFB27_0280.pdf) | all found |
+| Franklin Twp (Warren) | [UFB27_1620](https://www.nj.gov/education/budget/ufb/2627/reports/41/UFB27_1620.pdf) | all found |
 | North Arlington Boro (Bergen) | [UFB27_3600](https://www.nj.gov/education/budget/ufb/2627/reports/03/UFB27_3600.pdf) | all found |
 | Teaneck Twp (Bergen) | [UFB27_5150](https://www.nj.gov/education/budget/ufb/2627/reports/03/UFB27_5150.pdf) | all found |
-| Marlboro Twp (Monmouth) | [UFB27_3030](https://www.nj.gov/education/budget/ufb/2627/reports/25/UFB27_3030.pdf) | all found |
-| New Providence Boro (Union) | [UFB27_3560](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_3560.pdf) | all found |
-| Berkeley Heights Twp (Union) | [UFB27_0310](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_0310.pdf) | all found |
-| Neptune Twp (Monmouth) | [UFB27_3510](https://www.nj.gov/education/budget/ufb/2627/reports/25/UFB27_3510.pdf) | all found |
-| Sch Dist of the Chathams (Morris) | [UFB27_0785](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_0785.pdf) | all found |
-| Wallkill Valley Regional (Sussex) | [UFB27_5435](https://www.nj.gov/education/budget/ufb/2627/reports/37/UFB27_5435.pdf) | all found |
+| Matawan-Aberdeen Regional (Monmouth) | [UFB27_3040](https://www.nj.gov/education/budget/ufb/2627/reports/25/UFB27_3040.pdf) | all found |
+| Rahway City (Union) | [UFB27_4290](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_4290.pdf) | all found |
+| Cranford Twp (Union) | [UFB27_0980](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_0980.pdf) | all found |
+| Oceanport Boro (Monmouth) | [UFB27_3830](https://www.nj.gov/education/budget/ufb/2627/reports/25/UFB27_3830.pdf) | all found |
+| West Morris Regional (Morris) | [UFB27_5660](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_5660.pdf) | all found |
+| Clark Twp (Union) | [UFB27_0850](https://www.nj.gov/education/budget/ufb/2627/reports/39/UFB27_0850.pdf) | all found |
 | Runnemede Boro (Camden) | [UFB27_4590](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4590.pdf) | all found |
 | North Wildwood City (Cape May) | [UFB27_3680](https://www.nj.gov/education/budget/ufb/2627/reports/09/UFB27_3680.pdf) | all found |
-| Somerset Hills Regional (Somerset) | [UFB27_4815](https://www.nj.gov/education/budget/ufb/2627/reports/35/UFB27_4815.pdf) | all found |
-| North Haledon Boro (Passaic) | [UFB27_3640](https://www.nj.gov/education/budget/ufb/2627/reports/31/UFB27_3640.pdf) | all found |
-| Hardyston Twp (Sussex) | [UFB27_2030](https://www.nj.gov/education/budget/ufb/2627/reports/37/UFB27_2030.pdf) | all found |
+| South Bound Brook (Somerset) | [UFB27_4850](https://www.nj.gov/education/budget/ufb/2627/reports/35/UFB27_4850.pdf) | all found |
+| Passaic Co Manchester Reg (Passaic) | [UFB27_3980](https://www.nj.gov/education/budget/ufb/2627/reports/31/UFB27_3980.pdf) | all found |
+| Hopatcong (Sussex) | [UFB27_2240](https://www.nj.gov/education/budget/ufb/2627/reports/37/UFB27_2240.pdf) | all found |
 | Frenchtown Boro (Hunterdon) | [UFB27_1680](https://www.nj.gov/education/budget/ufb/2627/reports/19/UFB27_1680.pdf) | all found |
 | Weehawken Twp (Hudson) | [UFB27_5580](https://www.nj.gov/education/budget/ufb/2627/reports/17/UFB27_5580.pdf) | all found |
-| Denville Twp (Morris) | [UFB27_1090](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_1090.pdf) | all found |
-| Long Branch City (Monmouth) | [UFB27_2770](https://www.nj.gov/education/budget/ufb/2627/reports/25/UFB27_2770.pdf) | all found |
-| Hopewell Valley Regional (Mercer) | [UFB27_2280](https://www.nj.gov/education/budget/ufb/2627/reports/21/UFB27_2280.pdf) | all found |
+| East Hanover Twp (Morris) | [UFB27_1190](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_1190.pdf) | all found |
+| Manalapan-Englishtown Reg (Monmouth) | [UFB27_2920](https://www.nj.gov/education/budget/ufb/2627/reports/25/UFB27_2920.pdf) | all found |
+| Lawrence Twp (Mercer) | [UFB27_2580](https://www.nj.gov/education/budget/ufb/2627/reports/21/UFB27_2580.pdf) | all found |
 | Ridgefield Park Twp (Bergen) | [UFB27_4380](https://www.nj.gov/education/budget/ufb/2627/reports/03/UFB27_4380.pdf) | all found |
 
 ## V2. Audited benefits vs. budget-file actuals (FY2024-25)
 The UFB's "2024-25 actual" employee-benefits line should equal the audited ACFR "Total Unallocated Benefits" for the same year (when a district budgets benefits in that line).
 
-**Result: 417 of 483 districts agree within 2%** (median absolute difference 0.00%). Differences mean either a parsing problem or that the district charges benefits outside the unallocated line (flagged `benefits_line_incomplete`).
+**Result: 417 of 475 districts agree within 2%** (median absolute difference 0.00%). Differences mean either a parsing problem or that the district charges benefits outside the unallocated line (flagged `benefits_line_incomplete`).
 
 Largest differences (check before quoting these districts):
 
 | District | ACFR FY25 total | UFB FY25 actual | Difference | Source |
 |---|---|---|---|---|
-| Green Brook Twp (Somerset) | $3804205233.47M | $3.47M | +109479958823% | [ACFR p.109](https://www.nj.gov/education/finance/fp/acfr/search/25/1810.pdf#page=109) |
-| River Dell Regional (Bergen) | $6376540126.00M | $6.01M | +106156401949% | [ACFR p.101](https://www.nj.gov/education/finance/fp/acfr/search/25/4405.pdf#page=101) |
 | Perth Amboy City (Middlesex) | $66.26M | $12.33M | +437% | [ACFR p.90](https://www.nj.gov/education/finance/fp/acfr/search/25/4090.pdf#page=90) |
 | Burlington City (Burlington) | $7.81M | $1.49M | +424% | [ACFR p.80](https://www.nj.gov/education/finance/fp/acfr/search/25/0600.pdf#page=80) |
 | Passaic City (Passaic) | $57.97M | $15.65M | +270% | [ACFR p.123](https://www.nj.gov/education/finance/fp/acfr/search/25/3970.pdf#page=123) |
@@ -64,11 +62,13 @@ Largest differences (check before quoting these districts):
 | Irvington Township (Essex) | $31.58M | $14.13M | +123% | [ACFR p.83](https://www.nj.gov/education/finance/fp/acfr/search/25/2330.pdf#page=83) |
 | Pemberton Twp (Burlington) | $13.74M | $6.19M | +122% | [ACFR p.106](https://www.nj.gov/education/finance/fp/acfr/search/25/4050.pdf#page=106) |
 | Hoboken City (Hudson) | $11.76M | $5.31M | +122% | [ACFR p.100](https://www.nj.gov/education/finance/fp/acfr/search/25/2210.pdf#page=100) |
+| Ventnor City (Atlantic) | $7.06M | $3.20M | +121% | [ACFR p.72](https://www.nj.gov/education/finance/fp/acfr/search/25/5350.pdf#page=72) |
+| Camden City (Camden) | $35.16M | $15.91M | +121% | [ACFR p.92](https://www.nj.gov/education/finance/fp/acfr/search/25/0680.pdf#page=92) |
 
 ## V3. Baseline: revised vs. original 2025-26 budget
 Districts revise budgets during the year. We now measure growth from the **revised** 2025-26 figure (what the 2026-27 budget is compared against). The first draft used the original and was wrong for some districts.
 
-**Result: median revision +0.0%; 29 of 559 districts revised their 2025-26 benefits by more than 10%.** For these, growth rates differ a lot depending on the baseline.
+**Result: median revision +0.0%; 29 of 557 districts revised their 2025-26 benefits by more than 10%.** For these, growth rates differ a lot depending on the baseline.
 
 | District | Original | Revised | Revision |
 |---|---|---|---|
@@ -89,20 +89,20 @@ Districts revise budgets during the year. We now measure growth from the **revis
 | Franklin Lakes Boro (Bergen) | $6.85M | $7.95M | +16% |
 
 ## V4. Outliers: benefit changes above +40% or below −10%
-**24 of 559 comparable districts.** These usually reflect accounting moves (benefits shifted between grant and general funds), plan switches, or staffing changes, not premiums. They are included in totals but should not be quoted individually without checking the district's documents.
+**24 of 557 comparable districts.** These usually reflect accounting moves (benefits shifted between grant and general funds), plan switches, or staffing changes, not premiums. They are included in totals but should not be quoted individually without checking the district's documents.
 
 | District | Change | 2025-26 rev. | 2026-27 | Audited health FY23→25 |
 |---|---|---|---|---|
 | City of Orange Twp (Essex) | +212% | $7.17M | $22.37M | 32.7% |
 | Passaic City (Passaic) | +94% | $13.06M | $25.31M | 26.7% |
 | Burlington City (Burlington) | +69% | $2.94M | $4.96M | 18.7% |
-| Franklin Twp (Hunterdon) | +55% | $1.44M | $2.22M | -15.1% |
+| Franklin Twp (Hunterdon) | +55% | $1.44M | $2.22M | n/a |
 | Elk Twp (Gloucester) | +50% | $0.94M | $1.42M | -8.7% |
-| Delanco Twp (Burlington) | +49% | $1.41M | $2.10M | 22.9% |
+| Delanco Twp (Burlington) | +49% | $1.41M | $2.10M | n/a |
 | Franklin Twp (Somerset) | +49% | $38.09M | $56.59M | 35.0% |
 | Florence Twp (Burlington) | +46% | $5.30M | $7.73M | 23.5% |
 | Weehawken Twp (Hudson) | +45% | $6.66M | $9.64M | 27.6% |
-| Hampton Boro (Hunterdon) | +45% | $0.61M | $0.88M | 27.1% |
+| Hampton Boro (Hunterdon) | +45% | $0.61M | $0.88M | n/a |
 | Ocean Gate Boro (Ocean) | -44% | $0.73M | $0.41M | -7.7% |
 | Saddle River Boro (Bergen) | +44% | $1.02M | $1.48M | 15.0% |
 | Riverdale Boro (Morris) | +44% | $1.42M | $2.05M | n/a |
@@ -111,7 +111,7 @@ Districts revise budgets during the year. We now measure growth from the **revis
 | Newark City (Essex) | -26% | $132.28M | $98.02M | 48.5% |
 | Camden City (Camden) | -21% | $23.15M | $18.26M | 59.8% |
 | Long Branch City (Monmouth) | -20% | $13.57M | $10.89M | 0.4% |
-| Ocean Twp (Ocean) | -17% | $2.68M | $2.22M | 35.8% |
+| Ocean Twp (Ocean) | -17% | $2.68M | $2.22M | n/a |
 | Mantua Twp (Gloucester) | -14% | $5.15M | $4.44M | 2.5% |
 | Milford Boro (Hunterdon) | -14% | $0.63M | $0.55M | n/a |
 | Spring Lake Boro (Monmouth) | -13% | $1.21M | $1.05M | 15.5% |
@@ -121,12 +121,12 @@ Districts revise budgets during the year. We now measure growth from the **revis
 ## V5. Which "state aid"?
 We use NJDOE **K-12 formula aid** (the figure districts are notified of and quote). The UFB's "Total Revenues from State Sources" also includes extraordinary special-ed aid estimates and other items.
 
-**Result: the two measures differ by more than $250K for 62 of 559 districts; statewide totals: formula aid +370M vs UFB state revenue +308M.** District documents checked in the South Jersey research matched the formula-aid figure (e.g. Cherry Hill −$857,788; Gateway +$694,496).
+**Result: the two measures differ by more than $250K for 62 of 557 districts; statewide totals: formula aid +370M vs UFB state revenue +308M.** District documents checked in the South Jersey research matched the formula-aid figure (e.g. Cherry Hill −$857,788; Gateway +$694,496).
 
 ## V6. SEHBP membership: state list vs. the district's own audit
 We flag SEHBP districts by matching names on Treasury's [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf). As a cross-check, the FY25 audit pages we extracted were searched for the district's own description of its plan (SEHBP vs. SHIF/JIF/trust). Only benefit-related pages were kept, so many audits say nothing either way.
 
-**Result: 15 agree, 15 conflict, 529 undetermined.** Manual review of the conflicts found real disagreements, not just text-matching noise. Long Branch's FY25 audit says it dissolved its self-insured fund "as a result of the District's participation in the State of New Jersey Health Benefits Plan", and Mendham Twp's says benefits are "provided to the employees through the State of New Jersey Health Benefits Plan". Neither appears on the October 2026 list. Either the list is incomplete, these districts are in a different state program, or they left after FY25. **Treat SEHBP membership, and the SEHBP-vs-other comparison, as Medium-Low confidence until confirmed with the Division of Pensions & Benefits.** Conflicts:
+**Result: 15 agree, 15 conflict, 527 undetermined.** Manual review of the conflicts found real disagreements, not just text-matching noise. Long Branch's FY25 audit says it dissolved its self-insured fund "as a result of the District's participation in the State of New Jersey Health Benefits Plan", and Mendham Twp's says benefits are "provided to the employees through the State of New Jersey Health Benefits Plan". Neither appears on the October 2026 list. Either the list is incomplete, these districts are in a different state program, or they left after FY25. **Treat SEHBP membership, and the SEHBP-vs-other comparison, as Medium-Low confidence until confirmed with the Division of Pensions & Benefits.** Conflicts:
 
 - Hillsdale Boro (Bergen): list says not SEHBP; audit mentions SEHBP
 - Mahwah Twp (Bergen): list says not SEHBP; audit mentions SEHBP

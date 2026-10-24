@@ -13,16 +13,25 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- State UFB (proposed 2026-27): local tax levy $23,409,161 → $24,563,344 (+4.9%, above the 2% cap, which implies cap adjustments such as health benefits or enrollment; adjustments not itemized in the UFB). Budgeted fund balance $1,756,852 → $1,750,000. Equalization aid $14,171,589 → $14,973,326, but total state revenue $24,993,181 → $24,804,488. [NJDOE UFB27 3690](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3690.pdf) (generated July 14, 2026)
-- UFB benefits line: $8,431,492 (2024-25 actual) → $10,059,565 (2025-26 revised) → $10,768,841 (2026-27), +7.1% on the revised base; benefits as % of salaries 38.00% → 39.93%. [UFB27 3690](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3690.pdf)
-- UFB "Regular Programs-Instruction" falls $13,836,161 → $13,288,073 (-$548,088, -4.0%), with enrollment roughly flat (2,044 → 2,039 estimated). This may mean fewer or lower-cost instructional positions, but the UFB does not say. [UFB27 3690](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3690.pdf)
-- The district website (nburlington.com) returned a bot-challenge page, and its budget page reportedly lists only 2023-24 materials (per search snippet). No 2026-27 presentation or minutes could be retrieved.
+- [primary] State UFB (proposed 2026-27): local tax levy $23,409,161 → $24,563,344 (+4.9%, above the 2% cap, which implies cap adjustments such as health benefits or enrollment; adjustments not itemized in the UFB). Budgeted fund balance $1,756,852 → $1,750,000. Equalization aid $14,171,589 → $14,973,326, but total state revenue $24,993,181 → $24,804,488. [NJDOE UFB27 3690](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3690.pdf) (generated July 14, 2026)
+- [primary] UFB benefits line: $8,431,492 (2024-25 actual) → $10,059,565 (2025-26 revised) → $10,768,841 (2026-27), +7.1% on the revised base; benefits as % of salaries 38.00% → 39.93%. [UFB27 3690](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3690.pdf)
+- [primary] UFB "Regular Programs-Instruction" falls $13,836,161 → $13,288,073 (-$548,088, -4.0%), with enrollment roughly flat (2,044 → 2,039 estimated). This may mean fewer or lower-cost instructional positions, but the UFB does not say. [UFB27 3690](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3690.pdf)
+- [snippet] The district website (nburlington.com) returned a bot-challenge page, and its budget page reportedly lists only 2023-24 materials (per search snippet). No 2026-27 presentation or minutes could be retrieved.
 - No public reporting found on layoffs, class sizes, program cuts, health-plan changes or state-aid commentary. Web search was limited (session search quota exhausted partway through this batch).
 
 ## Assessment
 **Insufficient evidence.** The fiscal profile points to some squeeze: a modest benefits increase (+$0.7M), a state-aid decrease (-$0.19M), a levy increase above cap (+4.9%) and a $0.55M cut in regular-instruction appropriations. But no district or press source describing staffing or program decisions was found. **Our audited health figure looks wrong:** FY25 ACFR health of $6,955 (0.4% of benefits, -99.9% vs FY23 $6.27M) is almost certainly an extraction or coding error, not a real cost change.
 
+## Confidence
+**Low**: only the state UFB is available (figures verified); no district narrative, minutes or press found, so nothing shows whether the instruction cut is staffing or benefit-driven.
+
+## Fact check
+- ✔ Regular Programs-Instruction $13,836,161 → $13,288,073 and benefits $10,059,565 → $10,768,841 — verified at [UFB27 3690](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3690.pdf) (page 5); levy $23,409,161 → $24,563,344 and fund balance $1,756,852 → $1,750,000 on page 2.
+- Note: the Assessment's warning about a $6,955 FY25 audited health figure is out of date. The regenerated "Our numbers" now shows FY25 health at 80.9% of benefits and +8.8% FY23→FY25, so that extraction error appears fixed.
+
 ## Open questions
 - Re-extract FY25 ACFR health-benefit expense (Exhibit/schedule J or the notes); the $6,955 value is implausible.
 - Request the 2026-27 budget hearing presentation and April–May 2026 minutes (OPRA if not posted): cap adjustments used, staffing changes behind the -$548K regular-instruction line.
 - Health plan (SEHBP list says no): carrier and 2026-27 renewal rate.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

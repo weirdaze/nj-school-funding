@@ -13,25 +13,37 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: yes per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- On May 7, 2026 the board adopted a 2026-27 budget with general fund expenditures of **$7,456,055**, special revenue of $1,484,706 (total $8,940,761), and **taxes to be raised of $4,292,399** ([Elk Twp BOE special meeting/public hearing minutes](https://files.smartsites.parentsquare.com/6075/05_07_26_budget_adopt.pdf), May 7, 2026).
-- In the same resolution, the board "recognizes the need to utilize the adjustment for increase in health care costs in the amount of **$227,704** for the 2026-2027 budget, due to increases in health benefit appropriations" (same source; the identical language appears in the [March 26, 2026 budget introduction](https://files.smartsites.parentsquare.com/6075/03_26_26_budget_intro.pdf)).
-- The budget also uses a **banked cap** adjustment: "The District has fully exhausted all eligible statutory spending authority and must increase the base budget in the amount of **$114,984** for teacher salaries and District operations" (same source).
-- The levy rises from $3,872,266 (2025-26) to $4,292,399, or +$420,133 (+10.8%). That is roughly 2% (~$77K) plus the health adjustment ($227,704) plus banked cap ($114,984), so about half the levy increase is the health care cap adjustment. The 2025-26 figure is per search snippet of [UFB27 1330](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1330.pdf).
-- UFB appropriations, 2025-26 revised → 2026-27 proposed ([UFB27 1330](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1330.pdf), PDF opened 2026-10-24):
+- [primary] On May 7, 2026 the board adopted a 2026-27 budget with general fund expenditures of **$7,456,055**, special revenue of $1,484,706 (total $8,940,761), and **taxes to be raised of $4,292,399** ([Elk Twp BOE special meeting/public hearing minutes](https://files.smartsites.parentsquare.com/6075/05_07_26_budget_adopt.pdf), May 7, 2026).
+- [primary] In the same resolution, the board "recognizes the need to utilize the adjustment for increase in health care costs in the amount of **$227,704** for the 2026-2027 budget, due to increases in health benefit appropriations" (same source; the identical language appears in the [March 26, 2026 budget introduction](https://files.smartsites.parentsquare.com/6075/03_26_26_budget_intro.pdf)).
+- [primary] The budget also uses a **banked cap** adjustment: "The District has fully exhausted all eligible statutory spending authority and must increase the base budget in the amount of **$114,984** for teacher salaries and District operations" (same source).
+- [primary] The levy rises from $3,872,266 (2025-26) to $4,292,399, or +$420,133 (+10.8%). That is roughly 2% (~$77K) plus the health adjustment ($227,704) plus banked cap ($114,984), so about half the levy increase is the health care cap adjustment. The 2025-26 figure is from [UFB27 1330](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1330.pdf).
+- [primary] UFB appropriations, 2025-26 revised → 2026-27 proposed ([UFB27 1330](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1330.pdf), PDF opened 2026-10-24):
   - **Basic Skills/Remedial-Instruction $236,737 → $62,214 (-73.7%)**.
   - Guidance -35.8% and Special Education-Instruction -11.0%.
   - Regular Programs-Instruction -0.7%.
   - Employee benefits $943,323 → $1,420,100 (+50.5% on the revised base).
   - Total general current expense +1.0%.
-- The UFB shows general fund equipment going to $0 from $146,492 in 2025-26, and on-roll enrollment rising from 352 to 362 to an estimated 373 (per search snippet, same UFB).
-- Personnel actions in the March 12, April 16 and May 7, 2026 minutes show only routine items, e.g. resignation of a Basic Skills Teacher effective June 30, 2026 ([May 7, 2026 regular minutes](https://files.smartsites.parentsquare.com/6075/5_7_26.pdf)). **No abolished positions, RIFs or non-renewals were found.** Whether the Basic Skills position will be refilled is not stated.
+- [primary] The UFB shows general fund equipment going to $0 from $146,492 in 2025-26, and on-roll enrollment rising from 352 to 362 to an estimated 373 (same UFB, pages 1 and 5).
+- [primary] Personnel actions in the March 12, April 16 and May 7, 2026 minutes show only routine items, e.g. resignation of a Basic Skills Teacher effective June 30, 2026 ([May 7, 2026 regular minutes](https://files.smartsites.parentsquare.com/6075/5_7_26.pdf)). **No abolished positions, RIFs or non-renewals were found.** Whether the Basic Skills position will be refilled is not stated.
 - No public reporting found on class size, program cuts, or SEHBP plan or contribution changes.
 
 ## Assessment
 **No cuts reported.** Elk is in SEHBP and its budgeted benefits jump 41%. The board explicitly cites "increases in health benefit appropriations" to justify a $227,704 health care levy-cap adjustment, so health costs are clearly driving the tax increase (+10.8%). But the minutes show no layoffs or abolished positions; the response was to tax more, draw down fund balance ($836K → $595K), and cut equipment. One inference: a Basic Skills teacher resigned effective June 30, 2026, and the Basic Skills instruction budget falls 74%. That suggests the position was left unfilled (a reduction through attrition), though the district does not say so. The +41% benefits jump contrasts with audited health spending that *fell* 8.7% FY23→FY25. The 2025-26 budget base may have been low, so check the 2025-26 actual vs. budget.
+
+## Confidence
+**High**: the health care cap adjustment ($227,704), banked cap ($114,984) and levy are verified in the board's own resolution, the UFB benefits match Our numbers, and the minutes show no RIFs.
+
+## Fact check
+- ✔ Health care cost adjustment $227,704 "due to increases in health benefit appropriations" — verified at [May 7, 2026 budget adoption](https://files.smartsites.parentsquare.com/6075/05_07_26_budget_adopt.pdf#page=2) (page 2); same language in the [March 26 introduction](https://files.smartsites.parentsquare.com/6075/03_26_26_budget_intro.pdf).
+- ✔ Banked cap $114,984 and taxes to be raised $4,292,399 — verified at [May 7, 2026 budget adoption](https://files.smartsites.parentsquare.com/6075/05_07_26_budget_adopt.pdf) (pages 1–2); 2025-26 levy $3,872,266 at [UFB27 1330](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1330.pdf#page=2) (page 2).
+- ✔ Benefits $943,323 → $1,420,100 and Basic Skills $236,737 → $62,214 — verified at [UFB27 1330](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1330.pdf#page=4) (page 4); matches Our numbers.
+- ✔ No abolished positions/RIFs — the [May 7, 2026 regular minutes](https://files.smartsites.parentsquare.com/6075/5_7_26.pdf) show only a Basic Skills teacher resignation; no RIF/abolish resolution found.
+- Note: the Assessment's "+41%" benefits jump used the original 2025-26 base; on the revised base (Our numbers, UFB) it is +50.5%.
 
 ## Open questions
 - Is the decline in fund balance use ($836K → $595K) due to depleted reserves? Check the FY25/FY26 ACFR unassigned balance.
 - Is the Basic Skills Teacher resignation being backfilled? The UFB line drop suggests it is not; also check whether a 2026-27 RFP for an "English, Mathematics, and MLL Instructional Coach" (posted on the district site) replaces it.
 - Note that the RFP for a 2026-27 mental health partnership and the coach RFP indicate outsourcing of some roles.
 - Reconcile the 2025-26 benefits budget ($1.0M) with FY25 audited health ($722K) and the SEHBP rate increases.
+
+<!-- facts: confidence=high; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=227704; banked_cap_used=114984; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

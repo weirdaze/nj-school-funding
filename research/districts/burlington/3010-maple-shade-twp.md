@@ -13,16 +13,25 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state User-Friendly Budget (UFB) lists the general fund levy at $29,476,287 (2025-26 revised) and $30,894,004 (2026-27; +4.8%). Equalization aid falls from $23,448,394 to $22,753,439, and total state revenue from $28,681,134 to $28,037,528. On-roll enrollment is 2,364 (Oct 2024), 2,296 (Oct 2025), and 2,144 estimated for Oct 2026. [UFB27 Maple Shade Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf) (generated July 14, 2026)
-- In the UFB, employee benefits as a percentage of salaries are 39.30% (2025-26 revised) and 45.50% (2026-27 proposed). Classroom salaries and benefits per pupil rise from $12,950 to $14,564, partly because enrollment declines. Health coverage is listed through the "School Health Insurance Fund (SHIF)". [UFB27 Maple Shade Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf)
-- A levy increase of 4.8% exceeds the 2% cap, which implies use of the health-care and/or other cap adjustments. This is not confirmed by a district document.
-- No public reporting found on staff reductions, class sizes, program cuts, or district statements on health insurance. The district website (mapleshade.org) returned a bot-check page. A March 31, 2026 Inquirer roundup of South Jersey cuts (Cherry Hill, Collingswood, Washington Twp) does not mention Maple Shade. [Inquirer, March 31, 2026](https://www.inquirer.com/education/south-jersey-school-districts-budget-cuts-taxes-20260331.html)
+- [primary] The state User-Friendly Budget (UFB) lists the general fund levy at $29,476,287 (2025-26 revised) and $30,894,004 (2026-27; +4.8%). Equalization aid falls from $23,448,394 to $22,753,439, and total state revenue from $28,681,134 to $28,037,528. On-roll enrollment is 2,364 (Oct 2024), 2,296 (Oct 2025), and 2,144 estimated for Oct 2026. [UFB27 Maple Shade Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf) (generated July 14, 2026)
+- [primary] In the UFB, employee benefits as a percentage of salaries are 39.30% (2025-26 revised) and 45.50% (2026-27 proposed). Classroom salaries and benefits per pupil rise from $12,950 to $14,564, partly because enrollment declines. Health coverage is listed through the "School Health Insurance Fund (SHIF)". [UFB27 Maple Shade Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf)
+- [primary] A levy increase of 4.8% exceeds the 2% cap, which implies use of the health-care and/or other cap adjustments. This is not confirmed by a district document. Levy figures: [UFB27 Maple Shade Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf).
+- [news] No public reporting found on staff reductions, class sizes, program cuts, or district statements on health insurance. The district website (mapleshade.org) returned a bot-check page. A March 31, 2026 Inquirer roundup of South Jersey cuts (Cherry Hill, Collingswood, Washington Twp) does not mention Maple Shade. [Inquirer, March 31, 2026](https://www.inquirer.com/education/south-jersey-school-districts-budget-cuts-taxes-20260331.html)
 
 ## Assessment
 **Insufficient evidence.** Maple Shade faces the worst combination in this batch: state aid falls by $644K while benefits rise by $1.67M, a $2.3M squeeze. It also has the highest benefits-to-salary ratio (45.5%). No reporting of cuts was found, though. Enrollment is falling about 7%, so any staffing reductions could be attributed to enrollment as much as to benefits.
+
+## Confidence
+**Low**: the UFB figures are verified, but there is no district statement on cuts, and the Assessment's $1.67M benefits increase understates the verified $2.03M.
+
+## Fact check
+- ✔ Benefits as a percentage of salaries 39.30% → 45.50%, SHIF coverage, levy $29,476,287 → $30,894,004: verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=7) (p. 7), [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=8) (p. 8) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=2) (p. 2).
+- ✘ Assessment's "benefits rise by $1.67M" differs. The UFB shows $12,114,013 → $14,139,999 (+$2.03M, +16.7%, matching our numbers) at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=4) (p. 4), so the squeeze is about $2.7M, not $2.3M.
 
 ## Open questions
 - Request the 2026-27 budget hearing presentation and spring 2026 RIF/non-renewal resolutions from the Maple Shade BOE.
 - Which cap adjustments did the district use for the 4.8% levy increase?
 - What is the SHIF renewal percentage for 2026-27?
 - Verify whether the -152 projected enrollment change is real (a 6.6% drop in one year is unusual) or a UFB entry artifact.
+
+<!-- facts: confidence=low; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

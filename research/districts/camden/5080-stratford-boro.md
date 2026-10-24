@@ -13,14 +13,24 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- State UFB: levy $8,159,712 → $8,322,906 (+2.0%); employee benefits $3,994,577 (2025-26 revised) → $3,958,987 (slight decrease); benefits as % of salaries 36.80% → 34.75%; general fund operating budget $24,313,083 → $23,782,384; on-roll enrollment 857 → 825 and received students 132 → 91. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5080.pdf) (July 14, 2026).
-- State UFB reserves: budgeted fund balance $3,619,388 → $3,034,983; legal reserve $6,161,492 (6/30/2025) → $2,542,104 (est. 6/30/2026) → $0 (est. 6/30/2027). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5080.pdf).
+- [primary] State UFB: levy $8,159,712 → $8,322,906 (+2.0%); employee benefits $3,994,577 (2025-26 revised) → $3,958,987 (slight decrease); benefits as % of salaries 36.80% → 34.75%; general fund operating budget $24,313,083 → $23,782,384; on-roll enrollment 857 → 825 and received students 132 → 91. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5080.pdf) (July 14, 2026).
+- [primary] State UFB reserves: budgeted fund balance $3,619,388 → $3,034,983; legal reserve $6,161,492 (6/30/2025) → $2,542,104 (est. 6/30/2026) → $0 (est. 6/30/2027). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5080.pdf).
 - No district budget presentation or local news found (searches return Stratford, CT). No public reporting found on staff reductions, class sizes, program cuts, health-plan changes, or referendums.
 
 ## Assessment
-**Insufficient evidence.** Unusually, the benefit line is flat-to-down (−1.5%) and the levy rose only 2.0%; the budget is shrinking with enrollment and fewer tuition students received, and the district is relying heavily on a large excess-surplus reserve. Without documents it is unclear whether the flat benefit line reflects staff reductions, a plan change, or budgeting choices.
+**Insufficient evidence.** Unusually, the benefit line is flat-to-down (−0.9%) and the levy rose only 2.0%; the budget is shrinking with enrollment and fewer tuition students received, and the district is relying heavily on a large excess-surplus reserve. Without documents it is unclear whether the flat benefit line reflects staff reductions, a plan change, or budgeting choices.
+
+## Confidence
+**Low**: only state UFB figures verified; no district documents or reporting explain the flat benefit line.
 
 ## Open questions
 - Why benefits fell while most peers rose 10-20% — plan change, fewer covered employees, or under-budgeting? Request the budget presentation.
 - Staffing changes tied to declining received-student enrollment (132 → 91).
 - Sustainability once the $6.2M legal reserve is exhausted (est. $0 by 6/30/2027).
+
+## Fact check
+- ✔ Employee benefits $3,994,577 → $3,958,987; levy $8,159,712 → $8,322,906 (+2.0%) — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5080.pdf) (pp. 2, 4).
+- ✔ Received students 132 → 91; on-roll 857 → 825; legal reserve $6,161,492 → $2,542,104 → $0 — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5080.pdf) (pp. 1, 6).
+- Note: the Assessment previously said −1.5%; the UFB figures give −0.9%. Assessment corrected.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

@@ -13,13 +13,13 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- State UFB (generated July 14, 2026) ([UFB27 1730](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1730.pdf)):
+- [primary] State UFB (generated July 14, 2026) ([UFB27 1730](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1730.pdf)):
   - Local tax levy rises from $23,625,051 to $25,350,410 (+7.3%), which matches our figure.
   - Budgeted fund balance falls from $1,450,966 to $994,591.
   - Employee benefits go from $9,002,658 (2025-26 revised) to $10,248,435 (+13.8%).
   - Instructional lines are flat or up: Regular Programs-Instruction +2.0%, Special Education-Instruction +3.2%, Athletics +11.6%. Total general current expense is +3.0%.
   - Nothing in the UFB line items suggests instructional cuts.
-- The district website (gpsd.us) has budget and minutes document pages ([Budget Information](https://www.gpsd.us/documents/board-of-education/budget-information/731679), [2025-2026 Board Minutes](https://www.gpsd.us/documents/board-of-education/minutes/2025-2026-board-minutes/844506)), but the listings are rendered by JavaScript and could not be read. No 2026-27 budget presentation was retrieved.
+- [primary] The district website (gpsd.us) has budget and minutes document pages ([Budget Information](https://www.gpsd.us/documents/board-of-education/budget-information/731679), [2025-2026 Board Minutes](https://www.gpsd.us/documents/board-of-education/minutes/2025-2026-board-minutes/844506)), but the listings are rendered by JavaScript and could not be read. No 2026-27 budget presentation was retrieved.
 - No public reporting found on staff reductions, RIFs, class size changes, or program cuts.
 - No public reporting found on the district's health carrier, renewal %, employee contributions, or which levy cap adjustment allowed +7.3%.
 - Note: web search quota ran out during this batch, so local news (South Jersey Times, Glassboro Sun) was **not** searched for this district.
@@ -27,7 +27,16 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Assessment
 **Insufficient evidence.** The +7.3% levy increase suggests a health care cost adjustment, and/or banked cap, on top of the 2% cap, plus a $456K drop in fund balance use. The large aid increase (+$1.02M) covered most of the $1.21M benefit increase. UFB instruction lines are not declining, so cuts seem unlikely, but this is not confirmed.
 
+## Confidence
+**Low**: "Insufficient evidence" — the UFB figures are verified, but there is no district statement or reporting on cuts, health costs or the cap adjustment.
+
+## Fact check
+- ✔ Levy $23,625,051 → $25,350,410 (+7.3%) — verified at [UFB27 1730](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1730.pdf#page=2) (page 2).
+- ✔ Benefits $9,002,658 (2025-26 revised) — verified at [UFB27 1730](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_1730.pdf#page=4) (page 4); matches Our numbers ($9.00M → $10.25M).
+
 ## Open questions
 - Request the 2026-27 budget hearing presentation and the cap adjustment resolution (amount of health care adjustment).
 - Search local news (Glassboro Sun, NJ.com South Jersey) once search quota resets.
 - Check spring 2026 minutes for abolished positions.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

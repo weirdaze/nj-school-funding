@@ -13,18 +13,28 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- Budget presentation (Board of Education, April 29, 2026): general fund $23,865,841 (2025-26 final) → $26,724,815 (2026-27 tentative), +$2,858,974; total all funds $27,855,344 → $31,085,465. [Palmyra 2026-2027 Budget Presentation](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf) (Apr 29, 2026)
-- Levy: 2.0% increase ($218,605), $10,930,215 → $11,148,820; district did **not** use any of its $1,356,938 available banked cap ("Health Care Adjustment, Enrollment Adjustment, Funds not used..."). Average home ($148,916 assessed) +$64.99/yr. [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
-- Fund balance: final budgeted fund balance (line 580) $2,754,094 (reduced $107,264 from tentative "due to an error in the audsum"). [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
-- Staffing: "Staffing Updates" slide lists only two vacancies to be filled (PHS Math – operating budget; Director of Early Childhood Development – Pre-K aid). No reductions listed. [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
-- Programs: additions, not cuts — new MS Spanish/computer science electives, AP Music Theory, AP Business, AP Cybersecurity, Theatre I, 7 HS academies, "All extracurricular activities will continue, including the addition of Winter Pep Band." [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
-- Benefits: the deck does not quantify health-benefit increases; cost-savings slide cites shared services including "Insurance Coverage and Benefits (SAIF is our joint insurance fund)." [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
+- [primary] Budget presentation (Board of Education, April 29, 2026): general fund $23,865,841 (2025-26 final) → $26,724,815 (2026-27 tentative), +$2,858,974; total all funds $27,855,344 → $31,085,465. [Palmyra 2026-2027 Budget Presentation](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf) (Apr 29, 2026)
+- [primary] Levy: 2.0% increase ($218,605), $10,930,215 → $11,148,820; district did **not** use any of its $1,356,938 available banked cap ("Health Care Adjustment, Enrollment Adjustment, Funds not used..."). Average home ($148,916 assessed) +$64.99/yr. [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
+- [primary] Fund balance: final budgeted fund balance (line 580) $2,754,094 (reduced $107,264 from tentative "due to an error in the audsum"). [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
+- [primary] Staffing: "Staffing Updates" slide lists only two vacancies to be filled (PHS Math – operating budget; Director of Early Childhood Development – Pre-K aid). No reductions listed. [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
+- [primary] Programs: additions, not cuts — new MS Spanish/computer science electives, AP Music Theory, AP Business, AP Cybersecurity, Theatre I, 7 HS academies, "All extracurricular activities will continue, including the addition of Winter Pep Band." [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
+- [primary] Benefits: the deck does not quantify health-benefit increases; cost-savings slide cites shared services including "Insurance Coverage and Benefits (SAIF is our joint insurance fund)." [same](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf)
 - No public reporting found on health premium increases, layoffs, class sizes, or state-aid commentary.
 
 ## Assessment
 **No cuts reported.** Despite our +16.4% benefits increase exceeding the aid increase by ~$0.5M, Palmyra held the levy to 2%, left $1.36M banked cap unused, drew $2.75M of fund balance (up from $1.63M), and added courses and programs. The deck's figures (levy +2.0%, fund balance $2,754,094) match ours.
 
+## Confidence
+**High**: the district's own budget deck confirms the 2% levy, the unused $1.36M banked cap, the higher fund-balance draw and the staffing additions, and these match our numbers; the deck gives no health-premium figure.
+
+## Fact check
+- ✔ Levy +2.0% ($218,605; $10,930,215 → $11,148,820), banked cap used $0 of $1,356,938 available — verified at [Palmyra budget presentation](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf) (slide 24, "Estimated Tax Impact").
+- ✔ Budgeted fund balance $2,754,094, reduced $107,264 from tentative "due to an error in the audsum" — verified at [presentation](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf) (slide 9); general fund $23,865,841 → $26,724,815 on slide 7.
+- ✔ Staffing: only two vacancies (PHS Math, operating budget; Director of Early Childhood Development, Pre-K) — verified at [presentation](https://files.smartsites.parentsquare.com/9795/2026-2027_budget_presentation.pdf) (slide 18).
+
 ## Open questions
 - What is Palmyra's health plan (private carrier/broker) and its 2026-27 renewal %? The deck is silent.
 - Fund balance use rose ~$1.1M; is this sustainable given the 2027 premium environment? Check 2025-26 ACFR surplus.
 - Our ACFR health figure for FY23 is missing; FY25 audited health $2.95M.
+
+<!-- facts: confidence=high; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=none; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

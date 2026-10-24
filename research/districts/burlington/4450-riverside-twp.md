@@ -13,18 +13,28 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- 2026-27 budget presentation: "Overall General Fund State Aid increased by $1,717,087" (+6%); general fund budget +5.88%; general-fund tax increase 2.00% (average home assessed $153,046: +$61.49/yr general fund). [Riverside 2026-2027 Budget presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf) (spring 2026, undated)
-- Staffing and programs: the presentation lists additions, not cuts. "Maintain all teaching and support staff positions"; "Maintain all extracurricular/co-curricular/athletic clubs and teams"; adds an elementary teacher, an MS/HS social studies teacher, a district dean of instruction, a custodian, MS summer school, and (through preschool expansion aid) a pre-K teacher, a nurse and 2 part-time aides. [presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf)
-- Cap adjustments: on Mar 12, 2026 the board voted not to include an enrollment adjustment or a health-care cost adjustment in the 2026-27 budget; both amounts go to banked cap instead. [BOE regular meeting minutes, Mar 12, 2026](https://files.smartsites.parentsquare.com/10346/minutes-regular-march_12_2026.pdf) (Mar 12, 2026)
-- Fund balance: the presentation shows budgeted fund balance of $4,683,950 in the general fund (the UFB shows $4,426,360). [presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf); [UFB27 4450](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4450.pdf)
-- One non-renewal (employee 1216) for 2026-27; no reason stated. [Minutes, May 4, 2026](https://files.smartsites.parentsquare.com/10346/minutes-regular-may_4_2026.pdf) (May 4, 2026)
-- The presentation shows "Employee Benefits +77%" year over year on its spending-comparison slide but gives no premium-rate figures.
+- [primary] 2026-27 budget presentation: "Overall General Fund State Aid increased by $1,717,087" (+6%); general fund budget +5.88%; general-fund tax increase 2.00% (average home assessed $153,046: +$61.49/yr general fund). [Riverside 2026-2027 Budget presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf) (spring 2026, undated)
+- [primary] Staffing and programs: the presentation lists additions, not cuts. "Maintain all teaching and support staff positions"; "Maintain all extracurricular/co-curricular/athletic clubs and teams"; adds an elementary teacher, an MS/HS social studies teacher, a district dean of instruction, a custodian, MS summer school, and (through preschool expansion aid) a pre-K teacher, a nurse and 2 part-time aides. [presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf)
+- [primary] Cap adjustments: on Mar 12, 2026 the board voted not to include an enrollment adjustment or a health-care cost adjustment in the 2026-27 budget; both amounts go to banked cap instead. [BOE regular meeting minutes, Mar 12, 2026](https://files.smartsites.parentsquare.com/10346/minutes-regular-march_12_2026.pdf) (Mar 12, 2026)
+- [primary] Fund balance: the presentation shows budgeted fund balance of $4,683,950 in the general fund (the UFB shows $4,426,360). [presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf); [UFB27 4450](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4450.pdf)
+- [primary] One non-renewal (employee 1216) for 2026-27; no reason stated. [Minutes, May 4, 2026](https://files.smartsites.parentsquare.com/10346/minutes-regular-may_4_2026.pdf) (May 4, 2026)
+- [primary] The presentation shows "Employee Benefits +77%" year over year on its spending-comparison slide but gives no premium-rate figures. [presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf) (slide 13)
 - No public reporting found on health premium rates, plan changes, layoffs, class-size increases or program cuts.
 
 ## Assessment
 **No cuts reported.** Riverside had the largest benefits increase in our numbers for this batch (+23.7%, +$1.66M), but a $1.72M state-aid increase covered it. The district held the levy to 2%, left its health-care cap adjustment unused (banked), and added at least 4 operating-budget positions. There is no evidence here that benefit costs forced cuts. Minor discrepancy: the deck's budgeted fund balance ($4.68M) is higher than the UFB/our figure ($4.43M).
 
+## Confidence
+**High**: the district deck confirms the +$1,717,087 aid increase (which matches ours) and that all positions are kept and some added. The deck's "+77%" benefits figure is still unexplained.
+
+## Fact check
+- ✔ "Overall General Fund State Aid increased by $1,717,087" — verified at [Riverside budget presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf) (slide 2).
+- ✔ "Maintain all teaching and support staff positions"; adds ES teacher, MS/HS social studies teacher, Pre-K teacher — verified at [presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf) (slide 6).
+- ✔ "Employee Benefits +77%" appears on [presentation](https://files.smartsites.parentsquare.com/10346/26-27_budget_presentation_2.pdf) slide 13 (still unreconciled with the UFB's +23.7%).
+
 ## Open questions
 - Source of the "+77%" employee-benefits figure in the deck vs the UFB's +23.7%.
 - Health plan carrier/renewal rate for 2026-27 (not stated).
 - How much of the 2026-27 health-care adjustment was banked?
+
+<!-- facts: confidence=high; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=yes -->

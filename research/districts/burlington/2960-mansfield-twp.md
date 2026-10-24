@@ -13,15 +13,24 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state User-Friendly Budget (UFB) lists the general fund levy at $11,917,798 (2025-26 revised) and $12,156,154 (2026-27; +2.0%). Total state aid is $1,267,290 → $1,331,960. Equalization aid fell from $59,647 (2024-25) to $0. Enrollment is 551 (Oct 2025) and 586 estimated for Oct 2026 (+6%). Unrestricted fund balance runs down from $632,301 (6/30/2024) to $302,513 (6/30/2027 est.). [UFB27 Mansfield Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2960.pdf) (generated July 14, 2026)
-- In the UFB, employee benefits as a percentage of salaries are 33.32% (2025-26 revised) and 39.26% (2026-27 proposed). Classroom salaries and benefits per pupil fall from $12,426 to $11,947 while enrollment rises. Under unusual revenues, the district books a "Health insurance divident" of $25,000 labelled "SHIF divident". Coverage is through joint insurance funds. [UFB27 Mansfield Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2960.pdf)
-- No district budget presentation or local news coverage found. Searches return Mansfield Twp (Warren County), Mansfield CT, and Mansfield OH instead.
-- No public reporting found on staff reductions, class size changes, program cuts, or district statements on health costs.
+- [primary] The state User-Friendly Budget (UFB) lists the general fund levy at $11,917,798 (2025-26 revised) and $12,156,154 (2026-27; +2.0%). Total state aid is $1,267,290 → $1,331,960. Equalization aid fell from $59,647 (2024-25) to $0. Enrollment is 551 (Oct 2025) and 586 estimated for Oct 2026 (+6%). Unrestricted fund balance runs down from $632,301 (6/30/2024) to $302,513 (6/30/2027 est.). [UFB27 Mansfield Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2960.pdf) (generated July 14, 2026)
+- [primary] In the UFB, employee benefits as a percentage of salaries are 33.32% (2025-26 revised) and 39.26% (2026-27 proposed). Classroom salaries and benefits per pupil fall from $12,426 to $11,947 while enrollment rises. Under unusual revenues, the district books a "Health insurance divident" of $25,000 labelled "SHIF divident". Coverage is through joint insurance funds. [UFB27 Mansfield Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2960.pdf)
+- [snippet] No district budget presentation or local news coverage found. Searches return Mansfield Twp (Warren County), Mansfield CT, and Mansfield OH instead.
+- [snippet] No public reporting found on staff reductions, class size changes, program cuts, or district statements on health costs.
 
 ## Assessment
 **Insufficient evidence.** The budget holds the levy at 2%, draws $1.0M of fund balance, and shows slightly lower per-pupil classroom spending with rising enrollment, but no cuts were found in public reporting. There is a notable discrepancy: audited health costs were flat FY23→FY25 (-1.0%), while the budgeted benefits line jumps 17%. That points to a large 2026-27 renewal from SHIF or conservative budgeting, and should be verified.
+
+## Confidence
+**Low**: the UFB figures are verified, but there is no district or press statement, and the Assessment's 17% benefits jump differs from the verified +14.4%.
+
+## Fact check
+- ✔ Benefits as a percentage of salaries 33.32% → 39.26% and "Health insurance divident 25,000 SHIF divident": verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2960.pdf#page=7) (p. 7) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2960.pdf#page=8) (p. 8).
+- ✘ Assessment's "budgeted benefits line jumps 17%" differs. The UFB shows $2,805,172 → $3,208,082 (+14.4%, matching our numbers) at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_2960.pdf#page=4) (p. 4).
 
 ## Open questions
 - Get the 2026-27 budget hearing presentation and the SHIF renewal rate from the Mansfield Twp (Burlington) BOE.
 - Why was audited health spending flat FY23→FY25 (plan change, headcount, or dividends)?
 - Are enrollment growth (+35 pupils) and fund balance depletion leading to deferred hiring?
+
+<!-- facts: confidence=low; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

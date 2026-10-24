@@ -159,8 +159,8 @@ def actual_of(nums):
     Some auditors leave zero columns blank, so check the arithmetic before trusting position.
     """
     v = [to_num(t) for t in nums]
-    if len(v) == 3 and abs(v[0] + v[1] - v[2]) <= 1 and v[1] != 0:  # original, transfers, final; rest blank
-        return v[2] if v[2] == 0 else 0.0
+    if len(v) == 3 and abs(v[0] + v[1] - v[2]) <= 1 and v[1] != 0:  # original, transfers, final; actual left blank
+        return None  # unknown: don't guess
     if len(v) >= 3 and abs((v[-3] - v[-2]) - v[-1]) <= 1:
         return v[-2]
     if len(v) >= 2 and abs(v[-2] + v[-1]) <= 1 and v[-2] != 0:  # nonbudgeted: actual, (actual)
@@ -201,7 +201,8 @@ def _parse_c1_main(text):
     out, pending = {}, ""
     for raw in lines[max(start, 0): max(start, 0) + 60]:
         line = fix_digits(raw).strip()
-        line = re.sub(r"(?<=[\s(,\d])[Iil](?=[\d,])|(?<=\d)[Iil](?=[\d,\s)]|$)", "1", line)
+        line = " ".join(re.sub(r"[Iil]", "1", t) if re.fullmatch(r"\(?[\dIil][\d,Iil]*\)?", t) and re.search(r"\d", t) else t
+                        for t in line.split(" "))
         if re.match(r"^Total (Undistributed|General Current|Expenditures)", line, re.I) and not re.search(r"Benefits", line, re.I):
             break
         if not line:
@@ -224,17 +225,23 @@ def _parse_c1_main(text):
             continue
         if code and code.group(1) in CODES:
             col = CODES[code.group(1)]
+            val = actual_of(nums)
+            if val is None:
+                continue
             if col == "other_retirement":
-                out[col] = out.get(col, 0) + actual_of(nums)
+                out[col] = out.get(col, 0) + val
             elif col not in out:
-                out[col] = actual_of(nums)
+                out[col] = val
             continue
         for col, pat in FIELDS:
             if re.search(pat, label, re.I):
+                val = actual_of(nums)
+                if val is None:
+                    break
                 if col == "other_retirement":  # Regular, ERIP, DCRP... can each have a row
-                    out[col] = out.get(col, 0) + actual_of(nums)
-                elif col not in out:
-                    out[col] = actual_of(nums)
+                    out[col] = out.get(col, 0) + val
+                elif col not in out:  # first match wins (later duplicates are usually in other blocks)
+                    out[col] = val
                 break
     if out:
         out["source_page"] = src_page
@@ -270,7 +277,7 @@ def parse_allocated(pages):
             seen.add(m.group(0))
             toks = [t for t in line[m.end():].split(" ") if t and t != "$"]
             nums = [t for t in toks if NUM.match(t)]
-            if len(nums) >= 2:
+            if len(nums) >= 2 and actual_of(nums) is not None:
                 col = CODES["2" + m.group(1)]
                 out[col] = out.get(col, 0) + actual_of(nums)
                 if col == "health" and not m.group(0).startswith("11-000-291"):
@@ -294,8 +301,14 @@ def parse(args):
         comp = sum(vals.get(c, 0) for c in COLS[1:10])
         tot = vals.get("total_unallocated")
         ok = bool(tot) and abs(comp - tot) <= max(1000, 0.01 * tot)
+        # Plausibility: no NJ district has >$1B of unallocated benefits; health can't exceed the benefit total.
+        bad = any(isinstance(v, float) and abs(v) > 1e9 for v in vals.values()) \
+            or (tot and vals.get("health") and vals["health"] > 1.02 * tot)
+        quality = "rejected" if bad else "reconciled" if ok else ("unreconciled" if vals.get("health") else "")
+        if bad:
+            vals = {k: v for k, v in vals.items() if k in ("source_page", "method")}
         rows.append({"fiscal_year": fy, "county": cname, "district_id": dist, "district_name": name,
-                     **{c: vals.get(c, "") for c in COLS}, "components_match_total": ok,
+                     **{c: vals.get(c, "") for c in COLS}, "components_match_total": ok, "quality": quality,
                      "method": vals.get("method", "unallocated" if vals else ""),
                      "source_page": vals.get("source_page", ""),
                      "source_url": URL.format(yy=fy[2:], dist=dist)})

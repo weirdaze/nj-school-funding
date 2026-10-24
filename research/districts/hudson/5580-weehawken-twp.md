@@ -2,7 +2,15 @@
 _Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list). Sample: county most-squeezed (% of budget)._
 
 ## Our numbers
-(filled automatically)
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- **Benefits budget** 2025-26 (revised) → 2026-27: $6.66M → $9.64M (+44.7%). Source: [2026-27 User-Friendly Budget](https://www.nj.gov/education/budget/ufb/2627/reports/17/UFB27_5580.pdf), Appropriations, line "Total Personal Services – Employee Benefits" (columns 2025-26 revised / 2026-27 budget); also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `approp27.csv` line 71260.
+- **Formula aid change** FY26 → FY27: +$0.09M. Source: [NJDOE FY27 K-12 aid, district details](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) (row for district 5580, "FY26–FY27 K–12 Aid Difference"). Aid change minus benefit increase: -$2.89M (computed).
+- **Benefits share of operating budget** 2026-27: 26.8% (computed from [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/17/UFB27_5580.pdf): employee benefits ÷ Total General Current Expense).
+- **Health share of district-paid benefits** FY25: 77.4%; **audited health growth** FY23→FY25: +27.6%. Source: audited ACFR Exhibit C-1, "Health Benefits" actual: [FY2025 report](https://www.nj.gov/education/finance/fp/acfr/search/25/5580.pdf#page=82), [FY2023 report](https://www.nj.gov/education/finance/fp/acfr/search/23/5580.pdf#page=81).
+- **Tax levy change**: +16.1%; **budgeted fund balance used** 2025-26 → 2026-27: $0.00M → $0.25M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/17/UFB27_5580.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
+- **Students per teacher** 2021-22 → 2024-25: 9.9 → 10.4. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
+- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $5.36M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
+- **In SEHBP**: yes per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
 - [primary] Tentative budget adopted Mar. 17, 2026: general fund $34,369,304 with a general fund tax levy of $30,295,938. It includes a **Health Care Costs adjustment of $1,649,374** under N.J.S.A. 18A:7F-38(d), "used to pay for the additional increases in health care premiums," plus a **banked cap adjustment of $279,410**. The board says it "has fully exhausted all eligible statutory spending authority." [Weehawken BOE agenda, Mar. 17, 2026](https://4.files.edl.io/ff1f/03/16/26/225642-7e8c3c6c-94de-46b5-8442-8fbf538711cd.pdf), pp. 3-4. The final budget hearing on Mar. 30, 2026 repeats the same amounts. [Weehawken BOE agenda, Mar. 30, 2026](https://4.files.edl.io/fe9e/03/30/26/152404-f388e846-83b9-4cd0-baa0-1af7548b9dc7.pdf), pp. 7-8.

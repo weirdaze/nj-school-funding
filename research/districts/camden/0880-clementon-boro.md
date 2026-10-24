@@ -13,12 +13,21 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- State UFB: proposed local tax levy $5,034,983 vs $4,936,258 revised 2025-26 (+2.0%); regular programs instruction $3,432,975 vs $3,444,390; enrollment projected 652 vs 596 actual (per search snippet). [NJDOE UFB27_0880](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0880.pdf), generated July 14, 2026.
+- [primary] State UFB: proposed local tax levy $5,034,983 vs $4,936,258 revised 2025-26 (+2.0%); regular programs instruction $3,432,975 vs $3,444,390; enrollment projected 652 vs 596 actual (per search snippet). [NJDOE UFB27_0880](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0880.pdf), generated July 14, 2026.
 - No public reporting found on staff reductions, class size changes, program cuts, health plan changes, employee contributions, or district commentary on state aid.
 
 ## Assessment
 **Insufficient evidence.** Our numbers show benefits +$239K (+10.0%) vs +$17K state aid; the district held the levy to 2% and instead began drawing fund balance ($0 → $646K). Regular instruction spending is roughly flat while projected enrollment rises ~9%, which could imply larger classes, but no reporting confirms it.
 
+## Confidence
+**Low**: only the state UFB was checked; no district or news source on cuts, staffing or health costs.
+
+## Fact check
+- ✔ Total tax levy $4,936,258 (2025-26 revised) → $5,034,983 (2026-27) — verified in the [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `rev27.csv` line 114 (the same data the [UFB27_0880](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0880.pdf) report is built from).
+- ✔ Enrollment 596 → 652 (full-time on-roll 508 → 567 plus special-ed 88 → 85) — verified in the [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `enroll27.csv` lines 11 and 21.
+
 ## Open questions
 - Obtain the 2026-27 budget presentation/minutes; confirm staffing plan given the projected enrollment rise.
 - Why no health-benefits cap adjustment was used despite a 10% benefits increase.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

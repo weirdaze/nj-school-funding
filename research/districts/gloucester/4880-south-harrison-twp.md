@@ -13,15 +13,25 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state's 2026-27 User-Friendly Budget lists a base levy of $4,744,106, up from $4,651,084 (2025-26 revised), about +2%. Preschool Education Aid is $1,136,240 (per search snippet). [UFB27 4880](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4880.pdf), report generated 2026-07-14.
-- Enrollment was 334 on roll in Oct 2025 (actual), below the 369 projected a year earlier. The district projects 360 for Oct 2026. Earlier actuals: 332 (2022), 354 (2023), 349 (2024) (per search snippet; same UFB).
+- [primary] The state's 2026-27 User-Friendly Budget lists a base levy of $4,744,106, up from $4,651,084 (2025-26 revised), about +2%. Preschool Education Aid is $1,136,240 (confirmed in the UFB PDF, p. 2, 2026-10-24). [UFB27 4880](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4880.pdf), report generated 2026-07-14.
+- [primary] Enrollment was 334 on roll in Oct 2025 (actual), below the 369 projected a year earlier. The district projects 360 for Oct 2026. Earlier actuals: 332 (2022), 354 (2023), 349 (2024). [UFB27 4880](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4880.pdf) p. 1 (334 and 360 confirmed 2026-10-24; earlier actuals per search snippet).
 - No public reporting found on staff reductions, RIFs, class sizes or program cuts.
 - No public reporting found on district statements about health benefit costs, plan changes or employee contributions. Search hits for "South Harrison" health premiums were about South Harrison, Missouri and were excluded.
 - No public reporting found on cap waivers, a referendum, or district comment on state aid or fair funding.
 
 ## Assessment
-**Insufficient evidence.** The benefit increase is small in our data (+3.5%, about $30K), and the levy rose only 2%. No local reporting or district documents on cuts turned up. Students per teacher fell from 12.2 to 9.4, which does not point to larger classes.
+**Insufficient evidence.** The benefit increase in our data is +12.6% (about $99K; corrected 2026-10-24 from an earlier "+3.5%, about $30K" that used a different base), and the levy rose only 2%. No local reporting or district documents on cuts turned up. Students per teacher fell from 12.2 to 9.4, which does not point to larger classes.
+
+## Confidence
+**Low**: no district documents or local reporting found; only the state UFB was checked, and it matches our numbers.
+
+## Fact check
+- ✔ Total tax levy $4,651,084 → $4,744,106 — verified at [UFB27 4880](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4880.pdf) (p. 2, "Total Tax Levy").
+- ✔ Employee benefits $783,120 → $882,120 (matches our $0.78M → $0.88M) — verified at [UFB27 4880](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4880.pdf) (p. 4, "Personal Services-Employee Benefits").
+- ✘ Assessment said benefits rose "+3.5%, about $30K" — differs: the UFB and our numbers show +12.6% (+$99,000). Assessment corrected.
 
 ## Open questions
 - Get the board's spring 2026 budget hearing presentation and minutes (very small K-8 district; not indexed online).
 - What does a $1.1M preschool aid line mean for the general-fund comparison (preschool expansion)?
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

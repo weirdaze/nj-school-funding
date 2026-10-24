@@ -13,7 +13,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state's 2026-27 User-Friendly Budget (downloaded and read) shows:
+- [primary] The state's 2026-27 User-Friendly Budget (downloaded and read) shows:
   - Base levy: $3,154,548 → $3,217,639 (+2.0%)
   - Equalization aid: $4,561,298 → $4,884,761; total state revenue: $5,293,270 → $5,610,866
   - Budgeted fund balance: $658,713 → $716,856
@@ -26,10 +26,19 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on staff reductions, class sizes, program cuts, health plan changes, cap waivers, or district statements on state aid. Several guessed district website domains did not resolve, and the session's web search limit ran out before this district could be searched, so local news and board minutes were **not checked**.
 
 ## Assessment
-**Insufficient evidence.** The benefit increase (about +$216K by our figures, or +$265K against the UFB revised base) was more than covered by state aid growth (+$317K). The levy stayed at 2% and instruction lines grew slightly, with enrollment rising. Nothing in the state filing suggests cuts, but district documents were not reviewed.
+**Insufficient evidence.** The benefit increase (about +$265K, +17.5%, on the UFB revised base that our numbers now use) was more than covered by state aid growth (+$317K). The levy stayed at 2% and instruction lines grew slightly, with enrollment rising. Nothing in the state filing suggests cuts, but district documents were not reviewed.
 
-Discrepancy: our 2025-26 benefits base is $1,558,000, while the UFB "2025-26 revised" figure is $1,509,000. Our base looks like the original budget. Measured against the revised base, the increase is +17.5% rather than +13.8%.
+Discrepancy resolved (2026-10-24): our numbers now use the UFB "2025-26 revised" base of $1,509,000, so our +17.5% matches the UFB.
+
+## Confidence
+**Low**: no district documents, minutes, or local news were checked. Only the state UFB was checked, and it matches our numbers.
+
+## Fact check
+- ✔ Employee benefits $1,509,000 → $1,773,750 — verified at [UFB27 5740](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5740.pdf) (p. 4).
+- ✔ Base levy $3,154,548 → $3,217,639 — verified at [UFB27 5740](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5740.pdf) (p. 2).
 
 ## Open questions
 - Find the district website and its spring 2026 budget hearing minutes or presentation.
 - Confirm which 2025-26 benefits base (original or revised) our pipeline uses.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

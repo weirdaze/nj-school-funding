@@ -13,14 +13,25 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- State UFB: levy $8,469,208 → $9,255,340 (+9.3%); employee benefits $4,356,736 (2025-26 revised) → $5,071,925; benefits as % of salaries 46.01% → 50.37%; legal reserve $300,000 (6/30/2025) → $0 (est. 6/30/2027); unrestricted fund balance falls to $392,759 by 6/30/2027. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4590.pdf) (July 14, 2026).
-- Board approved the tentative 2026-27 budget on March 18, 2026, with planned capital and maintenance reserve withdrawals for facility upgrades; the final budget was presented/approved at a later meeting (per search snippets from starbridge.ai aggregator, [starbridge.ai](https://starbridge.ai/buyer/runnemede-public-school-district); not verified against official minutes).
+- [primary] State UFB: levy $8,469,208 → $9,255,340 (+9.3%); employee benefits $4,356,736 (2025-26 revised) → $5,071,925; benefits as % of salaries 46.01% → 50.37%; legal reserve $300,000 (6/30/2025) → $0 (est. 6/30/2027); unrestricted fund balance falls to $392,759 by 6/30/2027. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4590.pdf) (July 14, 2026).
+- [snippet] Board approved the tentative 2026-27 budget on March 18, 2026, with planned capital and maintenance reserve withdrawals for facility upgrades; the final budget was presented/approved at a later meeting (per search snippets from starbridge.ai aggregator, [starbridge.ai](https://starbridge.ai/buyer/runnemede-public-school-district); not verified against official minutes).
 - No public reporting found on staff reductions, class sizes, program cuts, health-plan changes, cap waivers (the 9.3% levy implies adjustments above the 2% cap, but no breakdown was found), or referendums.
 
 ## Assessment
-**Insufficient evidence.** Benefits rose 12% (+$544K) against a +$455K aid increase, and the levy rose 9.3% — consistent with a health-care cap adjustment — but no district document or reporting describing cuts or attributing decisions to benefit costs was found. Our benefit figures match the state UFB.
+**Insufficient evidence.** Benefits rose 16.4% (+$715K per the UFB: $4,356,736 → $5,071,925) against a +$0.40M aid increase, and the levy rose 9.3% — consistent with a health-care cap adjustment — but no district document or reporting describing cuts or attributing decisions to benefit costs was found. Our benefit figures match the state UFB.
+
+## Confidence
+**Low**: only the state UFB is verified; no district statement or reporting on cuts or health costs; budget-adoption details rest on an aggregator snippet.
 
 ## Open questions
 - Request the 2026-27 budget presentation and cap calculation (health care adjustment / banked cap).
 - Spring 2026 personnel actions (non-renewals, positions not refilled).
 - Health carrier/plan (UFB lists only NJSIG under insurance shared services).
+
+## Fact check
+- ✔ Levy $8,469,208 → $9,255,340 — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4590.pdf) (p. 2, Total Tax Levy).
+- ✔ Employee benefits $4,356,736 → $5,071,925; benefits as % of salaries 46.01% → 50.37% — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4590.pdf) (p. 4 and p. 8).
+- ✔ Legal reserve $300,000 (6/30/2025) → $0 (est. 6/30/2027); unrestricted general operating balance $392,759 (est. 6/30/2027) — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4590.pdf) (p. 7).
+- Note: the Assessment previously said benefits rose "12% (+$544K)" against "+$455K" aid; the UFB and our current numbers show +16.4% (+$715K) and +$0.40M aid. Assessment corrected.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

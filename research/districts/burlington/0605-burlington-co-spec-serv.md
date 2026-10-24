@@ -14,14 +14,23 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - ⚠️ not directly comparable (non-operating, service commission, or special services district)
 
 ## What the district / local reporting says
-- The state UFB for 2026-27 projects tuition from local education agencies of about $27.65M (up from about $27.40M revised 2025-26), other tuition of about $11.63M (up from $10.70M), per-pupil cost of $88,346 (vs $84,044), and 500 students on roll, 469 of them special education (per search snippet). [UFB27 0605](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf), state summary generated July 14, 2026.
-- As a county special services district, it passes cost increases, benefits included, to sending districts through tuition rates rather than a tax levy. Rising benefits here therefore show up indirectly in member districts' "tuition" lines. This is an inference from the structure, not a district statement.
-- The district website homepage could not be parsed, and a site search found no budget presentation.
-- No public reporting found on RIFs, program cuts, class size changes, health plan changes, or district statements on benefits.
+- [primary] The state UFB for 2026-27 projects tuition from local education agencies of about $27.65M (up from about $27.40M revised 2025-26), other tuition of about $11.63M (up from $10.70M), per-pupil cost of $88,346 (vs $84,044), and 500 students on roll, 469 of them special education (per search snippet). [UFB27 0605](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf), state summary generated July 14, 2026.
+- [snippet] As a county special services district, it passes cost increases, benefits included, to sending districts through tuition rates rather than a tax levy. Rising benefits here therefore show up indirectly in member districts' "tuition" lines. This is an inference from the structure, not a district statement.
+- [snippet] The district website homepage could not be parsed, and a site search found no budget presentation.
+- [snippet] No public reporting found on RIFs, program cuts, class size changes, health plan changes, or district statements on benefits.
 
 ## Assessment
 **No cuts reported.** The benefits increase (+4.6%) is modest, and the district's tuition revenue and per-pupil cost are rising. No reporting links benefits to reductions. This district's costs flow to sending districts as tuition, so the benefit pressure is exported rather than absorbed.
 
+## Confidence
+**Medium**: tuition and benefits verified in the state UFB, but the "no cuts" finding rests on absence of reporting and the Assessment's benefits percentage is stale.
+
+## Fact check
+- ✔ Tuition from LEAs 27,398,841 → 27,652,132 — verified at [UFB27 0605](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf) (page 2).
+- ✘ Assessment says benefits rose "+4.6%" — differs: the [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0605.pdf) (page 3) shows 13,076,695 → 14,131,681 (+8.1%), as in our numbers.
+
 ## Open questions
 - 2026-27 tuition rate schedule by program, and the year-over-year change, to measure pass-through to sending districts.
 - The health carrier and the 2027 renewal. With benefits at 31% of the operating budget, the highest share in this batch, the district is exposed to a premium spike.
+
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

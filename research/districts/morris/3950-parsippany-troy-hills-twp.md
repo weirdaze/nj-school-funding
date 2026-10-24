@@ -1,0 +1,33 @@
+# Parsippany-Troy Hills Twp (Morris County) — district 3950
+_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: top-gap (largest $ benefit increase minus aid change)._
+
+## Our numbers
+(filled automatically)
+
+## What the district / local reporting says
+- [news] Health costs: "health care costs alone were projected to rise by approximately 45 percent", an increase of more than $13 million under the district's existing structure. The district used the state health care adjustment, which "permits districts to exceed the tax cap specifically to offset these increases", but Superintendent Chase said "even with that adjustment, a significant gap remained." [Parsippany Focus, "Parsippany Schools Adopt 2026–2027 Budget, Address Rising Costs and Maintain Core Programs"](https://parsippanyfocus.com/parsippany-schools-adopt-2026-2027-budget-address-rising-costs-and-maintain-core-programs/), May 2, 2026. The article does not give the dollar amount of the adjustment.
+- [news] Health plan change: to close the gap, the district is moving to a "self-funded health benefits model", keeping the coverage set by its collective bargaining agreements. No savings figure was given. [Parsippany Focus](https://parsippanyfocus.com/parsippany-schools-adopt-2026-2027-budget-address-rising-costs-and-maintain-core-programs/), May 2, 2026.
+- [news] Staffing: "five teaching positions were reassigned to the elementary level", where "class size pressures are most significant", and other staffing changes came through "retirements, reassignments, and non-renewals". No counts were given. The article says academic programs, activities and facility investments (HVAC) were maintained and athletic and activity fees were not raised. [Parsippany Focus](https://parsippanyfocus.com/parsippany-schools-adopt-2026-2027-budget-address-rising-costs-and-maintain-core-programs/), May 2, 2026.
+- [news] Tax: the board proposed a 6.5% school tax increase, about $475 more for the average homeowner, per a Mar. 12, 2026 budget presentation. [Daily Record via Yahoo, "Parsippany taxes could rise by almost $800"](https://www.yahoo.com/news/articles/parsippany-taxes-could-rise-almost-083527386.html), Mar. 19, 2026.
+- [news] Prior year: the 2025-26 tentative budget cut 14 positions: 2 administrative, 4 teaching, 1 nursing, 4 custodial and 3 secretarial. It included a $270,276 health care cost adjustment, plus new fees for athletics, parking and activities. Superintendent Robert Sutter said the district "cannot continue down this path with a 2 percent tax levy." [Patch, "14 Staff Positions To Be Cut In Parsippany-Troy Hills School Budget"](https://patch.com/new-jersey/parsippany/parsippany-troy-hills-education-budget-passed-first-round-votes), Mar. 18, 2025.
+- [primary] The UFB's insurance shared services list only workers' compensation (Pooled Insurance Program of NJ) and liability (School Alliance Insurance Fund). No health pool is listed. [NJDOE UFB 2026-27, Parsippany-Troy Hills](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_3950.pdf), p. 8.
+- The district website (pthsd.k12.nj.us) returned a bot challenge, so the district's own presentation and resolutions could not be opened. No public reporting found on the size of the health care adjustment, banked cap, or the number of non-renewals.
+
+## Verification of our numbers
+- Benefits: the UFB shows $32,845,206 (2025-26 revised) and $41,392,235 (2026-27), which matches ours (+$8,547,029, +26.0%). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_3950.pdf), p. 4. The district's "more than $13 million" (+45%) was the projection before the switch to self-funding. The budgeted increase after that change is consistent with our +$8.5M.
+- State aid: UFB state sources rise from $13,800,956 to $14,539,013 (+$738,057), which matches ours. No district statement on aid was found.
+- Levy: $159,557,688 to $170,091,588 is +6.60%, which matches ours (6.6%). The Daily Record's "6.5%" refers to the proposed tax increase. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/27/UFB27_3950.pdf), p. 2.
+- Fund balance: $8,604,107 (2025-26) and $6,604,108 (2026-27) match ours.
+
+## Assessment
+**Consistent.** The district identified health care as the main pressure, a projected +45% (more than $13M), and responded with the cap adjustment, a 6.6% levy increase and a switch to self-funded health insurance. Staffing changes came through "retirements, reassignments, and non-renewals", with five teaching positions moved to elementary grades because of class-size pressure. Reported cuts are unquantified, and the clearer staff cuts (14 positions) came in the prior year's budget.
+
+## Confidence
+**Medium**: the 2026-27 facts come from one local news report (Parsippany Focus) quoting the superintendent. The district's own documents could not be opened. Our UFB numbers reconcile.
+
+## Open questions
+- How large was the health care cap adjustment, and was banked cap used?
+- How many non-renewals were budget-driven, and what roles were they?
+- What self-funding savings are assumed, who is the third-party administrator, and what stop-loss coverage is in place?
+
+<!-- facts: confidence=medium; plan=self-insured; health_increase_pct=45; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

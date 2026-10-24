@@ -13,15 +13,23 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state User-Friendly Budget (UFB) lists the general fund levy at $9,192,115 (2024-25), $9,408,500 (2025-26 revised), and $10,594,251 (2026-27; +12.6%). A new debt service levy of $153,000 appears (previously $0). Equalization aid is $14,506,399 → $14,547,989, and total state revenue $16,636,100 → $16,793,714. On-roll enrollment is 1,082 → 1,105 (est.). [UFB27 Mount Holly Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3430.pdf) (generated July 14, 2026)
-- In the UFB, employee benefits as a percentage of salaries are 36.35% (2025-26 revised) and 41.11% (2026-27 proposed). Classroom salaries and benefits per pupil are $11,412 → $11,621. Coverage is listed as "NJ Schools Insurance Group, School Health Insurance Fund". Unrestricted fund balance is projected flat at $593,911. [UFB27 Mount Holly Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3430.pdf)
-- The district's Budget Information page links a "2026-2027 Budget Presentation" hosted in an Adobe Acrobat viewer, which could not be read without JavaScript, and a separate "2026-2027 Budgeted Capital Projects Presentation". [Mount Holly Twp SD – Budget Information](https://www.mtholly.k12.nj.us/apps/pages/index.jsp?uREC_ID=446622&type=d&termREC_ID=&pREC_ID=1154945) (accessed 2026-10-24)
-- No public reporting found on staff reductions, class sizes, program cuts, district statements on health costs, or a ballot question for the 12.6% levy increase. Web search quota ran out before local news could be checked.
+- [primary] The state User-Friendly Budget (UFB) lists the general fund levy at $9,192,115 (2024-25), $9,408,500 (2025-26 revised), and $10,594,251 (2026-27; +12.6%). A new debt service levy of $153,000 appears (previously $0). Equalization aid is $14,506,399 → $14,547,989, and total state revenue $16,636,100 → $16,793,714. On-roll enrollment is 1,082 → 1,105 (est.). [UFB27 Mount Holly Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3430.pdf) (generated July 14, 2026)
+- [primary] In the UFB, employee benefits as a percentage of salaries are 36.35% (2025-26 revised) and 41.11% (2026-27 proposed). Classroom salaries and benefits per pupil are $11,412 → $11,621. Coverage is listed as "NJ Schools Insurance Group, School Health Insurance Fund". Unrestricted fund balance is projected flat at $593,911. [UFB27 Mount Holly Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3430.pdf)
+- [primary] The district's Budget Information page links a "2026-2027 Budget Presentation" hosted in an Adobe Acrobat viewer, which could not be read without JavaScript, and a separate "2026-2027 Budgeted Capital Projects Presentation". [Mount Holly Twp SD – Budget Information](https://www.mtholly.k12.nj.us/apps/pages/index.jsp?uREC_ID=446622&type=d&termREC_ID=&pREC_ID=1154945) (accessed 2026-10-24)
+- [snippet] No public reporting found on staff reductions, class sizes, program cuts, district statements on health costs, or a ballot question for the 12.6% levy increase. Web search quota ran out before local news could be checked.
 
 ## Assessment
 **Insufficient evidence.** The 12.6% levy increase is the largest in this batch. It is far above what a health-care cap adjustment alone would allow for a $660K benefit increase on a $9.4M levy. That suggests other adjustments, banked cap, a ballot question, or a cap waiver, possibly tied to capital projects (the new debt levy). No cuts were found. Mount Holly is heavily state-aided: aid is about 1.6x the levy.
+
+## Confidence
+**Low**: the UFB figures are verified, but the district presentation could not be read and there is no statement on cuts or on what drives the 12.6% levy.
+
+## Fact check
+- ✔ Levy $9,408,500 → $10,594,251 (+12.6%), new debt levy $153,000, benefits $5,142,363 → $5,802,044 (+$660K, matching our numbers), coverage via "NJ Schools Insurance Group, School Health Insurance Fund": verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3430.pdf#page=2) (p. 2), [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3430.pdf#page=3) (p. 3), [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3430.pdf#page=5) (p. 5) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3430.pdf#page=10) (p. 10).
 
 ## Open questions
 - Read the 2026-27 budget presentation (Adobe link on the district site). What drives the 12.6% levy (adjustments used, any separate proposal)?
 - Did the district use banked cap or put a second question on the ballot?
 - What are the health insurance renewal % (SHIF) and staffing changes for 2026-27?
+
+<!-- facts: confidence=low; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

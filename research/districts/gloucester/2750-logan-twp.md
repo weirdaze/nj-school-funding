@@ -13,17 +13,26 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- **Staffing.** The Apr 29, 2026 public budget hearing slide "Teaching Staff Reductions to Budget" reads: "Even with the increased costs, we do not have to cut any teaching positions from the budget!" The district adds a Kindergarten ICS teacher and a 6th grade teacher under "Additional Needs". [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf) (Apr 29, 2026)
-- **Class sections and size.** Projected 2026-27 sections: K +1 (17–18 per section), grade 6 +1 (20–21), grade 7 -1 (17), all others unchanged. The largest sections are 20–21 students in grades 5–6. [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf)
-- **State aid.** The hearing slides show preschool aid up from $1,537,100 to $1,866,680 and special education aid up from $1,279,986 to $1,386,808. School choice aid ($18,212) and tax incentive aid ($186,224) drop to $0. The slide states "Overall Increase $237,107". [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf)
-- **Tuition.** Tuition to Kingsway Regional for high school students rises from $4,374,787.50 to $4,860,987 (+$486,199.50, +11.1%), with 283 regular students at $15,108. [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf)
-- **Capital reserve and benefits ratio.** A $150,000 capital reserve withdrawal (leaving $181,378) funds a generator, a water heater and AI cameras. [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf) The NJDOE UFB reports "Employee Benefits as a percentage of salaries" at 34.69% → 37.42%. [UFB27_2750](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_2750.pdf) (generated Jul 14, 2026)
-- No public reporting found on the health-benefit renewal rate, carrier or SEHBP status changes, cap waivers, or fair funding statements. Several hearing slides are images only, and their content was not extractable.
+- [primary] **Staffing.** The Apr 29, 2026 public budget hearing slide "Teaching Staff Reductions to Budget" reads: "Even with the increased costs, we do not have to cut any teaching positions from the budget!" The district adds a Kindergarten ICS teacher and a 6th grade teacher under "Additional Needs". [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf) (Apr 29, 2026)
+- [primary] **Class sections and size.** Projected 2026-27 sections: K +1 (17–18 per section), grade 6 +1 (20–21), grade 7 -1 (17), all others unchanged. The largest sections are 20–21 students in grades 5–6. [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf)
+- [primary] **State aid.** The hearing slides show preschool aid up from $1,537,100 to $1,866,680 and special education aid up from $1,279,986 to $1,386,808. School choice aid ($18,212) and tax incentive aid ($186,224) drop to $0. The slide states "Overall Increase $237,107". [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf)
+- [primary] **Tuition.** Tuition to Kingsway Regional for high school students rises from $4,374,787.50 to $4,860,987 (+$486,199.50, +11.1%), with 283 regular students at $15,108. [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf)
+- [primary] **Capital reserve and benefits ratio.** A $150,000 capital reserve withdrawal (leaving $181,378) funds a generator, a water heater and AI cameras. [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf) The NJDOE UFB reports "Employee Benefits as a percentage of salaries" at 34.69% → 37.42%. [UFB27_2750](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_2750.pdf) (generated Jul 14, 2026)
+- [snippet] No public reporting found on the health-benefit renewal rate, carrier or SEHBP status changes, cap waivers, or fair funding statements. Several hearing slides are images only, and their content was not extractable.
 
 ## Assessment
 Logan explicitly reports no teaching cuts and adds two teaching positions. Its budgeted benefits line falls in our data (-3.8%), and audited health costs fell FY23→FY25. **No cuts reported.** The district's slide shows a +$237,107 state aid increase (preschool and special education driven) versus our -$92,473. The difference likely reflects categories: preschool aid may be outside our general-fund aid measure. This should be reconciled.
+
+## Confidence
+**Medium**: the no-teaching-cuts statement is verified in the district's hearing slides, but the state aid figures do not reconcile (district +$237,107 incl. preschool; ours +$0.09M; the Assessment cites -$92,473), and several slides are image-only.
+
+## Fact check
+- ✔ "Even with the increased costs, we do not have to cut any teaching positions from the budget!"; Additional Needs: Kindergarten ICS Teacher, 6th Grade Teacher — verified at [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf) (pages 13–14).
+- ✔ State aid table (preschool $1,537,100 → $1,866,680; special ed $1,279,986 → $1,386,808; "Overall Increase $237,107") — verified at [Public Budget Hearing 2026](https://www.logan.k12.nj.us/_Public%20Budget%20Hearing%202026.pdf) (page 9). The Assessment's figures (benefits -3.8%, aid -$92,473) are stale; our numbers now show benefits -2.3% and formula aid +$0.09M. The aid gap is still unreconciled.
 
 ## Open questions
 - Why does the budgeted benefits line decline (-3.8%) in a high-renewal year? Possible causes: a plan change, staff mix, or a pool or credit.
 - Reconcile the state aid change: the district's +$237,107 (including preschool aid) versus our -$92,473.
 - Image-only slides (pp. 4–6, 10) likely hold appropriations detail; request the native file.
+
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=no -->

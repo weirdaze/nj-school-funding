@@ -104,9 +104,11 @@ def sehbp(meta):
         pool = by_county.get(county, {})
         match = OVERRIDES.get(n) or pool.get(n)
         if not match and re.search(r"\bVOC|TECHNICAL", n):
-            match = next((d for k, d in pool.items() if re.search(r"\bVOC|TECH", k)), None)
+            c = [k for k in pool if re.search(r"\bVOC|TECH", k)]
+            match = pool[c[0]] if len(c) == 1 else None  # ambiguous if a county has more than one
         if not match and "SPEC" in n:
-            match = next((d for k, d in pool.items() if "SPEC" in k), None)
+            c = [k for k in pool if "SPEC" in k]
+            match = pool[c[0]] if len(c) == 1 else None
         if not match:
             core = set(n.split()) - generic
             cands = [d for k, d in pool.items() if core and core == (set(k.split()) - generic)]
@@ -191,39 +193,52 @@ def main():
         # Baseline = 2025-26 *revised* budget as reported in the 2026-27 UFB (amount_2), which is what
         # districts compare against; the original 2025-26 budget is kept for reference.
         ben26_orig = b26["71260"][2]
+        baseline_source = "revised" if b27["71260"][1] else "original (revised missing)"
         ben26, ben27 = b27["71260"][1] or ben26_orig, b27["71260"][2]
         gce26, gce27 = b27.get("72260", (0, 0, 0))[1] or b26.get("72260", (0, 0, 0))[2], b27.get("72260", (0, 0, 0))[2]
         r27 = rev.get(d, {}).get("2627", {})
         rev_aid26, rev_aid27 = r27.get("520", (0, 0, 0))[1:]
+        aid_source = "formula" if d in faid else "UFB state revenue (not in aid file)"
         aid26, aid27 = faid.get(d, (rev_aid26, rev_aid27))
         levy26, levy27 = r27.get("114", (0, 0, 0))[1:]
         fb26, fb27 = r27.get("580", (0, 0, 0))[1:]
         ratio = ratios.get(d, {})
         au = audits.get(d, {})
-        h23 = num(au.get("2023", {}).get("health"))
-        h25 = num(au.get("2025", {}).get("health"))
-        t25 = num(au.get("2025", {}).get("total_unallocated"))
+        def usable(r):
+            """Use an audit row only if its components reconcile to the total, or health is a sane share of it."""
+            if not r or not num(r.get("health")):
+                return False
+            if r.get("quality") == "reconciled":
+                return True
+            h, t = num(r.get("health")), num(r.get("total_unallocated"))
+            return r.get("quality") == "unreconciled" and t > 0 and 0.2 <= h / t <= 1.0
+        a23, a25 = au.get("2023"), au.get("2025")
+        h23 = num(a23.get("health")) if usable(a23) else 0
+        h25 = num(a25.get("health")) if usable(a25) else 0
+        t25 = num(a25.get("total_unallocated")) if usable(a25) else 0
         tpaf25 = tp.get(d, {}).get("2025", (0, 0, 0))
         rows.append({
             "county_id": cid, "county": cname, "district_id": d, "district_name": name,
             "in_sehbp": d in in_sehbp,
-            "comparable": not (ben27 < 1e5 or re.search(r"Ed(uc)?\.? Serv|Spec(ial)?\.? Serv|Jointure|Commission|Regional Day", name, re.I)),
+            "baseline_source": baseline_source, "aid_source": aid_source,
+            "comparable": baseline_source == "revised" and aid_source == "formula" and not (ben27 < 1e5 or re.search(r"Ed(uc)?\.? Serv|Spec(ial)?\.? Serv|Jointure|Commission|Regional Day", name, re.I)),
             "benefits_budget_2526": ben26, "benefits_budget_2627": ben27, "benefits_budget_2526_original": ben26_orig,
             "benefits_change_pct": round(pct(ben27, ben26), 1),
             "benefits_change_dollars": ben27 - ben26,
             "other_gce_change_pct": round(pct(gce27 - ben27, gce26 - ben26), 1) if gce26 else "",
             "benefits_share_of_gce_2627": round(ben27 / gce27 * 100, 1) if gce27 else "",
-            "benefits_share_of_gce_growth_pct": round((ben27 - ben26) / (gce27 - gce26) * 100) if gce27 != gce26 else "",
+            "other_gce_budget_2526": gce26 - ben26, "other_gce_budget_2627": gce27 - ben27,
             "state_aid_change_dollars": aid27 - aid26,  # NJDOE K-12 formula aid FY26 -> FY27
             "state_revenue_change_ufb": rev_aid27 - rev_aid26,
             "levy_change_pct": round(pct(levy27, levy26), 1) if levy26 else "",
             "fund_balance_used_2526": fb26, "fund_balance_used_2627": fb27,
             "aid_change_minus_benefit_change": (aid27 - aid26) - (ben27 - ben26),
             "acfr_health_2023": h23 or "", "acfr_health_2025": h25 or "",
-            "acfr_2023_source": src(au.get("2023")), "acfr_2025_source": src(au.get("2025")),
+            "acfr_2023_source": src(a23) if h23 else "", "acfr_2025_source": src(a25) if h25 else "",
             # guard against a mis-parsed year: health can't plausibly move >150% in two years
             "acfr_health_growth_23_25_pct": round(pct(h25, h23), 1) if h23 > 1e4 and h25 and abs(pct(h25, h23)) <= 150 else "",
-            "acfr_health_share_of_benefits_2025": round(h25 / t25 * 100, 1) if h25 and t25 else "",
+            "acfr_health_share_of_benefits_2025": round(h25 / t25 * 100, 1) if h25 and t25 and 0.2 <= h25 / t25 <= 1.0 else "",
+            "acfr_quality_2023": (a23 or {}).get("quality", ""), "acfr_quality_2025": (a25 or {}).get("quality", ""),
             "tpaf_onbehalf_total_2025": tpaf25[2] or "",
             "benefits_line_incomplete": bool(h25 and h25 > 1.05 * ben27),
             "students_per_teacher_2021_22": ratio.get("2021-22", ("",))[0],

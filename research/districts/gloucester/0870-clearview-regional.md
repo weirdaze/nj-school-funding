@@ -13,17 +13,17 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state UFB (generated July 14, 2026) lists a proposed 2026-27 local tax levy of $24,592,837 vs. $23,442,973 in 2025-26 revised, which is about +4.9% (per search snippet of [UFB27 0870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_0870.pdf)). Total revenues fall from $47,587,644 (2025-26 revised) to $44,836,287 (2026-27 proposed).
-- The same UFB shows the regular instruction line going from $11,542,224 (2025-26 revised) to $11,045,766 (2026-27 proposed), down about $496K (per search snippet, same source). This may point to instructional reductions, but no staffing detail was found.
-- More UFB lines (PDF opened 2026-10-24):
+- [primary] The state UFB (generated July 14, 2026) lists a proposed 2026-27 local tax levy of $24,592,837 vs. $23,442,973 in 2025-26 revised, which is about +4.9% ([UFB27 0870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_0870.pdf)). Total revenues fall from $47,587,644 (2025-26 revised) to $44,836,287 (2026-27 proposed).
+- [primary] The same UFB shows the regular instruction line going from $11,542,224 (2025-26 revised) to $11,045,766 (2026-27 proposed), down about $496K (same UFB, page 5). This may point to instructional reductions, but no staffing detail was found.
+- [primary] More UFB lines (PDF opened 2026-10-24):
   - Benefits are $6,125,642 (2025-26 revised) → $7,194,240 (**+17.4%**, vs. our +11.9% computed from a $6.43M base).
   - School Administration $1,977,037 → $1,747,628 (-11.6%).
   - Out-of-district tuition +26.9%.
   - Total general current expense only +1.9%.
   - State revenue $10,202,593 → $9,895,161 (-3.0%).
-- Enrollment on roll is 2,054 (Oct 2025) and an estimated 2,058 (Oct 2026), so it is flat (per search snippet, same source).
-- The district's 2025-26 contract awards list health benefits and prescription renewals, including Aetna through **SHIF** (Schools Health Insurance Fund), a joint insurance fund rather than SEHBP (per search snippet, [2025-26 SY Contract Awards](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5343/Crhsd/036c5f84-89db-40cf-b8b6-db255841db58/2025-26-SY-Contract-Awards.pdf?disposition=inline)). The snippet gave no premium figures, and the PDF text could not be extracted.
-- 2025-26 state aid: Clearview Regional "will see a $305,107.00 reduction" in state aid. Mantua's mayor wrote that Mantua and Harrison taxpayers would have to cover it, or the boards would have to make spending cuts ([Mantua mayor's message, southjersey.media](https://southjersey.media/mantua-news/on-taxpayer-aid-to-the-school-districts/), Mar 13, 2025).
+- [primary] Enrollment on roll is 2,054 (Oct 2025) and an estimated 2,058 (Oct 2026), so it is flat (same UFB, page 1).
+- [primary] The district's 2025-26 contract awards list health benefits and prescription renewals, including Aetna through **SHIF** (Schools Health Insurance Fund), a joint insurance fund rather than SEHBP ([2025-26 SY Contract Awards](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5343/Crhsd/036c5f84-89db-40cf-b8b6-db255841db58/2025-26-SY-Contract-Awards.pdf?disposition=inline)). The document gives no premium figures (text re-extracted 2026-10-24).
+- [news] 2025-26 state aid: Clearview Regional "will see a $305,107.00 reduction" in state aid. Mantua's mayor wrote that Mantua and Harrison taxpayers would have to cover it, or the boards would have to make spending cuts ([Mantua mayor's message, southjersey.media](https://southjersey.media/mantua-news/on-taxpayer-aid-to-the-school-districts/), Mar 13, 2025).
 - No public reporting found on 2026-27 staff reductions, RIFs, class sizes, or program or sport cuts.
 - No public reporting found on the district's statements about its 2026-27 health insurance increase, plan switch or employee contributions.
 - No public reporting found on cap waivers or a referendum for 2026-27.
@@ -31,7 +31,20 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Assessment
 **Insufficient evidence.** Our numbers show the largest squeeze in this batch outside the special services district: aid was cut a second year in a row and benefits rose $768K, for a combined gap of about $1.08M. The UFB also shows regular instruction falling about $0.5M. However, we found no district or press statement describing cuts or tying them to benefit costs. Our levy figure (+4.9%) matches the UFB.
 
+## Confidence
+**Low**: "Insufficient evidence" — UFB lines and SHIF membership are verified in primary documents, but nothing ties the falling instruction line to cuts or to benefit costs.
+
+## Fact check
+- ✔ Benefits $6,125,642 → $7,194,240 (+17.4%) — verified at [UFB27 0870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_0870.pdf#page=5) (page 5); matches Our numbers.
+- ✔ Regular Programs-Instruction $11,542,224 → $11,045,766 — verified at [UFB27 0870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_0870.pdf#page=5) (page 5).
+- ✔ Levy $23,442,973 → $24,592,837 — verified at [UFB27 0870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_0870.pdf#page=2) (page 2).
+- ✔ Health benefits/prescription "Aetna (SHIF)" renewal — verified at [2025-26 SY Contract Awards](https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5343/Crhsd/036c5f84-89db-40cf-b8b6-db255841db58/2025-26-SY-Contract-Awards.pdf?disposition=inline) (page 1).
+- ✔ "$305,107.00 reduction" in 2025-26 state aid — verified at [Mantua mayor's message](https://southjersey.media/mantua-news/on-taxpayer-aid-to-the-school-districts/).
+- Note: the Assessment's "+11.9%" / "$768K" benefit figures used the old $6.43M original-budget base; Our numbers now use the revised base and show +$1.07M (+17.4%), which matches the UFB.
+
 ## Open questions
 - Get the 2026-27 budget hearing presentation (clearviewregional.edu, Thrillshare-hosted files) and the spring 2026 board minutes for position changes.
 - Check whether the drop in regular instruction reflects eliminated positions, retirements replaced at a lower step, or reclassification.
 - Find the SHIF renewal rate for 2026-27 and whether a health care cap adjustment was used.
+
+<!-- facts: confidence=low; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

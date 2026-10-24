@@ -13,14 +13,23 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- Health costs: health care spending rose from $1.73M (2020-21) to $2.33M (2025-26); "anticipated $2.53M in health costs." [The Retrospect via InsuranceNewsNet, "Benefit Costs Squeeze Schools, Driving Cuts, Tax Hikes And Difficult Tradeoffs"](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs), Sept. 11, 2026.
-- Reserve use / no cuts: district used $35,000 from its emergency reserve to offset insurance costs in its $19.3M budget, "avoiding staffing and academic cuts"; school tax levy increased 5.95%. [The Retrospect via InsuranceNewsNet, "Benefit Costs Squeeze Schools, Driving Cuts, Tax Hikes And Difficult Tradeoffs"](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs), Sept. 11, 2026. (Article does not state the budget year explicitly; the 5.95% matches our 2026-27 levy change of +6.0%.)
+- [news] Health costs: health care spending rose from $1.73M (2020-21) to $2.33M (2025-26); "anticipated $2.53M in health costs." [The Retrospect via InsuranceNewsNet, "Benefit Costs Squeeze Schools, Driving Cuts, Tax Hikes And Difficult Tradeoffs"](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs), Sept. 11, 2026.
+- [news] Reserve use / no cuts: district used $35,000 from its emergency reserve to offset insurance costs in its $19.3M budget, "avoiding staffing and academic cuts"; school tax levy increased 5.95%. [The Retrospect via InsuranceNewsNet, "Benefit Costs Squeeze Schools, Driving Cuts, Tax Hikes And Difficult Tradeoffs"](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs), Sept. 11, 2026. (Article does not state the budget year explicitly; the 5.95% matches our 2026-27 levy change of +6.0%.)
 - No public reporting found on staff reductions, class size changes, program cuts, plan switching, employee contribution changes, or a cap waiver (district documents not located online).
 - No public reporting found on district commentary on state aid / the funding formula.
 
 ## Assessment
 **No cuts reported.** The only local reporting says Barrington absorbed higher insurance costs with a ~6% levy increase and a small ($35K) emergency-reserve draw, explicitly avoiding staffing and academic cuts. Our numbers show benefits +$632K (+25.0%) versus +$174K state aid. Discrepancy: the Retrospect's "$2.53M anticipated health costs" equals our *2025-26 total* benefits budget ($2,532,299), not health alone and not 2026-27 ($3.16M) — the year/definition in the article is unclear.
 
+## Confidence
+**Medium**: the no-cuts finding rests on one credible local news story (verified); no district document, and the article's year/definition for $2.53M is unclear.
+
+## Fact check
+- ✔ Health care spending $1.73M (2020-21) → $2.33M (2025-26); $2.53M projected — verified at [The Retrospect via InsuranceNewsNet](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs) (the article ties $2.53M to 2025-26).
+- ✔ $35,000 from emergency reserve, $19.3M budget, no staffing/academic reductions, levy +5.95% — verified at [The Retrospect via InsuranceNewsNet](https://insurancenewsnet.com/oarticle/benefit-costs-squeeze-schools-driving-cuts-tax-hikes-and-difficult-tradeoffs). Our total levy change is +6.0% ([UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `rev27.csv` line 114: $13,002,888 → $13,777,105).
+
 ## Open questions
 - Get the district's 2026-27 budget hearing presentation/minutes to confirm the year of the $35K reserve use and whether a health-benefits cap adjustment was taken (a ~6% levy is above the 2% cap).
 - Verify the 25% benefits line increase against the district's stated premium renewal.
+
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=no; our_benefits_match=yes; our_aid_match=unknown -->

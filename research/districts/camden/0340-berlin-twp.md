@@ -13,14 +13,24 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- Budget outlook: at a March 2026 meeting, the board heard that the tentative 2026-27 budget would "rely on one-time adjustments and banked tax cap" to cover increases driven by health insurance and tuition costs; public hearing set for May 7, 2026 (per search snippet; AI-generated citizen-portal summary, site unreachable). [Citizen Portal, "Berlin Township school leaders warn of tight 2026-27 budget, set May 7 public hearing"](https://cpo.soar.com/articles/7912182/New-Jersey/Berlin-Township-school-leaders-warn-of-tight-202627-budget-set-May-7-public-hearing), ~Mar. 20, 2026.
-- State UFB: proposed 2026-27 local tax levy ≈$12.11M vs ≈$10.71M in 2025-26; 617 on roll plus 154 sent to other districts (per search snippet). [NJDOE UFB27_0340](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0340.pdf), generated July 14, 2026.
+- [snippet] Budget outlook: at a March 2026 meeting, the board heard that the tentative 2026-27 budget would "rely on one-time adjustments and banked tax cap" to cover increases driven by health insurance and tuition costs; public hearing set for May 7, 2026 (per search snippet; AI-generated citizen-portal summary, site unreachable). [Citizen Portal, "Berlin Township school leaders warn of tight 2026-27 budget, set May 7 public hearing"](https://cpo.soar.com/articles/7912182/New-Jersey/Berlin-Township-school-leaders-warn-of-tight-202627-budget-set-May-7-public-hearing), ~Mar. 20, 2026.
+- [primary] State UFB: proposed 2026-27 local tax levy ≈$12.11M vs ≈$10.71M in 2025-26; 617 on roll plus 154 sent to other districts (per search snippet). [NJDOE UFB27_0340](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0340.pdf), generated July 14, 2026.
 - No public reporting found on staff reductions, class size changes or program cuts.
 - No public reporting found on the district's stated health increase %, plan switching or employee contributions.
 
 ## Assessment
 **No cuts reported.** The only report says the district planned to absorb health-insurance and tuition increases with one-time adjustments and banked cap, producing a ~13% levy increase (largest in this batch); no cuts were reported. Our numbers show benefits +$484K (+14.6%) largely offset by +$398K state aid, so tuition (sending-district costs for high school) may be as large a driver as benefits. Note: a search tool attributed a "$605,376 health adjustment / $462,917 banked cap" slide to Berlin Twp — that deck is actually Highland Park's and should not be used here.
 
+## Confidence
+**Low**: the only description of the district's approach (one-time adjustments and banked cap) comes from an AI-written portal seen only in a search snippet; the site is unreachable.
+
+## Fact check
+- – "One-time adjustments and banked tax cap" to cover health insurance and tuition increases (Citizen Portal) — source unavailable (cpo.soar.com does not resolve).
+- ✔ Levy ≈$12.11M vs ≈$10.71M ($12,111,443 vs $10,712,144) — verified in [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `rev27.csv` line 114 (the UFB PDF itself is not text-extractable via our fetch tool; checked against the NJDOE data files that the PDF is generated from). On-roll 510 full-time (enrollment file; the "617 on roll" snippet figure was not checked).
+- – Note: Assessment's "+$484K (+14.6%)" differs slightly from Our numbers (+$0.47M, +14.1%).
+
 ## Open questions
 - Obtain the May 7, 2026 budget hearing presentation: health-benefits cap adjustment and banked cap amounts, tuition increase to Lower Camden County Regional.
 - Confirm whether any positions were left unfilled.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

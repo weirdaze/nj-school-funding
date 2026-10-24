@@ -13,12 +13,12 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- Advertised 2026-27 budget, generated April 30, 2026. Source: [Gibbsboro Advertised Budget 2026-2027](https://resources.finalsite.net/images/v1777643762/gibbsboroschoolorg/y57bmbeqldim2iubsknm/2026-2027AdvertisedBudgeetdoc.pdf) (generated Apr 30, 2026; public hearing May 6, 2026)
+- [primary] Advertised 2026-27 budget, generated April 30, 2026. Source: [Gibbsboro Advertised Budget 2026-2027](https://resources.finalsite.net/images/v1777643762/gibbsboroschoolorg/y57bmbeqldim2iubsknm/2026-2027AdvertisedBudgeetdoc.pdf) (generated Apr 30, 2026; public hearing May 6, 2026)
   - **Benefits:** "Personal Services-Employee Benefits" rises from $1,490,202 (2025-26 revised) to $1,705,606 (2026-27 proposed). "Employee Benefits as a percentage of salaries" rises from 32.58% to 36.93%.
   - **Levy:** The base levy goes from $4,129,802 to $4,366,563, an increase of about 5.7%. The district did not publish what it used to exceed the 2% cap (health care or enrollment adjustment, or banked cap).
   - **Enrollment:** Estimated on-roll students rise from 292 (Oct 2025 actual) to 337 (Oct 2026 estimate), about +15%. Regular full-time students go from 252 to 292.
   - **Spending:** Regular-programs instruction is roughly flat ($2,194,492 → $2,224,876). Special-education instruction rises from $733,867 to $777,594. The legal reserve is estimated to fall from $487,190 (June 2025) to $0 (June 2027).
-- The district website lists the 2026-27 advertised budget and the User Friendly Budget, but no 2026-27 budget presentation; the latest presentation listed is for 2025-26. [Gibbsboro School — Parents](https://www.gibbsboroschool.org/parents) (accessed Oct 24, 2026)
+- [primary] The district website lists the 2026-27 advertised budget and the User Friendly Budget, but no 2026-27 budget presentation; the latest presentation listed is for 2025-26. [Gibbsboro School — Parents](https://www.gibbsboroschool.org/parents) (accessed Oct 24, 2026)
 - No public reporting found on:
   - staff reductions or RIFs
   - class size changes or program cuts
@@ -29,8 +29,16 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Assessment
 **No cuts reported.** Benefits rose about $225K while state aid rose only $64K. The 2026-27 budget nonetheless shows flat-to-rising instructional lines and a projected enrollment jump, with no cuts. The gap was covered by a levy increase above 2% (about 5.7%) plus more fund balance. Our 2025-26 benefits base ($1,480,274) is slightly below the advertised "revised" figure ($1,490,202). That suggests we used the original budget, so the increase against the revised budget is about +14.5%.
 
+## Confidence
+**Medium**: the advertised budget (primary) verifies the benefit, levy and enrollment figures, but "no cuts" rests on what is absent from the budget lines (no presentation, minutes or news), and our 2025-26 benefits base differs slightly from the revised figure.
+
+## Fact check
+- ✔ Employee benefits $1,490,202 → $1,705,606; base levy $4,129,802 → $4,366,563; enrollment estimate 337; benefits 36.93% of salaries — verified at [Gibbsboro Advertised Budget 2026-2027](https://resources.finalsite.net/images/v1777643762/gibbsboroschoolorg/y57bmbeqldim2iubsknm/2026-2027AdvertisedBudgeetdoc.pdf) (pages 1-3, 5).
+
 ## Open questions
 - Request the budget hearing presentation and the cap-adjustment resolution (health care or enrollment adjustment amounts).
 - Check the health carrier (JIF or private) and the 2026-27 renewal rate.
 - Find out what is behind the legal reserve drawdown to $0.
 - Confirm the very low students-per-teacher figure (7.9), which may reflect the preschool/special education share.
+
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=0; teacher_positions_cut=0; class_size_increase=unknown; our_benefits_match=no; our_aid_match=unknown -->

@@ -13,7 +13,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- State UFB: proposed general fund operating budget $24,801,818 vs $23,400,255 revised 2025-26; local tax levy $11,194,217 vs $10,585,507; uses $168,495 fund balance, $688,000 capital reserve and $100,000 maintenance reserve; estimated 1,149 students on roll (per search snippet). [NJDOE UFB27_0260](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0260.pdf), generated July 14, 2026.
+- [primary] State UFB: proposed general fund operating budget $24,801,818 vs $23,400,255 revised 2025-26; local tax levy $11,194,217 vs $10,585,507; uses $168,495 fund balance, $688,000 capital reserve and $100,000 maintenance reserve; estimated 1,149 students on roll (per search snippet). [NJDOE UFB27_0260](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0260.pdf), generated July 14, 2026.
 - No public reporting found on staff reductions/RIFs, class size changes, program cuts or school consolidation for 2026-27.
 - No public reporting found on the district's stated health benefit increase, plan changes, employee contributions, or use of a health-benefits cap adjustment.
 - No public reporting found on district commentary on state aid / the funding formula.
@@ -21,6 +21,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Assessment
 **Insufficient evidence.** Our numbers show benefits +$704K (+17.8%) vs +$150K state aid and a 5.8% levy increase (above 2%, suggesting a cap adjustment), but no local reporting or district budget presentation was found describing cuts or the district's own explanation.
 
+## Confidence
+**Low**: no district statement or reporting on cuts or health costs; only the state UFB budget figures were found (and verified).
+
+## Fact check
+- ✔ General fund $24,801,818 vs $23,400,255; levy $11,194,217 vs $10,585,507; fund balance $168,495; capital reserve $688,000; maintenance reserve $100,000; 1,149 on roll (1,029 full + 120 special-ed) — all verified in [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) (`approp27.csv` 84060, `rev27.csv` 114/580/620/630, `enroll27.csv`) (the UFB PDF itself is not text-extractable via our fetch tool; checked against the NJDOE data files that the PDF is generated from).
+
 ## Open questions
 - Request the 2026-27 budget hearing presentation and April/May 2026 board minutes (bellmawrschools.org).
 - Confirm whether the levy above 2% used the health-benefits adjustment, and whether any positions went unfilled.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

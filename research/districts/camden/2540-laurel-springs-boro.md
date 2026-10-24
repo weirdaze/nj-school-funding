@@ -13,21 +13,30 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- **State UFB figures.** All from the same report. [UFB27 2540](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_2540.pdf) (generated Jul 14, 2026)
+- [primary] **State UFB figures.** All from the same report. [UFB27 2540](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_2540.pdf) (generated Jul 14, 2026)
   - **Health plan:** Shared services list "Insurance Coverages and Benefits — NJ Solutions (Medical and Prescription Coverage)" and "Member of the Burlington County Insurance Pool." That points to a private or pooled health plan, not SEHBP.
   - **Benefits:** $680,980 (2025-26 revised) → $817,889 (2026-27). "Employee Benefits as a percentage of salaries" rises from 36.65% to 39.58%.
   - **Fund balance:** Budgeted fund balance nearly quadruples, from $131,207 to $498,492.
   - **Levy:** The levy goes from $3,236,676 to $3,367,564 (+4.0%).
   - **State aid:** Flat ($3,819,709 → $3,820,196). Equalization aid falls from $3,186,728 to $3,151,175.
   - **Enrollment and instruction:** Enrollment is about 180 (182 → 180). Regular-programs instruction is roughly flat ($1,010,511 → $1,020,156).
-- **Related services.** The district gets speech and psychological services from Stratford BOE. [same](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_2540.pdf)
+- [primary] **Related services.** The district gets speech and psychological services from Stratford BOE. [same](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_2540.pdf)
 - **District documents.** No district budget presentation, minutes, or local news coverage was located. The district website could not be identified, and web search was unavailable for this part of the batch.
 - No public reporting found on staff reductions, class size, program cuts, the district's own statements about health costs, cap waivers or referendums, or state aid commentary.
 
 ## Assessment
 **Insufficient evidence.** The budget lines show the benefit increase ($137K, +20%) being absorbed through a much larger fund-balance draw (+$367K) and a 4% levy increase. Instruction spending was held flat. No cut reporting was found, but the search was limited. Our figures match the UFB.
 
+## Confidence
+**Low**: insufficient evidence — figures verified in the state UFB, but no district documents or local reporting on cuts or health costs were found.
+
+## Fact check
+- ✔ Benefits $680,980 → $817,889; budgeted fund balance $131,207 → $498,492; levy → $3,367,564; "NJ Solutions (Medical and Prescription Coverage)" — verified at [UFB27 2540](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_2540.pdf) (pages 2, 4, 8).
+- Note: UFB total state aid is flat ($3,819,709 → $3,820,196) while our formula-aid change is −$0.09M; different aid definitions, not reconciled.
+
 ## Open questions
 - Locate the district website and the 2026-27 budget hearing presentation or minutes.
 - What was the NJ Solutions renewal rate for 2026-27?
 - Can the district sustain a roughly $500K fund-balance draw in 2027-28?
+
+<!-- facts: confidence=low; plan=private; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

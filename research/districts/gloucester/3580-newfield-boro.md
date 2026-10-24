@@ -14,14 +14,23 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - ⚠️ not directly comparable (non-operating, service commission, or special services district)
 
 ## What the district / local reporting says
-- Newfield is a **non-operating district**. It has no schools of its own and sends K–6 students to Franklin Township Public Schools and grades 7–12 to Delsea Regional. [Wikipedia: Newfield, New Jersey](https://en.wikipedia.org/wiki/Newfield,_New_Jersey) (accessed Oct 24, 2026)
-- The NJDOE UFB shows the budget is dominated by tuition: "Undistributed Expenditures-Instruction (Tuition)" goes from $4,120,105 (2024-25) to $4,355,858 (2025-26) to $4,725,083 (2026-27). Employee benefits are only $3,148 / $5,967 / $5,967. Students "Sent to Other Districts" number 195 regular plus 41 special education (2025) and an estimated 182 plus 43 (2026). [UFB27_3580](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_3580.pdf) (generated Jul 14, 2026)
-- The local tax levy rises from $2,918,460 to $3,073,952. Equalization aid rises from $1,171,311 to $1,323,653. Budgeted fund balance rises from $469,567 to $766,080. [UFB27_3580](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_3580.pdf)
-- No public reporting found on staffing, class size, or health benefits. These are not applicable to a non-operating district; any benefit-cost pass-through would occur through receiving-district tuition rates.
+- [snippet] Newfield is a **non-operating district**. It has no schools of its own and sends K–6 students to Franklin Township Public Schools and grades 7–12 to Delsea Regional. [Wikipedia: Newfield, New Jersey](https://en.wikipedia.org/wiki/Newfield,_New_Jersey) (accessed Oct 24, 2026)
+- [primary] The NJDOE UFB shows the budget is dominated by tuition: "Undistributed Expenditures-Instruction (Tuition)" goes from $4,120,105 (2024-25) to $4,355,858 (2025-26) to $4,725,083 (2026-27). Employee benefits are only $3,148 / $5,967 / $5,967. Students "Sent to Other Districts" number 195 regular plus 41 special education (2025) and an estimated 182 plus 43 (2026). [UFB27_3580](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_3580.pdf) (generated Jul 14, 2026)
+- [primary] The local tax levy rises from $2,918,460 to $3,073,952. Equalization aid rises from $1,171,311 to $1,323,653. Budgeted fund balance rises from $469,567 to $766,080. [UFB27_3580](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_3580.pdf)
+- [snippet] No public reporting found on staffing, class size, or health benefits. These are not applicable to a non-operating district; any benefit-cost pass-through would occur through receiving-district tuition rates.
 
 ## Assessment
 Newfield employs almost no staff, so the benefits claim does not apply directly. Its exposure is indirect, through tuition, which rises about 8.5% to $4.73M. **No cuts reported** (not applicable: non-operating district). Our numbers are correct for this district but should be excluded or flagged in any benefit-cost analysis. The "In SEHBP: yes" flag likely covers only a handful of board or administrative enrollees.
 
+## Confidence
+**High**: the UFB figures (tuition-dominated budget, ~$6K benefits) are verified and match ours. The non-operating status is from Wikipedia, but the UFB's sent-student counts corroborate it.
+
+## Fact check
+- ✔ Tuition $4,120,105 / $4,355,858 / $4,725,083 and employee benefits $3,148 / $5,967 / $5,967 — verified at [UFB27_3580](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_3580.pdf) (page 4).
+- ✔ Levy $2,918,460 → $3,073,952 and budgeted fund balance $469,567 → $766,080 — verified at [UFB27_3580](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_3580.pdf) (page 2).
+
 ## Open questions
 - How much of the tuition increase charged by Franklin Twp and Delsea reflects their own health-benefit growth?
 - Confirm whether Newfield's SEHBP participation is meaningful, given $5,967 in benefits.
+
+<!-- facts: confidence=high; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

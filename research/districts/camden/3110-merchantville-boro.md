@@ -13,14 +13,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- **Budget documents.** The district's Budget Info page posts the 2026-27 Advertised Budget and User-Friendly Budget (Google Drive) and says the 2026-27 budget "is now available to view." The only presentation posted is from the 2025-26 hearing. [Merchantville School — Budget Info](https://www.merchantvilleschool.org/budget-info) (accessed Oct 24, 2026)
-- **State UFB figures.** All from [UFB27 3110](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3110.pdf) (generated Jul 14, 2026).
+- [primary] **Budget documents.** The district's Budget Info page posts the 2026-27 Advertised Budget and User-Friendly Budget (Google Drive) and says the 2026-27 budget "is now available to view." The only presentation posted is from the 2025-26 hearing. [Merchantville School — Budget Info](https://www.merchantvilleschool.org/budget-info) (accessed Oct 24, 2026)
+- [primary] **State UFB figures.** All from [UFB27 3110](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3110.pdf) (generated Jul 14, 2026).
   - **Benefits:** $1,732,550 (2025-26 revised) → $1,929,000 (2026-27). "Employee Benefits as a percentage of salaries" goes from 30.29% to 32.66%. The 2024-25 actual was $1,130,220, so benefits rose about 71% over two budget years.
   - **Levy:** $6,591,917 → $6,989,983, a 6.0% increase, well above the 2% cap. The specific adjustments used were not documented in the material reviewed.
   - **State aid:** Equalization aid rises from $4,568,037 to $4,714,682, and total state revenue from $5,913,941 to $6,193,093.
   - **Fund balance:** Budgeted fund balance goes from $1,799,008 to $1,829,311. The capital reserve withdrawal falls from $800,000 to $500,000.
   - **Enrollment and instruction:** Enrollment edges down (399 → 390 estimated). Regular-programs instruction rises slightly ($2,853,861 → $2,896,201).
-- **Board materials.** Board agendas and minutes are on BoardDocs, which was not reviewed. Regular meetings were held Mar 17, Apr 21, and May 19, 2026. [Agendas/Minutes](https://www.merchantvilleschool.org/boe/agendas-minutes)
+- [primary] **Board materials.** Board agendas and minutes are on BoardDocs, which was not reviewed. Regular meetings were held Mar 17, Apr 21, and May 19, 2026. [Agendas/Minutes](https://www.merchantvilleschool.org/boe/agendas-minutes)
 - **Not found.** No public reporting found on:
   - staff reductions
   - class size
@@ -34,7 +34,15 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Assessment
 **Insufficient evidence.** The budget lines show aid growth (+$279K) exceeding the benefit increase (+$196K). Instruction is flat to up, and the levy rose 6%, which implies a cap adjustment. Nothing indicates cuts, but local reporting and board minutes were not checked. Audited health growth is low (+1.4% FY23→FY25), yet the budgeted benefits line jumped from $1.13M (FY25 actual) to $1.93M. Whether that reflects health costs or reclassification is worth checking.
 
+## Confidence
+**Low**: insufficient evidence — UFB figures verified, but board minutes and local reporting were not reviewed, and the jump from FY25 actual benefits is unexplained.
+
+## Fact check
+- ✔ Benefits $1,130,220 (2024-25 actual) → $1,732,550 → $1,929,000 and levy $6,591,917 → $6,989,983 — verified at [UFB27 3110](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3110.pdf) (pages 2, 4).
+
 ## Open questions
 - Get the May 2026 BoardDocs budget adoption resolution (health care, enrollment, or banked-cap adjustments behind the 6% levy).
 - Why does budgeted benefits ($1.93M) far exceed FY25 actual ($1.13M) when audited health growth is about 1%? Possible reclassification or a new plan.
 - Identify the health carrier (SEHBP status is no; which plan?).
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

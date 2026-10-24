@@ -13,15 +13,23 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state UFB shows employee benefits at 4,307,476 (2024-25 actual), 5,680,604 (2025-26), and 6,024,467 (2026-27). The biggest jump (+32%) came in 2025-26, not 2026-27. The local tax levy goes from 11,149,482 to 11,372,472 to 12,239,592 (+7.6%). Equalization Aid falls from 15,763,341 to 15,311,416. On-roll enrollment is 998 → 957 → 1,062 (estimated Oct 2026, +11%). [UFB27 1280](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1280.pdf), state summary generated July 14, 2026.
-- Same UFB, Shared Services: "Insurance Coverages and Benefits – BACCEIC-Burlington and Camden County Educational Insurance Consortium". The district buys benefits or insurance through a regional consortium rather than SEHBP. Same source.
-- The district website could not be located without web search (quota exhausted during this batch), and no local news was found.
-- No public reporting found on RIFs, class sizes, program cuts, health plan changes, or district statements on benefits or state aid.
+- [primary] The state UFB shows employee benefits at 4,307,476 (2024-25 actual), 5,680,604 (2025-26), and 6,024,467 (2026-27). The biggest jump (+32%) came in 2025-26, not 2026-27. The local tax levy goes from 11,149,482 to 11,372,472 to 12,239,592 (+7.6%). Equalization Aid falls from 15,763,341 to 15,311,416. On-roll enrollment is 998 → 957 → 1,062 (estimated Oct 2026, +11%). [UFB27 1280](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1280.pdf), state summary generated July 14, 2026.
+- [primary] Same UFB, Shared Services: "Insurance Coverages and Benefits – BACCEIC-Burlington and Camden County Educational Insurance Consortium". The district buys benefits or insurance through a regional consortium rather than SEHBP. Same source.
+- [snippet] The district website could not be located without web search (quota exhausted during this batch), and no local news was found.
+- [snippet] No public reporting found on RIFs, class sizes, program cuts, health plan changes, or district statements on benefits or state aid.
 
 ## Assessment
 **Insufficient evidence.** No cuts were found. The district faces a state aid loss (-$217K), benefit growth, and a projected 11% enrollment increase, and it is covering them with a 7.6% levy increase (well above 2%, implying enrollment and/or health cap adjustments) and $1.72M of fund balance. The large benefits step-up occurred in 2025-26 (+32%, actual to budget), so a 2025-26-to-2026-27 comparison understates the two-year pressure.
+
+## Confidence
+**Low**: insufficient evidence; only state UFB figures are available, with no district narrative or news.
+
+## Fact check
+- ✔ Employee benefits 4,307,476 / 5,680,604 / 6,024,467 (page 4), tax levy 11,149,482 / 11,372,472 / 12,239,592 (page 2), and BACCEIC listed under shared services — verified at [UFB27 1280](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1280.pdf).
 
 ## Open questions
 - District budget presentation (spring 2026). Staffing changes alongside the enrollment growth?
 - BACCEIC consortium renewal rates for 2025-26 and 2026-27.
 - Was the 2025-26 benefits budget ($5.68M) actually spent, or overbudgeted relative to the FY25 actual ($4.31M)?
+
+<!-- facts: confidence=low; plan=other-JIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

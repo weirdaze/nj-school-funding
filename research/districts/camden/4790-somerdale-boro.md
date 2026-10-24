@@ -13,14 +13,25 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- State UFB: levy $5,350,000 → $5,690,878 (+6.4%); equalization aid $3,569,984 → $3,369,667; employee benefits $1,895,234 (2025-26 revised) → $2,147,064; benefits as % of salaries 35.34% → 40.11%; budgeted fund balance $703,579 → $468,317; legal reserve $1,162,414 (6/30/2025) → $0 (est. 6/30/2027). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4790.pdf) (July 14, 2026).
-- District website posts the 2026-27 User Friendly Budget but no budget presentation or budget news was found; 2025-26 minutes page did not render. [Somerdale Park School District](https://www.somerdale-park.org) (accessed Oct 24, 2026).
+- [primary] State UFB: levy $5,350,000 → $5,690,878 (+6.4%); equalization aid $3,569,984 → $3,369,667; employee benefits $1,895,234 (2025-26 revised) → $2,147,064; benefits as % of salaries 35.34% → 40.11%; budgeted fund balance $703,579 → $468,317; legal reserve $1,162,414 (6/30/2025) → $0 (est. 6/30/2027). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4790.pdf) (July 14, 2026).
+- [primary] District website posts the 2026-27 User Friendly Budget but no budget presentation or budget news was found; 2025-26 minutes page did not render. [Somerdale Park School District](https://www.somerdale-park.org) (accessed Oct 24, 2026).
 - No public reporting found on staff reductions, class sizes, program cuts, health-plan changes, cap waivers, or referendums.
 
 ## Assessment
-**Insufficient evidence.** Fiscal pressure is clear in the data — benefits +16.9% while state aid fell ~$51K and the legal reserve is fully drawn down — but no district statements or reporting on cuts or on health costs were located.
+**Insufficient evidence.** Fiscal pressure is clear in the data — benefits +13.3% while formula aid fell ~$0.10M and the legal reserve is fully drawn down — but no district statements or reporting on cuts or on health costs were located.
+
+## Confidence
+**Low**: only state UFB figures verified; no district statements or reporting on cuts or health costs.
 
 ## Open questions
 - Obtain spring 2026 board minutes (site documents load via script) for personnel actions and budget discussion.
 - Cap calculation behind the 6.4% levy increase.
 - Health plan/carrier and 2026-27 renewal rate.
+
+## Fact check
+- ✔ Levy $5,350,000 → $5,690,878; equalization aid $3,569,984 → $3,369,667 — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4790.pdf) (p. 2).
+- ✔ Employee benefits $1,895,234 → $2,147,064; benefits as % of salaries 35.34% → 40.11% — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4790.pdf) (p. 4 and p. 8).
+- ✔ Legal reserve $1,162,414 (6/30/2025) → $0 (est. 6/30/2027) — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4790.pdf) (p. 7).
+- Note: the Assessment previously said "benefits +16.9% while state aid fell ~$51K"; the UFB gives +13.3% and our current aid figure is −$0.10M. Assessment corrected.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

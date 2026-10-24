@@ -95,11 +95,14 @@ def main():
         summary = re.sub(r"^(\([^)]*\)[.:]?\s*)+", "", summary)
         summary = re.split(r"(?<=[.!?])\s(?=[A-Z])", summary)[0][:240]
         title = text.splitlines()[0].lstrip("# ").split(" (")[0]
-        index.append((path.parent.name.title(), title, did, cls, summary, path.relative_to(DIR)))
+        conf_m = re.search(r"## Confidence\s*\n\s*\**(High|Medium|Low)", text, re.I) or re.search(r"confidence=(high|medium|low)", text, re.I)
+        conf = conf_m.group(1).title() if conf_m else "Not yet rated"
+        index.append((path.parent.name.replace("-", " ").title(), title, did, cls, summary, path.relative_to(DIR), conf))
 
     order = {c: i for i, c in enumerate(CLASSES)}
-    counts = Counter(c for *_, c, _, _ in [(x[0], x[1], x[2], x[3], x[4], x[5]) for x in index])
-    out = ["# District profiles: Burlington, Camden & Gloucester",
+    counts = Counter(x[3] for x in index)
+    confs = Counter(x[6] for x in index)
+    out = ["# District profiles",
            "",
            "Each profile tests the claim *\"rising benefit costs are forcing cuts, layoffs and larger class sizes\"* against "
            "district budget presentations, board minutes and local news (researched 2026-10-24), alongside our computed numbers.",
@@ -114,12 +117,15 @@ def main():
         c = Counter(x[3] for x in index if x[0] == county)
         out.append(f"| {county} | " + " | ".join(str(c[k]) for k in CLASSES) + " |")
     out.append("| **Total** | " + " | ".join(f"**{counts[k]}**" for k in CLASSES) + " |")
+    out += ["", "**Confidence** (is the profile's evidence solid enough to quote publicly?): " + ", ".join(f"{k}: {v}" for k, v in sorted(confs.items())) + ". "
+            "High = key claims verified in the district's own documents and our numbers reconcile; Medium = credible news or "
+            "partial documents; Low = snippets/unverified. Only quote High-confidence profiles as fact.", ""]
     out += ["", "_Coverage caveat: the session's web-search quota ran out partway through most batches; districts researched "
             "after that point relied on district websites and state budget PDFs only (noted in each profile)._", ""]
     for county in sorted({x[0] for x in index}):
-        out += [f"## {county}", "", "| District | Classification | Summary |", "|---|---|---|"]
-        for _, title, did, cls, summary, rel in sorted((x for x in index if x[0] == county), key=lambda x: (order.get(x[3], 9), x[1])):
-            out.append(f"| [{title}]({rel}) | {cls} | {summary.replace('|', '/')} |")
+        out += [f"## {county}", "", "| District | Classification | Confidence | Summary |", "|---|---|---|---|"]
+        for _, title, did, cls, summary, rel, conf in sorted((x for x in index if x[0] == county), key=lambda x: (order.get(x[3], 9), x[1])):
+            out.append(f"| [{title}]({rel}) | {cls} | {conf} | {summary.replace('|', '/')} |")
         out.append("")
     (DIR / "README.md").write_text("\n".join(out))
     print("updated", len(index), "profiles;", dict(counts))

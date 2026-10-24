@@ -14,12 +14,20 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - ⚠️ not directly comparable (non-operating, service commission, or special services district)
 
 ## What the district / local reporting says
-- State UFB: total 2026-27 general fund revenues $52,791,778 vs $51,563,542 for 2025-26, mostly transportation fees from other districts ($51,045,678) (per search snippet). [NJDOE UFB27_0695](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0695.pdf), generated July 14, 2026.
+- [primary] State UFB: total 2026-27 general fund revenues $52,791,778 vs $51,563,542 for 2025-26, mostly transportation fees from other districts ($51,045,678) (per search snippet). [NJDOE UFB27_0695](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0695.pdf), generated July 14, 2026.
 - No public reporting found on staff reductions, program changes, health benefit costs or plan changes. The commission has no tax levy and no state formula aid.
 
 ## Assessment
 **Insufficient evidence.** The commission is a fee-funded transportation/services agency; benefits are ~2% of its budget (+$81K, +8.4%) and costs are passed through to member districts, so it is not a meaningful test of the claim.
 
+## Confidence
+**Low**: no reporting found; a fee-funded service commission is not a meaningful test (UFB figures verified).
+
+## Fact check
+- ✔ Total revenues $52,791,778 vs $51,563,542; transportation fees from other LEAs $51,045,678 — verified in [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `rev27.csv` lines 250/370/720 (the UFB PDF itself is not text-extractable via our fetch tool; checked against the NJDOE data files that the PDF is generated from).
+
 ## Open questions
 - Consider excluding ESCs from the district-level analysis; check whether benefit increases are passed to member districts via higher transportation fees.
 - FY25 audited health figure is missing in our data — verify.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

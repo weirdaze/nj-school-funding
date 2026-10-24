@@ -13,14 +13,22 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state UFB shows employee benefits at 1,670,901 (2024-25 actual), 1,912,830 (2025-26), and 2,218,072 (2026-27). The local tax levy goes from 5,747,808 to 6,103,335 to 6,515,223. Equalization Aid declines from 3,149,281 to 2,890,151 to 2,853,589, so the overall aid gain must come from other aid categories. On-roll enrollment is 606 → 609 → 647 (estimated Oct 2026, +6%). The only shared service listed is ".4 FTE for BA/BS Services" (127,500 saved). [UFB27 1250](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1250.pdf), state summary generated July 14, 2026.
-- The township website (eastampton.com), which appeared in search results for school budget documents, returned a Cloudflare challenge (403) and could not be read. The school district's own website could not be located without search (quota exhausted).
-- No public reporting found on RIFs, class sizes, program cuts, health plan changes, or district statements on benefits or state aid.
+- [primary] The state UFB shows employee benefits at 1,670,901 (2024-25 actual), 1,912,830 (2025-26), and 2,218,072 (2026-27). The local tax levy goes from 5,747,808 to 6,103,335 to 6,515,223. Equalization Aid declines from 3,149,281 to 2,890,151 to 2,853,589, so the overall aid gain must come from other aid categories. On-roll enrollment is 606 → 609 → 647 (estimated Oct 2026, +6%). The only shared service listed is ".4 FTE for BA/BS Services" (127,500 saved). [UFB27 1250](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1250.pdf), state summary generated July 14, 2026.
+- [snippet] The township website (eastampton.com), which appeared in search results for school budget documents, returned a Cloudflare challenge (403) and could not be read. The school district's own website could not be located without search (quota exhausted).
+- [snippet] No public reporting found on RIFs, class sizes, program cuts, health plan changes, or district statements on benefits or state aid.
 
 ## Assessment
 **Insufficient evidence.** No cuts were found. On our numbers the state aid gain roughly covered the benefits increase. The 6.7% levy increase coincides with a projected 6% enrollment rise, which suggests an enrollment and/or health-benefits cap adjustment. Audited health costs actually fell 5.3% FY23→FY25, so the 16% budgeted jump is new pressure.
+
+## Confidence
+**Low**: insufficient evidence; only state UFB figures are available, and the district's site could not be read.
+
+## Fact check
+- ✔ Employee benefits 1,670,901 / 1,912,830 / 2,218,072 (page 5) and tax levy 5,747,808 / 6,103,335 / 6,515,223 (page 2) — verified at [UFB27 1250](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1250.pdf).
 
 ## Open questions
 - The district's 2026-27 budget hearing presentation: which cap adjustments justified 6.7%, and were staff added for enrollment growth?
 - Health carrier and renewal rate. The audited decline FY23→FY25 suggests a plan change around 2023-24.
 - Identify the district website for future research.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

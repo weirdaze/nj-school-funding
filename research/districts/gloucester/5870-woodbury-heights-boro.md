@@ -13,7 +13,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- The state's 2026-27 User-Friendly Budget (downloaded and read) shows:
+- [primary] The state's 2026-27 User-Friendly Budget (downloaded and read) shows:
   - Base levy: $3,374,041 → $3,441,522 (+2.0%)
   - Equalization aid: $1,057,528 → $1,050,455; total state revenue: $1,497,200 → $1,477,084
   - Budgeted fund balance: $648,451 → $665,456
@@ -22,13 +22,22 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
   - On-roll enrollment: 234 → 241 (estimated)
 
   [UFB27 5870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5870.pdf), generated 2026-07-14.
-- The district shares its business administrator / board secretary with another district (a shared service agreement listed in the state UFB employee data, `data/raw/ufb/2627/employees27.csv`).
+- [primary] The district shares its business administrator / board secretary with another district (a shared service agreement listed in the state UFB employee data, `data/raw/ufb/2627/employees27.csv`, from the [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml)).
 - No public reporting found on staff reductions, class sizes, program cuts, health plan changes, cap waivers, or district statements on state aid. The district website could not be located, and the session's web search limit ran out, so local news and board minutes were **not checked**.
 
 ## Assessment
-**Insufficient evidence.** State aid fell slightly, and benefits rose about $89–92K. The gap was covered by a 2% levy increase and a continued large fund balance draw (about $665K, roughly 12% of the operating budget), not by visible instructional cuts. Regular instruction grew. The special education instruction decline (-$63K) has no stated cause. Our figures match the UFB closely ($938,741 vs $941,894 revised base).
+**Insufficient evidence.** State aid fell slightly, and benefits rose about $89–92K. The gap was covered by a 2% levy increase and a continued large fund balance draw (about $665K, roughly 12% of the operating budget), not by visible instructional cuts. Regular instruction grew. The special education instruction decline (-$63K) has no stated cause. Our figures now use the UFB revised base ($941,894) and match it exactly.
+
+## Confidence
+**Low**: no district documents, minutes, or local news were checked. Only the state UFB was checked, and it matches our numbers.
+
+## Fact check
+- ✔ Employee benefits $941,894 → $1,030,580 — verified at [UFB27 5870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5870.pdf) (p. 4).
+- ✔ Base levy $3,374,041 → $3,441,522 — verified at [UFB27 5870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5870.pdf) (p. 2).
 
 ## Open questions
 - Is the decline in special education instruction a staffing change or a change in student placements?
 - Is a fund balance draw of about $650K per year sustainable? Check FY25/FY26 ACFR unassigned balance.
 - Find the spring 2026 budget hearing minutes.
+
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->
