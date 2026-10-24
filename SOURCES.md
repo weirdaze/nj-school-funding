@@ -94,5 +94,5 @@ The School Funding Reform Act of 2008 (P.L.2007, c.260, N.J.S.A. 18A:7F-43 et se
 - [ ] Track property tax relief programs (ANCHOR, Stay NJ, Senior Freeze), which are paid from the PTRF but not to schools.
 - [ ] **ACFR parse gaps** (`scripts/acfr_benefits.py`; reviewed independently against full PDFs, 2026-10-24):
   - East Orange (1210) FY23: health is blank. The C-1 page mixes district and school-level tables; the district line reads $27,667,148 (`data/raw/acfr_text/23/1210.txt`). It doesn't affect the panel because East Orange is a school-based-budget district and is already flagged.
-  - 26 district-years are `rejected` (garbled OCR, or health above the benefits total) and about 30% are `unreconciled`. The panel uses an audit row only when its total is within 15% of that year's UFB benefits actual (see `usable()` in `analysis/district_panel.py`).
+  - 26 district-years are `rejected` (garbled OCR, or health above the benefits total), 512 are `unreconciled` and 147 have no parsable benefits block (1,092 of 1,777 reconcile). The panel uses an audit row only when its total is within 15% of that year's UFB benefits actual (see `usable()` in `analysis/district_panel.py`).
   - Five TPAF/reimbursed-SS cells (0695 FY24, 0860 FY25, 1180 FY25) differ when rebuilt from freshly downloaded PDFs, probably from re-issued reports. Health and totals are unaffected.
