@@ -187,6 +187,12 @@ def _parse_c1_main(text):
     lines = "\n".join(pages[idx: idx + 2]).splitlines()
     start = next((i - 1 for i, l in enumerate(lines) if "11-000-291-" in l), None)
     if start is None:
+        # the "Unallocated (Employee) Benefits" section header that is followed by a health line with numbers
+        health = re.compile(r"^\s*Health Benefits\s+[\d(]", re.I)
+        start = next((i for i, l in enumerate(lines)
+                      if re.search(r"Unallocated (Employee )?Benefits", l, re.I) and not re.search(r"Total", l, re.I)
+                      and any(health.search(x) for x in lines[i + 1: i + 16])), None)
+    if start is None:
         start = next((i for i, l in enumerate(lines) if re.search(r"Unallocated Benefits", l, re.I)
                       and not re.search(r"Total", l, re.I)), None)
     if start is None:
