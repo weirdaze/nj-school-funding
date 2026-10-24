@@ -74,7 +74,7 @@ and the linked profiles._
 
 | Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Students per teacher (TGES ratio, not class size), 2021-22 → 2024-25: districts up / down by more than 0.2 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=409) | 231 up, 205 down of 560 |
+| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=410) | 231 up, 205 down of 560 |
 | **Selected counties** | 106 | 13 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=95) | +16% (n=90) | 40 up, 43 down of 102 |
 | Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
 | Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=32) | 12 up, 17 down of 36 |

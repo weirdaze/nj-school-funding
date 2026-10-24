@@ -151,7 +151,7 @@ def to_num(tok):
         return 0.0
     neg = tok.startswith("(")
     body = tok.strip("()")
-    if re.fullmatch(r"-?\d{1,3}(\.\d{3})+", body):  # "14.128": period as thousands separator (C-1 never prints 3-decimal cents)
+    if re.fullmatch(r"-?\d{1,3}([,.]\d{3})*\.\d{3}", body):  # "14.128", "8,808.975": period as thousands separator (C-1 never prints 3-decimal cents)
         body = body.replace(".", "")
     v = float(body.replace(",", ""))
     return -v if neg else v

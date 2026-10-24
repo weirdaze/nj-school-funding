@@ -89,7 +89,7 @@ statewide benefit and aid totals from the raw state files._
 
 | Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Students per teacher (TGES ratio, not class size), 2021-22 → 2024-25: districts up / down by more than 0.2 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=409) | 231 up, 205 down of 560 |
+| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=410) | 231 up, 205 down of 560 |
 | Atlantic | 25 | 7 | $189M → $222M (+17.4%) | +$32.9M | +$17.7M | 19 of 25 | 74% (n=21) | +18% (n=20) | 8 up, 12 down of 24 |
 | Bergen | 77 | 51 | $614M → $751M (+22.4%) | +$137.5M | +$12.9M | 73 of 77 | 79% (n=65) | +21% (n=57) | 29 up, 28 down of 75 |
 | Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
@@ -106,7 +106,7 @@ statewide benefit and aid totals from the raw state files._
 | Morris | 40 | 5 | $367M → $436M (+18.9%) | +$69.3M | +$3.2M | 40 of 40 | 78% (n=35) | +16% (n=30) | 13 up, 12 down of 39 |
 | Ocean | 27 | 9 | $302M → $349M (+15.5%) | +$46.8M | +$7.9M | 21 of 27 | 77% (n=26) | +20% (n=24) | 10 up, 13 down of 27 |
 | Passaic | 21 | 8 | $269M → $329M (+22.6%) | +$60.8M | +$65.1M | 17 of 21 | 79% (n=17) | +22% (n=14) | 11 up, 7 down of 20 |
-| Salem | 14 | 1 | $45M → $54M (+18.9%) | +$8.6M | +$5.2M | 12 of 14 | 74% (n=12) | +15% (n=9) | 6 up, 6 down of 13 |
+| Salem | 14 | 1 | $45M → $54M (+18.9%) | +$8.6M | +$5.2M | 12 of 14 | 74% (n=12) | +14% (n=10) | 6 up, 6 down of 13 |
 | Somerset | 19 | 3 | $260M → $316M (+21.8%) | +$56.7M | +$2.2M | 18 of 19 | 79% (n=15) | +20% (n=15) | 8 up, 6 down of 18 |
 | Sussex | 26 | 6 | $95M → $110M (+16.2%) | +$15.3M | +$2.3M | 24 of 26 | 73% (n=23) | +8% (n=22) | 16 up, 4 down of 25 |
 | Union | 23 | 3 | $382M → $434M (+13.7%) | +$52.2M | +$11.1M | 22 of 23 | 81% (n=18) | +18% (n=13) | 11 up, 2 down of 21 |
@@ -716,7 +716,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 
 | District | SEHBP | Benefits 25-26 → 26-27 | Benefit increase | State aid change | Aid change − benefit increase | Benefits % of operating budget | Health % of benefits (FY25) | Health growth FY23→25 | Students per teacher (TGES ratio, not class size) 21-22 → 24-25 | Budgeted fund balance (planned drawdown) 25-26 → 26-27 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Salem County Vocational |  | 29.0% | +$0.8M | +$0.2M | -$0.6M | 20.8% | 74% | – | 16.0 → – | $0.0M → $1.2M |
+| Salem County Vocational |  | 29.0% | +$0.8M | +$0.2M | -$0.6M | 20.8% | 74% | +14% | 16.0 → – | $0.0M → $1.2M |
 | Salem Co Special Service |  | 23.3% | +$0.6M | +$0.0M | -$0.6M | 30.4% | 55% | – | 3.3 → 5.3 | – → – |
 | Pittsgrove Twp |  | 20.0% | +$1.4M | +$0.9M | -$0.5M | 24.3% | – | – | 10.4 → 10.8 | $1.6M → $2.2M |
 | Upper Pittsgrove Twp |  | 26.7% | +$0.4M | -$0.1M | -$0.4M | 20.3% | 68% | -1% | 10.3 → 10.0 | $0.5M → $0.6M |
