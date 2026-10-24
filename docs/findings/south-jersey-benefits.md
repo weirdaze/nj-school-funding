@@ -9,17 +9,28 @@ _Data as of 2026-10-24. Commentary is hand-written; the tables below the marker 
 draft used the original 2025-26 budget and total state revenue; district documents showed both were off (e.g. Evesham:
 +39% → +19.9%, matching the district's own deck).
 
+**Sources for every number on this page** (all public):
+[2026-27 User-Friendly Budget data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) (`approp27.csv` line 71260 benefits, `rev27.csv` levy/fund balance; per-district PDFs at `https://www.nj.gov/education/budget/ufb/2627/reports/<county>/UFB27_<district>.pdf`) ·
+[NJDOE FY27 K-12 aid by district](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) ·
+district ACFRs `https://www.nj.gov/education/finance/fp/acfr/search/<yy>/<district>.pdf` (page of each figure in [`data/processed/acfr_benefits.csv`](../../data/processed/acfr_benefits.csv)) ·
+[SEHBP participating employers, Oct 2026](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) ·
+[Taxpayers' Guide to Education Spending 2025](https://www.nj.gov/education/guide/2025tges.shtml).
+Per-district figures with links: [`data/processed/district_panel.csv`](../../data/processed/district_panel.csv). How the inputs were checked: [`docs/validation.md`](../validation.md).
+
+Confidence levels: **High** = sums of the state's own published files, checked against the source PDFs; **Medium** = derived
+or parsed figures with known exceptions; **Low** = indicative only. See [validation](../validation.md).
+
 ## What we found
 
-1. **In 2026-27, benefit increases outran formula aid in 74 of the 101 comparable districts.** Benefits rose **+$115.0M
+1. **In 2026-27, benefit increases outran formula aid in 74 of the 101 comparable districts.** *Confidence: High.* Benefits rose **+$115.0M
    (+14.4%)** across the three counties, while formula aid rose **+$76.0M**. $22.1M of that aid went to Camden City alone.
    Without Camden City, aid rose about $54M against about $120M of new benefit costs.
-2. **Health insurance is the benefit.** In the FY2025 audits, health is a median **78%** of the benefits districts pay
+2. **Health insurance is the benefit.** *Confidence: Medium-High.* In the FY2025 audits, health is a median **78%** of the benefits districts pay
    themselves. Audited health costs grew a median **+17% from FY2023 to FY2025**. Districts reported 2026-27 renewals of
    roughly 15–20% from the private joint fund (SHIF) and 25–33% from SEHBP. The 34% SEHBP increase for January 2027 comes on top of that.
-3. **SEHBP districts budgeted larger increases:** a median **+23%** vs. **+14%** for districts on other plans. Most
+3. **SEHBP districts budgeted larger increases** (*Confidence: Medium-Low*: membership is name-matched; see [validation V6](../validation.md)): a median **+23%** vs. **+14%** for districts on other plans. Most
    non-SEHBP districts here buy coverage through SHIF (School Health Insurance Fund) or a broker trust.
-4. **District-by-district research (106 profiles):** **3 Confirmed**, **21 Consistent**, **35 No cuts reported**,
+4. **District-by-district research (106 profiles):** each profile carries its own confidence rating and fact check. **3 Confirmed**, **21 Consistent**, **35 No cuts reported**,
    **47 Insufficient evidence**.
    - **Confirmed:** the district explicitly ties cuts to health costs.
      - **Evesham:** health +30–40% (~$4.1M) vs. $1.78M of cap room. It cut 7 elementary teachers and an assistant principal; grades 3–5 classes are projected at 26–27.
@@ -33,7 +44,7 @@ draft used the original 2025-26 budget and total state revenue; district documen
      Hill, Voorhees, Lenape, Swedesboro-Woolwich, West Deptford, Monroe, Cinnaminson, Elk, Riverton, Springfield and others) used the
      levy cap's **health-care cost adjustment**, often with banked cap, to pass the increase to property taxpayers.
      The median general-fund levy rose 5.6%, and 76 of 106 districts went above 2%.
-5. **Reserves are running out.** Budgeted fund-balance use falls from $236M (2025-26) to $204M (2026-27), and at least
+5. **Reserves are running out.** *Confidence: High* for the totals (UFB). Budgeted fund-balance use falls from $236M (2025-26) to $204M (2026-27), and at least
    seven Camden County districts plan to use up their excess surplus by June 2027. That leaves less cushion for 2027-28, the first full
    year of the 34% SEHBP increase.
 6. **Kingsway Regional, home of the "Fair Funding" campaign:** health renewal +15.8% (~$1.4M), a $1.3M health waiver, levy +6.7%, and 9 FTE

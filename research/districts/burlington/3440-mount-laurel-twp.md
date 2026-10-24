@@ -2,11 +2,15 @@
 _Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
-_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
-- Benefits budget 2025-26 (revised) → 2026-27: $19.20M → $22.14M (+15.3%); formula aid change: +$0.49M; aid change minus benefit increase: -$2.45M
-- Benefits share of operating budget 2026-27: 24.1%; health share of district-paid benefits (FY25 audit): 79.5%; audited health growth FY23→FY25: +17.4%
-- Tax levy change: +6.7%; budgeted fund balance used 2025-26 → 2026-27: $2.18M → $0.00M
-- Students per teacher 2021-22 → 2024-25: 11.5 → 11.0; state-paid TPAF pension/retiree medical FY25 (not in district budget): $17.04M
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- **Benefits budget** 2025-26 (revised) → 2026-27: $19.20M → $22.14M (+15.3%). Source: [2026-27 User-Friendly Budget](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3440.pdf), Appropriations, line "Total Personal Services – Employee Benefits" (columns 2025-26 revised / 2026-27 budget); also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `approp27.csv` line 71260.
+- **Formula aid change** FY26 → FY27: +$0.49M. Source: [NJDOE FY27 K-12 aid, district details](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) (row for district 3440, "FY26–FY27 K–12 Aid Difference"). Aid change minus benefit increase: -$2.45M (computed).
+- **Benefits share of operating budget** 2026-27: 24.1% (computed from [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3440.pdf): employee benefits ÷ Total General Current Expense).
+- **Health share of district-paid benefits** FY25: 79.5%; **audited health growth** FY23→FY25: +17.4%. Source: audited ACFR Exhibit C-1, "Health Benefits" actual: [FY2025 report](https://www.nj.gov/education/finance/fp/acfr/search/25/3440.pdf#page=86), [FY2023 report](https://www.nj.gov/education/finance/fp/acfr/search/23/3440.pdf#page=82).
+- **Tax levy change**: +6.7%; **budgeted fund balance used** 2025-26 → 2026-27: $2.18M → $0.00M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3440.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
+- **Students per teacher** 2021-22 → 2024-25: 11.5 → 11.0. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
+- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $17.04M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
+- **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
 - The public hearing presentation (April 28, 2026) shows the general fund levy at $72,674,274 → $77,544,942 and the total levy at $74,734,294 → $79,667,923. The district describes the change on the average $241,292 home as "+$178.55 (or 5.82%)". Its levy history: 2.96% (2024-25), 4.98% (2025-26), 5.82% proposed (2026-27). [Mount Laurel Schools Proposed Budget 2026-2027 (PPTX)](https://filecabinet13.eschoolview.com/2E0A21A8-FC98-4E17-AE95-C532A04DC339/47f1d06f-0b4f-49aa-9a69-14c4b590da68.pptx) (April 28, 2026)

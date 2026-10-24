@@ -157,6 +157,13 @@ def acfr():
     return out
 
 
+def src(r):
+    """Link to the audited report page the figure was read from (Exhibit C-1)."""
+    if not r or not r.get("health"):
+        return ""
+    return r["source_url"] + (f"#page={r['source_page']}" if r.get("source_page") else "")
+
+
 def pct(a, b):
     return (a / b - 1) * 100 if b else None
 
@@ -200,7 +207,7 @@ def main():
         rows.append({
             "county_id": cid, "county": cname, "district_id": d, "district_name": name,
             "in_sehbp": d in in_sehbp,
-            "comparable": not (ben27 < 1e5 or re.search(r"Ed Serv Comm|Spec Serv", name)),
+            "comparable": not (ben27 < 1e5 or re.search(r"Ed(uc)?\.? Serv|Spec(ial)?\.? Serv|Jointure|Commission|Regional Day", name, re.I)),
             "benefits_budget_2526": ben26, "benefits_budget_2627": ben27, "benefits_budget_2526_original": ben26_orig,
             "benefits_change_pct": round(pct(ben27, ben26), 1),
             "benefits_change_dollars": ben27 - ben26,
@@ -213,6 +220,7 @@ def main():
             "fund_balance_used_2526": fb26, "fund_balance_used_2627": fb27,
             "aid_change_minus_benefit_change": (aid27 - aid26) - (ben27 - ben26),
             "acfr_health_2023": h23 or "", "acfr_health_2025": h25 or "",
+            "acfr_2023_source": src(au.get("2023")), "acfr_2025_source": src(au.get("2025")),
             # guard against a mis-parsed year: health can't plausibly move >150% in two years
             "acfr_health_growth_23_25_pct": round(pct(h25, h23), 1) if h23 > 1e4 and h25 and abs(pct(h25, h23)) <= 150 else "",
             "acfr_health_share_of_benefits_2025": round(h25 / t25 * 100, 1) if h25 and t25 else "",

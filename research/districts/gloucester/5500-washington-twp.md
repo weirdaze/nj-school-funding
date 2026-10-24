@@ -2,11 +2,15 @@
 _Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
-_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
-- Benefits budget 2025-26 (revised) → 2026-27: $28.87M → $35.31M (+22.3%); formula aid change: +$1.77M; aid change minus benefit increase: -$4.68M
-- Benefits share of operating budget 2026-27: 21.3%; health share of district-paid benefits (FY25 audit): 71.4%; audited health growth FY23→FY25: +14.7%
-- Tax levy change: +6.2%; budgeted fund balance used 2025-26 → 2026-27: $0.00M → $7.50M
-- Students per teacher 2021-22 → 2024-25: 11.0 → 11.6; state-paid TPAF pension/retiree medical FY25 (not in district budget): $27.48M
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- **Benefits budget** 2025-26 (revised) → 2026-27: $28.87M → $35.31M (+22.3%). Source: [2026-27 User-Friendly Budget](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5500.pdf), Appropriations, line "Total Personal Services – Employee Benefits" (columns 2025-26 revised / 2026-27 budget); also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `approp27.csv` line 71260.
+- **Formula aid change** FY26 → FY27: +$1.77M. Source: [NJDOE FY27 K-12 aid, district details](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) (row for district 5500, "FY26–FY27 K–12 Aid Difference"). Aid change minus benefit increase: -$4.68M (computed).
+- **Benefits share of operating budget** 2026-27: 21.3% (computed from [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5500.pdf): employee benefits ÷ Total General Current Expense).
+- **Health share of district-paid benefits** FY25: 71.4%; **audited health growth** FY23→FY25: +14.7%. Source: audited ACFR Exhibit C-1, "Health Benefits" actual: [FY2025 report](https://www.nj.gov/education/finance/fp/acfr/search/25/5500.pdf#page=94), [FY2023 report](https://www.nj.gov/education/finance/fp/acfr/search/23/5500.pdf#page=94).
+- **Tax levy change**: +6.2%; **budgeted fund balance used** 2025-26 → 2026-27: $0.00M → $7.50M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5500.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
+- **Students per teacher** 2021-22 → 2024-25: 11.0 → 11.6. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
+- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $27.48M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
+- **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
 - **Preliminary 2026-27 budget (Inquirer, March 31, 2026).** The board narrowly rejected a preliminary $186.1M budget that proposed cutting **29 teaching positions and 23 support staff positions**. The district had a **$4.8M budget gap** even though state aid rose $1.5M. The business administrator said class sizes were being considered, and that the number of affected positions would not be known until schedules were built. She said the district "could impose a **6.1% tax increase under a waiver for increased healthcare costs**." Superintendent Eric Hibbs: "It's a completely flawed system ... They have to revamp the entire formula." [Some South Jersey districts plan to eliminate positions, cut programs, and close schools to plug budget gaps (Inquirer)](https://www.inquirer.com/education/south-jersey-school-districts-budget-cuts-taxes-20260331.html), 2026-03-31.

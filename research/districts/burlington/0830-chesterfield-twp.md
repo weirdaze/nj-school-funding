@@ -2,11 +2,15 @@
 _Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Note: the district's Health Benefits page lists "NJ Educators Health Plan" (an SEHBP plan) alongside Aetna and AmeriHealth; the page is undated._
 
 ## Our numbers
-_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
-- Benefits budget 2025-26 (revised) → 2026-27: $2.73M → $3.28M (+20.2%); formula aid change: -$0.10M; aid change minus benefit increase: -$0.65M
-- Benefits share of operating budget 2026-27: 22.5%; health share of district-paid benefits (FY25 audit): 85.8%; audited health growth FY23→FY25: +16.8%
-- Tax levy change: +4.5%; budgeted fund balance used 2025-26 → 2026-27: $0.42M → $0.52M
-- Students per teacher 2021-22 → 2024-25: 10.3 → 10.3; state-paid TPAF pension/retiree medical FY25 (not in district budget): $2.63M
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- **Benefits budget** 2025-26 (revised) → 2026-27: $2.73M → $3.28M (+20.2%). Source: [2026-27 User-Friendly Budget](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0830.pdf), Appropriations, line "Total Personal Services – Employee Benefits" (columns 2025-26 revised / 2026-27 budget); also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `approp27.csv` line 71260.
+- **Formula aid change** FY26 → FY27: -$0.10M. Source: [NJDOE FY27 K-12 aid, district details](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) (row for district 0830, "FY26–FY27 K–12 Aid Difference"). Aid change minus benefit increase: -$0.65M (computed).
+- **Benefits share of operating budget** 2026-27: 22.5% (computed from [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0830.pdf): employee benefits ÷ Total General Current Expense).
+- **Health share of district-paid benefits** FY25: 85.8%; **audited health growth** FY23→FY25: +16.8%. Source: audited ACFR Exhibit C-1, "Health Benefits" actual: [FY2025 report](https://www.nj.gov/education/finance/fp/acfr/search/25/0830.pdf#page=88), [FY2023 report](https://www.nj.gov/education/finance/fp/acfr/search/23/0830.pdf#page=99).
+- **Tax levy change**: +4.5%; **budgeted fund balance used** 2025-26 → 2026-27: $0.42M → $0.52M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0830.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
+- **Students per teacher** 2021-22 → 2024-25: 10.3 → 10.3. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
+- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $2.63M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
+- **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
 - The final budget hearing presentation lists "Budget Challenges": "Decrease in State Aid", "Loss of Title Funding", and "Annual Increases in Salaries and Benefits". The cost increases shown are "Health Benefits $485,965", "Salaries $376,949", and "Utilities $94,794". Health benefits is the largest single increase. [2026-2027 Final Budget Presentation](http://www.chesterfieldschool.com/fs/resource-manager/view/30976dfc-1b94-473c-a304-ae9dba8f714d), public hearing April 29, 2026.

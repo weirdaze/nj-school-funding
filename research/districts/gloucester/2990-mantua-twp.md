@@ -2,11 +2,15 @@
 _Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
-_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
-- Benefits budget 2025-26 (revised) → 2026-27: $5.15M → $4.44M (-13.9%); formula aid change: +$0.26M; aid change minus benefit increase: +$0.97M
-- Benefits share of operating budget 2026-27: 20.1%; health share of district-paid benefits (FY25 audit): 78.7%; audited health growth FY23→FY25: +2.5%
-- Tax levy change: +2.0%; budgeted fund balance used 2025-26 → 2026-27: $0.98M → $0.65M
-- Students per teacher 2021-22 → 2024-25: 9.5 → 11.4; state-paid TPAF pension/retiree medical FY25 (not in district budget): $4.70M
+_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
+- **Benefits budget** 2025-26 (revised) → 2026-27: $5.15M → $4.44M (-13.9%). Source: [2026-27 User-Friendly Budget](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_2990.pdf), Appropriations, line "Total Personal Services – Employee Benefits" (columns 2025-26 revised / 2026-27 budget); also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `approp27.csv` line 71260.
+- **Formula aid change** FY26 → FY27: +$0.26M. Source: [NJDOE FY27 K-12 aid, district details](https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx) (row for district 2990, "FY26–FY27 K–12 Aid Difference"). Aid change minus benefit increase: +$0.97M (computed).
+- **Benefits share of operating budget** 2026-27: 20.1% (computed from [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_2990.pdf): employee benefits ÷ Total General Current Expense).
+- **Health share of district-paid benefits** FY25: 78.7%; **audited health growth** FY23→FY25: +2.5%. Source: audited ACFR Exhibit C-1, "Health Benefits" actual: [FY2025 report](https://www.nj.gov/education/finance/fp/acfr/search/25/2990.pdf#page=85), [FY2023 report](https://www.nj.gov/education/finance/fp/acfr/search/23/2990.pdf#page=88).
+- **Tax levy change**: +2.0%; **budgeted fund balance used** 2025-26 → 2026-27: $0.98M → $0.65M. Source: [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_2990.pdf), Revenues, lines "Total Tax Levy" and "Budgeted Fund Balance-Operating Budget".
+- **Students per teacher** 2021-22 → 2024-25: 9.5 → 11.4. Source: [Taxpayers' Guide to Education Spending](https://www.nj.gov/education/guide/2025tges.shtml) Indicator 16 (2025 edition for 2024-25; [2023 edition](https://www.nj.gov/education/guide/) for 2021-22).
+- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): $4.70M. Source: [Treasury TPAF on-behalf allocations FY2025](https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx).
+- **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
 - **Budget.** The tentative budget of $26,852,579 with a general fund tax levy of $16,332,846 was approved Mar 21, 2026. [Board minutes Mar 21, 2026](https://www.mantuaschools.com/pdf/Board_Minutes/Board%20Minutes%202025-2026/10March%2021%202026%20Minutes.pdf) The final budget was adopted May 4, 2026 at the same totals, "and that the general fund appropriations include a $155,000 withdrawal from the Maintenance Reserve Account". [Board minutes May 4, 2026](https://www.mantuaschools.com/pdf/Board_Minutes/Board%20Minutes%202025-2026/13May%204%202026%20Minutes.pdf)

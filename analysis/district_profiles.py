@@ -33,27 +33,46 @@ def p(x, sign=False):
     return "n/a" if x is None else (f"{x:+.1f}%" if sign else f"{x:.1f}%")
 
 
+UFB_PDF = "https://www.nj.gov/education/budget/ufb/2627/reports/{cc}/UFB27_{d}.pdf"
+UFB_CSV = "https://www.nj.gov/education/budget/ufb/2627/index.shtml"
+AID = "https://www.nj.gov/education/stateaid/2627/FY27_GBM_District_Details.xlsx"
+TPAF = "https://www.nj.gov/education/fpp/audit/2425/docs/NJ_TPAF_Allocations_LEAs_FY2025.xlsx"
+TGES = "https://www.nj.gov/education/guide/2025tges.shtml"
+TGES23 = "https://www.nj.gov/education/guide/"
+SEHBP = "https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf"
+
+
 def numbers_block(r):
     flags = []
     if r["comparable"] != "True":
         flags.append("not directly comparable (non-operating, service commission, or special services district)")
     if r["benefits_line_incomplete"] == "True":
         flags.append("audited health exceeds the budget benefits line, so some benefits are charged elsewhere and the line understates them")
+    ufb = UFB_PDF.format(cc=r["county_id"], d=r["district_id"])
+    a23, a25 = r.get("acfr_2023_source", ""), r.get("acfr_2025_source", "")
     st0, st1 = r["students_per_teacher_2021_22"] or "n/a", r["students_per_teacher_2024_25"] or "n/a"
     lines = [
         "## Our numbers",
-        "_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`. Baseline is the 2025-26 "
-        "**revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._",
-        f"- Benefits budget 2025-26 (revised) → 2026-27: {m(r['benefits_budget_2526'], False)} → {m(r['benefits_budget_2627'], False)} "
-        f"({p(r['benefits_change_pct'], True)}); formula aid change: {m(r['state_aid_change_dollars'])}; "
-        f"aid change minus benefit increase: {m(r['aid_change_minus_benefit_change'])}",
-        f"- Benefits share of operating budget 2026-27: {p(r['benefits_share_of_gce_2627'])}; health share of district-paid "
-        f"benefits (FY25 audit): {p(r['acfr_health_share_of_benefits_2025'])}; audited health growth FY23→FY25: "
-        f"{p(r['acfr_health_growth_23_25_pct'], True)}",
-        f"- Tax levy change: {p(r['levy_change_pct'], True)}; budgeted fund balance used 2025-26 → 2026-27: "
-        f"{m(r['fund_balance_used_2526'], False)} → {m(r['fund_balance_used_2627'], False)}",
-        f"- Students per teacher 2021-22 → 2024-25: {st0} → {st1}; state-paid TPAF pension/retiree medical FY25 (not in district budget): "
-        f"{m(r['tpaf_onbehalf_total_2025'], False)}",
+        "_Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to "
+        "its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._",
+        f"- **Benefits budget** 2025-26 (revised) → 2026-27: {m(r['benefits_budget_2526'], False)} → {m(r['benefits_budget_2627'], False)} "
+        f"({p(r['benefits_change_pct'], True)}). Source: [2026-27 User-Friendly Budget]({ufb}), Appropriations, line "
+        f"\"Total Personal Services – Employee Benefits\" (columns 2025-26 revised / 2026-27 budget); also [UFB data files]({UFB_CSV}) `approp27.csv` line 71260.",
+        f"- **Formula aid change** FY26 → FY27: {m(r['state_aid_change_dollars'])}. Source: [NJDOE FY27 K-12 aid, district details]({AID}) "
+        f"(row for district {r['district_id']}, \"FY26–FY27 K–12 Aid Difference\"). Aid change minus benefit increase: {m(r['aid_change_minus_benefit_change'])} (computed).",
+        f"- **Benefits share of operating budget** 2026-27: {p(r['benefits_share_of_gce_2627'])} (computed from [UFB]({ufb}): employee benefits ÷ Total General Current Expense).",
+        f"- **Health share of district-paid benefits** FY25: {p(r['acfr_health_share_of_benefits_2025'])}; **audited health growth** FY23→FY25: "
+        f"{p(r['acfr_health_growth_23_25_pct'], True)}. Source: audited ACFR Exhibit C-1, \"Health Benefits\" actual"
+        + (f": [FY2025 report]({a25})" if a25 else "") + (f", [FY2023 report]({a23})" if a23 else "")
+        + ("" if (a23 or a25) else " (not extracted for this district)") + ".",
+        f"- **Tax levy change**: {p(r['levy_change_pct'], True)}; **budgeted fund balance used** 2025-26 → 2026-27: "
+        f"{m(r['fund_balance_used_2526'], False)} → {m(r['fund_balance_used_2627'], False)}. Source: [UFB]({ufb}), Revenues, "
+        f"lines \"Total Tax Levy\" and \"Budgeted Fund Balance-Operating Budget\".",
+        f"- **Students per teacher** 2021-22 → 2024-25: {st0} → {st1}. Source: [Taxpayers' Guide to Education Spending]({TGES}) "
+        f"Indicator 16 (2025 edition for 2024-25; [2023 edition]({TGES23}) for 2021-22).",
+        f"- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): {m(r['tpaf_onbehalf_total_2025'], False)}. "
+        f"Source: [Treasury TPAF on-behalf allocations FY2025]({TPAF}).",
+        f"- **In SEHBP**: {'yes' if r['in_sehbp'] == 'True' else 'no'} per the [October 2026 participating-employer list]({SEHBP}) (name-matched).",
     ]
     if flags:
         lines.append("- ⚠️ " + "; ".join(flags))

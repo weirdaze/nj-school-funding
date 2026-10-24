@@ -184,6 +184,7 @@ def _parse_c1_main(text):
     if best[0] < 2:
         return {}
     idx = -best[1]
+    src_page = pages[idx].split("\n", 1)[0].strip()
     lines = "\n".join(pages[idx: idx + 2]).splitlines()
     start = next((i - 1 for i, l in enumerate(lines) if "11-000-291-" in l), None)
     if start is None:
@@ -235,6 +236,8 @@ def _parse_c1_main(text):
                 elif col not in out:
                     out[col] = actual_of(nums)
                 break
+    if out:
+        out["source_page"] = src_page
     return out
 
 
@@ -258,6 +261,7 @@ def parse_allocated(pages):
     out = {}
     seen = set()
     for p in pages:
+        pno = p.split("\n", 1)[0].strip()
         for raw in p.splitlines():
             line = fix_digits(raw).strip()
             m = re.search(r"\b11-[\dX]{3}-[\dX]{3}-2(\d\d)\b", line)  # general fund only
@@ -271,6 +275,8 @@ def parse_allocated(pages):
                 out[col] = out.get(col, 0) + actual_of(nums)
                 if col == "health" and not m.group(0).startswith("11-000-291"):
                     out["n_health_lines"] = out.get("n_health_lines", 0) + 1
+                if col == "health":
+                    out.setdefault("source_page", pno)
     if out.get("health"):
         out["total_unallocated"] = sum(v for k, v in out.items() if k in CODES.values())
         out["method"] = "allocated"
@@ -290,7 +296,9 @@ def parse(args):
         ok = bool(tot) and abs(comp - tot) <= max(1000, 0.01 * tot)
         rows.append({"fiscal_year": fy, "county": cname, "district_id": dist, "district_name": name,
                      **{c: vals.get(c, "") for c in COLS}, "components_match_total": ok,
-                     "method": vals.get("method", "unallocated" if vals else "")})
+                     "method": vals.get("method", "unallocated" if vals else ""),
+                     "source_page": vals.get("source_page", ""),
+                     "source_url": URL.format(yy=fy[2:], dist=dist)})
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
