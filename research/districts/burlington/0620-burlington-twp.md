@@ -1,5 +1,5 @@
 # Burlington Twp (Burlington County) — district 0620
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -14,12 +14,12 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [snippet] A question on the November 2026 general election ballot asks voters to let the board "raise an additional $567,391 for General Funds from taxes in the 2026-2027 school year". The money is "beyond the otherwise applicable tax levy increase" and would fund "(i) the addition of two (2) elementary school teachers to reduce class sizes; (ii) the addition of one (1) music teacher… (iii) the expansion of athletic programs at the Burlington Township Middle School." Approval "will result in a permanent increase in the School District's tax levy." [BallotReady measure page](https://www.ballotready.org/measures/bond-proposal-75410cd0-6dac-470e-b0d9-30fa1ba0640b), updated Oct 17, 2026.
-- [primary] The state UFB shows the local tax levy at 46,144,055 (2024-25 actual), 48,012,771 (2025-26 revised), and 50,939,091 (2026-27 proposed), with estimated on-roll enrollment of 3,606 (Oct 2026), up from 3,589 (per search snippet). [UFB27 0620](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0620.pdf), state summary generated July 14, 2026.
+- [primary] The state UFB shows the local tax levy at 46,144,055 (2024-25 actual), 48,012,771 (2025-26 revised), and 50,939,091 (2026-27 proposed), with estimated on-roll enrollment of 3,606 (Oct 2026), up from 3,589 (Oct 2025) (UFB p.1). Total state revenue (all UFB state sources, not formula aid) rises from $29.81M (29,808,308) to $31.57M (31,572,805) (UFB p.2). [UFB27 0620](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0620.pdf), state summary generated July 14, 2026.
 - [snippet] In a December 2024 special election, voters approved bond questions of $27.4M (1,210–453) and $10.7M (1,072–588) (source missing). These were capital, not operating (per search snippet, Inquirer, Dec 2024).
 - [snippet] No public reporting found on RIFs or layoffs, program cuts in the adopted budget, health plan changes, or district statements on benefits or state aid. No district budget presentation was located.
 
 ## Assessment
-**Insufficient evidence.** No cuts were reported. The adopted budget absorbed an 18.8% benefits increase with a 6.1% levy increase, above 2%, which implies cap adjustments, most likely the health-benefits adjustment, plus a $1.76M state aid gain. The November 2026 referendum is notable: the district is asking voters for money outside the cap to add two elementary teachers "to reduce class sizes." This signals that the base budget could not fund class-size relief, but the district has not explicitly tied that to benefit costs in anything found.
+**Insufficient evidence.** No cuts were reported. The adopted budget absorbed a 23.8% benefits increase (+$2.72M ($14.14M − $11.42M)) with a 6.1% levy increase, above 2%, which implies cap adjustments (which ones is not documented), plus a +$1.76M formula aid gain (NJDOE K-12 formula aid; total UFB state revenue rises somewhat more, as noted above). The November 2026 referendum is notable: the district is asking voters for money outside the cap to add two elementary teachers "to reduce class sizes." This signals that the base budget could not fund class-size relief, but the district has not explicitly tied that to benefit costs in anything found.
 
 ## Confidence
 **Low**: insufficient evidence; the referendum text is from an aggregator (BallotReady) and no district budget presentation was found.
@@ -27,7 +27,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Fact check
 - ✔ Referendum to "raise an additional $567,391" for two elementary teachers "to reduce class sizes", a music teacher, and middle school athletics — verified at [BallotReady](https://www.ballotready.org/measures/bond-proposal-75410cd0-6dac-470e-b0d9-30fa1ba0640b) (aggregator, not the district's own notice).
 - ✔ Tax levy 46,144,055 / 48,012,771 / 50,939,091 — verified at [UFB27 0620](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_0620.pdf) (page 2); benefits 11,417,818 → 14,137,339 (page 5) match our numbers.
-- ✘ Assessment says benefits rose "18.8%" — differs: our numbers and the UFB show +23.8% from the 2025-26 revised baseline.
+- ✘ Assessment says benefits rose "18.8%" — differs: our numbers and the UFB show +23.8% from the 2025-26 revised baseline. → fixed in Assessment
 
 ## Open questions
 - The district's referendum FAQ or presentation: does it cite health benefit costs or the cap as the reason the teachers are not in the base budget?

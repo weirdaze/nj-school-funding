@@ -1,5 +1,5 @@
 # Norwood Boro (Bergen County) — district 3740
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list). Sample: county median._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list). Sample: county median._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -14,26 +14,26 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [primary] State UFB: employee benefits $1,985,215 (2024-25 actual) → $2,494,770 (2025-26 revised) → $3,127,569 (2026-27 proposed), p. 4; benefits as % of salaries 32.80% → 41.07%, p. 7; levy $12,417,545 → $13,038,422, p. 2; budgeted fund balance $450,000 both years, p. 2. [NJDOE UFB 2026-27, Norwood Boro](https://www.nj.gov/education/budget/ufb/2627/reports/03/UFB27_3740.pdf), generated July 14, 2026.
-- [primary] Health care cap adjustment: "Health Adjustment 545,421 — Partial Health Cost Adjustment" under Unusual Revenues and Appropriations, UFB p. 8. The district used part of the available adjustment; the full amount and any banked remainder are not stated.
+- [primary] Health care cap adjustment: "Health Adjustment 545,421 — Partial Health Cost Adjustment" under Unusual Revenues and Appropriations, UFB p. 8. This lists the adjustment as available; the UFB does not show how much was actually used, and the levy rose only $620,877, so at most about $373K of it could be above the 2% cap.
 - [primary] Health plan: shared services list "NJ School Employee Health Benefits Program (NJ SEHBP) Health & Prescription Insurance" and the Northeast Bergen (NESBIG) joint insurance fund for other coverage, UFB p. 9.
 - [primary] State aid notes: extraordinary aid budget reduced $30,000 ("District continues to reduce reliance on budgeted ExAid"); special education aid +$33,625, transportation +$2,794, security +$2,923. UFB p. 8.
 - No public reporting found on 2026-27 staff reductions, class sizes or district commentary on health costs. The district website (wearenorwood.org) returned a bot challenge. Search results for "Norwood Public Schools" budgets are Norwood, Massachusetts (and a Northwood, NH newsletter), not this district.
 
 ## Verification of our numbers
-- Benefits $2,494,770 → $3,127,569 (+$632,799, +25.4%): **match** UFB p. 4. The $545,421 partial health adjustment is about 86% of our benefits increase.
+- Benefits $2,494,770 → $3,127,569 (+$632,799, +25.4%): **match** UFB p. 4. The $545,421 partial health adjustment listed on p. 8 equals about 86% of our benefits increase, but it is not shown as used in full.
 - Formula aid +$39,342 vs total state revenue +$9,342: the -$30,000 extraordinary aid reduction explains the difference (UFB p. 8). **Match.**
-- Levy +5.0%: **match** (+$620,877, UFB p. 2). Our reading: about $248K from the 2% cap plus a $545K health adjustment would allow ~$794K; the district raised $621K, consistent with using only part of the adjustment.
+- Levy +5.0%: **match** (+$620,877, UFB p. 2). Our reading: 2% of $12,417,545 is about $248K, so at most ~$373K of the $621K increase lies above the cap; the amount of the health adjustment actually used is not documented.
 - Fund balance $450,000 / $450,000: **match** UFB p. 2.
 
 ## Assessment
-**Insufficient evidence.** Norwood's benefits rose 25.4% (+$633K) against a $39K formula aid increase, and the district used a $545,421 health-care cap adjustment to raise the levy 5%. That suggests the increase was absorbed largely through taxes, but no source on staffing or programs was found to confirm whether cuts occurred.
+**Insufficient evidence.** Norwood's benefits rose 25.4% (+$633K) against a $39K formula aid increase, and the UFB lists a $545,421 partial health-care cap adjustment while the levy rose 5% (+$621K, of which at most ~$373K is above 2%). That suggests the increase was absorbed largely through taxes, but no source on staffing or programs was found to confirm whether cuts occurred.
 
 ## Confidence
 **Low**: only the state UFB (which does document the health adjustment) was available; no district narrative or news.
 
 ## Open questions
 - Any staff or program reductions in the 2026-27 budget (minutes/presentation not accessible)?
-- Size of the full available health adjustment and any banked cap created.
+- How much of the $545,421 health adjustment was actually used, and whether any unused cap was banked.
 - Impact of SEHBP's ~34% January 2027 premium increase, which falls mid-year in a budget built on earlier rate assumptions.
 
-<!-- facts: confidence=low; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=545421; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=low; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->

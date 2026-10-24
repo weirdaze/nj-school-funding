@@ -1,5 +1,5 @@
 # Stratford Boro (Camden County) — district 5080
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -18,7 +18,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No district budget presentation or local news found (searches return Stratford, CT). No public reporting found on staff reductions, class sizes, program cuts, health-plan changes, or referendums.
 
 ## Assessment
-**Insufficient evidence.** Unusually, the benefit line is flat-to-down (−0.9%) and the levy rose only 2.0%; the budget is shrinking with enrollment and fewer tuition students received, and the district is relying heavily on a large excess-surplus reserve. Without documents it is unclear whether the flat benefit line reflects staff reductions, a plan change, or budgeting choices.
+**Insufficient evidence.** Unusually, the benefit line is flat-to-down (−0.9%) and the levy rose only 2.0%; the budget is shrinking with enrollment and fewer tuition students received, and the budget draws heavily on the UFB "Legal Reserve" row ($6.16M at 6/30/2025, planned $0 by 6/30/2027) through budgeted fund balance ($3.03M in 2026-27) — a planned drawdown, not a reported shortfall. NJDOE formula aid rose $0.27M. Without documents it is unclear whether the flat benefit line reflects staff reductions, a plan change, or budgeting choices.
 
 ## Confidence
 **Low**: only state UFB figures verified; no district documents or reporting explain the flat benefit line.
@@ -26,7 +26,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Open questions
 - Why benefits fell while most peers rose 10-20% — plan change, fewer covered employees, or under-budgeting? Request the budget presentation.
 - Staffing changes tied to declining received-student enrollment (132 → 91).
-- Sustainability once the $6.2M legal reserve is exhausted (est. $0 by 6/30/2027).
+- How the 2027-28 budget will be balanced once the planned legal-reserve drawdown reaches $0 (est. 6/30/2027).
 
 ## Fact check
 - ✔ Employee benefits $3,994,577 → $3,958,987; levy $8,159,712 → $8,322,906 (+2.0%) — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5080.pdf) (pp. 2, 4).

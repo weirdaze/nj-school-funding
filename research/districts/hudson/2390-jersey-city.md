@@ -21,14 +21,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on 2026-27 layoffs, RIFs, position cuts, class sizes or program cuts; searches returned only 2018 and 2025 coverage. No public reporting found on the district's health plan, its 2026-27 health premium increase, or any health care cost cap adjustment.
 
 ## Verification of our numbers
-- Benefits: our $73.37M (2025-26 revised) → $75.48M (2026-27) matches UFB p. 4 exactly.
+- Benefits: our $73.37M (2025-26 revised) → $75.48M (2026-27) matches UFB p. 4 exactly, but that line is **partial**: Jersey City uses school-based budgeting (school-based appropriations $381.5M → $394.1M, UFB data file `schapp27.csv`), and benefits charged inside school budgets (about $365M → $378M per independent review; not re-verified) are not in it. A match on the undistributed line is therefore not a meaningful benefits comparison (recorded as unknown).
 - Levy: our +17.0% matches UFB p. 2 ($534.49M → $625.30M) and the district's page (base + banked cap = $625.30M).
 - State aid: our figure is NJDOE formula aid (-$3.89M); UFB total general fund state revenue falls -$3.66M ($132.63M → $128.97M, p. 2). No district statement of the aid change was found to compare against.
 - Fund balance: our $148.85M → $98.25M matches UFB p. 2.
 - **Data problem:** our `acfr_health_2025` = 66 (giving -100% growth and a 0% health share) is clearly a parsing error and should be fixed; FY23 = $58.30M looks plausible.
 
 ## Assessment
-**Insufficient evidence.** Jersey City's 2026-27 benefits line rose only 2.9%, while the levy rose 17% using $80.1M of banked cap and fund balance use fell by ~$50.6M ($148.85M → $98.25M). That points to replacing a smaller planned fund-balance draw and a modest state revenue drop (-$3.66M total state revenue; formula aid -$3.89M) while funding projected enrollment growth (+4.2% on roll, which the district names first among what the budget supports), not to a benefit-driven squeeze. No reported 2026-27 layoffs, class-size increases or statements tying cuts to health costs were found.
+**Insufficient evidence.** Jersey City's undistributed benefits line rose only 2.9% (it excludes benefits inside school-based budgets), while the levy rose 17% using $80.1M of banked cap and fund balance use fell by ~$50.6M ($148.85M → $98.25M). That points to replacing a smaller planned fund-balance draw and a modest state revenue drop (-$3.66M total state revenue; formula aid -$3.89M) while funding projected enrollment growth (+4.2% on roll, which the district names first among what the budget supports), not to a benefit-driven squeeze. No reported 2026-27 layoffs, class-size increases or statements tying cuts to health costs were found.
 
 ## Confidence
 **Medium**: the levy, banked cap and UFB figures come from district/NJDOE primary documents that reconcile with ours, but staffing and health-plan facts are missing, not disproven.
@@ -38,4 +38,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Which health plan does JCPS use (self-insured or a private carrier)? What was the 2026-27 premium change?
 - Fix the ACFR FY2025 health value (66) in our panel.
 
-<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=80128833; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->
+<!-- facts: confidence=medium; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=80128833; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

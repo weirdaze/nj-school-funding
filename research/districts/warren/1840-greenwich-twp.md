@@ -1,5 +1,5 @@
 # Greenwich Twp (Warren County) — district 1840
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county median._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -23,8 +23,8 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## Verification of our numbers
 - Benefits: the UFB's $3,605,687 to $4,009,497 matches ours (+11.2%).
-- State aid: the UFB shows total state sources up $293,551, which matches our state_revenue_change_ufb. The categorical and equalization changes net to about our +$268,551 formula aid change.
-- Levy: +2.0%, which matches. That is within the 2% cap, so no health care adjustment appears to have been used.
+- State aid: the UFB shows total state sources up $293,551; our figure is NJDOE formula aid (+$0.27M, $268,551), a different definition, so the two do not match exactly ($25K apart).
+- Levy: +2.0%, which matches. That is within the 2% cap, so no health care adjustment appears to have been used, but no document says so (recorded as unknown).
 - Fund balance: $1,285,966 and $1,204,374 match.
 - **Data flag:** our audited ACFR "health" figures ($218,712 FY23, $190,978 FY25; 3.7% of benefits) are implausibly small next to a $3.6M+ benefits budget. The ACFR extraction for this district probably picked up a single sub-line rather than total health benefits.
 
@@ -38,4 +38,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - What explains the -$601K drop in regular programs instruction (positions eliminated, or reclassified)?
 - What is the health plan? Re-check the ACFR health extraction for district 1840.
 
-<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=yes -->
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=no -->

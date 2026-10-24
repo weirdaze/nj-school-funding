@@ -1,5 +1,5 @@
 # Somerdale Boro (Camden County) — district 4790
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,12 +13,13 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [primary] State UFB: levy $5,350,000 → $5,690,878 (+6.4%); equalization aid $3,569,984 → $3,369,667; employee benefits $1,895,234 (2025-26 revised) → $2,147,064; benefits as % of salaries 35.34% → 40.11%; budgeted fund balance $703,579 → $468,317; legal reserve $1,162,414 (6/30/2025) → $0 (est. 6/30/2027). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4790.pdf) (July 14, 2026).
+- [primary] State UFB: levy $5,350,000 → $5,690,878 (+6.4%); equalization aid $3,569,984 → $3,369,667; employee benefits $1,895,234 (2025-26 revised) → $2,147,064; benefits as % of salaries 35.34% → 40.11%; budgeted fund balance $703,579 → $468,317; UFB "Legal Reserve" row $1,162,414 (6/30/2025) → $468,317 (est. 6/30/2026, equal to the 2026-27 budgeted fund balance) → $0 (est. 6/30/2027), a planned drawdown. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4790.pdf) (July 14, 2026).
+- [primary] State UFB: regular programs instruction $3,143,106 (2025-26 revised) → $3,026,642 (−$116K, −3.7%) while on-roll enrollment (full-time + special-ed) rises 433 → 441; special-education instruction roughly flat ($1,176,474 → $1,172,500). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_4790.pdf) (p.1 enrollment; appropriations page; `approp27.csv` lines 3200, 10300; `enroll27.csv` lines 11, 21).
 - [primary] District website posts the 2026-27 User Friendly Budget but no budget presentation or budget news was found; 2025-26 minutes page did not render. [Somerdale Park School District](https://www.somerdale-park.org) (accessed Oct 24, 2026).
 - No public reporting found on staff reductions, class sizes, program cuts, health-plan changes, cap waivers, or referendums.
 
 ## Assessment
-**Insufficient evidence.** Fiscal pressure is clear in the data — benefits +13.3% while formula aid fell ~$0.10M and the legal reserve is fully drawn down — but no district statements or reporting on cuts or on health costs were located.
+**Insufficient evidence.** Fiscal pressure is clear in the data — benefits +13.3% while NJDOE formula aid fell ~$0.10M, the budget plans the legal reserve down to $0 by 6/30/2027, and regular instruction falls $116K while enrollment rises slightly (433 → 441) — but no district statements or reporting on cuts or on health costs were located, so the instruction decline is unexplained.
 
 ## Confidence
 **Low**: only state UFB figures verified; no district statements or reporting on cuts or health costs.
@@ -26,6 +27,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Open questions
 - Obtain spring 2026 board minutes (site documents load via script) for personnel actions and budget discussion.
 - Cap calculation behind the 6.4% levy increase.
+- What the $116K regular-instruction reduction reflects (unfilled positions, staffing changes or reclassification).
 - Health plan/carrier and 2026-27 renewal rate.
 
 ## Fact check

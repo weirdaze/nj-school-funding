@@ -1,5 +1,5 @@
 # Rancocas Valley Regional (Burlington County) — district 4320
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -14,13 +14,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [primary] State UFB: benefits line $5,284,875 (2024-25 actual) → $7,169,599 (2025-26 revised) → $7,188,640 (2026-27), essentially flat; benefits as % of salaries 30.01% → 30.95%. [NJDOE UFB27 4320](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4320.pdf) (generated July 14, 2026)
-- [primary] Levy $28,089,666 → $28,651,459 (+2.0%); this follows a +35.1% jump in 2025-26 ($20,794,760 → $28,089,666). Budgeted fund balance falls $1,420,692 → $71,518; state revenue $19,257,237 → $19,840,407; on-roll enrollment 1,896 → 2,018 estimated (+6.4%). [UFB27 4320](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4320.pdf)
+- [primary] Levy $28,089,666 → $28,651,459 (+2.0%); this follows a +35.1% jump in 2025-26 ($20,794,760 → $28,089,666). Budgeted fund balance falls $1,420,692 → $71,518; total state revenue (all UFB state sources, not formula aid) $19,257,237 → $19,840,407; on-roll enrollment 1,896 → 2,018 estimated (+6.4%). [UFB27 4320](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4320.pdf)
 - [primary] Regular-programs instruction rises $11,711,663 → $12,218,816 (+4.3%). [UFB27 4320](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4320.pdf)
 - [primary] District Business Office "2026-2027 Budget Information" page posts only the user-friendly budget ("Please see attached document for 2026-2027 Budget"); no presentation or narrative. [RVRHS Business Office – 2026-2027 Budget Information](https://www.rvrhs.com/apps/pages/index.jsp?uREC_ID=86435&type=d&termREC_ID=&pREC_ID=1143291) (accessed Oct 24, 2026)
+- [news] Per independent review (not re-verified; article URL not available to us), Rancocas Valley appears in an Inquirer list of 74 districts approved for the state's Tax Levy Incentive, which would likely explain the +35.1% levy jump in 2025-26.
 - No public reporting found on layoffs, class sizes, program cuts, health-plan changes or state-aid commentary for 2026-27. Web search was limited (quota exhausted).
 
 ## Assessment
-**Insufficient evidence** (no sign of benefit-driven cuts). Budgeted benefits are flat (+0.3%), aid rose more than benefits, regular instruction grew 4.3% with enrollment up about 6%, and the levy rose only 2%. The district has nearly stopped using fund balance ($1.42M → $0.07M), which suggests the large 2025-26 levy increase rebuilt its structural position. Nothing suggests benefit costs forced cuts here; flat budgeted benefits while health premiums are rising elsewhere is notable and may reflect a plan change or an over-budgeted 2025-26 base.
+**Insufficient evidence** (no sign of benefit-driven cuts). Budgeted benefits are flat (+0.3%), formula aid rose more than benefits (+$0.92M), regular instruction grew 4.3% with enrollment up about 6%, and the levy rose only 2%. The district has nearly stopped using fund balance ($1.42M → $0.07M), which suggests the large 2025-26 levy increase (possibly under the Tax Levy Incentive, per independent review) rebuilt its structural position. Nothing suggests benefit costs forced cuts here; flat budgeted benefits while health premiums are rising elsewhere is notable and may reflect a plan change or an over-budgeted 2025-26 base.
 
 ## Confidence
 **Low**: only the state UFB and a district page that posts the UFB (figures verified); no narrative, minutes or press explain the flat benefits or the staffing.
@@ -29,7 +30,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - ✔ Benefits $7,169,599 → $7,188,640 (page 4); levy $28,089,666 → $28,651,459, after $20,794,760 in 2024-25 (page 2) — verified at [UFB27 4320](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4320.pdf).
 
 ## Open questions
-- Why did the levy rise 35% in 2025-26 (regional apportionment shift among Mount Holly, Eastampton, Hainesport, Lumberton, Westampton; referendum; or other)?
+- Why did the levy rise 35% in 2025-26? Confirm the reported Tax Levy Incentive approval (NJDOE list or Inquirer) versus a regional apportionment shift among Mount Holly, Eastampton, Hainesport, Lumberton, Westampton, or a referendum.
 - How were 2026-27 health benefits held flat (plan or carrier change, employee contributions)? Request the broker renewal.
 - Did the district post a budget presentation or minutes elsewhere (BOE page)?
 

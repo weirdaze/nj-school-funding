@@ -1,5 +1,5 @@
 # Riverton (Burlington County) — district 4460
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -17,18 +17,19 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [primary] The tentative budget (March 24, 2026) had a larger health-benefits adjustment of $230,198 with the same levy total. [Riverton BOE public agenda, Mar 24, 2026](https://rivertonschool.com/wp-content/uploads/2026/06/2026.3.24-BOE-Public-Agenda-.pdf) (Mar 24, 2026)
 - [primary] Advertised budget: "Personal Services-Employee Benefits" $962,136 (2024-25 actual) → $1,107,982 (2025-26 revised) → $1,361,313 (2026-27); "Employee Benefits as a percentage of salaries" 32.38% → 39.23%. Regular programs-instruction dips $1,904,095 → $1,855,075; budgeted fund balance $183,764 → $144,601; also draws $70,000 maintenance reserve and $92,000 tuition reserve; legal reserve projected to fall to $0. [Riverton budget advertisement, Burlington County Times proof](https://rivertonschool.com/wp-content/uploads/2026/04/Riverton-Budget-Advertisement-Proof-2026-27-Burlington-County-Times.pdf) (hearing notice for Apr 28, 2026)
 - [primary] Staffing: the Apr 28 agenda includes "Discussion - nontenured position nonrenewal - employee #1133" (one individual; reason not stated). [Apr 28 agenda](https://rivertonschool.com/wp-content/uploads/2026/06/2026.4.28-BOE-Public-Agenda-.pdf)
+- [primary] Enrollment is rising: on-roll 252 (Oct 2024), 266 (Oct 2025), 274 (est. Oct 2026), with special-ed on roll 27 → 43 and regular on roll 239 → 231. [UFB27 4460](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4460.pdf#page=1) (p. 1)
 - [primary] April 28 minutes are posted only as image scans that could not be machine-read; no budget presentation is posted on the district Budget/ACFR page.
-- No public reporting found on layoffs/RIFs, class-size changes, program cuts, or state-aid commentary (state aid essentially flat: $419,102 → $415,516) (source missing).
+- No public reporting found on layoffs/RIFs, class-size changes, program cuts, or state-aid commentary Total general fund state revenue (all state sources, not formula aid) is essentially flat: $419,102 → $415,516 ([UFB27 4460](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_4460.pdf#page=2), p. 2); formula aid is also flat (-$0.00M, Our numbers).
 
 ## Assessment
-**Insufficient evidence.** Riverton (in SEHBP) shows the strongest benefit-pressure signature in this batch (+31.5% benefits line, benefits/salaries ratio jumping to 39%) and explicitly used a $187,345 health-benefits cap adjustment to lift the levy 5.7%, but no public document ties this to staff or program cuts beyond a small dip in the regular-instruction line and one unexplained non-renewal. Our 2025-26 benefits base ($1.04M) is the original budget; the advertised 2025-26 revised figure is $1.11M, which would make the increase +22.9% rather than +31.5%.
+**Insufficient evidence.** Riverton (in SEHBP) shows clear benefit pressure (+22.9% benefits line, $1.11M → $1.36M; benefits/salaries ratio jumping to 39%) and explicitly used a $187,345 health-benefits cap adjustment, alongside an enrollment adjustment in the same levy resolution, to lift the levy 5.7%. Enrollment growth (266 → 274, special-ed on roll 27 → 43) is therefore a joint cause of the levy increase. No public document ties this to staff or program cuts beyond a small dip in the regular-instruction line (which coincides with regular on-roll falling 239 → 231) and one unexplained non-renewal.
 
 ## Confidence
 **Low**: the district's own agenda verifies the $187,345 health-benefits cap adjustment, but no document addresses cuts either way (classification is Insufficient evidence).
 
 ## Fact check
 - ✔ Health-benefits cap adjustment $187,345 "principally to pay for additional increases in benefit premiums" (page 5) and levy $6,615,520 (page 4) — verified at [Riverton BOE agenda, Apr 28, 2026](https://rivertonschool.com/wp-content/uploads/2026/06/2026.4.28-BOE-Public-Agenda-.pdf).
-- Note: the Assessment's "+31.5% / $1.04M base" is out of date. The regenerated "Our numbers" uses the revised base ($1.11M → $1.36M, +22.9%), which matches the advertised budget.
+- Note: the Assessment's "+31.5% / $1.04M base" is out of date. The regenerated "Our numbers" uses the revised base ($1.11M → $1.36M, +22.9%), which matches the advertised budget. → fixed in Assessment
 
 ## Open questions
 - Request the April 28, 2026 budget hearing presentation and readable minutes.

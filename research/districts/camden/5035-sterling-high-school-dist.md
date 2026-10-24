@@ -1,5 +1,5 @@
 # Sterling High School Dist (Camden County) — district 5035
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,8 +13,8 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [primary] State UFB: levy $7,308,254 → $7,877,995 (+7.8%); equalization aid $9,578,731 → $9,317,721; employee benefits $3,522,194 (2025-26 revised) → $4,105,730; benefits as % of salaries 31.10% → 34.89%; legal reserve $782,724 (6/30/2025) → $0 (est. 6/30/2027); on-roll est. 833 incl. 113 received students. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5035.pdf) (July 14, 2026).
-- [primary] State UFB: health/insurance shared service listed as "BCIP - SPELL JIF". [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5035.pdf).
+- [primary] State UFB: levy $7,308,254 → $7,877,995 (+7.8%); equalization aid $9,578,731 → $9,317,721; employee benefits $3,522,194 (2025-26 revised) → $4,105,730; benefits as % of salaries 31.10% → 34.89%; UFB "Legal Reserve" row $782,724 (6/30/2025) → $0 (est. 6/30/2027, a planned drawdown); on-roll est. 833 incl. 113 received students. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5035.pdf) (July 14, 2026).
+- [primary] State UFB: "Insurance Coverages and Benefits" shared services list two entries, "BCIP - SPELL JIF" and "SHIF"; SHIF (School Health Insurance Fund) is likely the employee health plan, BCIP-SPELL the property/liability pool. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5035.pdf).
 - [primary] Board materials have moved to Diligent Community / BoardDocs portals; no 2026-27 budget presentation was found on the district site. [Sterling BOE agendas & minutes page](https://www.sterling.k12.nj.us/District/board_of_education/b_o_e_meeting_agendas___minutes) (accessed Oct 24, 2026).
 - No public reporting found on staff reductions, class sizes, course/sport cuts, health-plan changes, or referendums.
 
@@ -27,12 +27,12 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## Open questions
 - Pull the spring 2026 budget hearing presentation from the Diligent portal or BoardDocs.
 - Personnel agendas for non-renewals/unfilled positions; any course or athletics reductions.
-- Health carrier and renewal rate (UFB lists BCIP-SPELL JIF).
+- Health carrier and renewal rate (UFB lists SHIF and BCIP-SPELL JIF; confirm SHIF is the health plan).
 
 ## Fact check
 - ✔ Levy $7,308,254 → $7,877,995; equalization aid $9,578,731 → $9,317,721 — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5035.pdf) (p. 2).
 - ✔ Employee benefits $3,522,194 → $4,105,730; % of salaries 31.10% → 34.89%; legal reserve $782,724 → $0 — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5035.pdf) (pp. 4, 6, 7).
-- ✔ Health benefits shared service "BCIP - SPELL JIF" — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5035.pdf) (p. 8).
+- ✔ Insurance shared services "BCIP - SPELL JIF" and "SHIF" — verified at [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_5035.pdf) (p. 8; also `shared27.csv`). An earlier draft listed only BCIP-SPELL as the health row (per independent review, SHIF is the more likely health fund).
 - Note: the Assessment previously said "benefits +16.2% (+$574K) with state aid down ~$303K (−$876K net)"; the UFB gives +16.6% (+$583,536) and our current formula-aid change is −$0.14M. Assessment corrected (net figure taken from the auto-generated section).
 
 <!-- facts: confidence=low; plan=other-JIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

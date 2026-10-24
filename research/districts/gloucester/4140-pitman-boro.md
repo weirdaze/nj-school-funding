@@ -1,5 +1,5 @@
 # Pitman Boro (Gloucester County) — district 4140
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -21,14 +21,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] The only Pitman budget news found was older: a Gloucester County Substack piece on the 2024-25 budget ($27,582,024 total, about $1.5M more than the year before) (per search snippet). [Pitman School Board Unveils Bold Plans for Future](https://gloucestercounty.substack.com/p/pitman-school-board-unveils-bold), 2024.
 
 ## Assessment
-**Insufficient evidence.** Our figures show only a modest benefit increase (+3.9%), and audited health costs fell between FY23 and FY25. State aid growth was larger than the benefit increase. Nothing in this data points to benefit-driven cuts, and no reporting on cuts was found. Students per teacher rose from 9.5 to 11.5 between 2021-22 and 2024-25, before the 2026-27 cycle.
+**Insufficient evidence.** Employee benefits rise $4.28M → $4.75M (+10.9%; +$0.47M = $4,749,416 − $4,284,295), more than the +$0.30M formula aid change, so aid does not cover the benefit increase (-$0.17M net). Audited health costs fell between FY23 and FY25 (-2.1%), and the district also budgets $0.56M less fund balance ($0.84M → $0.28M). No reporting on staff, class-size or program cuts was found, so there is no evidence either way on benefit-driven cuts. Students per teacher rose from 9.5 to 11.5 between 2021-22 and 2024-25, before the 2026-27 cycle; that ratio is not class size.
 
 ## Confidence
-**Low**: the UFB figures are verified, but nothing district-authored was found, and the Assessment's benefit figure (+3.9%) conflicts with the current Our numbers (+10.9%).
+**Low**: the UFB figures are verified, but nothing district-authored was found on cuts, health costs or cap adjustments.
 
 ## Fact check
 - ✔ Total tax levy $16,480,357 → $17,136,337; general fund $23,747,237 → $24,026,921; fund balance $844,620 → $281,524; maintenance reserve $300,000; on roll 1,168 → 1,206 — verified at [UFB27_4140](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4140.pdf) (pages 1–2). This was previously a search snippet only.
-- ✘ The Assessment says "a modest benefit increase (+3.9%)" and "State aid growth was larger than the benefit increase". The UFB shows employee benefits $4,284,295 → $4,749,416 (+10.9%, +$0.47M) at [UFB27_4140](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4140.pdf) (page 4), which exceeds the +$0.30M aid change. The Assessment text is stale. The classification (Insufficient evidence) is unchanged.
+- ✘ The Assessment says "a modest benefit increase (+3.9%)" and "State aid growth was larger than the benefit increase". The UFB shows employee benefits $4,284,295 → $4,749,416 (+10.9%, +$0.47M) at [UFB27_4140](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_4140.pdf) (page 4), which exceeds the +$0.30M aid change. The Assessment text is stale. The classification (Insufficient evidence) is unchanged. → fixed in Assessment
 
 ## Open questions
 - Did Pitman use a health-benefits or other cap adjustment to reach the about 4% levy increase? Check the UFB "Tax Levy" cap section.

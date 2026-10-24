@@ -1,5 +1,5 @@
 # Mount Ephraim Boro (Camden County) — district 3420
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -15,12 +15,12 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## What the district / local reporting says
 - [primary] State UFB: base tax levy $6,911,969 (2025-26 revised) → $7,796,267 (2026-27), +12.8%; general fund operating budget $14,104,563 → $15,310,569; on-roll enrollment est. 426 (Oct 2026). [NJDOE 2026-27 User Friendly Budget, Mount Ephraim](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3420.pdf) (generated July 14, 2026).
 - [primary] State UFB: personal services–employee benefits $2,057,388 (2025-26 revised) → $2,284,982 (2026-27); "Employee Benefits as a percentage of salaries" 40.13% (2025-26 revised) → 44.86% (2026-27). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3420.pdf) (July 14, 2026).
-- [primary] State UFB reserves: legal reserve (excess surplus) $3,204,238 (6/30/2025) → $1,619,964 (est. 6/30/2026) → $0 (est. 6/30/2027); unrestricted fund balance $454,808 → $272,485 by 6/30/2027; $500,000 capital reserve withdrawal budgeted in 2026-27. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3420.pdf) (July 14, 2026).
+- [primary] State UFB reserves: "Legal Reserve" row $3,204,238 (6/30/2025) → $1,619,964 (est. 6/30/2026) → $0 (est. 6/30/2027); unrestricted fund balance $454,808 → $272,485 by 6/30/2027; $500,000 capital reserve withdrawal budgeted in 2026-27. The $0 at 6/30/2027 reflects a planned drawdown of the legal reserve into the budget, not a district statement that reserves are exhausted. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3420.pdf) (July 14, 2026).
 - [primary] State UFB shared services: shares a business administrator with Woodlynne BOE; insurance via Burlington County Insurance Program JIF (property/casualty context; the UFB does not identify the health carrier). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_3420.pdf) (July 14, 2026).
 - No public reporting found on staff reductions, RIFs, class-size changes, program cuts, health-plan switches, cap waivers, or referendums for 2026-27. No district budget presentation or local news coverage located.
 
 ## Assessment
-**Insufficient evidence.** The levy rose 12.8% (well above the 2% cap, implying cap adjustments — likely health-benefit and/or other — but the adjustment breakdown was not found), benefits rose ~11%, and the district is spending its legal reserve down to zero, but no cuts or district statements tying anything to benefit costs were found. Our numbers match the state UFB (benefit line +$228K: $2,284,982 − $2,057,388; state aid rose more than benefits).
+**Insufficient evidence.** The levy rose 12.8% (well above the 2% cap, implying cap adjustments — likely health-benefit and/or other — but the adjustment breakdown was not found), benefits rose ~11%, and the budget plans to draw the UFB "Legal Reserve" row down to $0 by 6/30/2027 (a budgeted use, not a reported shortfall), but no cuts or district statements tying anything to benefit costs were found. Our numbers match the state UFB (benefit line +$228K: $2,284,982 − $2,057,388; NJDOE formula aid +$0.29M rose more than benefits).
 
 ## Confidence
 **Low**: insufficient evidence — UFB figures verified, but no district statements, cap-adjustment breakdown or cut reporting were found.

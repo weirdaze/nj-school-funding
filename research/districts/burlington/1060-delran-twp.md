@@ -1,5 +1,5 @@
 # Delran Twp (Burlington County) — district 1060
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -14,18 +14,19 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [primary] The district's 2026 Benefits Guide says medical coverage is provided "Through the SHIF" (School Health Insurance Fund, a joint insurance fund), "administered by Aetna and AmeriHealth Administrators". Prescription coverage is through Benecard and dental through Horizon. The guide includes a "Chapter 78 Percentage of Premium Schedule" and an "NJEHP – GSP Chapter 44 Salary Contribution Schedule", meaning NJEHP-equivalent plans are offered outside SEHBP. The broker or advocate is Conner Strong & Buckelew. [2026 Delran Township BOE Benefits Guide](https://cdnsm5-ss5.sharpschool.com/UserFiles/Servers/Server_3013589/File/Benefits/2026%20Delran%20Township%20BOE%20Benefits%20Guide.PDF), 2026 (exact date not shown in extracted text).
+- [primary] The state UFB shows employee benefits rising $11.55M (11,548,917, 2025-26 revised) → $13.17M (13,172,950, 2026-27), +$1.62M (p.4), and total state revenue (all state sources, not formula aid) rising $30.25M (30,249,500) → $32.30M (32,296,575), +$2.05M (p.2). [UFB27 1060](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1060.pdf)
 - [primary] The district's Budget Information, User Friendly Budgets, and Meeting Minutes pages load documents dynamically, and no 2026-27 budget presentation could be retrieved. [Budget Information](https://www.delranschools.org/b_o_e/budget_information), accessed 2026-10-24.
 - [snippet] No public reporting found on RIFs or layoffs, class size changes, program cuts, district statements on benefits or state aid, or referendums. Web search quota ran out during this batch, so local news was not searched for this district.
 
 ## Assessment
-**Insufficient evidence.** No public reporting of cuts was found. On our numbers the district is one of the few in this batch where the state aid increase (+$2.05M) exceeded the benefits increase (+$1.62M). It held the levy at 2%, though budgeted fund balance use doubled to $1.41M. With insurance through SHIF (a JIF) rather than SEHBP, the district is not directly exposed to the 34% SEHBP increase in January 2027.
+**Insufficient evidence.** No public reporting of cuts was found. On our numbers the district is one of the few in this batch where the formula aid increase (+$1.80M, NJDOE K-12 formula aid) exceeded the benefits increase (+$1.62M; UFB p.4, 11,548,917 → 13,172,950). Total state revenue in the UFB rises more, $30.25M → $32.30M (+$2.05M, p.2). It held the levy at 2%, though budgeted fund balance use doubled to $1.41M. With insurance through SHIF (a JIF) rather than SEHBP, the district is not directly exposed to the 34% SEHBP increase in January 2027.
 
 ## Confidence
 **Low**: insufficient evidence; only the benefits guide (plan type) is verified, and no budget narrative or news was reviewed.
 
 ## Fact check
 - ✔ Medical coverage "Through the SHIF … administered by Aetna and AmeriHealth Administrators" — verified at [2026 Benefits Guide](https://cdnsm5-ss5.sharpschool.com/UserFiles/Servers/Server_3013589/File/Benefits/2026%20Delran%20Township%20BOE%20Benefits%20Guide.PDF).
-- ✘ Assessment says the state aid increase is "+$2.05M" — differs: our numbers show +$1.80M. The benefits increase (+$1.62M; [UFB27 1060](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1060.pdf) page 4: 11,548,917 → 13,172,950) still sits below the aid gain.
+- ✘ Assessment says the state aid increase is "+$2.05M" — differs: our numbers show +$1.80M. The benefits increase (+$1.62M; [UFB27 1060](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1060.pdf) page 4: 11,548,917 → 13,172,950) still sits below the aid gain. The $2.05M is total UFB state revenue (p.2: 30,249,500 → 32,296,575), not formula aid. → fixed in Assessment
 
 ## Open questions
 - 2026-27 budget hearing presentation (BoardDocs). Any staffing changes?
@@ -33,4 +34,4 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Why did fund balance use double ($695K → $1.41M) despite the aid gain?
 - Search local news (Burlington County Times, TAPinto) once search quota is available.
 
-<!-- facts: confidence=low; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->
+<!-- facts: confidence=low; plan=SHIF; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

@@ -1,5 +1,5 @@
 # Black Horse Pike Regional (Camden County) — district 0390
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,20 +13,20 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [primary] State UFB: proposed 2026-27 local tax levy $42,139,201 vs $39,916,916 in 2025-26 (≈+5.6%); estimated enrollment 3,321 vs 3,296 (per search snippet). [NJDOE UFB27_0390](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0390.pdf), generated July 14, 2026.
-- [snippet] A June 25, 2026 board item approved NJSIG property/liability/workers' comp coverage for 2026-27 — not employee health insurance (per search snippet). [CivicIQ public contract record](https://civiciq.com/public-contract/ac4da1c3-3582-4d4a-b821-0b5c1c65cb16).
+- [primary] State UFB: proposed 2026-27 local tax levy $42,139,201 vs $39,916,916 in 2025-26 (≈+5.6%); estimated enrollment 3,321 vs 3,296 (checked against the UFB data files, see Fact check). [NJDOE UFB27_0390](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0390.pdf), generated July 14, 2026.
+- [snippet] A June 25, 2026 board item approved NJSIG property/liability/workers' comp coverage for 2026-27 — not employee health insurance (per search snippet; the page exists but is blocked for our fetch tool). [CivicIQ public contract record](https://civiciq.com/public-contract/ac4da1c3-3582-4d4a-b821-0b5c1c65cb16).
 - No public reporting found on staff reductions, class size changes, program cuts, health plan changes, employee contributions, or district commentary on state aid for 2026-27.
 
 ## Assessment
-**Insufficient evidence.** Our numbers show benefits +$1.91M (+13.2%) but state aid +$2.51M, so aid more than covered the benefit increase; the district nonetheless budgeted much more fund balance ($3.36M → $5.84M) and a 5.6% levy increase. No reporting on cuts was found.
+**Insufficient evidence.** Our numbers show benefits +$1.87M (+12.8%) but NJDOE formula aid +$2.51M, so formula aid more than covered the benefit increase; the district nonetheless budgeted much more fund balance ($3.36M → $5.84M) and a 5.6% levy increase. No reporting on cuts was found.
 
 ## Confidence
 **Low**: no reporting or district documents on cuts or health costs; only state UFB figures (verified).
 
 ## Fact check
 - ✔ Levy $42,139,201 vs $39,916,916; enrollment 3,321 vs 3,296 (full-time + special-ed on roll) — verified in [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `rev27.csv` line 114 and `enroll27.csv` (the UFB PDF itself is not text-extractable via our fetch tool; checked against the NJDOE data files that the PDF is generated from).
-- – NJSIG property/liability item (CivicIQ) — source unavailable (HTTP 403).
-- – Note: Assessment's "+$1.91M (+13.2%)" differs slightly from Our numbers (+$1.87M, +12.8%).
+- – NJSIG property/liability item (CivicIQ) — not re-verified: blocked for our fetch tool (HTTP 403), though the page exists and was retrieved by an independent reviewer.
+- – Note: Assessment's "+$1.91M (+13.2%)" differs slightly from Our numbers (+$1.87M, +12.8%). → fixed in Assessment
 
 ## Open questions
 - Obtain the 2026-27 budget hearing presentation and minutes from bhprsd.org (prior years' decks are posted there).

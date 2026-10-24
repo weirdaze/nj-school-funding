@@ -1,5 +1,5 @@
 # Woodland Twp (Burlington County) — district 5890
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -20,14 +20,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on layoffs, class sizes, program cuts, health-plan changes or state-aid commentary.
 
 ## Assessment
-**Insufficient evidence.** This is a very small (about 90-student) K-8 district. Benefits rose about $43-68K, a little more than aid (+$10K), and the levy rose 4.1%, probably using a cap adjustment. Instructional spending increased, and nothing suggests cuts. Our 2025-26 base ($524,246) differs from the UFB revised figure ($499,447).
+**Insufficient evidence.** This is a very small (about 90-student) K-8 district. Benefits rose $68K ($499,447 → $567,586, +13.6%; UFB p.3), more than formula aid (+$0.02M) or total UFB state revenue ($303,008 → $313,438, +$10K; p.2), and the levy rose 4.1%, above 2%, which implies a cap adjustment (which one is not documented). Instructional spending increased, and nothing suggests cuts.
 
 ## Confidence
 **Low**: only the state UFB is available (figures verified); no district website, minutes or press were reviewed.
 
 ## Fact check
 - ✔ Benefits $499,447 → $567,586 (page 3); levy $2,378,384 → $2,475,299 (page 2) — verified at [UFB27 5890](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_5890.pdf).
-- Note: the Assessment's base discrepancy ($524,246 vs $499,447) is resolved. The regenerated "Our numbers" uses the revised base ($0.50M → $0.57M, +13.6%).
+- Note: the Assessment's base discrepancy ($524,246 vs $499,447) is resolved. The regenerated "Our numbers" uses the revised base ($0.50M → $0.57M, +13.6%). → fixed in Assessment
 
 ## Open questions
 - Locate the district website and the 2026-27 budget hearing materials; which cap adjustments explain the 4.1% levy increase?

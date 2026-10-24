@@ -1,5 +1,5 @@
 # Phillipsburg Town (Warren County) — district 4100
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county least-squeezed._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county least-squeezed._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -15,7 +15,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [primary] Employee benefits (11-XXX-XXX-2XX): $4,763,247 actual 2024-25, $6,232,864 revised 2025-26, $7,058,328 proposed 2026-27. [NJDOE 2026-27 UFB, Phillipsburg Town](https://www.nj.gov/education/budget/ufb/2627/reports/41/UFB27_4100.pdf), p. 5 (generated July 14, 2026). The district posts the same UFB on its [Budget page](https://www.pburgsd.net/apps/pages/index.jsp?uREC_ID=1201822&type=d&pREC_ID=1441374).
-- [primary] **School-based budgeting**: the general fund contribution to school-based budgets is $51,584,262 (2025-26 revised) and $52,375,839 (2026-27), larger than the entire $37.65M general current expense shown outside it. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/41/UFB27_4100.pdf), Appropriations. Salaries and benefits of school-based staff are budgeted there, so the 11-XXX-XXX-2XX line covers only part of the district's benefits. Benefits are reported as 36.45% of salaries for 2026-27 (UFB per-pupil page).
+- [primary] **School-based budgeting**: the general fund contribution to school-based budgets is $51,584,262 (2025-26 revised) and $52,375,839 (2026-27), larger than the entire $37.65M general current expense shown outside it. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/41/UFB27_4100.pdf), Appropriations. Salaries and benefits of school-based staff are budgeted there, so the 11-XXX-XXX-2XX line covers only part of the district's benefits. Benefits are reported as 36.45% of salaries for 2025-26 (revised) and 40.85% for 2026-27 (UFB per-pupil page).
 - [primary] Revenue: levy $13,491,989 to $13,896,749; equalization aid $48,376,596 to $51,234,463; total general fund state sources $54,542,317 to $57,810,850; tuition from other districts $15,911,453 to $16,631,424; capital reserve withdrawal $5,200,000 to $2,100,000; budgeted fund balance $425,680 to $280,916. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/41/UFB27_4100.pdf), pp. 2-3.
 - [primary] Federal special revenue: Title I $1,468,432 to $1,101,324 and IDEA $1,098,534 to $691,500, so total federal projects fall by $1,038,289. [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/41/UFB27_4100.pdf), p. 3.
 - [primary] Enrollment: on-roll 3,795 (Oct 2025) to 3,928 (Oct 2026 est.). [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/41/UFB27_4100.pdf), p. 1.
@@ -24,12 +24,12 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## Verification of our numbers
 - Benefits: the UFB line's $6,232,864 to $7,058,328 matches ours (+$825,464, +13.2%). **This line is incomplete for Phillipsburg** (our benefits_line_incomplete flag) because school-based staff are budgeted in the $52.4M school-based-budget contribution. Audited FY25 health benefits ($11.95M in our ACFR data) are almost double the 2025-26 UFB benefits line. Neither the benefits share of budget nor the benefits growth rate should be used for this district. The 2025-26 revised figure is also $548,662 below the original ($6,781,526), which further distorts the percentage change.
-- State aid: the UFB shows general fund state sources up $3,268,533, which matches our formula aid and UFB state revenue change.
+- State aid: the UFB shows general fund state sources up $3,268,533, which matches our NJDOE formula aid change (+$3.27M); here formula aid and total state revenue change by the same amount.
 - Levy: +3.0%, which matches.
 - Fund balance: $425,680 and $280,916 match.
 
 ## Assessment
-**Insufficient evidence.** Phillipsburg received about $3.27M more state aid, and its levy rose 3.0%. No district statement or news coverage of cuts or health costs was found. Because of school-based budgeting, our benefits figures understate the district's true benefit costs. Calling it "least-squeezed" rests on an incomplete benefits line, although the large aid increase probably holds regardless.
+**Insufficient evidence.** Phillipsburg received about $3.27M more formula aid (total state revenue also +$3.27M), and its levy rose 3.0%. No district statement or news coverage of cuts or health costs was found. Because of school-based budgeting, our benefits figures understate the district's true benefit costs. Calling it "least-squeezed" rests on an incomplete benefits line, although the large aid increase probably holds regardless.
 
 ## Confidence
 **Low**: only the UFB was opened, district minutes were inaccessible, and our benefits measure is structurally incomplete for this district.

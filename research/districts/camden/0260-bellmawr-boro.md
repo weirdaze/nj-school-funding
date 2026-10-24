@@ -1,5 +1,5 @@
 # Bellmawr Boro (Camden County) — district 0260
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,13 +13,13 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [primary] State UFB: proposed general fund operating budget $24,801,818 vs $23,400,255 revised 2025-26; local tax levy $11,194,217 vs $10,585,507; uses $168,495 fund balance, $688,000 capital reserve and $100,000 maintenance reserve; estimated 1,149 students on roll (per search snippet). [NJDOE UFB27_0260](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0260.pdf), generated July 14, 2026.
+- [primary] State UFB: proposed general fund operating budget $24,801,818 vs $23,400,255 revised 2025-26; local tax levy $11,194,217 vs $10,585,507; uses $168,495 fund balance, $688,000 capital reserve and $100,000 maintenance reserve; estimated 1,149 students on roll (1,029 full-time + 120 special-ed; 1,140 in 2025-26) (checked against the UFB data files, see Fact check). [NJDOE UFB27_0260](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0260.pdf) (p.1 enrollment; revenue/appropriation pages), generated July 14, 2026.
 - No public reporting found on staff reductions/RIFs, class size changes, program cuts or school consolidation for 2026-27.
 - No public reporting found on the district's stated health benefit increase, plan changes, employee contributions, or use of a health-benefits cap adjustment.
 - No public reporting found on district commentary on state aid / the funding formula.
 
 ## Assessment
-**Insufficient evidence.** Our numbers show benefits +$704K (+17.8%) vs +$150K state aid and a 5.8% levy increase (above 2%, suggesting a cap adjustment), but no local reporting or district budget presentation was found describing cuts or the district's own explanation.
+**Insufficient evidence.** Our numbers show benefits +$0.70M (+17.8%) vs NJDOE formula aid +$0.10M and a 5.8% levy increase (above 2%, suggesting a cap adjustment, though none is documented), but no local reporting or district budget presentation was found describing cuts or the district's own explanation.
 
 ## Confidence
 **Low**: no district statement or reporting on cuts or health costs; only the state UFB budget figures were found (and verified).

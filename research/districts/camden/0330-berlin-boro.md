@@ -1,5 +1,5 @@
 # Berlin Boro (Camden County) — district 0330
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,13 +13,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [primary] State UFB: proposed 2026-27 local tax levy $9,458,870 vs $8,577,805 in 2025-26 (≈+10.3%) (per search snippet). [NJDOE UFB27_0330](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0330.pdf), generated July 14, 2026.
+- [primary] State UFB: proposed 2026-27 local tax levy $9,458,870 vs $8,577,805 in 2025-26 (≈+10.3%) (checked against the UFB data files, see Fact check). [NJDOE UFB27_0330](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0330.pdf), generated July 14, 2026.
+- [primary] Enrollment: UFB on-roll (full-time + special-ed) 853 (2024-25) → 936 (2025-26) → 952 projected 2026-27 (+11.6% over two years). [NJDOE UFB27_0330, p.1](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0330.pdf) (also [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `enroll27.csv` lines 11, 21).
 - No public reporting found on staff reductions, class size changes, program cuts for 2026-27.
 - No public reporting found on the district's stated health benefit increase, plan changes, employee contributions, or cap adjustments (searches mostly returned Berlin Twp NJ, Berlin NY/CT/NH).
 - No public reporting found on district commentary on state aid / the funding formula.
 
 ## Assessment
-**Insufficient evidence.** Our numbers show one of the sharpest squeezes in the batch — benefits +$858K (+35.5%) while state aid fell $83K — paired with a ~10% levy increase, which implies heavy use of the health-benefits cap adjustment and/or banked cap. No reporting on cuts or the district's explanation was found.
+**Insufficient evidence.** Our numbers show one of the sharpest squeezes in the batch — benefits +$858K (+35.5%) while NJDOE formula aid fell $0.08M — paired with a ~10% levy increase, which suggests cap adjustments (health-benefits, enrollment and/or banked cap; none documented). Enrollment growth is a joint pressure: on-roll rose 853 → 936 → 952 (2024-25 → 2026-27), so part of the cost and levy growth may reflect added students and staff rather than benefit rates alone. No reporting on cuts or the district's explanation was found.
 
 ## Confidence
 **Low**: no district statement or reporting found; only the levy figure (verified in state UFB data).
@@ -28,7 +29,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - ✔ Levy $9,458,870 vs $8,577,805 (+10.3%) — verified in [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) `rev27.csv` line 114 (the UFB PDF itself is not text-extractable via our fetch tool; checked against the NJDOE data files that the PDF is generated from). Benefits $2,416,486 → $3,274,169 (+$858K) also confirmed in `approp27.csv` line 71260.
 
 ## Open questions
-- Obtain Berlin Borough (Berlin Community School) 2026-27 budget presentation and board minutes; confirm cap adjustments used for the ~10% levy rise.
+- Obtain Berlin Borough (Berlin Community School) 2026-27 budget presentation and board minutes; confirm which cap adjustments (health-benefits, enrollment, banked cap) were used for the ~10% levy rise.
 - Verify the +35.5% benefits line (unusually large vs audited health growth of +10.4% FY23→FY25) — check for reclassification or a plan change.
 
 <!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->

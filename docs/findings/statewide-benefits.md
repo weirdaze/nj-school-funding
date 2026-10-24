@@ -59,18 +59,18 @@ statewide benefit and aid totals from the raw state files._
 9. **What districts actually did: 171 district profiles** ([index and evidence table](../../research/districts/README.md)).
    Every Burlington, Camden and Gloucester district plus 65 elsewhere (each county's most- and least-squeezed and median
    district, and the 16 largest statewide gaps). **The sample is not random and over-samples large benefit increases, so
-   don't extrapolate these counts statewide.** Four rounds of independent adversarial review checked the High/Medium
-   profiles against their cited sources; the counts below are after those corrections.
+   don't extrapolate these counts statewide.** Five rounds of independent adversarial review checked every
+   profile against its cited sources; the counts below are after those corrections.
    - **2 Confirmed** (both High confidence): the district itself names health costs as a cause of its cuts. Piscataway
      (44.5 FTE eliminated, 23 net of additions, mostly by attrition; its budget book attributes them to "the loss of state
      aid, reduction in fund balance, and large increases in health care costs", and it also cites falling enrollment) and
      Livingston (40 positions in the preliminary budget; a 33% premium increase is "the primary driver").
-   - **32 Consistent**: cuts made, with benefits as one of several stated factors (state aid, enrollment, salaries,
+   - **33 Consistent**: cuts made, with benefits as one of several stated factors (state aid, enrollment, salaries,
      tuition, one-time revenue). Examples at High confidence: Bloomfield (24 positions), Franklin Twp, Gloucester (19
      positions incl. 13 teaching), Robbinsville (15 positions), Somers Point (11 positions), Evesham (7 elementary
      teaching positions left unfilled). Six profiles first rated Confirmed (Bloomfield, Evesham, Haddonfield, Somers
      Point, Cherry Hill, Tewksbury) were downgraded in review because the districts give several causes.
-   - **50 No cuts reported**, **87 Insufficient evidence** (no usable public documents, documents that don't tie
+   - **50 No cuts reported**, **86 Insufficient evidence** (no usable public documents, documents that don't tie
      anything to health, or proposals that were not adopted).
    - **Health-care cost cap adjustments:** see the index for how many profiled districts documented one and the sum of
      the documented amounts, which mixes adopted, tentative and news-reported figures.

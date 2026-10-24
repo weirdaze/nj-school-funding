@@ -1,5 +1,5 @@
 # Irvington Township (Essex County) — district 2330
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county least-squeezed._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list). Sample: county least-squeezed._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -22,20 +22,20 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on 2026-27 staff reductions, layoffs, class sizes, program cuts, health plan or health renewal rates. (Search results for "Irvington" budget presentations are for Irvington UFSD in New York, a different district, and were not used.)
 
 ## Verification of our numbers
-- Benefits $16,773,690 → $12,258,313 (-26.9%): **matches** UFB p. 4 mechanically, but it is **misleading**. The 2025-26 *original* budget was $11,473,318, so the revised figure was raised ~$5.3M mid-year (likely transfers). Against the original budget, 2026-27 is +6.8%. Audited FY25 health costs ($23.66M) far exceed this line, consistent with benefits also sitting in school-based budgets.
-- State aid +$10,755,540: **match** UFB total state revenue.
+- Benefits $16,773,690 → $12,258,313 (-26.9%): **matches** UFB p. 4 mechanically, but it is likely **misleading**. A 2025-26 *original* figure of $11,473,318 was cited earlier, but it does not appear in the 2026-27 UFB (which shows 2025-26 revised only) and is unverified (per independent review). The p. 8 benefits-to-salaries ratio (30.60% original vs 35.70% revised) does indicate a large mid-year upward revision, so the -26.9% is probably an artifact of that revision. Audited FY25 health costs ($23.66M) far exceed this line, consistent with benefits also sitting in school-based budgets.
+- Formula aid +$10.76M: **match** UFB total state revenue change (+$10,755,540); here the two definitions coincide.
 - Levy 0.0%: **match** (flat $17,459,529).
 - Fund balance $37,756,753 → $26,479,519: **match**.
 
 ## Assessment
-**Insufficient evidence.** Irvington is overwhelmingly state-funded. It receives a $10.8M aid increase, keeps its levy flat, and still relies on $26.5M of budgeted fund balance (down from $37.8M), while charter transfers rise $5M. No public reporting of cuts or health-cost commentary was found, and our benefits decline is an artifact of a mid-year revision.
+**Insufficient evidence.** Irvington is overwhelmingly state-funded. It receives a $10.8M formula aid increase, keeps its levy flat, and still relies on $26.5M of budgeted fund balance (down from $37.8M), while charter transfers rise $5M. No public reporting of cuts or health-cost commentary was found, and our benefits decline is probably an artifact of a mid-year revision (the size of that revision is unverified).
 
 ## Confidence
 **Low**: UFB numbers reconcile mechanically, but the benefits line is structurally incomplete and no district narrative or news was found.
 
 ## Open questions
-- Why was the 2025-26 benefits budget revised up ~$5.3M mid-year?
+- Why was the 2025-26 benefits budget revised up mid-year, and by how much (the 2025-26 original figure needs the 2025-26 UFB)?
 - How will the district replace the shrinking fund-balance draw ($37.8M → $26.5M) in future years?
 - Which health plan does Irvington use?
 
-<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=none; banked_cap_used=none; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=no; our_aid_match=yes -->
+<!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=no; our_aid_match=yes -->

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Consistency checks for research/districts/*/*.md; writes docs/profile-lint.md.
 
-  L1  Assessment/Confidence figures ($ amounts, percentages) that appear nowhere else in the profile:
+  L1  Assessment/Confidence figures ($ amounts, percentages) that appear nowhere else in the profile (lines marked ✘
+      in a Fact check don't count, since they record figures already found to be wrong):
       usually stale numbers left over from an earlier baseline. Each needs a source in the profile body or removal.
   L2  Confidence heading vs facts-line confidence disagree.
   L3  Missing classification, confidence or facts line.
@@ -42,6 +43,8 @@ def main():
         rel = p.relative_to(DIR)
         judged = section(t, "Assessment") + section(t, "Confidence")
         rest = t.replace(section(t, "Assessment"), "").replace(section(t, "Confidence"), "")
+        # a figure that appears only in a Fact-check line marked ✘ (i.e. already known to be wrong) is not "sourced"
+        rest = "\n".join(l for l in rest.splitlines() if "✘" not in l)
         known = set()
         for x in FIG.findall(rest) + ["$" + n for n in re.findall(r"(?<![\d$.,])\d{1,3}(?:,\d{3})+(?![\d,])", rest)]:
             known |= norm(x)  # also bare numbers like "4,220,162" quoted from slides

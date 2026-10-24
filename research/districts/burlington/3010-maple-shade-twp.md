@@ -1,5 +1,5 @@
 # Maple Shade Twp (Burlington County) — district 3010
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,14 +19,14 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [news] No public reporting found on staff reductions, class sizes, program cuts, or district statements on health insurance. The district website (mapleshade.org) returned a bot-check page. A March 31, 2026 Inquirer roundup of South Jersey cuts (Cherry Hill, Collingswood, Washington Twp) does not mention Maple Shade. [Inquirer, March 31, 2026](https://www.inquirer.com/education/south-jersey-school-districts-budget-cuts-taxes-20260331.html)
 
 ## Assessment
-**Insufficient evidence.** Maple Shade faces the worst combination in this batch: state aid falls by $644K while benefits rise by $1.67M, a $2.3M squeeze. It also has the highest benefits-to-salary ratio (45.5%). No reporting of cuts was found, though. Enrollment is falling about 7%, so any staffing reductions could be attributed to enrollment as much as to benefits.
+**Insufficient evidence.** Maple Shade faces one of the sharpest squeezes in this batch: formula aid falls by $0.64M (total UFB state revenue falls by a similar $644K) while benefits rise by $2.03M ($12.11M → $14.14M, +16.7%; UFB p.4), a squeeze of about $2.7M. Its benefits-to-salary ratio rises to 45.5% (UFB p.7), high but not the highest statewide. No reporting of cuts was found, though. Enrollment is falling about 7%, so any staffing reductions could be attributed to enrollment as much as to benefits.
 
 ## Confidence
-**Low**: the UFB figures are verified, but there is no district statement on cuts, and the Assessment's $1.67M benefits increase understates the verified $2.03M.
+**Low**: the UFB figures are verified, but there is no district statement on cuts.
 
 ## Fact check
 - ✔ Benefits as a percentage of salaries 39.30% → 45.50%, SHIF coverage, levy $29,476,287 → $30,894,004: verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=7) (p. 7), [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=8) (p. 8) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=2) (p. 2).
-- ✘ Assessment's "benefits rise by $1.67M" differs. The UFB shows $12,114,013 → $14,139,999 (+$2.03M, +16.7%, matching our numbers) at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=4) (p. 4), so the squeeze is about $2.7M, not $2.3M.
+- ✘ Assessment's "benefits rise by $1.67M" differs. The UFB shows $12,114,013 → $14,139,999 (+$2.03M, +16.7%, matching our numbers) at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_3010.pdf#page=4) (p. 4), so the squeeze is about $2.7M, not $2.3M. → fixed in Assessment
 
 ## Open questions
 - Request the 2026-27 budget hearing presentation and spring 2026 RIF/non-renewal resolutions from the Maple Shade BOE.

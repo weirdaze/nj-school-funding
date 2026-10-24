@@ -1,5 +1,5 @@
 # Woodbury Heights Boro (Gloucester County) — district 5870
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -19,6 +19,8 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
   - Budgeted fund balance: $648,451 → $665,456
   - Employee benefits: $941,894 (2025-26 revised) → $1,030,580
   - Regular instruction: $1,668,294 → $1,702,368; special education instruction: $785,931 → $723,048 (-$62,883)
+  - Tuition paid to other districts (Undistributed Expenditures-Instruction (Tuition)): $377,714 → $142,464 (p. 4)
+  - Total General Current Expense: $5,548,774 → $5,456,157 (p. 4)
   - On-roll enrollment: 234 → 241 (estimated)
 
   [UFB27 5870](https://www.nj.gov/education/budget/ufb/2627/reports/15/UFB27_5870.pdf), generated 2026-07-14.
@@ -26,7 +28,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on staff reductions, class sizes, program cuts, health plan changes, cap waivers, or district statements on state aid. The district website could not be located, and the session's web search limit ran out, so local news and board minutes were **not checked**.
 
 ## Assessment
-**Insufficient evidence.** State aid fell slightly, and benefits rose about $89–92K. The gap was covered by a 2% levy increase and a continued large fund balance draw ($648,451 → $665,456), not by visible instructional cuts. Regular instruction grew. The special education instruction decline (-$63K) has no stated cause. Our figures now use the UFB revised base ($941,894) and match it exactly.
+**Insufficient evidence.** K-12 formula aid fell $0.04M, and benefits rose about $89K ($1,030,580 − $941,894). But tuition paid to other districts falls by about $235K ($377,714 → $142,464), so total general current expense falls ($5.55M → $5.46M) and there is no overall budget gap to explain; the levy rises 2.0% and budgeted fund balance is about level ($648,451 → $665,456). Regular instruction grew. The special education instruction decline (-$63K) has no stated cause; special-ed on-roll falls from 34 to 18 (estimated) in the same UFB (p. 1). Our figures use the UFB revised base ($941,894) and match it exactly.
 
 ## Confidence
 **Low**: no district documents, minutes, or local news were checked. Only the state UFB was checked, and it matches our numbers.
@@ -37,7 +39,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## Open questions
 - Is the decline in special education instruction a staffing change or a change in student placements?
-- Is a fund balance draw of about $650K per year sustainable? Check FY25/FY26 ACFR unassigned balance.
+- Is budgeted fund balance of about $650K per year sustainable? Check FY25/FY26 ACFR unassigned balance.
 - Find the spring 2026 budget hearing minutes.
 
 <!-- facts: confidence=low; plan=unknown; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=yes; our_aid_match=unknown -->

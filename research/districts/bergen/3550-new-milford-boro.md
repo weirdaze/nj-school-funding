@@ -1,5 +1,5 @@
 # New Milford Boro (Bergen County) — district 3550
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list). Sample: county most-squeezed (% of budget)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list). Sample: county most-squeezed (% of budget)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -15,7 +15,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 ## What the district / local reporting says
 - [primary] The district's "2026-2027 Budget" link points to its advertised UFB (generated May 12, 2026), not a narrative presentation. Employee benefits $9,157,012 (2024-25 actual) → $11,223,580 (2025-26 revised) → $14,485,132 (2026-27 proposed), p. 4; benefits as % of salaries 41.50% → 53.77%, p. 7; levy $40,476,503 → $43,724,791, p. 2; total state revenue $4,798,956 → $4,675,227, p. 2; budgeted fund balance $1,503,917 → $958,561 plus $2,000,000 capital reserve withdrawal each year, p. 2; legal reserve drawn from $2,140,000 (6/30/25) toward $0 (6/30/27 est.), p. 6. [New Milford Public Schools, 2026-2027 Budget (UFB)](https://drive.google.com/file/d/1Ejn1Cpot-upJ1ttERwzDm88saStCOgRi/view?usp=sharing), linked from [nmpsd.org](https://www.nmpsd.org/central-office/business-and-finance/2026-2027-budget); same figures in the [NJDOE UFB](https://www.nj.gov/education/budget/ufb/2627/reports/03/UFB27_3550.pdf) (July 14, 2026).
 - [primary] Selected appropriation changes 2025-26 revised → 2026-27 (UFB p. 4): regular instruction $11,174,659 → $10,911,898 (-2.3%); athletics $773,832 → $672,042; library/media $467,912 → $403,013; staff training $543,532 → $376,557; attendance/social work $165,646 → $34,150; special education instruction $5,521,996 → $6,111,213 (+10.7%); out-of-district tuition $2,736,388 → $1,665,956. These are budget lines, not documented staff cuts.
-- [primary] Enrollment on roll 2,000 (Oct. 2025) → 2,185 (Oct. 2026 estimate), UFB p. 1. This could support an enrollment cap adjustment.
+- [primary] Enrollment on roll 2,000 (Oct. 2025) → 2,185 (Oct. 2026 estimate, +9%), with special-education on roll 343 → 402 (per independent review), [UFB p. 1](https://www.nj.gov/education/budget/ufb/2627/reports/03/UFB27_3550.pdf). This could support an enrollment cap adjustment and is a cost driver alongside benefits (special-education instruction +10.7%).
 - No public reporting found on 2026-27 staff reductions, class sizes, health cost commentary, health care cap adjustment or banked cap. Note: many search results for "New Milford" budget presentations (newmilfordps.org, CIRMA, "State Partnership Plan") are New Milford, **Connecticut**, a different district.
 
 ## Verification of our numbers
@@ -25,7 +25,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance $1,503,917 → $958,561: **match** UFB p. 2.
 
 ## Assessment
-**Insufficient evidence.** New Milford has one of the largest benefit increases in the sample (+$3.26M, +29%, pushing benefits to 53.8% of salaries) against falling state aid, and it raised the levy 8%. Regular instruction, athletics, library and staff-training lines fall, but no district narrative or news confirms staff cuts or ties them to benefits.
+**Insufficient evidence.** New Milford has one of the largest benefit increases in the sample (+$3.26M, +29%, pushing benefits to 53.8% of salaries) against falling formula aid (-$0.12M), and it raised the levy 8%. Enrollment growth (2,000 → 2,185 est., special education 343 → 402) is a joint cost driver. Regular instruction, athletics, library and staff-training lines fall, but no district narrative or news confirms staff cuts or ties them to benefits.
 
 ## Confidence
 **Low**: only UFB data (district-posted and state) were found; no presentation, minutes or news.

@@ -1,5 +1,5 @@
 # Hainesport Twp (Burlington County) — district 1910
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,22 +13,22 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [primary] The state User-Friendly Budget (UFB) lists the general fund levy at $9,671,688 (2024-25), $10,412,411 (2025-26 revised), and $11,330,858 (2026-27 proposed). Total state aid is $892,662 → $960,440. Equalization aid dropped from $91,090 in 2024-25 to $0 in both 2025-26 and 2026-27. [UFB27 Hainesport Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf) (generated July 14, 2026)
+- [primary] The state User-Friendly Budget (UFB) lists the general fund levy at $9,671,688 (2024-25), $10,412,411 (2025-26 revised), and $11,330,858 (2026-27 proposed). Total state revenue (all UFB state sources, not formula aid) is $892,662 → $960,440. Equalization aid dropped from $91,090 in 2024-25 to $0 in both 2025-26 and 2026-27. [UFB27 Hainesport Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf) (generated July 14, 2026)
 - [primary] Enrollment is growing. On-roll students were 521 (Oct 2024) and 539 (Oct 2025), with 583 estimated for Oct 2026 (+8%). Special-ed on roll goes from 97 to 108. The UFB also shows 27 pupils "sent to contracted preschool" in Oct 2025 and 0 estimated for Oct 2026. [UFB27 Hainesport Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf)
 - [primary] Employee benefits as a percentage of salaries are 30.44% in the 2025-26 revised budget and 37.87% in the 2026-27 proposed budget. Classroom salaries and benefits per pupil are $11,059 → $11,395. Under shared services, health coverage is listed as "Public Employees Health Insurance Trust" (not SEHBP). [UFB27 Hainesport Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf)
-- [primary] Unrestricted general fund balance goes from $420,836 (6/30/2024) to $344,634 (6/30/2025), with $250,000 estimated for 2026 and 2027. [UFB27 Hainesport Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf)
-- [snippet] No public reporting found on staff reductions, class size changes, program cuts, or district statements about health insurance costs. No 2026-27 budget presentation was found online. A website-monitoring page only notes that a 2025-26 budget presentation and a 2026-27 calendar were posted. [Visualping Hainesport alerts](https://visualping.io/pages/hainesport-township-school-district-new-jersey-latest-news-alerts-4940808) (accessed 2026-10-24)
+- [primary] Unrestricted general fund balance goes from $420,836 (6/30/2024) to $344,634 (6/30/2025), with $250,000 estimated for 2026 and 2027. The Legal Reserve goes 809,859 (6/30/2025) → 155,476 (6/30/2026) → 0 (6/30/2027), a planned drawdown that matches the 2026-27 budgeted fund balance of 155,476 (down from 681,228). [UFB27 Hainesport Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf#page=6) (p. 6; budgeted fund balance p. 2)
+- [snippet] No public reporting found on staff reductions, class size changes, program cuts, or district statements about health insurance costs. No 2026-27 budget presentation was found online. (An earlier version cited a Visualping monitoring page as noting a posted 2025-26 budget presentation; per independent review the page does not contain that, so the claim is removed; not re-verified.)
 
 ## Assessment
-**Insufficient evidence.** Benefits rise 28.5% and fund balance is nearly exhausted, but enrollment growth of 8% plausibly accounts for part of the 8.8% levy increase through an enrollment cap adjustment. There is no reporting of cuts. The size of the jump is partly a base effect: benefits as a percentage of salaries were 30.4% in 2025-26 revised and 37.9% in 2026-27 proposed.
+**Insufficient evidence.** Benefits rise 29.1% ($1.83M → $2.36M) against a $0.07M rise in total UFB state revenue, and the budget draws the last $155K of the legal reserve as planned (unrestricted balance is held at $250K), but enrollment growth of 8% plausibly accounts for part of the 8.8% levy increase through an enrollment cap adjustment. There is no reporting of cuts. The size of the jump is partly a base effect: benefits as a percentage of salaries were 30.4% in 2025-26 revised and 37.9% in 2026-27 proposed.
 
 ## Confidence
-**Low**: the UFB figures are verified, but there is no district statement on cuts or health costs. The only other source is a website-monitoring aggregator.
+**Low**: the UFB figures are verified, but there is no district statement on cuts or health costs. No other source was found.
 
 ## Fact check
 - ✔ Benefits as a percentage of salaries 30.44% → 37.87% and coverage via "Public Employees Health Insurance Trust": verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf#page=7) (p. 7) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf#page=8) (p. 8).
 - ✔ Enrollment 521 → 539 → 583 (est.): verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf#page=1) (p. 1).
-- ✘ Assessment's "Benefits rise 28.5%" differs slightly. The UFB shows $1,831,037 → $2,364,747 (+29.1%, matching our numbers) at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf#page=4) (p. 4).
+- ✘ Assessment's "Benefits rise 28.5%" differs slightly. The UFB shows $1,831,037 → $2,364,747 (+29.1%, matching our numbers) at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1910.pdf#page=4) (p. 4). → fixed in Assessment
 
 ## Open questions
 - Get the 2026-27 budget hearing presentation from the Hainesport BOE. Did it use the health care and/or enrollment cap adjustments?

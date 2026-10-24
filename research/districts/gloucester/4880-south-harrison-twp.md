@@ -1,5 +1,5 @@
 # South Harrison Twp (Gloucester County) — district 4880
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -20,7 +20,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - No public reporting found on cap waivers, a referendum, or district comment on state aid or fair funding.
 
 ## Assessment
-**Insufficient evidence.** The benefit increase in our data is +12.6% (about $99K; corrected 2026-10-24 from an earlier "+3.5%, about $30K" that used a different base), and the levy rose only 2%. No local reporting or district documents on cuts turned up. Students per teacher fell from 12.2 to 9.4, which does not point to larger classes.
+**Insufficient evidence.** The benefit increase in our data is +12.6% (about $99K, $783,120 → $882,120; an earlier figure that used a different base was corrected, see Fact check), and the levy rose only 2%. No local reporting or district documents on cuts turned up. No class-size data were found (the TGES students-per-teacher ratio in Our numbers is not a class-size measure).
 
 ## Confidence
 **Low**: no district documents or local reporting found; only the state UFB was checked, and it matches our numbers.

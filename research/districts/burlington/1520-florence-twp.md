@@ -1,5 +1,5 @@
 # Florence Twp (Burlington County) — district 1520
-_Researched 2026-10-24. In SEHBP: no (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: no (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -13,7 +13,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - **In SEHBP**: no per the [October 2026 participating-employer list](https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) (name-matched).
 
 ## What the district / local reporting says
-- [primary] State User-Friendly Budget (UFB) lists the general fund levy at $19,080,889 (2024-25), $22,588,333 (2025-26 revised; +18.4%), and $24,159,685 (2026-27 proposed; +7.0%). Total state aid goes from $13,541,635 to $14,504,714, mostly equalization aid ($9,748,426 → $10,654,955). [UFB27 Florence Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf) (generated July 14, 2026)
+- [primary] State User-Friendly Budget (UFB) lists the general fund levy at $19,080,889 (2024-25), $22,588,333 (2025-26 revised; +18.4%), and $24,159,685 (2026-27 proposed; +7.0%). Total state revenue (all UFB state sources, not formula aid) goes from $13,541,635 to $14,504,714, mostly equalization aid ($9,748,426 → $10,654,955). [UFB27 Florence Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf) (generated July 14, 2026)
 - [primary] Under shared services, the UFB lists health coverage through "SHIF - School Health Insurance Fund", a joint insurance fund rather than SEHBP. The same document shows employee benefits as a percentage of salaries at 29.48% in the 2025-26 revised budget and 36.42% proposed for 2026-27. Out-of-district special-ed placements are projected to rise from 20 to 37, and the legal reserve ($2,252,473 at 6/30/2024) runs down to $0 by 6/30/2026. [UFB27 Florence Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf) (July 14, 2026)
 - [primary] Classroom salaries and benefits per pupil rise from $10,250 (2025-26 revised) to $13,301 (2026-27 proposed), according to the UFB per-pupil table. That does not point to classroom staff cuts. [UFB27 Florence Twp](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf)
 - [snippet] No public reporting found on staff reductions, RIFs, class size, or program cuts for 2026-27.
@@ -21,15 +21,15 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - [snippet] No public reporting found on the district's own statements about health insurance costs, cap waivers, or referendums.
 
 ## Assessment
-**Insufficient evidence.** The benefit line rises by +32%, the largest increase in this batch, and the levy rises 7%, above the 2% cap, which suggests a health-care or other cap adjustment. However, no district or press statement ties this to cuts. The UFB's per-pupil classroom salary figure goes up, not down. The +32% partly reflects a low 2025-26 base: the UFB shows benefits as a percentage of salaries dropping to 29.5% in 2025-26 revised before jumping back to 36.4%.
+**Insufficient evidence.** The benefit line rises by +45.9% ($5.30M → $7.73M; UFB p.4), against a +$0.79M formula aid gain, and the levy rises 7%, above the 2% cap, which suggests a health-care or other cap adjustment. However, no district or press statement ties this to cuts. The UFB's per-pupil classroom salary figure goes up, not down. The jump partly reflects a low 2025-26 base: the UFB shows benefits as a percentage of salaries dropping to 29.5% in 2025-26 revised before jumping back to 36.4%.
 
 ## Confidence
-**Low**: the UFB figures are verified, but no district or press statement links benefits to cuts, and the Assessment's +32% understates the verified benefits increase (+45.9%).
+**Low**: the UFB figures are verified, but no district or press statement links benefits to cuts.
 
 ## Fact check
 - ✔ Benefits as a percentage of salaries 29.48% → 36.42% and health coverage through "SHIF - School Health Insurance Fund": verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf#page=8) (p. 8) and [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf#page=10) (p. 10).
 - ✔ General fund levy $22,588,333 → $24,159,685: verified at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf#page=2) (p. 2).
-- ✘ Assessment's "benefit line rises by +32%" differs from the source. The UFB shows Personal Services–Employee Benefits of $5,296,303 → $7,729,491 (+45.9%, matching our numbers) at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf#page=4) (p. 4).
+- ✘ Assessment's "benefit line rises by +32%" differs from the source. The UFB shows Personal Services–Employee Benefits of $5,296,303 → $7,729,491 (+45.9%, matching our numbers) at [UFB27](https://www.nj.gov/education/budget/ufb/2627/reports/05/UFB27_1520.pdf#page=4) (p. 4). → fixed in Assessment
 
 ## Open questions
 - Request the 2026-27 budget hearing presentation and staffing changes from the Florence Twp BOE (the actual NJ district site, not florence.schoolboard.net, which is South Carolina).

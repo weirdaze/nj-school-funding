@@ -1,5 +1,5 @@
 # Camden County Vocational (Camden County) — district 0700
-_Researched 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
+_Researched 2026-10-24; revised after adversarial review 2026-10-24. In SEHBP: yes (per Oct 2026 list)._
 
 ## Our numbers
 _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_profiles.py`; every figure links to its public source. Baseline is the 2025-26 **revised** budget; state aid is NJDOE K-12 formula aid (FY26 → FY27)._
@@ -15,22 +15,22 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 
 ## What the district / local reporting says
 - [news] SEHBP: "Camden County Technical Schools" listed among South Jersey entities in the state plan facing the ~34.4% increase from Jan. 2027. [Philadelphia Inquirer, SEHBP 2027 premium article](https://www.inquirer.com/politics/health-care-premiums-nj-school-employees-2027-20260929.html), Sept. 29, 2026.
-- [primary] State UFB: county tax levy flat at $11,146,033 for three years; general current expense ≈$55.4M vs ≈$49.7M revised 2025-26; tuition from LEAs ≈$7.3M vs ≈$1.2M; 2,226 projected on roll (per search snippet). [NJDOE UFB27_0700](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0700.pdf), generated July 14, 2026.
+- [primary] State UFB: county tax levy flat at $11,146,033 for three years; general current expense ≈$55.4M vs ≈$49.7M revised 2025-26; tuition from LEAs ≈$7.3M vs ≈$1.2M; 2,226 projected on roll (checked against the UFB data files, see Fact check). [NJDOE UFB27_0700](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0700.pdf), generated July 14, 2026.
 - No public reporting found on staff reductions, program cuts, class sizes, or district statements on health costs.
 
 ## Assessment
-**Insufficient evidence.** Our numbers show the largest benefit jump in the batch (+$4.22M, +47.8%) against +$1.91M state aid, with a flat county levy and fund balance use of $4.76M; the gap appears to be filled partly by a large rise in tuition revenue (≈$1.2M → ≈$7.3M). No reporting on cuts was found.
+**Insufficient evidence.** Our numbers show benefits +$2.34M (+21.9%, $10,702,119 → $13,044,265 on the revised 2025-26 base, [UFB](https://www.nj.gov/education/budget/ufb/2627/reports/07/UFB27_0700.pdf) `approp27.csv` line 71260; +47.8% only against the original 2025-26 budget of $8.82M) against NJDOE formula aid +$1.91M, with a flat county levy and fund balance use of $4.76M; the gap appears to be filled partly by a large rise in tuition revenue (≈$1.2M → ≈$7.3M). No reporting on cuts was found.
 
 ## Confidence
-**Low**: no reporting on cuts, and the Assessment's benefit figure (+47.8%) doesn't reconcile with Our numbers (+21.9%), with no explanation.
+**Low**: no reporting on cuts or district statements on health costs; only state UFB figures verified.
 
 ## Fact check
 - ✔ "Camden County Technical Schools" named in the SEHBP 34.4% increase group — verified at [Philadelphia Inquirer, Sept. 29, 2026](https://www.inquirer.com/politics/health-care-premiums-nj-school-employees-2027-20260929.html).
 - ✔ Levy flat at $11,146,033 for three years; general current expense $55,445,225 vs $49,722,682; tuition from LEAs $7,346,962 vs $1,207,575; 2,226 projected (2,003 full + 223 special-ed) — verified in [UFB data files](https://www.nj.gov/education/budget/ufb/2627/index.shtml) (the UFB PDF itself is not text-extractable via our fetch tool; checked against the NJDOE data files that the PDF is generated from). Note: FY2024-25 actual tuition was $6,455,609, so the 2025-26 figure ($1.2M) is the outlier, not the 2026-27 one.
-- ✘ Assessment's "+$4.22M (+47.8%)" benefit jump — differs from Our numbers: $10.70M → $13.04M (+$2.34M, +21.9%) on the 2025-26 revised baseline (UFB `approp27.csv` 71260). Even against FY25 actual ($9.10M) the rise is +43%, not +47.8%.
+- ✘ Assessment's "+$4.22M (+47.8%)" benefit jump — differs from Our numbers: $10.70M → $13.04M (+$2.34M, +21.9%) on the 2025-26 revised baseline (UFB `approp27.csv` 71260). Even against FY25 actual ($9.10M) the rise is +43%, not +47.8%. → fixed in Assessment
 
 ## Open questions
-- Verify the +47.8% benefits line — far above audited health growth (+29.2% FY23→FY25); possible reclassification or anticipation of the Jan. 2027 SEHBP increase.
+- Why the 2025-26 benefits budget was revised +21% mid-year ($8.82M → $10.70M), and whether the 2026-27 line (+21.9% on that base) anticipates the Jan. 2027 SEHBP increase.
 - Confirm the tuition revenue jump (possible reporting change) and whether the county freeze on the levy shifted costs to sending districts.
 
 <!-- facts: confidence=low; plan=SEHBP; health_increase_pct=unknown; health_cap_adjustment=unknown; banked_cap_used=unknown; positions_cut=unknown; teacher_positions_cut=unknown; class_size_increase=unknown; our_benefits_match=unknown; our_aid_match=unknown -->
