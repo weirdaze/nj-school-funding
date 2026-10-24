@@ -35,7 +35,7 @@ fetch stateaid/ear  "$NJ/education/stateaid/docs/ear/EAR_FY2026_AppendixB.xlsx"
 # Stage 4: district budgets (User-Friendly Budget)
 for yy in 21 22 23 24 25 26 27; do
   prev=$(printf '%02d' $((10#$yy - 1)))
-  for f in rev approp esttax recap pupcst enroll; do
+  for f in rev approp esttax recap pupcst enroll employees; do
     # 2024-25 files carry an odd "_minus_1" suffix on the NJDOE site
     sfx=""; [[ $yy == 25 ]] && sfx="_minus_1"
     fetch "ufb/$prev$yy" "$NJ/education/budget/ufb/$prev$yy/download/$f$yy$sfx.csv"

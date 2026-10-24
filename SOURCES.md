@@ -35,7 +35,9 @@ Legend: 📊 machine-readable (CSV/XLSX), 📄 PDF only, 🔗 index page
 | FY2027 Appropriations Handbook (enacted) 📄 | The **enacted** appropriations act, which is what actually passed | https://www.nj.gov/treasury/omb/publications/27approp/FY2027AppropriationsHandbook-Full.pdf |
 | OLS: Analysis of DOE budget FY2027 📄 | Office of Legislative Services analysis of the DOE budget. Explains the aid formula changes, including the FY26+ caps (increases capped at 6%, decreases at 3%) | https://pub.njleg.state.nj.us/publications/budget/governors-budget/2027/doe_analysis_2027.pdf |
 | NJ Comprehensive Annual Financial Report (ACFR) 📄 | Actual (audited) state spending, which may differ from what was appropriated | https://www.nj.gov/treasury/omb/publications/25fr/NJFY2025Complete.pdf |
-| YourMoney.NJ.gov 📊 | State transparency portal with actual spending and payments | https://www.yourmoney.nj.gov/ |
+| YourMoney.NJ.gov 📊 | State transparency portal with actual spending, revenue, payroll, pensions, and vendor payments | https://www.yourmoney.nj.gov/ |
+| NJ Report Card 🔗 | State transparency dashboard launched 2026-04-23: appropriations by program, including a K-12 summary, plus 10-year spending and revenue trends. Returns 403 to scripts, so use a browser or the scraper. | https://reportcard.nj.gov/ |
+| NJBudget.com (Garden State Initiative) 🔗 | Independent tracker of legislative "budget additions" (earmarks) by county, municipality, and recipient. Advocacy source; treat as analysis. | https://njbudget.com/ |
 
 ---
 
@@ -59,7 +61,8 @@ The School Funding Reform Act of 2008 (P.L.2007, c.260, N.J.S.A. 18A:7F-43 et se
 ## Stage 4: The district budgets (revenue = state aid + local levy + federal + other)
 | Source | What it gives you | Link |
 |---|---|---|
-| **User-Friendly Budget (UFB) data** 📊 | **The key file.** CSVs for every district: `rev27.csv` (revenues, **including the local tax levy**), `approp27.csv` (appropriations), `esttax27.csv` (estimated tax rate impact), `recap27.csv`, `pupcst27.csv`, `enroll27.csv`, `employees27.csv`, `shared27.csv`, `unusual27.csv`. Field layout is in `userfr_layout.xlsx`. Years 2020-21 → 2026-27 (the 2024-25 files are named `*25_minus_1.csv`). | https://www.nj.gov/education/budget/ufb/2627/index.shtml |
+| **User-Friendly Budget (UFB) data** 📊 | **The key file.** CSVs for every district: `rev27.csv` (revenues, **including the local tax levy**), `approp27.csv` (appropriations), `esttax27.csv` (estimated tax rate impact), `recap27.csv`, `pupcst27.csv`, `enroll27.csv`, `employees27.csv` (**salary and benefits** for superintendents, business administrators, and non-union staff earning over $75k), `shared27.csv`, `unusual27.csv`. Field layout is in `userfr_layout.xlsx`. Years 2020-21 → 2026-27 (the 2024-25 files are named `*25_minus_1.csv`). | https://www.nj.gov/education/budget/ufb/2627/index.shtml |
+| District websites 🔗 | Each district must post its User-Friendly Budget on its own website within 48 hours of its public budget hearing. Useful for cross-checking the PDF version against the CSVs. | (per district) |
 | District budget hub 🔗 | Budget guidance and per-pupil costs | https://www.nj.gov/education/budget/ |
 
 ---
