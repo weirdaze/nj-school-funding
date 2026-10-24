@@ -124,13 +124,13 @@ def fetch(args):
                 try:
                     doc = pymupdf.open(tmp.name)
                     # cheap prefilter first; rebuild reading order only on candidate pages
-                    pages = [page_text(p) if re.search(r"Benefit|TPAF|Social Sec", p.get_text(), re.I) else "" for p in doc]
+                    pages = [page_text(p) if re.search(r"Benefit|TPAF|Social\s+Sec", p.get_text(), re.I) else "" for p in doc]
                 except Exception as e:
                     miss.write_text(f"unreadable: {e}\n")
                     print(f"bad   {yy} {dist} {name}")
                     continue
             keep = [f"=== page {i+1}\n{t}" for i, t in enumerate(pages)
-                    if re.search(r"Unallocated (Employee )?Benefits|11-000-291|Health Benefits|On[- ]behalf T\.?P\.?A\.?F|Reimbursed (T\.?P\.?A\.?F\.? )?Social Security", t, re.I)]
+                    if re.search(r"Unallocated (Employee )?Benefits|11-000-291|Health Benefits|On[- ]behalf T\.?P\.?A\.?F|Reimbursed (T\.?P\.?A\.?F\.? )?Social Security", re.sub(r"\s+", " ", t), re.I)]
             dest.write_text(f"# {dist} {name} ({cname}) FY20{yy}\n" + "\n".join(keep))
             print(f"ok    {yy} {dist} {name} ({len(keep)} pages)")
             time.sleep(args.delay)
@@ -162,15 +162,20 @@ def actual_of(nums):
     return v[-2] if len(v) >= 2 else v[-1]
 
 
-def parse_c1(text):
+def _parse_c1_main(text):
     """Return {field: actual} from the Exhibit C-1 benefit block."""
-    pages = text.split("=== page ")
-    marker = r"Total (Undistributed Expenditures\s*-\s*)?Unallocated (Employee )?Benefits|11-000-291-|^\s*Health Benefits\s+[\d(]"
-    has_tot = [p for p in pages if re.search(marker, p, re.I | re.M)]
-    cand = [p for p in has_tot if re.search(r"Final\s+Budget|Variance", p, re.I)] or has_tot
-    if not cand:
+    pages = [re.sub(r"[ \t\xa0]+", " ", p) for p in text.split("=== page ")]
+
+    def score(p):
+        return (3 * bool(re.search(r"11-000-291-2[27]0", p))
+                + 2 * bool(re.search(r"Total (Undistributed Expenditures\s*-\s*)?Unallocated (Employee )?Benefits", p, re.I))
+                + 2 * bool(re.search(r"^\s*Health Benefits\s+(11-000-291-270\s+)?[\d(]", p, re.I | re.M))
+                + bool(re.search(r"Final\s+Budget|Variance|Final to Actual", p, re.I)))
+    scored = [(score(p), -i) for i, p in enumerate(pages)]
+    best = max(scored) if scored else (0, 0)
+    if best[0] < 2:
         return {}
-    idx = pages.index(cand[0])
+    idx = -best[1]
     lines = "\n".join(pages[idx: idx + 2]).splitlines()
     start = next((i - 1 for i, l in enumerate(lines) if "11-000-291-" in l), None)
     if start is None:
@@ -180,7 +185,8 @@ def parse_c1(text):
         start = next((i for i, l in enumerate(lines) if re.search(r"^\s*(Social Security|Health Benefits)\s+[\d(]", l, re.I)), 16) - 2
     out, pending = {}, ""
     for raw in lines[max(start, 0): max(start, 0) + 60]:
-        line = re.sub(r"\s+", " ", raw).strip()
+        line = re.sub(r"(\d) ,(\d)", r"\1,\2", re.sub(r"\s+", " ", raw)).strip()
+        line = re.sub(r"(?<=[\s(,\d])[Iil](?=[\d,])|(?<=\d)[Iil](?=[\d,\s)]|$)", "1", line)
         if re.match(r"^Total (Undistributed|General Current|Expenditures)", line, re.I) and not re.search(r"Benefits", line, re.I):
             break
         if not line:
@@ -218,6 +224,44 @@ def parse_c1(text):
     return out
 
 
+def parse_c1(text):
+    """Unallocated-benefits block if it has health; otherwise try benefits allocated by function."""
+    main = _parse_c1_main(text)
+    if main.get("health"):
+        return main
+    alloc = parse_allocated([re.sub(r"[ \t\xa0]+", " ", p) for p in text.split("=== page ")])
+    if alloc:
+        alloc.update({k: v for k, v in main.items() if k.startswith(("tpaf", "reimbursed"))})
+        return alloc
+    return main
+
+
+def parse_allocated(pages):
+    """Districts that charge benefits to each function (11-xxx-xxx-270 etc.) instead of 11-000-291.
+
+    Sum the actual column of every coded benefit line across the C-1 pages, by object code.
+    """
+    out = {}
+    seen = set()
+    for p in pages:
+        for raw in p.splitlines():
+            line = re.sub(r"(\d) ,(\d)", r"\1,\2", re.sub(r"\s+", " ", raw)).strip()
+            m = re.search(r"\b11-[\dX]{3}-[\dX]{3}-2(\d\d)\b", line)  # general fund only
+            if not m or ("2" + m.group(1)) not in CODES or m.group(0) in seen:
+                continue
+            seen.add(m.group(0))
+            toks = [t for t in line[m.end():].split(" ") if t and t != "$"]
+            nums = [t for t in toks if NUM.match(t)]
+            if len(nums) >= 2:
+                col = CODES["2" + m.group(1)]
+                out[col] = out.get(col, 0) + actual_of(nums)
+    if out.get("health"):
+        out["total_unallocated"] = sum(v for k, v in out.items() if k in CODES.values())
+        out["method"] = "allocated"
+        return out
+    return {}
+
+
 def parse(args):
     rows = []
     for f in sorted(TEXT.glob("*/*.txt")):
@@ -229,7 +273,8 @@ def parse(args):
         tot = vals.get("total_unallocated")
         ok = bool(tot) and abs(comp - tot) <= max(1000, 0.01 * tot)
         rows.append({"fiscal_year": fy, "county": cname, "district_id": dist, "district_name": name,
-                     **{c: vals.get(c, "") for c in COLS}, "components_match_total": ok})
+                     **{c: vals.get(c, "") for c in COLS}, "components_match_total": ok,
+                     "method": vals.get("method", "unallocated" if vals else "")})
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))

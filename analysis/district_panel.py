@@ -196,7 +196,8 @@ def main():
             "fund_balance_used_2526": fb26, "fund_balance_used_2627": fb27,
             "aid_change_minus_benefit_change": (aid27 - aid26) - (ben27 - ben26),
             "acfr_health_2023": h23 or "", "acfr_health_2025": h25 or "",
-            "acfr_health_growth_23_25_pct": round(pct(h25, h23), 1) if h23 and h25 else "",
+            # guard against a mis-parsed year: health can't plausibly move >150% in two years
+            "acfr_health_growth_23_25_pct": round(pct(h25, h23), 1) if h23 > 1e4 and h25 and abs(pct(h25, h23)) <= 150 else "",
             "acfr_health_share_of_benefits_2025": round(h25 / t25 * 100, 1) if h25 and t25 else "",
             "tpaf_onbehalf_total_2025": tpaf25[2] or "",
             "students_per_teacher_2021_22": ratio.get("2021-22", ("",))[0],
