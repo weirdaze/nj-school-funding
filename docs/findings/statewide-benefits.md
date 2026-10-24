@@ -51,7 +51,8 @@ statewide benefit and aid totals from the raw state files._
    points, positive in 15 of 15 counties). 55 comparable districts on the September 2025 list are missing from the
    October 2026 one (median +14.5%); only 2 were added. *Confidence: Medium.* Membership is name-matched; the 2026 list
    was retitled "Participating Local Education Employers", so the 55 may partly reflect a change in what the list
-   covers rather than exits; and two districts' audits still contradict the lists ([validation V6](../validation.md)).
+   covers rather than exits; and of 15 districts whose audits conflict with the lists, 2 are unresolved and 7 are
+   unconfirmed (only an auditor template sentence) ([validation V6](../validation.md)).
 7. **Levies rose.** The median general-fund levy rose **+5.0%** and **450 of 557** districts exceeded 2%. *Confidence: High.*
    Budgeted fund balance (UFB line 580, the surplus a district *plans to spend* in the year) fell from $1.47B to $1.36B in
    comparable districts ($1.50B → $1.38B across all districts). That is a smaller planned drawdown; the state files do not

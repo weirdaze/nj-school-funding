@@ -204,12 +204,11 @@ def main():
           "extracted were searched for the district's own description of its plan (SEHBP vs. SHIF/JIF/trust). Only "
           "benefit-related pages were kept, so many audits say nothing either way.", "",
           f"**Result: {agree} agree, {disagree} conflict, {unknown} undetermined.** Manual review of the full audit notes "
-          f"(and, where needed, the UFB shared-services page) settles most conflicts in favour of the list. The sentence "
+          f"(and, where needed, the UFB shared-services page) settles 6 conflicts in favour of the list; 7 others rest only on an auditor template sentence and lean toward the list; 2 (Long Branch, North Plainfield) are unresolved. The sentence "
           f"\"Health Benefits are provided to the employees through the State of New Jersey Health Benefits Plan\" is an "
           f"auditor template: it appears word for word in {len(TEMPLATE)} FY25 audits, only one of which (Haworth) is on either "
           f"list, and two of those districts' own budgets name the School Health Insurance Fund. Districts whose only evidence "
-          f"is that sentence are probably not in SEHBP, but this isn't confirmed. Long Branch and North Plainfield remain "
-          f"genuinely unresolved. The [September 2025 list](https://web.archive.org/web/20250904173748/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) "
+          f"is that sentence are probably not in SEHBP, but this isn't confirmed. The [September 2025 list](https://web.archive.org/web/20250904173748/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf) "
           f"(Wayback copy) is shown alongside. **Treat SEHBP membership, and the SEHBP-vs-other comparison, as Medium "
           f"confidence until confirmed with the Division of Pensions & Benefits.** Conflicts:", ""]
     for r, why in conflicts[:30]:
@@ -243,8 +242,8 @@ def main():
           "| Health ≈ 78% of district-paid benefits; audited health growth ~17–18% FY23→FY25 | **Medium-High** | Medians from "
           "audited reports; ~91% parse coverage; V2 shows the audit and budget files agree for most districts. |",
           "| SEHBP vs. non-SEHBP growth gap | **Medium** | Membership is name-matched to Treasury lists. The gap holds on both "
-          "the Sep 2025 and Oct 2026 lists and within counties, and most audit conflicts resolve in the lists' favour (V6), but "
-          "two remain and the 2026 list's scope may differ. Quote the direction and approximate size; confirm membership with "
+          "the Sep 2025 and Oct 2026 lists and within counties; of 15 audit conflicts, 6 resolve in the lists' favour, 7 are unconfirmed "
+          "(auditor template sentence only) and 2 are unresolved (V6), and the 2026 list's scope may differ. Quote the direction and approximate size; confirm membership with "
           "DPB before quoting exact figures for individual districts. |",
           "| Any single district's growth rate | **Medium** unless its profile is rated High | Baseline revisions (V3) "
           "and outliers (V4) can move it a lot. |",

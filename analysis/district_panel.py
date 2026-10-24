@@ -116,7 +116,7 @@ def sehbp(meta, pdf=RAW / "sehbp" / "sehbpemp.pdf"):
     hits, unmatched = set(), []
     generic = {"TWP", "BORO", "CITY", "TOWN", "VILLAGE", "CO", "REG", "DIST", "H", "S", "SCHOOL", "SCHOOLS"}
     for n, county in entries:
-        if re.search(r"CUSTODIAN|ADMINISTRAT", n):  # a single bargaining unit, not the whole district
+        if re.search(r"CUSTODIAN|ADMINISTRAT|\bNON$", n):  # a single unit (bargaining, non-instructional), not the whole district
             continue
         pool = by_county.get(county, {})
         match = OVERRIDES.get(n) or pool.get(n)
