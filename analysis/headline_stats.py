@@ -39,7 +39,8 @@ def ufb_benefit_budgets():
         with open(fpath, encoding="latin-1") as fh:
             for r in csv.DictReader(fh):
                 if r["line_no"].strip() == "71260":
-                    out.setdefault(yr, {})[r["district_id"]] = f(r["amount_3"]) or 0
+                    if f(r["amount_3"]):  # blank/zero adopted budget: leave the district out of that year's pair
+                        out.setdefault(yr, {})[r["district_id"]] = f(r["amount_3"])
     return out
 
 
@@ -148,7 +149,7 @@ def main():
         ("Districts", len(st)),
         ("Up by more than 0.2 / down by more than 0.2 / strictly higher", f"{sum(b > a + 0.2 for a, b in st)} / {sum(b < a - 0.2 for a, b in st)} / {sum(b > a for a, b in st)}"),
         ("Median change", f"{statistics.median(b - a for a, b in st):+.2f}"),
-        ("Caveat", "students per teaching staff member, about half of typical class size, so not a class-size measure; 2021-22 is actual, 2024-25 is the edition's budget-year column"),
+        ("Caveat", "students per teaching staff member, about half of typical class size, so not a class-size measure; each edition's newer column matches the next edition's figure for ~90% of districts, so 2024-25 is near-actual but unconfirmed until the 2026 edition"),
     ])
 
     # South Jersey (Burlington 05, Camden 07, Gloucester 15)

@@ -71,7 +71,7 @@ def numbers_block(r):
         f"- **Students per teacher (TGES ratio)** 2021-22 → 2024-25: {st0} → {st1}. Source: [Taxpayers' Guide to Education Spending]({TGES}) "
         f"Indicator 16, file `CSG16.CSV` column `STRAT` (2025 edition for 2024-25; [2023 edition]({TGES23}) for 2021-22). "
         f"This divides students by all teaching staff, so it is roughly half of typical class size and is **not a class-size measure**; "
-        f"the 2021-22 value is actual and the 2024-25 value is from the budget-year column.",
+        f"the 2024-25 value is the latest edition's newer column, which later editions usually confirm but which is not yet final.",
         f"- **State-paid teacher pension/retiree medical** FY25 (not in the district budget): {m(r['tpaf_onbehalf_total_2025'], False)}. "
         f"Source: [Treasury TPAF on-behalf allocations FY2025]({TPAF}).",
         f"- **In SEHBP**: {'yes' if r['in_sehbp'] == 'True' else 'no'} per the [October 2026 participating-employer list]({SEHBP}) (name-matched).",

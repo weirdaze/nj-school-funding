@@ -41,7 +41,7 @@ statewide benefit and aid totals from the raw state files._
 4. **The gap is largest in the suburban north and central counties**, where aid barely moved: Bergen, Morris, Somerset,
    Monmouth, Hunterdon (county table below). In the former Abbott counties aid kept pace, mainly through large increases
    to Newark, Paterson, Trenton and Camden City. *Confidence: High.*
-5. **Health insurance is most of it.** Health is a median **78%** of district-paid benefits in FY25 audits (n=456).
+5. **Health insurance is most of it.** Health is a median **78%** of district-paid benefits in FY25 audits (n=447).
    *Confidence: Medium-High.*
 6. **Districts on the state plan (SEHBP) budgeted bigger increases**: a median +23.5% (n=143) vs +15.9% (n=414). The gap holds
    **within counties** (median +7.4 points; positive in 15 of 16 counties with enough districts) and **within each
@@ -80,36 +80,37 @@ statewide benefit and aid totals from the raw state files._
 ## Caveats
 - District-level growth rates can be distorted by mid-year budget revisions (29 districts revised 2025-26 benefits by
   >10%) and accounting moves (24 outliers). See [validation V3–V4](../validation.md); don't quote those without district documents.
-- Audit (ACFR) figures are used only when the row reconciles to its total or health is a plausible share of it; 23
-  implausible rows were rejected. Coverage: 456 districts for FY25 health share.
+- Audit (ACFR) figures are used only when the row reconciles to its total (or health is a plausible share of it) **and**
+  the audited benefits total is within 15% of the same year's budget-file actual, which catches rows that cover only
+  the unallocated part of a district's benefits; 26 implausible rows were rejected outright. Coverage: 447 districts for FY25 health share.
 - FY27 aid is the Governor's Budget Message figure; press reports indicate the enacted budget kept the same formula-aid total.
 
 <!-- generated tables below -->
 
 | Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Students per teacher (TGES ratio, not class size), 2021-22 → 2024-25: districts up / down by more than 0.2 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=471) | +18% (n=421) | 231 up, 205 down of 560 |
+| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=409) | 231 up, 205 down of 560 |
 | Atlantic | 25 | 7 | $189M → $222M (+17.4%) | +$32.9M | +$17.7M | 19 of 25 | 74% (n=21) | +18% (n=20) | 8 up, 12 down of 24 |
-| Bergen | 77 | 51 | $614M → $751M (+22.4%) | +$137.5M | +$12.9M | 73 of 77 | 79% (n=66) | +21% (n=59) | 29 up, 28 down of 75 |
+| Bergen | 77 | 51 | $614M → $751M (+22.4%) | +$137.5M | +$12.9M | 73 of 77 | 79% (n=65) | +21% (n=57) | 29 up, 28 down of 75 |
 | Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
 | Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=32) | 12 up, 17 down of 36 |
 | Cape May | 18 | 2 | $61M → $70M (+15.7%) | +$9.5M | +$1.2M | 12 of 18 | 74% (n=15) | +18% (n=15) | 7 up, 5 down of 16 |
 | Cumberland | 14 | 3 | $70M → $79M (+13.3%) | +$9.3M | +$14.7M | 8 of 14 | 77% (n=10) | +24% (n=9) | 7 up, 2 down of 13 |
-| Essex | 23 | 3 | $442M → $472M (+6.6%) | +$29.2M | +$82.4M | 19 of 23 | 77% (n=20) | +21% (n=15) | 8 up, 8 down of 22 |
-| Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=26) | +15% (n=24) | 13 up, 10 down of 28 |
+| Essex | 23 | 3 | $442M → $472M (+6.6%) | +$29.2M | +$82.4M | 19 of 23 | 77% (n=19) | +22% (n=14) | 8 up, 8 down of 22 |
+| Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=25) | +14% (n=23) | 13 up, 10 down of 28 |
 | Hudson | 13 | 7 | $270M → $285M (+5.7%) | +$15.4M | +$1.8M | 9 of 13 | 76% (n=9) | +29% (n=8) | 7 up, 4 down of 13 |
-| Hunterdon | 27 | 4 | $100M → $119M (+19.1%) | +$19.1M | +$1.3M | 26 of 27 | 80% (n=6) | +14% (n=4) | 10 up, 11 down of 26 |
+| Hunterdon | 27 | 4 | $100M → $119M (+19.1%) | +$19.1M | +$1.3M | 26 of 27 | 82% (n=5) | +14% (n=4) | 10 up, 11 down of 26 |
 | Mercer | 11 | 2 | $244M → $281M (+15.0%) | +$36.5M | +$33.5M | 10 of 11 | 77% (n=10) | +16% (n=10) | 6 up, 1 down of 11 |
-| Middlesex | 25 | 4 | $523M → $601M (+15.0%) | +$78.5M | +$23.0M | 22 of 25 | 82% (n=15) | +21% (n=14) | 6 up, 10 down of 24 |
+| Middlesex | 25 | 4 | $523M → $601M (+15.0%) | +$78.5M | +$23.0M | 22 of 25 | 82% (n=14) | +20% (n=13) | 6 up, 10 down of 24 |
 | Monmouth | 53 | 16 | $440M → $507M (+15.3%) | +$67.3M | +$3.1M | 47 of 53 | 78% (n=39) | +16% (n=30) | 16 up, 20 down of 48 |
-| Morris | 40 | 5 | $367M → $436M (+18.9%) | +$69.3M | +$3.2M | 40 of 40 | 79% (n=36) | +16% (n=33) | 13 up, 12 down of 39 |
-| Ocean | 27 | 9 | $302M → $349M (+15.5%) | +$46.8M | +$7.9M | 21 of 27 | 77% (n=26) | +20% (n=25) | 10 up, 13 down of 27 |
-| Passaic | 21 | 8 | $269M → $329M (+22.6%) | +$60.8M | +$65.1M | 17 of 21 | 78% (n=19) | +22% (n=16) | 11 up, 7 down of 20 |
+| Morris | 40 | 5 | $367M → $436M (+18.9%) | +$69.3M | +$3.2M | 40 of 40 | 78% (n=35) | +16% (n=30) | 13 up, 12 down of 39 |
+| Ocean | 27 | 9 | $302M → $349M (+15.5%) | +$46.8M | +$7.9M | 21 of 27 | 77% (n=26) | +20% (n=24) | 10 up, 13 down of 27 |
+| Passaic | 21 | 8 | $269M → $329M (+22.6%) | +$60.8M | +$65.1M | 17 of 21 | 79% (n=17) | +22% (n=14) | 11 up, 7 down of 20 |
 | Salem | 14 | 1 | $45M → $54M (+18.9%) | +$8.6M | +$5.2M | 12 of 14 | 74% (n=12) | +15% (n=9) | 6 up, 6 down of 13 |
-| Somerset | 19 | 3 | $260M → $316M (+21.8%) | +$56.7M | +$2.2M | 18 of 19 | 78% (n=17) | +20% (n=16) | 8 up, 6 down of 18 |
+| Somerset | 19 | 3 | $260M → $316M (+21.8%) | +$56.7M | +$2.2M | 18 of 19 | 79% (n=15) | +20% (n=15) | 8 up, 6 down of 18 |
 | Sussex | 26 | 6 | $95M → $110M (+16.2%) | +$15.3M | +$2.3M | 24 of 26 | 73% (n=23) | +8% (n=22) | 16 up, 4 down of 25 |
 | Union | 23 | 3 | $382M → $434M (+13.7%) | +$52.2M | +$11.1M | 22 of 23 | 81% (n=18) | +18% (n=13) | 11 up, 2 down of 21 |
-| Warren | 23 | 2 | $60M → $68M (+13.3%) | +$8.0M | +$5.6M | 20 of 23 | 77% (n=13) | +12% (n=12) | 12 up, 11 down of 23 |
+| Warren | 23 | 2 | $60M → $68M (+13.3%) | +$8.0M | +$5.6M | 20 of 23 | 77% (n=12) | +12% (n=12) | 12 up, 11 down of 23 |
 
 ### SEHBP vs. other health plans (median budgeted benefit growth, 2025-26 → 2026-27)
 
@@ -160,7 +161,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Bergen County Vocational | ✓ | 31.0% | +$5.1M | +$0.0M | -$5.1M | 24.2% | 70% | – | 10.9 → 11.6 | $0.8M → $0.7M |
 | Tenafly Boro | ✓ | 29.0% | +$4.8M | +$0.2M | -$4.6M | 23.4% | 79% | +19% | 11.2 → 11.4 | $2.3M → $2.1M |
 | Englewood City | ✓ | 29.1% | +$2.8M | -$1.5M | -$4.3M | 16.6% | – | – | 11.2 → 10.7 | $2.3M → – |
-| Dumont Boro | ✓ | 39.2% | +$3.6M | -$0.4M | -$4.0M | 21.2% | 79% | +21% | 11.9 → 11.8 | $1.2M → $1.3M |
+| Dumont Boro | ✓ | 39.2% | +$3.6M | -$0.4M | -$4.0M | 21.2% | 79% | – | 11.9 → 11.8 | $1.2M → $1.3M |
 | Lodi Borough | ✓ | 21.2% | +$2.5M | -$1.3M | -$3.7M | 17.3% | 77% | +22% | 13.2 → 12.3 | $2.6M → $2.0M |
 | Cliffside Park Boro | ✓ | 33.7% | +$4.3M | +$0.6M | -$3.7M | 24.3% | 75% | +30% | 11.7 → 12.3 | $1.0M → $1.0M |
 | Fair Lawn Boro |  | 23.2% | +$4.7M | +$1.3M | -$3.4M | 18.0% | 77% | +26% | 12.2 → 11.5 | $4.0M → $4.0M |
@@ -200,7 +201,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | South Bergen Jointure Com |  | 17.6% | +$1.3M | +$0.0M | -$1.3M | 12.4% | 79% | – | – → – | – → – |
 | Montvale Boro | ✓ | 32.1% | +$1.2M | +$0.1M | -$1.2M | 21.5% | 84% | +26% | 10.2 → 10.7 | $0.6M → $0.5M |
 | Oakland Boro |  | 16.5% | +$1.3M | +$0.1M | -$1.2M | 22.3% | 80% | +19% | 9.1 → 9.5 | $0.8M → $0.8M |
-| Carlstadt-East Rutherford |  | 28.4% | +$1.1M | +$0.1M | -$1.1M | 22.7% | 36% | -78% | 12.7 → 14.5 | $0.5M → $1.1M |
+| Carlstadt-East Rutherford |  | 28.4% | +$1.1M | +$0.1M | -$1.1M | 22.7% | – | – | 12.7 → 14.5 | $0.5M → $1.1M |
 | Demarest Boro | ✓ | 24.9% | +$1.1M | -$0.0M | -$1.1M | 24.8% | 80% | +26% | 9.8 → 10.5 | $0.7M → $0.5M |
 | Woodcliff Lake Boro | ✓ | 23.4% | +$1.1M | +$0.0M | -$1.1M | 26.1% | 84% | – | 8.7 → 9.3 | – → – |
 | Old Tappan Boro |  | 21.8% | +$1.0M | -$0.0M | -$1.0M | 23.8% | 77% | +21% | 11.9 → 11.3 | $1.4M → $1.4M |
@@ -385,7 +386,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Millburn Twp |  | 19.4% | +$4.0M | -$0.2M | -$4.2M | 21.1% | 76% | +23% | 11.5 → 10.8 | $2.5M → $2.8M |
 | West Orange Town |  | 15.0% | +$5.3M | +$2.0M | -$3.3M | 20.0% | 74% | – | 10.4 → 10.2 | $3.8M → $4.0M |
 | Belleville Town | ✓ | 10.0% | +$2.2M | -$1.0M | -$3.3M | 20.7% | 74% | +28% | 12.5 → 11.9 | $0.0M → – |
-| Caldwell-West Caldwell |  | 19.4% | +$2.1M | +$0.1M | -$2.1M | 22.0% | 28% | -31% | 11.8 → 11.1 | $0.5M → $0.7M |
+| Caldwell-West Caldwell |  | 19.4% | +$2.1M | +$0.1M | -$2.1M | 22.0% | – | – | 11.8 → 11.1 | $0.5M → $0.7M |
 | Verona Boro |  | 21.7% | +$1.7M | +$0.2M | -$1.5M | 19.8% | 75% | +20% | 11.8 → 11.9 | $0.9M → $0.7M |
 | West Essex Regional |  | 16.1% | +$1.4M | +$0.2M | -$1.2M | 19.9% | 77% | +13% | 10.0 → 10.7 | $0.9M → $1.2M |
 | Cedar Grove Twp | ✓ | 12.6% | +$1.1M | +$0.0M | -$1.1M | 24.4% | 82% | +20% | 10.5 → 10.4 | $1.4M → $0.4M |
@@ -409,7 +410,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Washington Twp |  | 22.3% | +$6.4M | +$1.8M | -$4.7M | 21.3% | 71% | +15% | 11.0 → 11.6 | – → $7.5M |
 | Deptford Twp |  | 21.9% | +$4.1M | +$0.4M | -$3.8M | 24.4% | 77% | +26% | 12.2 → 11.9 | $5.8M → $6.3M |
 | Kingsway Regional |  | 15.9% | +$1.7M | -$0.4M | -$2.0M | 20.6% | 73% | +30% | 11.9 → 13.6 | $1.1M → $0.3M |
-| Delsea Regional H.S Dist. |  | 20.4% | +$1.6M | -$0.2M | -$1.9M | 23.3% | 72% | +24% | 12.7 → 13.2 | $1.4M → $2.1M |
+| Delsea Regional H.S Dist. |  | 20.4% | +$1.6M | -$0.2M | -$1.9M | 23.3% | – | – | 12.7 → 13.2 | $1.4M → $2.1M |
 | West Deptford Twp |  | 23.7% | +$2.6M | +$0.9M | -$1.7M | 23.3% | 77% | +17% | 12.0 → 11.9 | $0.7M → $0.1M |
 | Harrison Twp |  | 30.5% | +$1.3M | -$0.2M | -$1.5M | 23.4% | 76% | +19% | 11.8 → 12.1 | $1.4M → $0.4M |
 | Gloucester Co Vocational |  | 15.1% | +$1.0M | -$0.5M | -$1.4M | 23.4% | 80% | +21% | 14.9 → 14.9 | $3.0M → $2.5M |
@@ -487,7 +488,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Frenchtown Boro |  | 11.4% | +$0.1M | +$0.0M | -$0.0M | 24.1% | – | – | 8.4 → 6.6 | $0.1M → $0.0M |
 | Bloomsbury Boro |  | 23.9% | +$0.1M | +$0.1M | -$0.0M | 16.8% | – | – | 6.0 → 7.0 | $0.6M → $0.7M |
 | Califon Boro |  | 9.1% | +$0.0M | +$0.0M | -$0.0M | 18.3% | 82% | – | 5.6 → 5.4 | $0.3M → $0.1M |
-| Hunterdon Co Ed Ser Comm |  | 11.6% | +$0.0M | +$0.0M | -$0.0M | 38.6% | 65% | – | – → – | – → – |
+| Hunterdon Co Ed Ser Comm |  | 11.6% | +$0.0M | +$0.0M | -$0.0M | 38.6% | – | – | – → – | – → – |
 | Milford Boro | ✓ | -13.6% | -$0.1M | -$0.1M | +$0.0M | 21.0% | – | – | 7.9 → 9.0 | $0.2M → $0.0M |
 
 ### Mercer County
@@ -532,7 +533,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Metuchen Boro |  | 9.9% | +$0.9M | +$0.2M | -$0.7M | 19.7% | 78% | +8% | 11.8 → 12.0 | $2.6M → $1.6M |
 | Milltown Boro |  | 15.8% | +$0.5M | -$0.2M | -$0.7M | 13.1% | 79% | +22% | 11.3 → 10.0 | $1.4M → $1.5M |
 | Cranbury Twp |  | 18.1% | +$0.6M | -$0.0M | -$0.7M | 17.8% | 82% | +16% | 8.5 → 7.6 | $0.3M → $0.4M |
-| Dunellen Boro |  | 26.3% | +$1.8M | +$1.2M | -$0.6M | 23.2% | 41% | +28% | 10.8 → 11.2 | $1.7M → $1.7M |
+| Dunellen Boro |  | 26.3% | +$1.8M | +$1.2M | -$0.6M | 23.2% | – | – | 10.8 → 11.2 | $1.7M → $1.7M |
 | South River Boro |  | 20.1% | +$2.0M | +$1.5M | -$0.5M | 21.4% | – | – | 11.9 → 11.4 | $2.9M → $3.7M |
 | South Amboy City | ✓ | 25.5% | +$0.8M | +$0.6M | -$0.2M | 17.5% | 75% | +31% | 13.3 → 26.2 | $0.4M → – |
 | Jamesburg Boro |  | 8.3% | +$0.2M | +$0.2M | -$0.0M | 12.9% | – | – | 10.1 → 9.5 | – → – |
@@ -615,10 +616,10 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Sch Dist of the Chathams |  | 20.2% | +$3.2M | +$0.3M | -$2.9M | 20.8% | 82% | +26% | 11.1 → 11.4 | $1.4M → $0.3M |
 | Rockaway Twp |  | 22.7% | +$2.9M | +$0.3M | -$2.7M | 24.6% | 77% | +16% | 9.7 → 9.6 | $1.5M → $2.2M |
 | Denville Twp |  | 22.0% | +$2.3M | +$0.2M | -$2.1M | 28.0% | 80% | +16% | 9.6 → 10.5 | $0.2M → $0.2M |
-| Madison Boro |  | 22.4% | +$2.3M | +$0.2M | -$2.1M | 20.5% | 80% | +13% | 11.1 → 10.7 | $2.6M → $1.2M |
+| Madison Boro |  | 22.4% | +$2.3M | +$0.2M | -$2.1M | 20.5% | 80% | – | 11.1 → 10.7 | $2.6M → $1.2M |
 | East Hanover Twp |  | 31.7% | +$1.7M | +$0.0M | -$1.7M | 23.0% | 78% | +43% | 9.6 → 9.1 | $1.7M → $2.1M |
 | Kinnelon Boro |  | 17.4% | +$1.6M | -$0.0M | -$1.6M | 22.4% | 79% | +29% | 9.9 → 11.0 | $0.5M → $0.6M |
-| Pequannock Twp | ✓ | 17.8% | +$1.8M | +$0.2M | -$1.6M | 22.3% | 83% | +23% | 11.1 → 11.6 | $4.1M → $3.7M |
+| Pequannock Twp | ✓ | 17.8% | +$1.8M | +$0.2M | -$1.6M | 22.3% | 83% | – | 11.1 → 11.6 | $4.1M → $3.7M |
 | Jefferson Twp |  | 16.1% | +$1.9M | +$0.3M | -$1.6M | 21.6% | 74% | +14% | 10.6 → 10.8 | $2.7M → $1.7M |
 | Mountain Lakes Boro | ✓ | 17.9% | +$1.5M | -$0.0M | -$1.5M | 21.3% | 76% | – | 9.1 → 8.8 | $0.8M → $0.8M |
 | Hanover Twp |  | 19.3% | +$1.5M | +$0.1M | -$1.4M | 26.5% | 83% | +25% | 10.0 → 10.0 | – → $0.3M |
@@ -635,7 +636,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Mendham Boro |  | 23.3% | +$0.6M | -$0.0M | -$0.7M | 22.9% | 80% | +14% | 8.8 → 9.0 | $0.7M → $0.7M |
 | Riverdale Boro | ✓ | 43.9% | +$0.6M | -$0.0M | -$0.6M | 17.3% | 82% | – | 8.9 → 8.6 | $1.3M → $1.1M |
 | Hanover Park Regional |  | 7.4% | +$0.7M | +$0.2M | -$0.6M | 21.6% | 77% | +12% | 11.4 → 10.5 | $7.7M → $6.2M |
-| Rockaway Boro |  | 25.5% | +$0.7M | +$0.1M | -$0.6M | 23.1% | 95% | +20% | 10.6 → 10.4 | $0.0M → $0.2M |
+| Rockaway Boro |  | 25.5% | +$0.7M | +$0.1M | -$0.6M | 23.1% | – | – | 10.6 → 10.4 | $0.0M → $0.2M |
 | Harding Township |  | 22.7% | +$0.5M | +$0.0M | -$0.5M | 19.4% | 79% | +21% | 7.1 → 6.7 | $0.4M → $0.4M |
 | Boonton Town |  | 12.4% | +$0.9M | +$0.4M | -$0.5M | 20.9% | – | – | 10.0 → 10.1 | $0.6M → $0.4M |
 | Morris Plains Boro |  | 18.8% | +$0.6M | +$0.1M | -$0.5M | 14.9% | – | – | 9.0 → 8.7 | $0.8M → $1.0M |
@@ -667,7 +668,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Pinelands Regional |  | 21.5% | +$1.8M | +$0.6M | -$1.2M | 26.1% | 77% | +16% | 10.8 → 11.2 | $1.3M → $1.2M |
 | Point Pleasant Beach Boro | ✓ | 19.6% | +$0.9M | +$0.0M | -$0.8M | 25.7% | 84% | +15% | 9.5 → 8.5 | $1.2M → $0.8M |
 | Seaside Heights Boro |  | 22.3% | +$0.3M | -$0.0M | -$0.3M | 30.0% | 65% | +31% | 7.8 → 7.3 | $0.2M → – |
-| Plumsted Twp |  | 15.3% | +$0.6M | +$0.3M | -$0.3M | 17.1% | 78% | -3% | 10.8 → 13.4 | $0.3M → – |
+| Plumsted Twp |  | 15.3% | +$0.6M | +$0.3M | -$0.3M | 17.1% | 78% | – | 10.8 → 13.4 | $0.3M → – |
 | Long Beach Island | ✓ | 14.0% | +$0.3M | +$0.0M | -$0.3M | 25.8% | 81% | +29% | 6.5 → 6.3 | $0.0M → $0.0M |
 | Bay Head Boro |  | 40.0% | +$0.2M | +$0.0M | -$0.2M | 18.4% | 70% | +25% | 11.4 → 6.7 | $0.0M → $0.1M |
 | Island Heights Boro | ✓ | 30.8% | +$0.2M | +$0.0M | -$0.2M | 25.0% | 85% | +34% | 8.3 → 9.3 | $0.1M → $0.1M |
@@ -689,7 +690,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 |---|---|---|---|---|---|---|---|---|---|---|
 | Wayne Twp | ✓ | 30.0% | +$13.6M | +$0.8M | -$12.8M | 28.0% | 80% | +23% | 11.4 → 10.7 | – → – |
 | Clifton City |  | 17.8% | +$9.7M | +$6.3M | -$3.4M | 24.4% | 79% | – | 11.9 → 11.2 | $1.1M → $1.6M |
-| West Milford Twp |  | 19.0% | +$3.6M | +$0.3M | -$3.3M | 27.9% | 42% | +10% | 10.6 → 11.5 | $2.7M → $1.7M |
+| West Milford Twp |  | 19.0% | +$3.6M | +$0.3M | -$3.3M | 27.9% | – | – | 10.6 → 11.5 | $2.7M → $1.7M |
 | Hawthorne Boro | ✓ | 23.9% | +$2.5M | +$0.2M | -$2.3M | 23.0% | 81% | – | 9.8 → 10.2 | $2.1M → $2.2M |
 | Totowa Boro | ✓ | 37.8% | +$2.0M | +$0.0M | -$2.0M | 26.1% | 81% | +18% | 13.6 → 13.2 | $7.4M → $9.8M |
 | Pompton Lakes Boro |  | 24.1% | +$1.9M | -$0.1M | -$1.9M | 23.0% | 78% | +10% | 12.2 → 11.4 | $0.8M → $1.0M |
@@ -705,7 +706,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Wanaque Boro |  | 8.8% | +$0.3M | +$0.1M | -$0.3M | 20.3% | – | – | 9.1 → 10.0 | $0.5M → $0.5M |
 | Passaic Valley Regional |  | 5.2% | +$0.3M | +$0.1M | -$0.1M | 13.7% | 78% | +21% | 11.7 → 13.2 | $3.2M → $3.3M |
 | Prospect Park Boro |  | 11.9% | +$0.4M | +$0.8M | +$0.5M | 19.4% | 80% | +31% | 12.5 → 8.9 | $0.2M → – |
-| Northern Region Educational Services Commission |  | -11.4% | -$0.5M | +$0.0M | +$0.5M | 9.4% | 65% | +57% | – → – | – → – |
+| Northern Region Educational Services Commission |  | -11.4% | -$0.5M | +$0.0M | +$0.5M | 9.4% | – | – | – → – | – → – |
 | Passaic City |  | 93.7% | +$12.2M | +$15.1M | +$2.8M | 16.8% | 72% | +27% | 12.0 → 11.5 | $22.7M → $35.2M |
 | Paterson City |  | 5.6% | +$2.4M | +$37.1M | +$34.7M | 15.6% | 73% | +12% | 11.9 → 12.4 | $23.7M → – |
 
@@ -742,11 +743,11 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | North Plainfield Boro |  | 12.0% | +$2.3M | -$1.9M | -$4.2M | 21.7% | 77% | +29% | 10.4 → 10.6 | $6.8M → $0.8M |
 | Bridgewater-Raritan Reg |  | 10.1% | +$3.9M | +$0.3M | -$3.6M | 21.9% | 80% | +20% | 10.6 → 10.9 | $4.0M → $4.0M |
 | Bernards Twp |  | 13.9% | +$3.1M | -$0.2M | -$3.3M | 20.9% | 83% | +42% | 10.6 → 11.7 | $6.3M → $2.6M |
-| Branchburg Twp |  | 30.0% | +$2.9M | +$0.2M | -$2.7M | 21.4% | 43% | +16% | 8.0 → 8.5 | $1.5M → $1.5M |
+| Branchburg Twp |  | 30.0% | +$2.9M | +$0.2M | -$2.7M | 21.4% | – | – | 8.0 → 8.5 | $1.5M → $1.5M |
 | Somerset Hills Regional |  | 25.4% | +$2.2M | -$0.1M | -$2.3M | 22.3% | 77% | +24% | 11.0 → 10.2 | $1.7M → $1.6M |
 | Warren Twp | ✓ | 16.3% | +$2.1M | +$0.2M | -$1.9M | 26.4% | 75% | +24% | 7.8 → 8.2 | $0.6M → $0.6M |
 | Green Brook Twp | ✓ | 31.6% | +$1.4M | -$0.0M | -$1.4M | 18.3% | – | – | 8.9 → 9.5 | $1.3M → $1.1M |
-| South Bound Brook | ✓ | 36.8% | +$0.8M | -$0.2M | -$1.0M | 17.5% | 73% | – | 10.5 → 11.1 | $0.5M → $0.3M |
+| South Bound Brook | ✓ | 36.8% | +$0.8M | -$0.2M | -$1.0M | 17.5% | – | – | 10.5 → 11.1 | $0.5M → $0.3M |
 | Watchung Hills Regional |  | 11.2% | +$0.9M | +$0.1M | -$0.9M | 17.9% | 80% | +16% | 11.6 → 11.6 | $0.9M → $0.7M |
 | Somerville Boro |  | 13.6% | +$1.4M | +$0.6M | -$0.8M | 21.2% | 77% | +7% | 10.0 → 10.4 | $2.1M → $1.4M |
 | Somerset Co Vocational |  | 23.7% | +$0.8M | +$0.0M | -$0.8M | 22.0% | – | – | 8.4 → 8.8 | $0.5M → $0.5M |
@@ -833,7 +834,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Washington Twp |  | 18.9% | +$0.3M | -$0.0M | -$0.3M | 19.7% | 74% | +1% | 8.9 → 10.6 | $0.1M → $0.1M |
 | Blairstown Twp |  | 18.9% | +$0.3M | +$0.0M | -$0.3M | 18.3% | 76% | +7% | 8.3 → 8.0 | $0.1M → $0.1M |
 | White Twp |  | 15.0% | +$0.2M | +$0.0M | -$0.2M | 18.6% | 87% | +26% | 7.9 → 8.5 | $0.6M → $0.3M |
-| Alpha Boro | ✓ | 30.5% | +$0.3M | +$0.1M | -$0.2M | 15.6% | 21% | – | 7.9 → 8.2 | $0.7M → $0.7M |
+| Alpha Boro | ✓ | 30.5% | +$0.3M | +$0.1M | -$0.2M | 15.6% | – | – | 7.9 → 8.2 | $0.7M → $0.7M |
 | Mansfield Twp |  | 1.9% | +$0.1M | -$0.2M | -$0.2M | 23.4% | – | – | 9.0 → 10.8 | $0.1M → $0.3M |
 | Hackettstown |  | 12.9% | +$1.1M | +$0.9M | -$0.2M | 19.6% | 78% | +20% | 11.5 → 10.7 | $0.4M → $0.3M |
 | Knowlton Twp |  | 20.7% | +$0.2M | +$0.0M | -$0.2M | 26.7% | 87% | +36% | 8.0 → 8.9 | $0.2M → – |

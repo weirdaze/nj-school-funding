@@ -142,6 +142,7 @@ def fix_digits(raw):
     line = re.sub(r"(?<=\d) ?, ?(?=\d{3}\b)", ",", line)
     line = re.sub(r"(?<=,\d) (?=\d\d\b)|(?<=,\d\d) (?=\d\b)", "", line)
     line = re.sub(r"(?<=\d)\}", ")", line)  # scan artifact: "(50,146}"
+    line = re.sub(r"(?<=\d)\.(?=\d{3},)", ",", line)  # typo: "6.782,290.32" (period for comma before more groups)
     return re.sub(r"\( (?=\d)", "(", line)
 
 
@@ -149,7 +150,10 @@ def to_num(tok):
     if tok == "-":
         return 0.0
     neg = tok.startswith("(")
-    v = float(tok.strip("()").replace(",", ""))
+    body = tok.strip("()")
+    if re.fullmatch(r"-?\d{1,3}(\.\d{3})+", body):  # "14.128": period as thousands separator (C-1 never prints 3-decimal cents)
+        body = body.replace(".", "")
+    v = float(body.replace(",", ""))
     return -v if neg else v
 
 
@@ -168,6 +172,9 @@ def actual_of(nums):
         return v[-2]
     if len(v) >= 2 and abs(v[-1] - v[-2]) <= 1:  # final == actual, variance left blank
         return v[-1]
+    # Two different numbers with no arithmetic match: in practice (actual, variance) after an earlier column failed to
+    # tokenize (e.g. "6.782,290.32"), so v[-2] is the actual. A (final, actual) pair with a blank variance can't occur,
+    # because the variance is only left blank when it is zero.
     return v[-2] if len(v) >= 2 else v[-1]
 
 

@@ -30,7 +30,7 @@ and the linked profiles._
    (+14.5%)** across the three counties' comparable districts, while formula aid rose **+$75.9M**, $22.1M of it to Camden City alone.
    Without Camden City, aid rose $53.8M against $117.5M of new benefit costs (Camden City's own benefits line fell, an accounting move).
 2. **Health insurance is the benefit.** *Confidence: Medium-High.* In the FY2025 audits, health is a median **78%** of the benefits districts pay
-   themselves (n=95). Audited health costs grew a median **+16.7% from FY2023 to FY2025** (n=90). Districts reported 2026-27 renewals of
+   themselves (n=94). Audited health costs grew a median **+16.6% from FY2023 to FY2025** (n=89). Districts reported 2026-27 renewals of
    roughly 15–20% from the private joint fund (SHIF) and 25–33% from SEHBP (see the profiles). The ~34% SEHBP increase for January 2027
    ([Sun Papers](https://thesunpapers.com/2026/09/28/nj-school-health-plan-commission-approves-34-premium-hike-for-2027/)) comes on top of that.
 3. **SEHBP districts budgeted larger increases** (*Confidence: Medium-Low*: membership is name-matched and only 12 comparable
@@ -74,11 +74,11 @@ and the linked profiles._
 
 | Area | Districts | In SEHBP | Benefits budget 2025-26 → 2026-27 | Benefit increase | State aid change | Benefit increase > aid increase | Health share of district benefits (FY25 audits, median) | Health cost growth FY23→FY25 (median) | Students per teacher (TGES ratio, not class size), 2021-22 → 2024-25: districts up / down by more than 0.2 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=471) | +18% (n=421) | 231 up, 205 down of 560 |
-| **Selected counties** | 106 | 13 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=96) | +17% (n=91) | 40 up, 43 down of 102 |
+| **Statewide** | 585 | 149 | $5,528M → $6,396M (+15.7%) | +$868.0M | +$370.2M | 497 of 585 | 78% (n=460) | +18% (n=409) | 231 up, 205 down of 560 |
+| **Selected counties** | 106 | 13 | $798M → $913M (+14.4%) | +$115.0M | +$76.0M | 78 of 106 | 78% (n=95) | +16% (n=90) | 40 up, 43 down of 102 |
 | Burlington | 39 | 7 | $295M → $340M (+15.5%) | +$45.6M | +$20.9M | 30 of 39 | 78% (n=36) | +17% (n=35) | 15 up, 16 down of 38 |
 | Camden | 38 | 4 | $306M → $344M (+12.4%) | +$37.8M | +$43.9M | 27 of 38 | 78% (n=34) | +18% (n=32) | 12 up, 17 down of 36 |
-| Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=26) | +15% (n=24) | 13 up, 10 down of 28 |
+| Gloucester | 29 | 2 | $198M → $229M (+16.0%) | +$31.6M | +$11.2M | 21 of 29 | 78% (n=25) | +14% (n=23) | 13 up, 10 down of 28 |
 
 ### SEHBP vs. other health plans (median budgeted benefit growth, 2025-26 → 2026-27)
 
@@ -187,7 +187,7 @@ Sorted by how far the benefit increase outran the state aid change (most squeeze
 | Washington Twp |  | 22.3% | +$6.4M | +$1.8M | -$4.7M | 21.3% | 71% | +15% | 11.0 → 11.6 | – → $7.5M |
 | Deptford Twp |  | 21.9% | +$4.1M | +$0.4M | -$3.8M | 24.4% | 77% | +26% | 12.2 → 11.9 | $5.8M → $6.3M |
 | Kingsway Regional |  | 15.9% | +$1.7M | -$0.4M | -$2.0M | 20.6% | 73% | +30% | 11.9 → 13.6 | $1.1M → $0.3M |
-| Delsea Regional H.S Dist. |  | 20.4% | +$1.6M | -$0.2M | -$1.9M | 23.3% | 72% | +24% | 12.7 → 13.2 | $1.4M → $2.1M |
+| Delsea Regional H.S Dist. |  | 20.4% | +$1.6M | -$0.2M | -$1.9M | 23.3% | – | – | 12.7 → 13.2 | $1.4M → $2.1M |
 | West Deptford Twp |  | 23.7% | +$2.6M | +$0.9M | -$1.7M | 23.3% | 77% | +17% | 12.0 → 11.9 | $0.7M → $0.1M |
 | Harrison Twp |  | 30.5% | +$1.3M | -$0.2M | -$1.5M | 23.4% | 76% | +19% | 11.8 → 12.1 | $1.4M → $0.4M |
 | Gloucester Co Vocational |  | 15.1% | +$1.0M | -$0.5M | -$1.4M | 23.4% | 80% | +21% | 14.9 → 14.9 | $3.0M → $2.5M |

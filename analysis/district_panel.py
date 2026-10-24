@@ -212,18 +212,26 @@ def main():
         fb26, fb27 = r27.get("580", (0, 0, 0))[1:]
         ratio = ratios.get(d, {})
         au = audits.get(d, {})
-        def usable(r):
-            """Use an audit row only if its components reconcile to the total, or health is a sane share of it."""
+        def usable(r, ufb_actual):
+            """Use an audit row only if its components reconcile to the total (or health is a sane share of it) AND the
+            total is within 15% of the same year's UFB benefits actual. A row can reconcile internally yet be only the
+            unallocated part of a district that charges most benefits by function. School-based-budget districts are
+            exempt from the UFB check (their UFB line is partial) and flagged separately."""
             if not r or num(r.get("health")) < 1e4:  # no operating district pays <$10K in health benefits
+                return False
+            h, t = num(r.get("health")), num(r.get("total_unallocated"))
+            if d not in sbb and not (ufb_actual and t and abs(t / ufb_actual - 1) <= 0.15):
                 return False
             if r.get("quality") == "reconciled":
                 return True
-            h, t = num(r.get("health")), num(r.get("total_unallocated"))
             return r.get("quality") == "unreconciled" and t > 0 and 0.2 <= h / t <= 1.0
         a23, a25 = au.get("2023"), au.get("2025")
-        h23 = num(a23.get("health")) if usable(a23) else 0
-        h25 = num(a25.get("health")) if usable(a25) else 0
-        t25 = num(a25.get("total_unallocated")) if usable(a25) else 0
+        ufb23 = a.get("2425", {}).get("71260", (0, 0, 0))[0]  # FY2023 actual, reported in the 2024-25 UFB
+        ufb25 = b27["71260"][0]                                # FY2025 actual, reported in the 2026-27 UFB
+        ok23, ok25 = usable(a23, ufb23), usable(a25, ufb25)
+        h23 = num(a23.get("health")) if ok23 else 0
+        h25 = num(a25.get("health")) if ok25 else 0
+        t25 = num(a25.get("total_unallocated")) if ok25 else 0
         tpaf25 = tp.get(d, {}).get("2025", (0, 0, 0))
         rows.append({
             "county_id": cid, "county": cname, "district_id": d, "district_name": name,
@@ -246,7 +254,8 @@ def main():
             # guard against a mis-parsed year: health can't plausibly move >150% in two years
             "acfr_health_growth_23_25_pct": round(pct(h25, h23), 1) if h23 > 1e4 and h25 and abs(pct(h25, h23)) <= 150 else "",
             "acfr_health_share_of_benefits_2025": round(h25 / t25 * 100, 1) if h25 and t25 and 0.2 <= h25 / t25 <= 1.0 else "",
-            "acfr_quality_2023": (a23 or {}).get("quality", ""), "acfr_quality_2025": (a25 or {}).get("quality", ""),
+            "acfr_quality_2023": (a23 or {}).get("quality", "") + ("" if ok23 or not a23 else " (not used)"),
+            "acfr_quality_2025": (a25 or {}).get("quality", "") + ("" if ok25 or not a25 else " (not used)"),
             "tpaf_onbehalf_total_2025": tpaf25[2] or "",
             "former_abbott": d in sbb,
             "benefits_line_incomplete": bool(h25 and h25 > 1.05 * ben27) or d in sbb,
@@ -266,6 +275,7 @@ def main():
         print("  unmatched SEHBP entries:", "; ".join(unmatched[:40]))
 
     def summarize(label, rs):
+        rs = [r for r in rs if r["comparable"]]  # same population as docs/findings/numbers.md
         if not rs:
             return
         b26 = sum(r["benefits_budget_2526"] for r in rs)
@@ -274,7 +284,7 @@ def main():
         hs = [r["acfr_health_share_of_benefits_2025"] for r in rs if r["acfr_health_share_of_benefits_2025"] != ""]
         hg = [r["acfr_health_growth_23_25_pct"] for r in rs if r["acfr_health_growth_23_25_pct"] != ""]
         neg = sum(1 for r in rs if r["aid_change_minus_benefit_change"] < 0)
-        print(f"\n{label}: {len(rs)} districts ({sum(r['in_sehbp'] for r in rs)} in SEHBP)")
+        print(f"\n{label}: {len(rs)} comparable districts ({sum(r['in_sehbp'] for r in rs)} in SEHBP)")
         print(f"  benefits budget  {b26/1e6:8.1f}M -> {b27/1e6:8.1f}M  (+{(b27-b26)/1e6:.1f}M, {pct(b27,b26):+.1f}%)")
         print(f"  state aid change {aid/1e6:+8.1f}M   -> benefit increase exceeds aid increase in {neg} of {len(rs)} districts")
         print(f"  median benefits share of operating budget: {statistics.median(r['benefits_share_of_gce_2627'] for r in rs if r['benefits_share_of_gce_2627'] != ''):.1f}%")
