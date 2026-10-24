@@ -36,7 +36,7 @@ Legend: 📊 machine-readable (CSV/XLSX), 📄 PDF only, 🔗 index page
 | OLS: Analysis of DOE budget FY2027 📄 | Office of Legislative Services analysis of the DOE budget. Explains the aid formula changes, including the FY26+ caps (increases capped at 6%, decreases at 3%) | https://pub.njleg.state.nj.us/publications/budget/governors-budget/2027/doe_analysis_2027.pdf |
 | NJ Comprehensive Annual Financial Report (ACFR) 📄 | Actual (audited) state spending, which may differ from what was appropriated | https://www.nj.gov/treasury/omb/publications/25fr/NJFY2025Complete.pdf |
 | YourMoney.NJ.gov 📊 | State transparency portal with actual spending, revenue, payroll, pensions, and vendor payments | https://www.yourmoney.nj.gov/ |
-| NJ Report Card 🔗 | State transparency dashboard launched 2026-04-23: appropriations by program, including a K-12 summary, plus 10-year spending and revenue trends. Returns 403 to scripts, so use a browser or the scraper. | https://reportcard.nj.gov/ |
+| NJ Report Card 📊 | State transparency dashboard launched 2026-04-23. It returns 403 to plain scripts, so `scripts/fetch_reportcard.py` renders it through the scraper and extracts the CSVs embedded in its JS bundle into `data/processed/reportcard/`: **revenue by fund and line item, FY2018–27** (including Gross Income Tax → PTRF), appropriations by department and fund, and appropriations by program area (K-12 formula, preschool, property tax relief). | https://reportcard.nj.gov/ |
 | NJBudget.com (Garden State Initiative) 🔗 | Independent tracker of legislative "budget additions" (earmarks) by county, municipality, and recipient. Advocacy source; treat as analysis. | https://njbudget.com/ |
 
 ---
@@ -89,6 +89,6 @@ The School Funding Reform Act of 2008 (P.L.2007, c.260, N.J.S.A. 18A:7F-43 et se
 
 ## Known gaps / TODO
 - [ ] Find the FY27 **enacted** aid file. The `GBM` files are the Governor's Budget Message (proposed) numbers. Compare them against the 2627 zip once NJDOE posts it.
-- [ ] Find a machine-readable GIT and PTRF revenue time series. OMB only publishes it in PDFs, so it may have to be extracted from the Budget Detail.
+- [x] Machine-readable GIT and PTRF revenue time series: `data/processed/reportcard/revenues_by_fund.csv` (FY2018–27, in thousands).
 - [ ] Map **municipality → school district**, which is many-to-many for regional districts. The DLGS abstract lists school levy per *town*, while UFB is per *district*.
 - [ ] Track property tax relief programs (ANCHOR, Stay NJ, Senior Freeze), which are paid from the PTRF but not to schools.

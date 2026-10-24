@@ -1,0 +1,838 @@
+dept_code,dept_name,budget_category,fund,fiscal_year,amount,status
+1,Legislature,Direct State Services,General Fund,2027,124093.0,enacted
+1,Legislature,Direct State Services,General Fund,2026,127895.0,adjusted
+1,Legislature,Direct State Services,General Fund,2025,127346.0,final
+1,Legislature,Direct State Services,General Fund,2024,118711.0,final
+1,Legislature,Direct State Services,General Fund,2023,109929.0,final
+1,Legislature,Direct State Services,General Fund,2022,107103.0,final
+1,Legislature,Direct State Services,General Fund,2021,96545.0,final
+1,Legislature,Direct State Services,General Fund,2020,80947.0,final
+1,Legislature,Direct State Services,General Fund,2019,89625.0,final
+1,Legislature,Direct State Services,General Fund,2018,85383.0,final
+6,Chief Executive,Direct State Services,General Fund,2027,14745.0,enacted
+6,Chief Executive,Direct State Services,General Fund,2026,14745.0,adjusted
+6,Chief Executive,Direct State Services,General Fund,2025,14745.0,final
+6,Chief Executive,Direct State Services,General Fund,2024,13745.0,final
+6,Chief Executive,Direct State Services,General Fund,2023,11745.0,final
+6,Chief Executive,Direct State Services,General Fund,2022,9245.0,final
+6,Chief Executive,Direct State Services,General Fund,2021,7229.0,final
+6,Chief Executive,Direct State Services,General Fund,2020,5929.0,final
+6,Chief Executive,Direct State Services,General Fund,2019,6736.0,final
+6,Chief Executive,Direct State Services,General Fund,2018,6736.0,final
+10,Department of Agriculture,Direct State Services,General Fund,2027,14412.0,enacted
+10,Department of Agriculture,Direct State Services,General Fund,2026,19227.0,adjusted
+10,Department of Agriculture,Direct State Services,General Fund,2025,13223.0,final
+10,Department of Agriculture,Direct State Services,General Fund,2024,10893.0,final
+10,Department of Agriculture,Direct State Services,General Fund,2023,10245.0,final
+10,Department of Agriculture,Direct State Services,General Fund,2022,8909.0,final
+10,Department of Agriculture,Direct State Services,General Fund,2021,6703.0,final
+10,Department of Agriculture,Direct State Services,General Fund,2020,5995.0,final
+10,Department of Agriculture,Direct State Services,General Fund,2019,7908.0,final
+10,Department of Agriculture,Direct State Services,General Fund,2018,7353.0,final
+14,Department of Banking and Insurance,Direct State Services,General Fund,2027,79417.0,enacted
+14,Department of Banking and Insurance,Direct State Services,General Fund,2026,67251.0,adjusted
+14,Department of Banking and Insurance,Direct State Services,General Fund,2025,75263.0,final
+14,Department of Banking and Insurance,Direct State Services,General Fund,2024,90263.0,final
+14,Department of Banking and Insurance,Direct State Services,General Fund,2023,90263.0,final
+14,Department of Banking and Insurance,Direct State Services,General Fund,2022,89513.0,final
+14,Department of Banking and Insurance,Direct State Services,General Fund,2021,64013.0,final
+14,Department of Banking and Insurance,Direct State Services,General Fund,2020,140613.0,final
+14,Department of Banking and Insurance,Direct State Services,General Fund,2019,64013.0,final
+14,Department of Banking and Insurance,Direct State Services,General Fund,2018,64013.0,final
+16,Department of Children and Families,Direct State Services,General Fund,2027,516446.0,enacted
+16,Department of Children and Families,Direct State Services,General Fund,2026,503636.0,adjusted
+16,Department of Children and Families,Direct State Services,General Fund,2025,450243.0,final
+16,Department of Children and Families,Direct State Services,General Fund,2024,405323.0,final
+16,Department of Children and Families,Direct State Services,General Fund,2023,374329.0,final
+16,Department of Children and Families,Direct State Services,General Fund,2022,325595.0,final
+16,Department of Children and Families,Direct State Services,General Fund,2021,315925.0,final
+16,Department of Children and Families,Direct State Services,General Fund,2020,290701.0,final
+16,Department of Children and Families,Direct State Services,General Fund,2019,278871.0,final
+16,Department of Children and Families,Direct State Services,General Fund,2018,266931.0,final
+22,Department of Community Affairs,Direct State Services,General Fund,2027,75504.0,enacted
+22,Department of Community Affairs,Direct State Services,General Fund,2026,76354.0,adjusted
+22,Department of Community Affairs,Direct State Services,General Fund,2025,75534.0,final
+22,Department of Community Affairs,Direct State Services,General Fund,2024,75793.0,final
+22,Department of Community Affairs,Direct State Services,General Fund,2023,60268.0,final
+22,Department of Community Affairs,Direct State Services,General Fund,2022,100248.0,final
+22,Department of Community Affairs,Direct State Services,General Fund,2021,47376.0,final
+22,Department of Community Affairs,Direct State Services,General Fund,2020,42864.0,final
+22,Department of Community Affairs,Direct State Services,General Fund,2019,45399.0,final
+22,Department of Community Affairs,Direct State Services,General Fund,2018,40744.0,final
+26,Department of Corrections,Direct State Services,General Fund,2027,1212569.0,enacted
+26,Department of Corrections,Direct State Services,General Fund,2026,1219132.0,adjusted
+26,Department of Corrections,Direct State Services,General Fund,2025,1051160.0,final
+26,Department of Corrections,Direct State Services,General Fund,2024,1086914.0,final
+26,Department of Corrections,Direct State Services,General Fund,2023,1061442.0,final
+26,Department of Corrections,Direct State Services,General Fund,2022,974038.0,final
+26,Department of Corrections,Direct State Services,General Fund,2021,931301.0,final
+26,Department of Corrections,Direct State Services,General Fund,2020,933274.0,final
+26,Department of Corrections,Direct State Services,General Fund,2019,933265.0,final
+26,Department of Corrections,Direct State Services,General Fund,2018,924465.0,final
+34,Department of Education,Direct State Services,General Fund,2027,112014.0,enacted
+34,Department of Education,Direct State Services,General Fund,2026,132221.0,adjusted
+34,Department of Education,Direct State Services,General Fund,2025,148393.0,final
+34,Department of Education,Direct State Services,General Fund,2024,127697.0,final
+34,Department of Education,Direct State Services,General Fund,2023,112040.0,final
+34,Department of Education,Direct State Services,General Fund,2022,102245.0,final
+34,Department of Education,Direct State Services,General Fund,2021,98481.0,final
+34,Department of Education,Direct State Services,General Fund,2020,87732.0,final
+34,Department of Education,Direct State Services,General Fund,2019,93057.0,final
+34,Department of Education,Direct State Services,General Fund,2018,91276.0,final
+42,Department of Environmental Protection,Direct State Services,General Fund,2027,318302.0,enacted
+42,Department of Environmental Protection,Direct State Services,General Fund,2026,330560.0,adjusted
+42,Department of Environmental Protection,Direct State Services,General Fund,2025,327740.0,final
+42,Department of Environmental Protection,Direct State Services,General Fund,2024,296324.0,final
+42,Department of Environmental Protection,Direct State Services,General Fund,2023,286247.0,final
+42,Department of Environmental Protection,Direct State Services,General Fund,2022,267745.0,final
+42,Department of Environmental Protection,Direct State Services,General Fund,2021,248255.0,final
+42,Department of Environmental Protection,Direct State Services,General Fund,2020,247506.0,final
+42,Department of Environmental Protection,Direct State Services,General Fund,2019,213876.0,final
+42,Department of Environmental Protection,Direct State Services,General Fund,2018,209397.0,final
+46,Department of Health,Direct State Services,General Fund,2027,576139.0,enacted
+46,Department of Health,Direct State Services,General Fund,2026,551123.0,adjusted
+46,Department of Health,Direct State Services,General Fund,2025,481207.0,final
+46,Department of Health,Direct State Services,General Fund,2024,490299.0,final
+46,Department of Health,Direct State Services,General Fund,2023,457230.0,final
+46,Department of Health,Direct State Services,General Fund,2022,435484.0,final
+46,Department of Health,Direct State Services,General Fund,2021,404338.0,final
+46,Department of Health,Direct State Services,General Fund,2020,367715.0,final
+46,Department of Health,Direct State Services,General Fund,2019,348350.0,final
+46,Department of Health,Direct State Services,General Fund,2018,348636.0,final
+54,Department of Human Services,Direct State Services,General Fund,2027,389882.0,enacted
+54,Department of Human Services,Direct State Services,General Fund,2026,374771.0,adjusted
+54,Department of Human Services,Direct State Services,General Fund,2025,361077.0,final
+54,Department of Human Services,Direct State Services,General Fund,2024,328001.0,final
+54,Department of Human Services,Direct State Services,General Fund,2023,307380.0,final
+54,Department of Human Services,Direct State Services,General Fund,2022,296212.0,final
+54,Department of Human Services,Direct State Services,General Fund,2021,284083.0,final
+54,Department of Human Services,Direct State Services,General Fund,2020,289389.0,final
+54,Department of Human Services,Direct State Services,General Fund,2019,357255.0,final
+54,Department of Human Services,Direct State Services,General Fund,2018,303365.0,final
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2027,133112.0,enacted
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2026,138512.0,adjusted
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2025,124922.0,final
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2024,120190.0,final
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2023,116472.0,final
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2022,123145.0,final
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2021,105904.0,final
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2020,98271.0,final
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2019,95207.0,final
+62,Department of Labor and Workforce Development,Direct State Services,General Fund,2018,94514.0,final
+66,Department of Law and Public Safety,Direct State Services,General Fund,2027,877803.0,enacted
+66,Department of Law and Public Safety,Direct State Services,General Fund,2026,893160.0,adjusted
+66,Department of Law and Public Safety,Direct State Services,General Fund,2025,826116.0,final
+66,Department of Law and Public Safety,Direct State Services,General Fund,2024,756770.0,final
+66,Department of Law and Public Safety,Direct State Services,General Fund,2023,721528.0,final
+66,Department of Law and Public Safety,Direct State Services,General Fund,2022,644723.0,final
+66,Department of Law and Public Safety,Direct State Services,General Fund,2021,583907.0,final
+66,Department of Law and Public Safety,Direct State Services,General Fund,2020,580062.0,final
+66,Department of Law and Public Safety,Direct State Services,General Fund,2019,610660.0,final
+66,Department of Law and Public Safety,Direct State Services,General Fund,2018,516492.0,final
+67,Department of Military Affairs,Direct State Services,General Fund,2027,11446.0,enacted
+67,Department of Military Affairs,Direct State Services,General Fund,2026,11311.0,adjusted
+67,Department of Military Affairs,Direct State Services,General Fund,2025,9389.0,final
+67,Department of Military and Veterans' Affairs,Direct State Services,General Fund,2024,114599.0,final
+67,Department of Military and Veterans' Affairs,Direct State Services,General Fund,2023,102397.0,final
+67,Department of Military and Veterans' Affairs,Direct State Services,General Fund,2022,96909.0,final
+67,Department of Military and Veterans' Affairs,Direct State Services,General Fund,2021,93791.0,final
+67,Department of Military and Veterans' Affairs,Direct State Services,General Fund,2020,93275.0,final
+67,Department of Military and Veterans' Affairs,Direct State Services,General Fund,2019,93264.0,final
+67,Department of Military and Veterans' Affairs,Direct State Services,General Fund,2018,94263.0,final
+74,Department of State,Direct State Services,General Fund,2027,69451.0,enacted
+74,Department of State,Direct State Services,General Fund,2026,73447.0,adjusted
+74,Department of State,Direct State Services,General Fund,2025,79831.0,final
+74,Department of State,Direct State Services,General Fund,2024,81596.0,final
+74,Department of State,Direct State Services,General Fund,2023,79763.0,final
+74,Department of State,Direct State Services,General Fund,2022,55564.0,final
+74,Department of State,Direct State Services,General Fund,2021,44553.0,final
+74,Department of State,Direct State Services,General Fund,2020,43988.0,final
+74,Department of State,Direct State Services,General Fund,2019,33127.0,final
+74,Department of State,Direct State Services,General Fund,2018,33373.0,final
+78,Department of Transportation,Direct State Services,General Fund,2027,141959.0,enacted
+78,Department of Transportation,Direct State Services,General Fund,2026,323244.0,adjusted
+78,Department of Transportation,Direct State Services,General Fund,2025,234510.0,final
+78,Department of Transportation,Direct State Services,General Fund,2024,166436.0,final
+78,Department of Transportation,Direct State Services,General Fund,2023,139947.0,final
+78,Department of Transportation,Direct State Services,General Fund,2022,131372.0,final
+78,Department of Transportation,Direct State Services,General Fund,2021,156912.0,final
+78,Department of Transportation,Direct State Services,General Fund,2020,62793.0,final
+78,Department of Transportation,Direct State Services,General Fund,2019,127102.0,final
+78,Department of Transportation,Direct State Services,General Fund,2018,122272.0,final
+82,Department of the Treasury,Direct State Services,General Fund,2027,674884.0,enacted
+82,Department of the Treasury,Direct State Services,General Fund,2026,686617.0,adjusted
+82,Department of the Treasury,Direct State Services,General Fund,2025,685287.0,final
+82,Department of the Treasury,Direct State Services,General Fund,2024,633932.0,final
+82,Department of the Treasury,Direct State Services,General Fund,2023,590947.0,final
+82,Department of the Treasury,Direct State Services,General Fund,2022,534452.0,final
+82,Department of the Treasury,Direct State Services,General Fund,2021,484790.0,final
+82,Department of the Treasury,Direct State Services,General Fund,2020,470396.0,final
+82,Department of the Treasury,Direct State Services,General Fund,2019,506361.0,final
+82,Department of the Treasury,Direct State Services,General Fund,2018,521185.0,final
+86,Department of Veteran Affairs,Direct State Services,General Fund,2027,138511.0,enacted
+86,Department of Veteran Affairs,Direct State Services,General Fund,2026,125101.0,adjusted
+86,Department of Veteran Affairs,Direct State Services,General Fund,2025,108663.0,final
+90,Miscellaneous Commissions,Direct State Services,General Fund,2027,994.0,enacted
+90,Miscellaneous Commissions,Direct State Services,General Fund,2026,994.0,adjusted
+90,Miscellaneous Commissions,Direct State Services,General Fund,2025,989.0,final
+90,Miscellaneous Commissions,Direct State Services,General Fund,2024,989.0,final
+90,Miscellaneous Commissions,Direct State Services,General Fund,2023,989.0,final
+90,Miscellaneous Commissions,Direct State Services,General Fund,2022,989.0,final
+90,Miscellaneous Commissions,Direct State Services,General Fund,2021,789.0,final
+90,Miscellaneous Commissions,Direct State Services,General Fund,2020,665.0,final
+90,Miscellaneous Commissions,Direct State Services,General Fund,2019,776.0,final
+90,Miscellaneous Commissions,Direct State Services,General Fund,2018,776.0,final
+94,Interdepartmental Accounts,Direct State Services,General Fund,2027,5998817.0,enacted
+94,Interdepartmental Accounts,Direct State Services,General Fund,2026,5663558.0,adjusted
+94,Interdepartmental Accounts,Direct State Services,General Fund,2025,5439699.0,final
+94,Interdepartmental Accounts,Direct State Services,General Fund,2024,5251554.0,final
+94,Interdepartmental Accounts,Direct State Services,General Fund,2023,5091356.0,final
+94,Interdepartmental Accounts,Direct State Services,General Fund,2022,4949643.0,final
+94,Interdepartmental Accounts,Direct State Services,General Fund,2021,3746289.0,final
+94,Interdepartmental Accounts,Direct State Services,General Fund,2020,3435026.0,final
+94,Interdepartmental Accounts,Direct State Services,General Fund,2019,3312338.0,final
+94,Interdepartmental Accounts,Direct State Services,General Fund,2018,3151442.0,final
+98,The Judiciary,Direct State Services,General Fund,2027,961141.0,enacted
+98,The Judiciary,Direct State Services,General Fund,2026,961641.0,adjusted
+98,The Judiciary,Direct State Services,General Fund,2025,895487.0,final
+98,The Judiciary,Direct State Services,General Fund,2024,894292.0,final
+98,The Judiciary,Direct State Services,General Fund,2023,852097.0,final
+98,The Judiciary,Direct State Services,General Fund,2022,831667.0,final
+98,The Judiciary,Direct State Services,General Fund,2021,810514.0,final
+98,The Judiciary,Direct State Services,General Fund,2020,789303.0,final
+98,The Judiciary,Direct State Services,General Fund,2019,762255.0,final
+98,The Judiciary,Direct State Services,General Fund,2018,757755.0,final
+10,Department of Agriculture,Grants- In- Aid,General Fund,2027,88512.0,enacted
+10,Department of Agriculture,Grants- In- Aid,General Fund,2026,100842.0,adjusted
+10,Department of Agriculture,Grants- In- Aid,General Fund,2025,94318.0,final
+10,Department of Agriculture,Grants- In- Aid,General Fund,2024,95943.0,final
+10,Department of Agriculture,Grants- In- Aid,General Fund,2023,93918.0,final
+10,Department of Agriculture,Grants- In- Aid,General Fund,2022,27518.0,final
+10,Department of Agriculture,Grants- In- Aid,General Fund,2021,25213.0,final
+10,Department of Agriculture,Grants- In- Aid,General Fund,2020,14918.0,final
+10,Department of Agriculture,Grants- In- Aid,General Fund,2019,11818.0,final
+10,Department of Agriculture,Grants- In- Aid,General Fund,2018,6818.0,final
+16,Department of Children and Families,Grants- In- Aid,General Fund,2027,1033642.0,enacted
+16,Department of Children and Families,Grants- In- Aid,General Fund,2026,1018921.0,adjusted
+16,Department of Children and Families,Grants- In- Aid,General Fund,2025,1079373.0,final
+16,Department of Children and Families,Grants- In- Aid,General Fund,2024,1012230.0,final
+16,Department of Children and Families,Grants- In- Aid,General Fund,2023,952606.0,final
+16,Department of Children and Families,Grants- In- Aid,General Fund,2022,957363.0,final
+16,Department of Children and Families,Grants- In- Aid,General Fund,2021,896158.0,final
+16,Department of Children and Families,Grants- In- Aid,General Fund,2020,853322.0,final
+16,Department of Children and Families,Grants- In- Aid,General Fund,2019,881567.0,final
+16,Department of Children and Families,Grants- In- Aid,General Fund,2018,913111.0,final
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2027,196314.0,enacted
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2026,183876.0,adjusted
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2025,179283.0,final
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2024,272155.0,final
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2023,267909.0,final
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2022,269450.0,final
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2021,102580.0,final
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2020,78411.0,final
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2019,72589.0,final
+22,Department of Community Affairs,Grants- In- Aid,General Fund,2018,64587.0,final
+26,Department of Corrections,Grants- In- Aid,General Fund,2027,93356.0,enacted
+26,Department of Corrections,Grants- In- Aid,General Fund,2026,93856.0,adjusted
+26,Department of Corrections,Grants- In- Aid,General Fund,2025,100680.0,final
+26,Department of Corrections,Grants- In- Aid,General Fund,2024,96566.0,final
+26,Department of Corrections,Grants- In- Aid,General Fund,2023,115200.0,final
+26,Department of Corrections,Grants- In- Aid,General Fund,2022,127016.0,final
+26,Department of Corrections,Grants- In- Aid,General Fund,2021,113404.0,final
+26,Department of Corrections,Grants- In- Aid,General Fund,2020,100334.0,final
+26,Department of Corrections,Grants- In- Aid,General Fund,2019,106461.0,final
+26,Department of Corrections,Grants- In- Aid,General Fund,2018,113161.0,final
+34,Department of Education,Grants- In- Aid,General Fund,2027,27105.0,enacted
+34,Department of Education,Grants- In- Aid,General Fund,2026,34738.0,adjusted
+34,Department of Education,Grants- In- Aid,General Fund,2025,26756.0,final
+34,Department of Education,Grants- In- Aid,General Fund,2024,20110.0,final
+34,Department of Education,Grants- In- Aid,General Fund,2023,10010.0,final
+34,Department of Education,Grants- In- Aid,General Fund,2022,12300.0,final
+34,Department of Education,Grants- In- Aid,General Fund,2021,5085.0,final
+34,Department of Education,Grants- In- Aid,General Fund,2020,9910.0,final
+34,Department of Education,Grants- In- Aid,General Fund,2019,6060.0,final
+34,Department of Education,Grants- In- Aid,General Fund,2018,3185.0,final
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2027,3435.0,enacted
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2026,3185.0,adjusted
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2025,5001.0,final
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2024,12925.0,final
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2023,2596.0,final
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2022,15614.0,final
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2021,1214.0,final
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2020,2025.0,final
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2019,4525.0,final
+42,Department of Environmental Protection,Grants- In- Aid,General Fund,2018,2130.0,final
+46,Department of Health,Grants- In- Aid,General Fund,2027,882378.0,enacted
+46,Department of Health,Grants- In- Aid,General Fund,2026,1005601.0,adjusted
+46,Department of Health,Grants- In- Aid,General Fund,2025,922685.0,final
+46,Department of Health,Grants- In- Aid,General Fund,2024,924878.0,final
+46,Department of Health,Grants- In- Aid,General Fund,2023,718897.0,final
+46,Department of Health,Grants- In- Aid,General Fund,2022,748298.0,final
+46,Department of Health,Grants- In- Aid,General Fund,2021,716263.0,final
+46,Department of Health,Grants- In- Aid,General Fund,2020,617978.0,final
+46,Department of Health,Grants- In- Aid,General Fund,2019,599969.0,final
+46,Department of Health,Grants- In- Aid,General Fund,2018,571156.0,final
+54,Department of Human Services,Grants- In- Aid,General Fund,2027,9127812.0,enacted
+54,Department of Human Services,Grants- In- Aid,General Fund,2026,8489814.0,adjusted
+54,Department of Human Services,Grants- In- Aid,General Fund,2025,8514336.0,final
+54,Department of Human Services,Grants- In- Aid,General Fund,2024,7749400.0,final
+54,Department of Human Services,Grants- In- Aid,General Fund,2023,7040324.0,final
+54,Department of Human Services,Grants- In- Aid,General Fund,2022,6232075.0,final
+54,Department of Human Services,Grants- In- Aid,General Fund,2021,5788864.0,final
+54,Department of Human Services,Grants- In- Aid,General Fund,2020,5410600.0,final
+54,Department of Human Services,Grants- In- Aid,General Fund,2019,5649975.0,final
+54,Department of Human Services,Grants- In- Aid,General Fund,2018,5499192.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2027,78424.0,enacted
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2026,79799.0,adjusted
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2025,81824.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2024,84246.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2023,88246.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2022,84446.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2021,70346.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2020,71346.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2019,72346.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,General Fund,2018,71346.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2027,32535.0,enacted
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2026,34865.0,adjusted
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2025,39685.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2024,57935.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2023,45385.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2022,38135.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2021,75722.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2020,18364.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2019,18364.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,General Fund,2018,18364.0,final
+67,Department of Military Affairs,Grants- In- Aid,General Fund,2027,220.0,enacted
+67,Department of Military Affairs,Grants- In- Aid,General Fund,2026,0.0,adjusted
+67,Department of Military Affairs,Grants- In- Aid,General Fund,2025,0.0,final
+67,Department of Military and Veterans' Affairs,Grants- In- Aid,General Fund,2024,6645.0,final
+67,Department of Military and Veterans' Affairs,Grants- In- Aid,General Fund,2023,2893.0,final
+67,Department of Military and Veterans' Affairs,Grants- In- Aid,General Fund,2022,3095.0,final
+67,Department of Military and Veterans' Affairs,Grants- In- Aid,General Fund,2021,2595.0,final
+67,Department of Military and Veterans' Affairs,Grants- In- Aid,General Fund,2020,2664.0,final
+67,Department of Military and Veterans' Affairs,Grants- In- Aid,General Fund,2019,2664.0,final
+67,Department of Military and Veterans' Affairs,Grants- In- Aid,General Fund,2018,2414.0,final
+74,Department of State,Grants- In- Aid,General Fund,2027,1913669.0,enacted
+74,Department of State,Grants- In- Aid,General Fund,2026,2110666.0,adjusted
+74,Department of State,Grants- In- Aid,General Fund,2025,2214336.0,final
+74,Department of State,Grants- In- Aid,General Fund,2024,1983034.0,final
+74,Department of State,Grants- In- Aid,General Fund,2023,1730940.0,final
+74,Department of State,Grants- In- Aid,General Fund,2022,1642821.0,final
+74,Department of State,Grants- In- Aid,General Fund,2021,1392857.0,final
+74,Department of State,Grants- In- Aid,General Fund,2020,1239946.0,final
+74,Department of State,Grants- In- Aid,General Fund,2019,1325576.0,final
+74,Department of State,Grants- In- Aid,General Fund,2018,1285280.0,final
+78,Department of Transportation,Grants- In- Aid,General Fund,2027,1068130.0,enacted
+78,Department of Transportation,Grants- In- Aid,General Fund,2026,840476.0,adjusted
+78,Department of Transportation,Grants- In- Aid,General Fund,2025,181500.0,final
+78,Department of Transportation,Grants- In- Aid,General Fund,2024,164000.0,final
+78,Department of Transportation,Grants- In- Aid,General Fund,2023,120090.0,final
+78,Department of Transportation,Grants- In- Aid,General Fund,2022,113500.0,final
+78,Department of Transportation,Grants- In- Aid,General Fund,2021,386146.0,final
+78,Department of Transportation,Grants- In- Aid,General Fund,2020,457466.0,final
+78,Department of Transportation,Grants- In- Aid,General Fund,2019,307466.0,final
+78,Department of Transportation,Grants- In- Aid,General Fund,2018,140856.0,final
+82,Department of the Treasury,Grants- In- Aid,General Fund,2027,251303.0,enacted
+82,Department of the Treasury,Grants- In- Aid,General Fund,2026,344275.0,adjusted
+82,Department of the Treasury,Grants- In- Aid,General Fund,2025,495437.0,final
+82,Department of the Treasury,Grants- In- Aid,General Fund,2024,579541.0,final
+82,Department of the Treasury,Grants- In- Aid,General Fund,2023,717839.0,final
+82,Department of the Treasury,Grants- In- Aid,General Fund,2022,808666.0,final
+82,Department of the Treasury,Grants- In- Aid,General Fund,2021,513027.0,final
+82,Department of the Treasury,Grants- In- Aid,General Fund,2020,203980.0,final
+82,Department of the Treasury,Grants- In- Aid,General Fund,2019,221013.0,final
+82,Department of the Treasury,Grants- In- Aid,General Fund,2018,234117.0,final
+86,Department of Veteran Affairs,Grants- In- Aid,General Fund,2027,5795.0,enacted
+86,Department of Veteran Affairs,Grants- In- Aid,General Fund,2026,5145.0,adjusted
+86,Department of Veteran Affairs,Grants- In- Aid,General Fund,2025,7420.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2027,1763581.0,enacted
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2026,1748228.0,adjusted
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2025,1688797.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2024,2364073.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2023,1497564.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2022,1605384.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2021,1224475.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2020,1087845.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2019,1135831.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,General Fund,2018,1084027.0,final
+10,Department of Agriculture,State Aid,General Fund,2027,0.0,enacted
+10,Department of Agriculture,State Aid,General Fund,2026,0.0,adjusted
+10,Department of Agriculture,State Aid,General Fund,2025,0.0,final
+10,Department of Agriculture,State Aid,General Fund,2024,0.0,final
+10,Department of Agriculture,State Aid,General Fund,2023,0.0,final
+10,Department of Agriculture,State Aid,General Fund,2022,0.0,final
+10,Department of Agriculture,State Aid,General Fund,2021,0.0,final
+10,Department of Agriculture,State Aid,General Fund,2020,0.0,final
+10,Department of Agriculture,State Aid,General Fund,2019,0.0,final
+10,Department of Agriculture,State Aid,General Fund,2018,0.0,final
+22,Department of Community Affairs,State Aid,General Fund,2027,70025.0,enacted
+22,Department of Community Affairs,State Aid,General Fund,2026,386578.0,adjusted
+22,Department of Community Affairs,State Aid,General Fund,2025,9859.0,final
+22,Department of Community Affairs,State Aid,General Fund,2024,22589.0,final
+22,Department of Community Affairs,State Aid,General Fund,2023,9809.0,final
+22,Department of Community Affairs,State Aid,General Fund,2022,7719.0,final
+22,Department of Community Affairs,State Aid,General Fund,2021,2386.0,final
+22,Department of Community Affairs,State Aid,General Fund,2020,2192.0,final
+22,Department of Community Affairs,State Aid,General Fund,2019,4261.0,final
+22,Department of Community Affairs,State Aid,General Fund,2018,1600.0,final
+26,Department of Corrections,State Aid,General Fund,2027,23100.0,enacted
+26,Department of Corrections,State Aid,General Fund,2026,23000.0,adjusted
+26,Department of Corrections,State Aid,General Fund,2025,0.0,final
+26,Department of Corrections,State Aid,General Fund,2024,0.0,final
+34,Department of Education,State Aid,General Fund,2027,3776753.0,enacted
+34,Department of Education,State Aid,General Fund,2026,4880573.0,adjusted
+34,Department of Education,State Aid,General Fund,2025,4649351.0,final
+34,Department of Education,State Aid,General Fund,2024,5765452.0,final
+34,Department of Education,State Aid,General Fund,2023,819140.0,final
+34,Department of Education,State Aid,General Fund,2022,134561.0,final
+34,Department of Education,State Aid,General Fund,2021,2639684.0,final
+34,Department of Education,State Aid,General Fund,2020,386331.0,final
+34,Department of Education,State Aid,General Fund,2019,133007.0,final
+34,Department of Education,State Aid,General Fund,2018,227661.0,final
+42,Department of Environmental Protection,State Aid,General Fund,2027,9506.0,enacted
+42,Department of Environmental Protection,State Aid,General Fund,2026,13400.0,adjusted
+42,Department of Environmental Protection,State Aid,General Fund,2025,6815.0,final
+42,Department of Environmental Protection,State Aid,General Fund,2024,5978.0,final
+42,Department of Environmental Protection,State Aid,General Fund,2023,6328.0,final
+42,Department of Environmental Protection,State Aid,General Fund,2022,8678.0,final
+42,Department of Environmental Protection,State Aid,General Fund,2021,5414.0,final
+42,Department of Environmental Protection,State Aid,General Fund,2020,5264.0,final
+42,Department of Environmental Protection,State Aid,General Fund,2019,5114.0,final
+42,Department of Environmental Protection,State Aid,General Fund,2018,4964.0,final
+54,Department of Human Services,State Aid,General Fund,2027,318049.0,enacted
+54,Department of Human Services,State Aid,General Fund,2026,307326.0,adjusted
+54,Department of Human Services,State Aid,General Fund,2025,292058.0,final
+54,Department of Human Services,State Aid,General Fund,2024,256443.0,final
+54,Department of Human Services,State Aid,General Fund,2023,246855.0,final
+54,Department of Human Services,State Aid,General Fund,2022,192624.0,final
+54,Department of Human Services,State Aid,General Fund,2021,177054.0,final
+54,Department of Human Services,State Aid,General Fund,2020,192099.0,final
+54,Department of Human Services,State Aid,General Fund,2019,178997.0,final
+54,Department of Human Services,State Aid,General Fund,2018,187034.0,final
+66,Department of Law and Public Safety,State Aid,General Fund,2027,26965.0,enacted
+66,Department of Law and Public Safety,State Aid,General Fund,2026,30215.0,adjusted
+66,Department of Law and Public Safety,State Aid,General Fund,2025,19765.0,final
+66,Department of Law and Public Safety,State Aid,General Fund,2024,10265.0,final
+66,Department of Law and Public Safety,State Aid,General Fund,2023,1575.0,final
+66,Department of Law and Public Safety,State Aid,General Fund,2022,0.0,final
+66,Department of Law and Public Safety,State Aid,General Fund,2021,0.0,final
+66,Department of Law and Public Safety,State Aid,General Fund,2020,2000.0,final
+66,Department of Law and Public Safety,State Aid,General Fund,2019,0.0,final
+66,Department of Law and Public Safety,State Aid,General Fund,2018,0.0,final
+74,Department of State,State Aid,General Fund,2027,14299.0,enacted
+74,Department of State,State Aid,General Fund,2026,16590.0,adjusted
+74,Department of State,State Aid,General Fund,2025,18014.0,final
+74,Department of State,State Aid,General Fund,2024,20099.0,final
+74,Department of State,State Aid,General Fund,2023,28329.0,final
+74,Department of State,State Aid,General Fund,2022,61329.0,final
+74,Department of State,State Aid,General Fund,2021,58591.0,final
+74,Department of State,State Aid,General Fund,2020,16329.0,final
+74,Department of State,State Aid,General Fund,2019,11329.0,final
+74,Department of State,State Aid,General Fund,2018,11329.0,final
+78,Department of Transportation,State Aid,General Fund,2027,1000.0,enacted
+78,Department of Transportation,State Aid,General Fund,2026,13007.0,adjusted
+78,Department of Transportation,State Aid,General Fund,2025,0.0,final
+78,Department of Transportation,State Aid,General Fund,2024,0.0,final
+82,Department of the Treasury,State Aid,General Fund,2027,43831.0,enacted
+82,Department of the Treasury,State Aid,General Fund,2026,43386.0,adjusted
+82,Department of the Treasury,State Aid,General Fund,2025,40397.0,final
+82,Department of the Treasury,State Aid,General Fund,2024,56579.0,final
+82,Department of the Treasury,State Aid,General Fund,2023,42531.0,final
+82,Department of the Treasury,State Aid,General Fund,2022,43626.0,final
+82,Department of the Treasury,State Aid,General Fund,2021,36253.0,final
+82,Department of the Treasury,State Aid,General Fund,2020,91113.0,final
+82,Department of the Treasury,State Aid,General Fund,2019,336644.0,final
+82,Department of the Treasury,State Aid,General Fund,2018,23957.0,final
+10,Department of Agriculture,Capital Construction,General Fund,2027,0.0,enacted
+10,Department of Agriculture,Capital Construction,General Fund,2026,76503.0,adjusted
+10,Department of Agriculture,Capital Construction,General Fund,2025,120739.0,final
+10,Department of Agriculture,Capital Construction,General Fund,2024,0.0,final
+10,Department of Agriculture,Capital Construction,General Fund,2023,0.0,final
+10,Department of Agriculture,Capital Construction,General Fund,2022,79989.0,final
+10,Department of Agriculture,Capital Construction,General Fund,2021,56268.0,final
+10,Department of Agriculture,Capital Construction,General Fund,2020,58486.0,final
+10,Department of Agriculture,Capital Construction,General Fund,2019,23593.0,final
+10,Department of Agriculture,Capital Construction,General Fund,2018,50319.0,final
+16,Department of Children and Families,Capital Construction,General Fund,2027,0.0,enacted
+16,Department of Children and Families,Capital Construction,General Fund,2026,0.0,adjusted
+16,Department of Children and Families,Capital Construction,General Fund,2025,0.0,final
+16,Department of Children and Families,Capital Construction,General Fund,2024,0.0,final
+16,Department of Children and Families,Capital Construction,General Fund,2023,0.0,final
+16,Department of Children and Families,Capital Construction,General Fund,2022,0.0,final
+22,Department of Community Affairs,Capital Construction,General Fund,2027,0.0,enacted
+22,Department of Community Affairs,Capital Construction,General Fund,2026,0.0,adjusted
+22,Department of Community Affairs,Capital Construction,General Fund,2025,0.0,final
+22,Department of Community Affairs,Capital Construction,General Fund,2024,0.0,final
+22,Department of Community Affairs,Capital Construction,General Fund,2023,0.0,final
+22,Department of Community Affairs,Capital Construction,General Fund,2022,0.0,final
+22,Department of Community Affairs,Capital Construction,General Fund,2021,0.0,final
+22,Department of Community Affairs,Capital Construction,General Fund,2020,500.0,final
+22,Department of Community Affairs,Capital Construction,General Fund,2019,0.0,final
+22,Department of Community Affairs,Capital Construction,General Fund,2018,0.0,final
+26,Department of Corrections,Capital Construction,General Fund,2027,0.0,enacted
+26,Department of Corrections,Capital Construction,General Fund,2026,0.0,adjusted
+26,Department of Corrections,Capital Construction,General Fund,2025,0.0,final
+26,Department of Corrections,Capital Construction,General Fund,2024,0.0,final
+26,Department of Corrections,Capital Construction,General Fund,2023,0.0,final
+26,Department of Corrections,Capital Construction,General Fund,2022,0.0,final
+26,Department of Corrections,Capital Construction,General Fund,2021,0.0,final
+26,Department of Corrections,Capital Construction,General Fund,2020,0.0,final
+26,Department of Corrections,Capital Construction,General Fund,2019,0.0,final
+26,Department of Corrections,Capital Construction,General Fund,2018,0.0,final
+34,Department of Education,Capital Construction,General Fund,2027,0.0,enacted
+34,Department of Education,Capital Construction,General Fund,2026,0.0,adjusted
+34,Department of Education,Capital Construction,General Fund,2024,0.0,final
+34,Department of Education,Capital Construction,General Fund,2023,0.0,final
+34,Department of Education,Capital Construction,General Fund,2022,0.0,final
+34,Department of Education,Capital Construction,General Fund,2021,0.0,final
+34,Department of Education,Capital Construction,General Fund,2020,0.0,final
+34,Department of Education,Capital Construction,General Fund,2019,0.0,final
+34,Department of Education,Capital Construction,General Fund,2018,0.0,final
+42,Department of Environmental Protection,Capital Construction,General Fund,2027,172439.0,enacted
+42,Department of Environmental Protection,Capital Construction,General Fund,2026,304654.0,adjusted
+42,Department of Environmental Protection,Capital Construction,General Fund,2025,330157.0,final
+42,Department of Environmental Protection,Capital Construction,General Fund,2024,281532.0,final
+42,Department of Environmental Protection,Capital Construction,General Fund,2023,398622.0,final
+42,Department of Environmental Protection,Capital Construction,General Fund,2022,371647.0,final
+42,Department of Environmental Protection,Capital Construction,General Fund,2021,199709.0,final
+42,Department of Environmental Protection,Capital Construction,General Fund,2020,209019.0,final
+42,Department of Environmental Protection,Capital Construction,General Fund,2019,156680.0,final
+42,Department of Environmental Protection,Capital Construction,General Fund,2018,95983.0,final
+46,Department of Health,Capital Construction,General Fund,2027,0.0,enacted
+46,Department of Health,Capital Construction,General Fund,2026,0.0,adjusted
+46,Department of Health,Capital Construction,General Fund,2025,0.0,final
+46,Department of Health,Capital Construction,General Fund,2024,0.0,final
+46,Department of Health,Capital Construction,General Fund,2023,0.0,final
+46,Department of Health,Capital Construction,General Fund,2022,0.0,final
+46,Department of Health,Capital Construction,General Fund,2021,0.0,final
+46,Department of Health,Capital Construction,General Fund,2020,0.0,final
+46,Department of Health,Capital Construction,General Fund,2019,0.0,final
+46,Department of Health,Capital Construction,General Fund,2018,0.0,final
+54,Department of Human Services,Capital Construction,General Fund,2027,0.0,enacted
+54,Department of Human Services,Capital Construction,General Fund,2026,0.0,adjusted
+54,Department of Human Services,Capital Construction,General Fund,2025,0.0,final
+54,Department of Human Services,Capital Construction,General Fund,2024,0.0,final
+54,Department of Human Services,Capital Construction,General Fund,2023,0.0,final
+54,Department of Human Services,Capital Construction,General Fund,2022,0.0,final
+54,Department of Human Services,Capital Construction,General Fund,2021,0.0,final
+54,Department of Human Services,Capital Construction,General Fund,2020,0.0,final
+54,Department of Human Services,Capital Construction,General Fund,2019,0.0,final
+54,Department of Human Services,Capital Construction,General Fund,2018,0.0,final
+66,Department of Law and Public Safety,Capital Construction,General Fund,2027,0.0,enacted
+66,Department of Law and Public Safety,Capital Construction,General Fund,2026,0.0,adjusted
+66,Department of Law and Public Safety,Capital Construction,General Fund,2025,3000.0,final
+66,Department of Law and Public Safety,Capital Construction,General Fund,2024,0.0,final
+66,Department of Law and Public Safety,Capital Construction,General Fund,2023,3500.0,final
+66,Department of Law and Public Safety,Capital Construction,General Fund,2022,0.0,final
+66,Department of Law and Public Safety,Capital Construction,General Fund,2021,0.0,final
+66,Department of Law and Public Safety,Capital Construction,General Fund,2020,0.0,final
+66,Department of Law and Public Safety,Capital Construction,General Fund,2019,0.0,final
+66,Department of Law and Public Safety,Capital Construction,General Fund,2018,0.0,final
+67,Department of Military Affairs,Capital Construction,General Fund,2027,0.0,enacted
+67,Department of Military Affairs,Capital Construction,General Fund,2026,0.0,adjusted
+67,Department of Military Affairs,Capital Construction,General Fund,2025,0.0,final
+67,Department of Military and Veterans' Affairs,Capital Construction,General Fund,2024,0.0,final
+67,Department of Military and Veterans' Affairs,Capital Construction,General Fund,2023,0.0,final
+67,Department of Military and Veterans' Affairs,Capital Construction,General Fund,2022,0.0,final
+67,Department of Military and Veterans' Affairs,Capital Construction,General Fund,2021,0.0,final
+67,Department of Military and Veterans' Affairs,Capital Construction,General Fund,2020,0.0,final
+67,Department of Military and Veterans' Affairs,Capital Construction,General Fund,2019,0.0,final
+67,Department of Military and Veterans' Affairs,Capital Construction,General Fund,2018,0.0,final
+78,Department of Transportation,Capital Construction,General Fund,2027,1404433.0,enacted
+78,Department of Transportation,Capital Construction,General Fund,2026,1326794.0,adjusted
+78,Department of Transportation,Capital Construction,General Fund,2025,1458219.0,final
+78,Department of Transportation,Capital Construction,General Fund,2024,1378017.0,final
+78,Department of Transportation,Capital Construction,General Fund,2023,1352936.0,final
+78,Department of Transportation,Capital Construction,General Fund,2022,1340799.0,final
+78,Department of Transportation,Capital Construction,General Fund,2021,1296095.0,final
+78,Department of Transportation,Capital Construction,General Fund,2020,1212200.0,final
+78,Department of Transportation,Capital Construction,General Fund,2019,1149180.0,final
+78,Department of Transportation,Capital Construction,General Fund,2018,1112448.0,final
+82,Department of the Treasury,Capital Construction,General Fund,2027,0.0,enacted
+82,Department of the Treasury,Capital Construction,General Fund,2026,0.0,adjusted
+82,Department of the Treasury,Capital Construction,General Fund,2025,0.0,final
+82,Department of the Treasury,Capital Construction,General Fund,2024,0.0,final
+82,Department of the Treasury,Capital Construction,General Fund,2023,0.0,final
+82,Department of the Treasury,Capital Construction,General Fund,2022,0.0,final
+82,Department of the Treasury,Capital Construction,General Fund,2021,0.0,final
+82,Department of the Treasury,Capital Construction,General Fund,2020,0.0,final
+82,Department of the Treasury,Capital Construction,General Fund,2018,0.0,final
+86,Department of Veteran Affairs,Capital Construction,General Fund,2027,0.0,enacted
+86,Department of Veteran Affairs,Capital Construction,General Fund,2026,0.0,adjusted
+86,Department of Veteran Affairs,Capital Construction,General Fund,2025,0.0,final
+94,Interdepartmental Accounts,Capital Construction,General Fund,2027,143027.0,enacted
+94,Interdepartmental Accounts,Capital Construction,General Fund,2026,143027.0,adjusted
+94,Interdepartmental Accounts,Capital Construction,General Fund,2025,157129.0,final
+94,Interdepartmental Accounts,Capital Construction,General Fund,2024,177272.0,final
+94,Interdepartmental Accounts,Capital Construction,General Fund,2023,585852.0,final
+94,Interdepartmental Accounts,Capital Construction,General Fund,2022,5330485.0,final
+94,Interdepartmental Accounts,Capital Construction,General Fund,2021,3806277.0,final
+94,Interdepartmental Accounts,Capital Construction,General Fund,2020,115757.0,final
+94,Interdepartmental Accounts,Capital Construction,General Fund,2019,167081.0,final
+94,Interdepartmental Accounts,Capital Construction,General Fund,2018,173341.0,final
+42,Department of Environmental Protection,Debt Service,General Fund,2027,10091.0,enacted
+42,Department of Environmental Protection,Debt Service,General Fund,2026,10107.0,adjusted
+42,Department of Environmental Protection,Debt Service,General Fund,2025,27462.0,final
+42,Department of Environmental Protection,Debt Service,General Fund,2024,31395.0,final
+42,Department of Environmental Protection,Debt Service,General Fund,2023,30980.0,final
+42,Department of Environmental Protection,Debt Service,General Fund,2022,32069.0,final
+42,Department of Environmental Protection,Debt Service,General Fund,2021,34821.0,final
+42,Department of Environmental Protection,Debt Service,General Fund,2020,42626.0,final
+42,Department of Environmental Protection,Debt Service,General Fund,2019,42615.0,final
+42,Department of Environmental Protection,Debt Service,General Fund,2018,39046.0,final
+82,Department of the Treasury,Debt Service,General Fund,2027,519099.0,enacted
+82,Department of the Treasury,Debt Service,General Fund,2026,519027.0,adjusted
+82,Department of the Treasury,Debt Service,General Fund,2025,546765.0,final
+82,Department of the Treasury,Debt Service,General Fund,2024,550354.0,final
+82,Department of the Treasury,Debt Service,General Fund,2023,589765.0,final
+82,Department of the Treasury,Debt Service,General Fund,2022,363138.0,final
+82,Department of the Treasury,Debt Service,General Fund,2021,606384.0,final
+82,Department of the Treasury,Debt Service,General Fund,2020,272889.0,final
+82,Department of the Treasury,Debt Service,General Fund,2019,258562.0,final
+82,Department of the Treasury,Debt Service,General Fund,2018,287324.0,final
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2027,50000.0,enacted
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2026,50000.0,adjusted
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2025,50500.0,final
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2024,75500.0,final
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2023,75500.0,final
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2022,275500.0,final
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2021,500.0,final
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2020,0.0,final
+34,Department of Education,Grants- In- Aid,Property Tax Relief Fund,2019,0.0,final
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2027,5500.0,enacted
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2026,4000.0,adjusted
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2025,4000.0,final
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2024,4000.0,final
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2023,4000.0,final
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2022,4000.0,final
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2021,4000.0,final
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2020,4000.0,final
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2019,4000.0,final
+54,Department of Human Services,Grants- In- Aid,Property Tax Relief Fund,2018,0.0,final
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2027,3273166.0,enacted
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2026,3024268.0,adjusted
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2025,2862672.0,final
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2024,2567822.0,final
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2023,2200572.0,final
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2022,559200.0,final
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2021,494700.0,final
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2020,360300.0,final
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2019,508700.0,final
+82,Department of the Treasury,Grants- In- Aid,Property Tax Relief Fund,2018,363600.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2027,14206.0,enacted
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2026,14236.0,adjusted
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2025,14277.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2024,14275.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2023,14277.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2022,14155.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2021,14153.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2020,8864.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2019,14142.0,final
+94,Interdepartmental Accounts,Grants- In- Aid,Property Tax Relief Fund,2018,14141.0,final
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2027,33863.0,enacted
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2026,38863.0,adjusted
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2025,71166.0,final
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2024,41166.0,final
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2023,19002.0,final
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2022,18216.0,final
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2021,13216.0,final
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2020,5616.0,final
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2019,5616.0,final
+10,Department of Agriculture,State Aid,Property Tax Relief Fund,2018,5616.0,final
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2027,886324.0,enacted
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2026,819212.0,adjusted
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2025,968308.0,final
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2024,1138743.0,final
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2023,997519.0,final
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2022,856474.0,final
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2021,824915.0,final
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2020,742419.0,final
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2019,757716.0,final
+22,Department of Community Affairs,State Aid,Property Tax Relief Fund,2018,742413.0,final
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2027,1050.0,enacted
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2026,1050.0,adjusted
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2025,39600.0,final
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2024,41150.0,final
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2023,33400.0,final
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2022,25600.0,final
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2021,23500.0,final
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2020,22200.0,final
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2019,22500.0,final
+26,Department of Corrections,State Aid,Property Tax Relief Fund,2018,22500.0,final
+34,Department of Education,State Aid,Property Tax Relief Fund,2027,17834232.0,enacted
+34,Department of Education,State Aid,Property Tax Relief Fund,2026,16519979.0,adjusted
+34,Department of Education,State Aid,Property Tax Relief Fund,2025,16236204.0,final
+34,Department of Education,State Aid,Property Tax Relief Fund,2024,13945055.0,final
+34,Department of Education,State Aid,Property Tax Relief Fund,2023,17781164.0,final
+34,Department of Education,State Aid,Property Tax Relief Fund,2022,17733688.0,final
+34,Department of Education,State Aid,Property Tax Relief Fund,2021,12892720.0,final
+34,Department of Education,State Aid,Property Tax Relief Fund,2020,14457983.0,final
+34,Department of Education,State Aid,Property Tax Relief Fund,2019,14072045.0,final
+34,Department of Education,State Aid,Property Tax Relief Fund,2018,13028751.0,final
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2027,2700.0,enacted
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2026,2700.0,adjusted
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2025,12796.0,final
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2024,16296.0,final
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2023,14296.0,final
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2022,7796.0,final
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2021,6546.0,final
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2020,4046.0,final
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2019,4046.0,final
+42,Department of Environmental Protection,State Aid,Property Tax Relief Fund,2018,4046.0,final
+46,Department of Health,State Aid,Property Tax Relief Fund,2027,0.0,enacted
+46,Department of Health,State Aid,Property Tax Relief Fund,2026,0.0,adjusted
+46,Department of Health,State Aid,Property Tax Relief Fund,2020,0.0,final
+46,Department of Health,State Aid,Property Tax Relief Fund,2019,0.0,final
+46,Department of Health,State Aid,Property Tax Relief Fund,2018,0.0,final
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2027,325157.0,enacted
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2026,279157.0,adjusted
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2025,269157.0,final
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2024,261000.0,final
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2023,241200.0,final
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2022,243276.0,final
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2021,224492.0,final
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2020,193709.0,final
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2019,193709.0,final
+54,Department of Human Services,State Aid,Property Tax Relief Fund,2018,186148.0,final
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2027,1000.0,enacted
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2026,1000.0,adjusted
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2025,9000.0,final
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2024,9500.0,final
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2023,5500.0,final
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2022,5000.0,final
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2021,4600.0,final
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2020,3000.0,final
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2019,3000.0,final
+66,Department of Law and Public Safety,State Aid,Property Tax Relief Fund,2018,2000.0,final
+74,Department of State,State Aid,Property Tax Relief Fund,2027,4676.0,enacted
+74,Department of State,State Aid,Property Tax Relief Fund,2026,4676.0,adjusted
+74,Department of State,State Aid,Property Tax Relief Fund,2025,4926.0,final
+74,Department of State,State Aid,Property Tax Relief Fund,2024,7176.0,final
+74,Department of State,State Aid,Property Tax Relief Fund,2023,6840.0,final
+74,Department of State,State Aid,Property Tax Relief Fund,2022,4976.0,final
+74,Department of State,State Aid,Property Tax Relief Fund,2021,3676.0,final
+74,Department of State,State Aid,Property Tax Relief Fund,2020,3676.0,final
+74,Department of State,State Aid,Property Tax Relief Fund,2019,3676.0,final
+74,Department of State,State Aid,Property Tax Relief Fund,2018,3676.0,final
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2027,56914.0,enacted
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2026,74521.0,adjusted
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2025,121926.0,final
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2024,127329.0,final
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2023,119302.0,final
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2022,101860.0,final
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2021,28930.0,final
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2020,18508.0,final
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2019,18586.0,final
+78,Department of Transportation,State Aid,Property Tax Relief Fund,2018,17801.0,final
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2027,1429865.0,enacted
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2026,1421548.0,adjusted
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2025,1446071.0,final
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2024,1601854.0,final
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2023,1488827.0,final
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2022,1416321.0,final
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2021,1289113.0,final
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2020,1212890.0,final
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2019,965575.0,final
+82,Department of the Treasury,State Aid,Property Tax Relief Fund,2018,1250982.0,final
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2027,200000.0,enacted
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2026,200000.0,adjusted
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2025,200000.0,final
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2024,200000.0,final
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2023,200000.0,final
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2022,200000.0,final
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2021,200000.0,final
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2020,200000.0,final
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2019,200000.0,final
+78,Department of Transportation,Capital Construction,Property Tax Relief Fund,2018,200000.0,final
+94,Interdepartmental Accounts,Capital Construction,Property Tax Relief Fund,2027,0.0,enacted
+94,Interdepartmental Accounts,Capital Construction,Property Tax Relief Fund,2024,31264.0,final
+94,Interdepartmental Accounts,Capital Construction,Property Tax Relief Fund,2023,31264.0,final
+94,Interdepartmental Accounts,Capital Construction,Property Tax Relief Fund,2022,31264.0,final
+94,Interdepartmental Accounts,Capital Construction,Property Tax Relief Fund,2021,31264.0,final
+94,Interdepartmental Accounts,Capital Construction,Property Tax Relief Fund,2020,31264.0,final
+94,Interdepartmental Accounts,Capital Construction,Property Tax Relief Fund,2019,31259.0,final
+94,Interdepartmental Accounts,Capital Construction,Property Tax Relief Fund,2018,31258.0,final
+82,Department of the Treasury,Debt Service,Property Tax Relief Fund,2027,0.0,enacted
+82,Department of the Treasury,Debt Service,Property Tax Relief Fund,2020,28871.0,final
+82,Department of the Treasury,Debt Service,Property Tax Relief Fund,2019,23385.0,final
+82,Department of the Treasury,Debt Service,Property Tax Relief Fund,2018,0.0,final
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2027,871.0,enacted
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2026,871.0,adjusted
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2025,871.0,final
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2024,871.0,final
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2023,871.0,final
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2022,871.0,final
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2021,871.0,final
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2020,871.0,final
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2019,871.0,final
+54,Department of Human Services,Direct State Services,Casino Revenue Fund,2018,871.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2027,92.0,enacted
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2026,92.0,adjusted
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2025,92.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2024,92.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2023,92.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2022,92.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2021,92.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2020,92.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2019,92.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Revenue Fund,2018,92.0,final
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2027,516.0,enacted
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2026,516.0,adjusted
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2025,516.0,final
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2024,516.0,final
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2023,516.0,final
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2022,516.0,final
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2021,516.0,final
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2020,529.0,final
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2019,529.0,final
+46,Department of Health,Grants- In- Aid,Casino Revenue Fund,2018,529.0,final
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2027,999447.0,enacted
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2026,986235.0,adjusted
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2025,567567.0,final
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2024,582111.0,final
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2023,497604.0,final
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2022,460472.0,final
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2021,363274.0,final
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2020,259134.0,final
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2019,268711.0,final
+54,Department of Human Services,Grants- In- Aid,Casino Revenue Fund,2018,215480.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2027,2196.0,enacted
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2026,2196.0,adjusted
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2025,2196.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2024,2196.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2023,2196.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2022,2196.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2021,2196.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2020,2196.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2019,2196.0,final
+62,Department of Labor and Workforce Development,Grants- In- Aid,Casino Revenue Fund,2018,2196.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2027,72012.0,enacted
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2026,70861.0,adjusted
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2025,68685.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2024,65433.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2023,60132.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2022,54981.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2021,53300.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2020,48500.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2019,43938.0,final
+66,Department of Law and Public Safety,Direct State Services,Casino Control Fund,2018,42530.0,final
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2027,9313.0,enacted
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2026,9068.0,adjusted
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2025,8745.0,final
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2024,8114.0,final
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2023,7957.0,final
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2022,7410.0,final
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2021,7597.0,final
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2020,7267.0,final
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2019,7319.0,final
+82,Department of the Treasury,Direct State Services,Casino Control Fund,2018,7513.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2027,0.0,enacted
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2026,25480.0,adjusted
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2025,38902.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2024,0.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2023,0.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2022,21480.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2021,11043.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2020,0.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2019,0.0,final
+66,Department of Law and Public Safety,Grants- In- Aid,Gubernatorial Elections Fund,2018,19680.0,final

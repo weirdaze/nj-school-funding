@@ -1,0 +1,141 @@
+program_area,fiscal_year,amount,status,yoy_pct_change
+DDD - Community Programs,2018,808381000.0,final,
+DDD - Community Programs,2019,871883000.0,final,7.86
+DDD - Community Programs,2020,901449000.0,final,3.39
+DDD - Community Programs,2021,1087963000.0,final,20.69
+DDD - Community Programs,2022,1158259000.0,final,6.46
+DDD - Community Programs,2023,1262453000.0,final,9.0
+DDD - Community Programs,2024,1483391000.0,final,17.5
+DDD - Community Programs,2025,1770935000.0,final,19.38
+DDD - Community Programs,2026,1911083000.0,adjusted,7.91
+DDD - Community Programs,2027,2064519000.0,enacted,8.03
+Debt Service,2018,3795427000.0,final,
+Debt Service,2019,3974405000.0,final,4.72
+Debt Service,2020,4051432000.0,final,1.94
+Debt Service,2021,4372358000.0,final,7.92
+Debt Service,2022,4323969000.0,final,-1.11
+Debt Service,2023,4459994000.0,final,3.15
+Debt Service,2024,4335553000.0,final,-2.79
+Debt Service,2025,4441569000.0,final,2.45
+Debt Service,2026,4145244000.0,adjusted,-6.67
+Debt Service,2027,3984922000.0,enacted,-3.87
+Direct Property Tax Relief,2018,422000000.0,final,
+Direct Property Tax Relief,2019,563400000.0,final,33.51
+Direct Property Tax Relief,2020,409651000.0,final,-27.29
+Direct Property Tax Relief,2021,542400000.0,final,32.41
+Direct Property Tax Relief,2022,617900000.0,final,13.92
+Direct Property Tax Relief,2023,2248272000.0,final,263.86
+Direct Property Tax Relief,2024,2609522000.0,final,16.07
+Direct Property Tax Relief,2025,2901272000.0,final,11.18
+Direct Property Tax Relief,2026,3060368000.0,adjusted,5.48
+Direct Property Tax Relief,2027,3307266000.0,enacted,8.07
+Food Security,2018,12861000.0,final,
+Food Security,2019,19111000.0,final,48.6
+Food Security,2020,20986000.0,final,9.81
+Food Security,2021,38879000.0,final,85.26
+Food Security,2022,50984000.0,final,31.14
+Food Security,2023,133170000.0,final,161.2
+Food Security,2024,171710000.0,final,28.94
+Food Security,2025,209123000.0,final,21.79
+Food Security,2026,185725000.0,adjusted,-11.19
+Food Security,2027,162429000.0,enacted,-12.54
+Health Benefits,2018,3268795000.0,final,
+Health Benefits,2019,3244144000.0,final,-0.75
+Health Benefits,2020,2893000000.0,final,-10.82
+Health Benefits,2021,2996504000.0,final,3.58
+Health Benefits,2022,3474320000.0,final,15.95
+Health Benefits,2023,3791356000.0,final,9.13
+Health Benefits,2024,4105544000.0,final,8.29
+Health Benefits,2025,4225396000.0,final,2.92
+Health Benefits,2026,4478698000.0,adjusted,5.99
+Health Benefits,2027,4819146000.0,enacted,7.6
+Higher Education - Institutional Support,2018,611358000.0,final,
+Higher Education - Institutional Support,2019,611323000.0,final,-0.01
+Higher Education - Institutional Support,2020,536210000.0,final,-12.29
+Higher Education - Institutional Support,2021,623506000.0,final,16.28
+Higher Education - Institutional Support,2022,681764000.0,final,9.34
+Higher Education - Institutional Support,2023,731869000.0,final,7.35
+Higher Education - Institutional Support,2024,855029000.0,final,16.83
+Higher Education - Institutional Support,2025,914729000.0,final,6.98
+Higher Education - Institutional Support,2026,900129000.0,adjusted,-1.6
+Higher Education - Institutional Support,2027,895279000.0,enacted,-0.54
+Higher Education - Student Assistance Programs,2018,491580000.0,final,
+Higher Education - Student Assistance Programs,2019,528164000.0,final,7.44
+Higher Education - Student Assistance Programs,2020,512850000.0,final,-2.9
+Higher Education - Student Assistance Programs,2021,544395000.0,final,6.15
+Higher Education - Student Assistance Programs,2022,628574000.0,final,15.46
+Higher Education - Student Assistance Programs,2023,675720000.0,final,7.5
+Higher Education - Student Assistance Programs,2024,731144000.0,final,8.2
+Higher Education - Student Assistance Programs,2025,759877000.0,final,3.93
+Higher Education - Student Assistance Programs,2026,727131000.0,adjusted,-4.31
+Higher Education - Student Assistance Programs,2027,736961000.0,enacted,1.35
+K-12 Funding Formula,2018,8045662000.0,final,
+K-12 Funding Formula,2019,8485770000.0,final,5.47
+K-12 Funding Formula,2020,8676966000.0,final,2.25
+K-12 Funding Formula,2021,8680456000.0,final,0.04
+K-12 Funding Formula,2022,9270426000.0,final,6.8
+K-12 Funding Formula,2023,9919124000.0,final,7.0
+K-12 Funding Formula,2024,10758096000.0,final,8.46
+K-12 Funding Formula,2025,11669417000.0,final,8.47
+K-12 Funding Formula,2026,12055400000.0,adjusted,3.31
+K-12 Funding Formula,2027,12427528000.0,enacted,3.09
+Municipal Aid,2018,1533305000.0,final,
+Municipal Aid,2019,1544607000.0,final,0.74
+Municipal Aid,2020,1539310000.0,final,-0.34
+Municipal Aid,2021,1593107000.0,final,3.49
+Municipal Aid,2022,1612607000.0,final,1.22
+Municipal Aid,2023,1662107000.0,final,3.07
+Municipal Aid,2024,1769513000.0,final,6.46
+Municipal Aid,2025,1620231000.0,final,-8.44
+Municipal Aid,2026,1741231000.0,adjusted,7.47
+Municipal Aid,2027,1703343000.0,enacted,-2.18
+NJ FamilyCare,2018,4133667000.0,final,
+NJ FamilyCare,2019,4306493000.0,final,4.18
+NJ FamilyCare,2020,4068011000.0,final,-5.54
+NJ FamilyCare,2021,4393145000.0,final,7.99
+NJ FamilyCare,2022,4777687000.0,final,8.75
+NJ FamilyCare,2023,5416857000.0,final,13.38
+NJ FamilyCare,2024,5841459000.0,final,7.84
+NJ FamilyCare,2025,6069483000.0,final,3.9
+NJ FamilyCare,2026,6329468000.0,adjusted,4.28
+NJ FamilyCare,2027,6855545000.0,enacted,8.31
+NJ State Police,2018,304251000.0,final,
+NJ State Police,2019,319623000.0,final,5.05
+NJ State Police,2020,339239000.0,final,6.14
+NJ State Police,2021,327047000.0,final,-3.59
+NJ State Police,2022,376744000.0,final,15.2
+NJ State Police,2023,414276000.0,final,9.96
+NJ State Police,2024,448191000.0,final,8.19
+NJ State Police,2025,501513000.0,final,11.9
+NJ State Police,2026,541123000.0,adjusted,7.9
+NJ State Police,2027,542716000.0,enacted,0.29
+NJ Transit Subsidy,2018,140856000.0,final,
+NJ Transit Subsidy,2019,307466000.0,final,118.28
+NJ Transit Subsidy,2020,457466000.0,final,48.79
+NJ Transit Subsidy,2021,386146000.0,final,-15.59
+NJ Transit Subsidy,2022,100000000.0,final,-74.1
+NJ Transit Subsidy,2023,100000000.0,final,0.0
+NJ Transit Subsidy,2024,140000000.0,final,40.0
+NJ Transit Subsidy,2025,165000000.0,final,17.86
+NJ Transit Subsidy,2026,832476000.0,adjusted,404.53
+NJ Transit Subsidy,2027,1067755000.0,enacted,28.26
+Preschool Aid,2018,680517000.0,final,
+Preschool Aid,2019,738086000.0,final,8.46
+Preschool Aid,2020,806396000.0,final,9.26
+Preschool Aid,2021,874247000.0,final,8.41
+Preschool Aid,2022,924148000.0,final,5.71
+Preschool Aid,2023,991832000.0,final,7.32
+Preschool Aid,2024,1108123000.0,final,11.72
+Preschool Aid,2025,1231947000.0,final,11.17
+Preschool Aid,2026,1266545000.0,adjusted,2.81
+Preschool Aid,2027,1384575000.0,enacted,9.32
+State Pension Contribution,2018,1508123000.0,final,
+State Pension Contribution,2019,2175919000.0,final,44.28
+State Pension Contribution,2020,2736630000.0,final,25.77
+State Pension Contribution,2021,3681424000.0,final,34.52
+State Pension Contribution,2022,5796973000.0,final,57.47
+State Pension Contribution,2023,5719286000.0,final,-1.34
+State Pension Contribution,2024,5970935000.0,final,4.4
+State Pension Contribution,2025,6036147000.0,final,1.09
+State Pension Contribution,2026,6109144000.0,adjusted,1.21
+State Pension Contribution,2027,6124910000.0,enacted,0.26

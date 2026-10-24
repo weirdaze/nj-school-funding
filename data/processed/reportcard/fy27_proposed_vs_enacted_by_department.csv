@@ -1,0 +1,22 @@
+dept_code,dept_name,proposed_amount,enacted_amount,dollar_change,pct_change
+1,Legislature,120255.0,124093.0,3838.0,3.19
+6,Chief Executive,14745.0,14745.0,0.0,0.0
+10,Department of Agriculture,131093.0,136787.0,5694.0,4.34
+14,Department of Banking and Insurance,79417.0,79417.0,0.0,0.0
+16,Department of Children and Families,1491937.0,1550088.0,58151.0,3.9
+22,Department of Community Affairs,1115302.0,1228167.0,112865.0,10.12
+26,Department of Corrections,1323825.0,1330075.0,6250.0,0.47
+34,Department of Education,21821551.0,21800104.0,-21447.0,-0.1
+42,Department of Environmental Protection,511348.0,516473.0,5125.0,1.0
+46,Department of Health,1422430.0,1459033.0,36603.0,2.57
+54,Department of Human Services,11419953.0,11166718.0,-253235.0,-2.22
+62,Department of Labor and Workforce Development,212332.0,213732.0,1400.0,0.66
+66,Department of Law and Public Safety,1005857.0,1010407.0,4550.0,0.45
+67,Department of Military Affairs,12946.0,11666.0,-1280.0,-9.89
+74,Department of State,1941955.0,2002095.0,60140.0,3.1
+78,Department of Transportation,2851061.0,2872436.0,21375.0,0.75
+82,Department of the Treasury,6213527.0,6201461.0,-12066.0,-0.19
+86,Department of Veteran Affairs,140906.0,144306.0,3400.0,2.41
+90,Miscellaneous Commissions,994.0,994.0,0.0,0.0
+94,Interdepartmental Accounts,7935993.0,7919631.0,-16362.0,-0.21
+98,The Judiciary,961141.0,961141.0,0.0,0.0
