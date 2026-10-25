@@ -43,7 +43,8 @@ V6_NOTES = {
     "4490": "only the template sentence; on the archived 2021-22 lists, not on 2025-26",
     "2770": "unresolved; the audit says the District transitioned to the State Health Benefits program (no date given) and, during FY25, "
             "dissolved its self-insurance fund; it is on the archived lists Sep 2022 – Dec 2023 and off every list from Jul 2024, "
-            "so the audit may describe the earlier membership and a late fund wind-down, but nothing confirms current membership",
+            "(not a matcher miss: the name is absent from the raw text). Either the audit describes the earlier membership and a late "
+            "fund wind-down, or the district is still a member and the lists omit it; nothing here tells which",
     "2180": "consistent with the Sep 2025 list (on it), so likely left after FY25",
     "5030": "consistent with the Sep 2025 list (on it), so likely left after FY25",
     "3670": "unresolved; audit says \"through the State Health Benefits Plan\"; on none of the archived 2021-2026 lists",
