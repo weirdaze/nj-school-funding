@@ -30,6 +30,10 @@ ACFR = ROOT / "data" / "processed" / "acfr_benefits.csv"
 TEXT = ROOT / "data" / "raw" / "acfr_text"
 # V6: auditor template sentence (FY25 audits containing it), and manual review of the remaining conflicts
 TEMPLATE = {"0460", "0510", "1465", "1800", "1990", "2090", "2140", "3100", "4490", "4530"}
+SEHBP_SERIES = {  # Wayback captures of sehbpemp.pdf: (matched, of which comparable); Oct 2026 is the live list
+    "2021-11": (240, 226), "2022-09": (255, 240), "2022-12": (246, 232), "2023-06": (240, 226), "2023-12": (237, 223),
+    "2024-07": (227, 213), "2024-09": (225, 211), "2024-12": (214, 201), "2025-03": (212, 199), "2025-09": (210, 197),
+    "2026-10": (157, 144)}
 V6_NOTES = {
     "2900": "resolved for the list; note 14: \"Effective January 1, 2025, the District has health benefits coverage for its employees "
             "under Horizon Blue Cross Blue Shield of New Jersey. Prior to that … State of New Jersey\" (on the archived 2021-2024 lists, off from Mar 2025)",
@@ -216,6 +220,17 @@ def main():
         note = V6_NOTES.get(r["district_id"]) or ("only the template sentence; no carrier named" if r["district_id"] in TEMPLATE else "")
         L.append(f"- {r['district_name']} ({r['county']}): Oct 2026 list says {'SEHBP' if r['in_sehbp'] == 'True' else 'not SEHBP'} "
                  f"({prev} the Sep 2025 list); {why}" + (f". **Review:** {note}" if note else ""))
+    L += ["", "**Membership over time.** Districts matched (all panel districts / comparable) on each Wayback capture of the list and on the current (Oct 2026) "
+          "list, counted with `district_panel.sehbp()`: " + "; ".join(f"{k} {a}/{c}" for k, (a, c) in SEHBP_SERIES.items()) +
+          ". Membership was falling by about 14 comparable districts a year from the September 2022 peak to September 2025, so districts that left are not a single "
+          "event; the Sep 2025 → Oct 2026 step (−53 comparable) is nearly four times that pace and coincides with the "
+          "retitled list. Over the longer window the gap holds: districts on the Nov 2021, Sep 2025 and Oct 2026 lists "
+          "budgeted a median +24.1% vs +15.6% for districts on none ([numbers](findings/numbers.md)).", "",
+          "**Unmatched entry (sensitivity).** \"PASSAIC COUNTY REGIONAL HS BD\" appears on every archived list from Oct 2020 "
+          "to Sep 2025 (with a separate \"…BOE NON\" unit line) and not on the Oct 2026 list. It matches no district name; "
+          "by elimination it is probably Passaic Valley Regional (3990), but no list, audit or budget confirms that, so we "
+          "add no override. If it is 3990, the Sep 2025 count rises by one and the \"left\" group becomes 56; the group "
+          "medians do not change (left +14.5%, neither +16.1%)."]
 
     # V7
     rows7 = []

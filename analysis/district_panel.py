@@ -7,6 +7,7 @@ Inputs (all under data/):
   processed/acfr_benefits.csv         audited benefit breakdown (health, PERS, FICA...) from ACFRs
   raw/sehbp/sehbpemp.pdf              districts in the State School Employees' Health Benefits Program (Oct 2026)
   raw/sehbp/2025-09/sehbpemp.pdf      the Sep 2025 list (Wayback copy), for membership history
+  raw/sehbp/2021-11/sehbpemp.pdf      the Nov 2021 list (Wayback copy), for a longer membership window
   raw/tges/*/CSG16.CSV, CSG14.CSV     students per teacher, median teacher salary, benefits % of salaries
 
 Output: data/processed/district_panel.csv, plus a summary printed for chosen counties.
@@ -208,6 +209,8 @@ def main():
     in_sehbp, unmatched = sehbp(meta)
     prev = RAW / "sehbp" / "2025-09" / "sehbpemp.pdf"  # earlier list, for membership history (download.sh)
     in_sehbp_prev = sehbp(meta, prev)[0] if prev.exists() else set()
+    early = RAW / "sehbp" / "2021-11" / "sehbpemp.pdf"
+    in_sehbp_early = sehbp(meta, early)[0] if early.exists() else set()
     ratios, benpct = tges()
     audits = acfr()
 
@@ -256,6 +259,7 @@ def main():
             "county_id": cid, "county": cname, "district_id": d, "district_name": name,
             "in_sehbp": d in in_sehbp,
             "in_sehbp_2025_09": d in in_sehbp_prev if prev.exists() else "",
+            "in_sehbp_2021_11": d in in_sehbp_early if early.exists() else "",
             "baseline_source": baseline_source, "aid_source": aid_source,
             "comparable": baseline_source == "revised" and aid_source == "formula" and not (ben27 < 1e5 or re.search(r"Ed(uc)?\.? Serv|Spec(ial)?\.? Serv|Jointure|Commission|Regional Day", name, re.I)),
             "benefits_budget_2526": ben26, "benefits_budget_2627": ben27, "benefits_budget_2526_original": ben26_orig,

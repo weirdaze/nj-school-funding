@@ -154,6 +154,21 @@ def main():
             ("Caveat", "the Oct 2026 list is titled 'Participating Local Education Employers' (Sep 2025: 'SEHBP - Participating "
                        "Education Employers'); a drop off the list may be a scope change rather than an exit, pending DPB confirmation"),
         ])
+    if any(r.get("in_sehbp_2021_11") for r in comp):
+        on = lambda r, *k: all(r[c] == "True" for c in k)
+        off = lambda r, *k: all(r[c] == "False" for c in k)
+        lists = ("in_sehbp_2021_11", "in_sehbp_2025_09", "in_sehbp")
+        g3 = {k: med([ch(r) for r in comp if sel(r)]) for k, sel in (
+            ("all three", lambda r: on(r, *lists)), ("none", lambda r: off(r, *lists)),
+            ("left", lambda r: on(r, lists[0]) and off(r, lists[1])))}
+        block("SEHBP membership, longer window (Nov 2021 Wayback list; comparable districts)", [
+            ("On the Nov 2021 / Sep 2025 / Oct 2026 list", " / ".join(str(sum(r[c] == "True" for r in comp)) for c in lists)),
+            ("Median budgeted benefit growth: on all three lists vs on none",
+             "{:+.1f}% (n={}) vs {:+.1f}% (n={})".format(*g3["all three"], *g3["none"])),
+            ("Left between Nov 2021 and Sep 2025", "{:+.1f}% (n={})".format(*g3["left"])),
+            ("Note", "membership was already falling before Sep 2025 (the full series of archived lists is in "
+                     "docs/validation.md); the Sep 2025 → Oct 2026 drop is the largest single step"),
+        ])
 
     lv = [f(r["levy_change_pct"]) for r in comp if f(r["levy_change_pct"]) is not None]
     fb26, fb27 = ben(comp, "fund_balance_used_2526"), ben(comp, "fund_balance_used_2627")
