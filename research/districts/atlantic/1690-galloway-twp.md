@@ -24,7 +24,7 @@ _Auto-generated from `data/processed/district_panel.csv` by `analysis/district_p
 - Fund balance used $3,384,505 → $3,174,126: **match** UFB p. 2.
 
 ## Assessment
-**Insufficient evidence.** Benefits rise $3.2M (+19.1%), about $1.5M more than the state aid increase, and the levy rises 5.1% (above the 2% cap), but no district presentation, minutes or news coverage describing cuts or the reason for the above-cap levy could be found. The "child care privatization" note suggests some restructuring, but its staffing effect is undocumented.
+**Insufficient evidence.** Benefits rise $3.2M (+19.1%), about $1.5M more than the state aid increase, and the levy rises 5.1% (above the 2% cap), but no district presentation, minutes or news coverage describing cuts or the reason for the above-cap levy could be found. The UFB note on child care fund balance "due to privatization" suggests some restructuring, but its staffing effect is undocumented.
 
 ## Confidence
 **Low**: only the state UFB was available; no district narrative or news.
