@@ -86,7 +86,9 @@ def norm(name):
 OVERRIDES = {"TRENTON CITY": "5210", "SOUTHERN REG H S DISTRICT": "4950", "SUSSEX WANTAGE REG SCHOOL DIST": "5100",
              # names cut off at 30 characters on the 2021-2025 lists
              "HUDSON CO SCHOOLS OF TECHN": "2295", "LAKELAND REG HIGH SCHOOL": "2510",
-             "RED BANK REG HS DIST": "4365", "WEST ESSEX REG SCHOOL DIS": "5630", "HENRY HUDSON REG": "1456"}
+             "RED BANK REG HS DIST": "4365", "WEST ESSEX REG SCHOOL DIS": "5630", "HENRY HUDSON REG": "1456",
+             # on the 2020-2023 lists only (not via generic words: "HS"/"HIGH" there would match PASSAIC CO REG HS to Passaic City)
+             "AVONBYTHESEA BORO": "0180", "MAINLAND REG HS DISTRICT": "2910", "NORTH WARREN REG HIGH SCHOOL": "3675"}
 SUFFIXES = (" BD OF ED", " BOARD OF EDUCATION")
 
 

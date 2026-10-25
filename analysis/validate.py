@@ -31,7 +31,7 @@ TEXT = ROOT / "data" / "raw" / "acfr_text"
 # V6: auditor template sentence (FY25 audits containing it), and manual review of the remaining conflicts
 TEMPLATE = {"0460", "0510", "1465", "1800", "1990", "2090", "2140", "3100", "4490", "4530"}
 SEHBP_SERIES = {  # Wayback captures of sehbpemp.pdf: (matched, of which comparable); Oct 2026 is the live list
-    "2021-11": (240, 226), "2022-09": (255, 240), "2022-12": (246, 232), "2023-06": (240, 226), "2023-12": (237, 223),
+    "2021-11": (243, 229), "2022-09": (258, 243), "2022-12": (249, 235), "2023-06": (243, 229), "2023-12": (238, 224),
     "2024-07": (227, 213), "2024-09": (225, 211), "2024-12": (214, 201), "2025-03": (212, 199), "2025-09": (210, 197),
     "2026-10": (157, 144)}
 V6_NOTES = {
@@ -41,8 +41,9 @@ V6_NOTES = {
     "3100": "resolved for the list; UFB 2026-27 shared-services page: \"a member of the School Health Insurance Fund (SHIF)\"; audit has the template sentence",
     "1990": "resolved for the list; UFB 2026-27 shared-services page: \"Medical insurance with School Health Insurance Fund\"; audit has the template sentence",
     "4490": "only the template sentence; on the archived 2021-22 lists, not on 2025-26",
-    "2770": "unresolved; the audit says the District transitioned to the State Health Benefits program during FY25 and dissolved its "
-            "self-insurance fund, but it is on the archived 2022-23 lists and on neither the 2025 nor the 2026 list",
+    "2770": "unresolved; the audit says the District transitioned to the State Health Benefits program (no date given) and, during FY25, "
+            "dissolved its self-insurance fund; it is on the archived lists Sep 2022 – Dec 2023 and off every list from Jul 2024, "
+            "so the audit may describe the earlier membership and a late fund wind-down, but nothing confirms current membership",
     "2180": "consistent with the Sep 2025 list (on it), so likely left after FY25",
     "5030": "consistent with the Sep 2025 list (on it), so likely left after FY25",
     "3670": "unresolved; audit says \"through the State Health Benefits Plan\"; on none of the archived 2021-2026 lists",
@@ -222,10 +223,13 @@ def main():
                  f"({prev} the Sep 2025 list); {why}" + (f". **Review:** {note}" if note else ""))
     L += ["", "**Membership over time.** Districts matched (all panel districts / comparable) on each Wayback capture of the list and on the current (Oct 2026) "
           "list, counted with `district_panel.sehbp()`: " + "; ".join(f"{k} {a}/{c}" for k, (a, c) in SEHBP_SERIES.items()) +
-          ". Membership was falling by about 14 comparable districts a year from the September 2022 peak to September 2025, so districts that left are not a single "
-          "event; the Sep 2025 → Oct 2026 step (−53 comparable) is nearly four times that pace and coincides with the "
-          "retitled list. Over the longer window the gap holds: districts on the Nov 2021, Sep 2025 and Oct 2026 lists "
-          "budgeted a median +24.1% vs +15.6% for districts on none ([numbers](findings/numbers.md)).", "",
+          ". Membership was already falling, by about 8 comparable districts a year from Nov 2021 to Sep 2025 (about 15 a year "
+          "from the Sep 2022 peak), so exits are not a single event; the Sep 2025 → Oct 2026 step (−53 comparable) is three "
+          "to six times that pace and coincides with the retitled list, which fits either an exit wave for plan year 2026 or "
+          "a narrower list; these data can't tell which. The 2 added in Oct 2026 (Belleville, Holmdel) are rejoiners that "
+          "were on the lists until late 2024. Some districts left and returned between lists (Denville, Jefferson Twp, "
+          "Lacey, Sussex Voc). Over the longer window the gap holds: districts on the Nov 2021, Sep 2025 and Oct 2026 lists "
+          "budgeted a median +24.1% vs +15.5% for districts on none of the three ([numbers](findings/numbers.md)).", "",
           "**Unmatched entry (sensitivity).** \"PASSAIC COUNTY REGIONAL HS BD\" appears on every archived list from Oct 2020 "
           "to Sep 2025 (with a separate \"…BOE NON\" unit line) and not on the Oct 2026 list. It matches no district name; "
           "by elimination it is probably Passaic Valley Regional (3990), but no list, audit or budget confirms that, so we "

@@ -49,10 +49,12 @@ statewide benefit and aid totals from the raw state files._
    [September 2025 list](https://web.archive.org/web/20250904173748/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf):
    districts on both lists budgeted +23.7% (n=142) vs +16.1% (n=358) for districts on neither (within-county gap +7.1
    points, positive in 15 of 15 counties). 55 comparable districts on the September 2025 list are missing from the
-   October 2026 one (median +14.5%); only 2 were added. Membership was already falling (226 comparable districts on the
+   October 2026 one (median +14.5%); only 2 were added, both rejoiners. Membership was already falling (229 comparable
+   districts on the
    [November 2021 list](https://web.archive.org/web/20211111000412/https://www.nj.gov/treasury/pensions/documents/pdf/sehbpemp.pdf),
-   about 14 fewer a year from 2022), so the last year's drop is the largest step, not the only one; over that longer
-   window, districts on all three lists budgeted +24.1% (n=132) vs +15.6% (n=315) for districts on none. *Confidence: Medium.* Membership is name-matched; the 2026 list
+   about 8 fewer a year to September 2025), so the last year's drop is the largest step, several times the earlier pace,
+   not the only one. Over that longer window, districts on all three lists budgeted +24.1% (n=132) vs +15.5% (n=312) for
+   districts on none of the three. *Confidence: Medium.* Membership is name-matched; the 2026 list
    was retitled "Participating Local Education Employers", so the 55 may partly reflect a change in what the list
    covers rather than exits; and of 15 districts whose audits conflict with the lists, 2 are unresolved and 7 are
    unconfirmed (only an auditor template sentence) ([validation V6](../validation.md)).
